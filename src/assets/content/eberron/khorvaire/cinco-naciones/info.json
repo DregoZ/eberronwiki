@@ -17,28 +17,27 @@
       "content": "· [[eberron/khorvaire/aundair|Aundair]]: Conocida por su excelencia académica, agricultura y arcano-tecnología. Alberga grandes academias mágicas y es gobernada por una monarquía."
     },
     {
-      "id": "a2",
+      "id": "a3",
       "type": "text",
       "content": "· [[eberron/khorvaire/breland|Breland]]: Cosmopolita, industrial y progresista. Destaca por albergar la gran metrópolis vertical de Sharn y es el hogar de muchas casas de Marcas del Dragón."
     },
     {
-      "id": "a2",
+      "id": "a4",
       "type": "text",
       "content": "· [[eberron/khorvaire/tierras-enlutadas|Tierras Enlutadas (Cyre)]]: Antiguo centro cultural de Galifar. Fue devastada de forma catastrófica al final de la guerra, convirtiéndose en un yermo mágico y embrujado."
     },
     {
-      "id": "a2",
+      "id": "a5",
       "type": "text",
       "content": "· [[eberron/khorvaire/karrnath|Karrnath]]: Una nación fría y militarista. Su sociedad se basa en la disciplina marcial y el honor, y es famosa por utilizar soldados y oficiales no-muertos."
     },
     {
-      "id": "a2",
+      "id": "a6",
       "type": "text",
       "content": "· [[eberron/khorvaire/thrane|Thrane]]: La única teocracia de las cinco. Está gobernada por la iglesia de la Llama Plateada, una poderosa religión que busca purgar el mal en el mundo."
     },
-
     {
-      "id": "a3",
+      "id": "a7",
       "type": "image",
       "src": "/assets/content/eberron/khorvaire/cinco-naciones/heraldica.png",
       "caption": "Las Cinco Naciones",
@@ -47,7 +46,7 @@
       "size": "full"
     },
     {
-      "id": "a4",
+      "id": "a8",
       "type": "related",
       "items": [
         { "label": "Cinco Naciones", "slug": "eberron/khorvaire/cinco-naciones" },

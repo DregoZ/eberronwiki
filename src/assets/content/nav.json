@@ -49,10 +49,16 @@
     "icon": "auto_stories",
     "children": [
       {
+        "id": "khorvaire",
+        "label": "Khorvaire",
+        "slug": "eberron/khorvaire",
+        "icon": "map"
+      },
+      {
         "id": "cinco-naciones",
         "label": "Las Cinco Naciones",
         "slug": "eberron/khorvaire/cinco-naciones",
-        "icon": "map"
+        "icon": "communities"
       }
     ]
   },
