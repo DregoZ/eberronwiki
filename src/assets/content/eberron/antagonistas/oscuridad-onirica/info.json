@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/antagonistas/sonadores",
-  "title": "Los Soñadores",
+  "title": "La Oscuridad onírica",
   "tags": ["Antagonistas", "Soñadores", "Dal Quor", "Quori"],
   "aliases": ["Soñadores"],
   "unlockCondition": null,
@@ -19,9 +19,9 @@
     {
       "id": "a2",
       "type": "image",
-      "src": "/assets/content/eberron/antagonistas/sonadores/sonadores.png",
-      "caption": "Los Soñadores",
-      "title": "Los Soñadores",
+      "src": "/assets/content/eberron/antagonistas/oscuridad-onirica/sonadores.png",
+      "caption": "La Oscuridad onírica",
+      "title": "La Oscuridad onírica",
       "align": "center",
       "size": "medium"
     },
@@ -31,7 +31,7 @@
       "items": [
         { "label": "Orden de la Garra Esmeralda", "slug": "eberron/antagonistas/garra-esmeralda" },
         { "label": "Señores del Polvo", "slug": "eberron/antagonistas/polvo" },
-        { "label": "Los Soñadores", "slug": "eberron/antagonistas/sonadores" },
+        { "label": "La Oscuridad onírica", "slug": "eberron/antagonistas/oscuridad-onirica" },
         { "label": "Daelkyr y Cultos de la Locura", "slug": "eberron/antagonistas/daelkyr" },
         { "label": "Fideicomiso de Zilargo", "slug": "eberron/antagonistas/fideicomiso" },
         { "label": "El Señor de los Filos", "slug": "eberron/antagonistas/filos" }
