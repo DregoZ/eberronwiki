@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/planos/syrania",
+  "title": "Syrania",
+  "tags": ["Cosmología", "Planos", "Cielo"],
+  "aliases": ["Syrania", "El cielo azur"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "s1",
+      "type": "text",
+      "content": "Un firmamento infinito de nubes blancas y torres flotantes de cristal. Es un lugar de conocimiento, comercio pacífico y meditación. Está habitado por ángeles que actúan como bibliotecarios y observadores cósmicos. En sus ciudades flotantes, la violencia está prohibida por la propia magia del plano."
+    },
+    {
+      "id": "s2",
+      "type": "image",
+      "src": "/assets/content/eberron/planos/syrania/syrania.png",
+      "caption": "Syrania",
+      "title": "Syrania",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "s3",
+      "type": "related",
+      "items": [
+        { "label": "Planos", "slug": "eberron/planos" },
+        { "label": "Daanvi", "slug": "eberron/planos/daanvi" },
+        { "label": "Dal Quor", "slug": "eberron/planos/dal-quor" },
+        { "label": "Dolurrh", "slug": "eberron/planos/dolurrh" },
+        { "label": "Fernia", "slug": "eberron/planos/fernia" },
+        { "label": "Irian", "slug": "eberron/planos/irian" },
+        { "label": "Kythri", "slug": "eberron/planos/kythri" },
+        { "label": "Lamannia", "slug": "eberron/planos/lamannia" },
+        { "label": "Mabar", "slug": "eberron/planos/mabar" },
+        { "label": "Risia", "slug": "eberron/planos/risia" },
+        { "label": "Shavarath", "slug": "eberron/planos/shavarath" },
+        { "label": "Thelanis", "slug": "eberron/planos/thelanis" },
+        { "label": "Xoriat", "slug": "eberron/planos/xoriat" }
+      ]
+    }
+  ]
+}

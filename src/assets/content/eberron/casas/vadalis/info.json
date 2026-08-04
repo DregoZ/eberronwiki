@@ -1,0 +1,47 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/casas/vadalis",
+  "title": "Casa Vadalis",
+  "tags": ["Casa Dragontina", "Dominio", "Animales", "Humanos"],
+  "aliases": ["Vadalis", "Casa Vadalis"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "v1",
+      "type": "quote",
+      "text": "Somos los alfareros del barro de la vida.",
+      "author": "Arcanista de Vadalis"
+    },
+    {
+      "id": "v2",
+      "type": "text",
+      "content": "La Casa Vadalis, portadora de la Marca del Dominio, se especializa en la cría y mejora mágica de animales. Sus establos y ranchos producen monturas de guerra excepcionales, animales de compañía exóticos y bestias de carga mejoradas. También investigan —de forma polémica— en la mejora de humanos y otras razas mediante técnicas derivadas de la magia de la marca."
+    },
+    {
+      "id": "v3",
+      "type": "image",
+      "src": "/assets/content/eberron/casas/vadalis/vadalis.webp",
+      "caption": "Vadalis",
+      "title": "Vadalis",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "v4",
+      "type": "info",
+      "variant": "note",
+      "content": "La Marca del Dominio permite controlar, calmar y comunicarse con animales, así como mejora física temporal. Los Vadalis de mayor poder pueden crear quimeras y híbridos biológicos estables."
+    },
+    {
+      "id": "v5",
+      "type": "info",
+      "variant": "warning",
+      "content": "Los experimentos de Vadalis en la mejora de criaturas sintientes son un tema tabú en la política de las Casas. Se rumorea que algunas instalaciones secretas trabajan en Criados de Vadalis: siervos mejorados biológicamente."
+    },
+    {
+      "id": "v6",
+      "type": "related",
+      "items": [{ "label": "Casas Dragontinas", "slug": "eberron/casas/casas" }]
+    }
+  ]
+}

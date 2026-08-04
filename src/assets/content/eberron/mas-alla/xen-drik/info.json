@@ -1,0 +1,38 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/mas-alla/xen'drik",
+  "title": "Xen'drik",
+  "tags": ["Continentes", "Ruinas", "Jungla", "Gigantes"],
+  "aliases": ["Xen'drik", "Secretos y Ruina"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "x1",
+      "type": "text",
+      "content": "Situado al sur de Khorvaire, es una vasta tierra salvaje cubierta de selvas impenetrables, desiertos áridos y glaciares. Antaño fue el hogar del hiperavanzado Imperio de los Gigantes. Hoy en día, está maldito por la Maldición del Viajero, una distorsión mágica que altera el espacio y el tiempo (haciendo que los mapas sean inútiles). Es el destino principal para exploradores y cazadores de reliquias, que usan la ciudad portuaria de Linde Tormentoso como base. Está habitado por dromitas, drow salvajes y los restos degenerados de los antiguos gigantes."
+    },
+    {
+      "id": "x2",
+      "type": "map",
+      "image": "/assets/content/eberron/mas-alla/xen-drik/xen'drik.png",
+      "caption": "Xen'drik",
+      "title": "Xen'drik",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "x3",
+      "type": "related",
+      "items": [
+        { "label": "Mapamundi", "slug": "eberron/" },
+        { "label": "Aerenal", "slug": "eberron/mas-alla/aerenal" },
+        { "label": "Argonnessen", "slug": "eberron/mas-alla/argonnessen" },
+        { "label": "Hielo Eterno", "slug": "eberron/mas-alla/hielo-eterno" },
+        { "label": "Khorvaire", "slug": "eberron/khorvaire" },
+        { "label": "La Friage", "slug": "eberron/mas-alla/la-friage" },
+        { "label": "Sarlona", "slug": "eberron/mas-alla/sarlona" },
+        { "label": "Xen'drik", "slug": "eberron/mas-alla/xen-drik" }
+      ]
+    }
+  ]
+}

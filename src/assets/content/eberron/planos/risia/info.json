@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/planos/risia",
+  "title": "Risia",
+  "tags": ["Cosmología", "Planos", "Frío"],
+  "aliases": ["Risia", "El páramo helado"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "r1",
+      "type": "text",
+      "content": "Una ventisca interminable sobre un océano congelado y montañas de hielo cristalino. Todo movimiento aquí se ralentiza y el calor muere al instante. Está habitado por gigantes de la escarcha, elementales de hielo y criaturas árticas mágicas."
+    },
+    {
+      "id": "r2",
+      "type": "image",
+      "src": "/assets/content/eberron/planos/risia/risia.png",
+      "caption": "Risia",
+      "title": "Risia",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "r3",
+      "type": "related",
+      "items": [
+        { "label": "Planos", "slug": "eberron/planos" },
+        { "label": "Daanvi", "slug": "eberron/planos/daanvi" },
+        { "label": "Dal Quor", "slug": "eberron/planos/dal-quor" },
+        { "label": "Dolurrh", "slug": "eberron/planos/dolurrh" },
+        { "label": "Fernia", "slug": "eberron/planos/fernia" },
+        { "label": "Irian", "slug": "eberron/planos/irian" },
+        { "label": "Kythri", "slug": "eberron/planos/kythri" },
+        { "label": "Lamannia", "slug": "eberron/planos/lamannia" },
+        { "label": "Mabar", "slug": "eberron/planos/mabar" },
+        { "label": "Risia", "slug": "eberron/planos/risia" },
+        { "label": "Shavarath", "slug": "eberron/planos/shavarath" },
+        { "label": "Thelanis", "slug": "eberron/planos/thelanis" },
+        { "label": "Xoriat", "slug": "eberron/planos/xoriat" }
+      ]
+    }
+  ]
+}

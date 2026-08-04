@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/casas/tharashk",
+  "title": "Casa Tharashk",
+  "tags": ["Casa Dragontina", "Hallazgo", "Prospección", "Orcos"],
+  "aliases": ["Tharashk", "Casa Tharashk"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "quote",
+      "text": "No hay gente perdida, solo monedas de menos",
+      "author": "Dicho de los cazarrecompensas de Tharashk"
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "content": "La Casa Tharashk, formada por humanos y semiorcos portadores de la Marca del Hallazgo, es relativamente joven en comparación con otras casas. Especializada en prospección minera, localización de Dragonshards y caza de recompensas, Tharashk ha encontrado su nicho en el mercado de la información y los recursos. Sus buscadores de recompensas operan en zonas donde otras casas no se aventuran."
+    },
+    {
+      "id": "t3",
+      "type": "image",
+      "src": "/assets/content/eberron/casas/tharashk/tharashk.webp",
+      "caption": "Tharashk",
+      "title": "Tharashk",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "t4",
+      "type": "info",
+      "variant": "lore",
+      "content": "La Marca del Hallazgo permite localizar objetos, personas y recursos a distancia. En sus formas superiores, puede rastrear a través de planos o encontrar objetos únicos en el mundo entero."
+    },
+    {
+      "id": "t5",
+      "type": "related",
+      "items": [
+        { "label": "Casas Dragontinas", "slug": "eberron/casas" },
+        { "label": "Historia de Eberron", "slug": "eberron/historia" }
+      ]
+    }
+  ]
+}

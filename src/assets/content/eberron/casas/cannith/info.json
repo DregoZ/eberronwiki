@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/casas/cannith",
+  "title": "Casa Cannith",
+  "tags": ["Casa Dragontina", "Creación", "Manufactura", "Forjados", "Humanos"],
+  "aliases": ["Cannith", "Casa Cannith"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "c1",
+      "type": "quote",
+      "text": "Por el coste de crear a Cannith debes preguntar",
+      "author": "Proverbio de los gremios"
+    },
+    {
+      "id": "c2",
+      "type": "text",
+      "content": "Casa Cannith es la casa de la fabricación, portadora de la Marca Dragontina de la Creación. Fundada por artesanos y artífices [[humanos]], Cannith se convirtió en la principal proveedora de objetos mágicos de [[Eberron]]. Su creación más controvertida y poderosa son los [[Forjados]], soldados constructos que combatieron en la [[eberron/history/the-last-war|Última Guerra]]. Crearon también el rayocarril y los navíos voladores, pero sobre todo se hicieron de oro vendiendo armas a todos los bandos."
+    },
+    {
+      "id": "c21",
+      "type": "text",
+      "content": "Sin embargo, su sede central estaba en Cyre, por lo que el Día del Luto descabezó a la Casa. Actualmente está dividida en tres facciones rivales que luchan por el control."
+    },
+    {
+      "id": "c3",
+      "type": "image",
+      "src": "/assets/content/eberron/casas/cannith/cannith.webp",
+      "caption": "Cannith",
+      "title": "Cannith",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "c4",
+      "type": "info",
+      "variant": "warning",
+      "content": "Se rumorea que Cannith fue la creadora de la Forja de la Llama, un arma que desencadenó el [[eberron/history/the-last-war|Luto]] y borró Cyre del mapa. El patriarca Starrin d'Cannith murió en esa catástrofe."
+    },
+    {
+      "id": "c5",
+      "type": "related",
+      "items": [
+        { "label": "Casas Dragontinas", "slug": "eberron/casas" },
+        { "label": "Historia de Eberron", "slug": "eberron/historia" }
+      ]
+    }
+  ]
+}

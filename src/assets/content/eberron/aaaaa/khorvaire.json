@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire",
+  "title": "Continente de Khorvaire",
+  "tags": ["Khorvaire", "Mapa"],
+  "aliases": ["Khorvaire", "Mapa de Khorvaire"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "k1",
+      "type": "text",
+      "content": "Khorvaire es el continente principal donde transcurre la mayoría de las aventuras en [[Eberron]]. Tras el [[eberron/historia|Tratado de Tronofirme]], las Cinco Naciones buscaron mantener una frágil paz."
+    },
+    {
+      "id": "k2",
+      "type": "map",
+      "image": "assets/img/Map-of-Khorvaire-HD.jpg",
+      "pins": [
+        {
+          "id": "pin-sharn",
+          "x": 45,
+          "y": 65,
+          "label": "Sharn, Ciudad de las Torres",
+          "linkSlug": "personajes/sharn"
+        },
+        {
+          "id": "pin-wroat",
+          "x": 50,
+          "y": 55,
+          "label": "Wroat",
+          "linkSlug": "eberron/historia"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "type": "info",
+      "variant": "warning",
+      "content": "Precaución: Las [[Tierras Enlutadas]] están cubiertas por una niebla muerta e inexplorada."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NavigationTree",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/NavNode"
+  },
+  "definitions": {
+    "NavNode": {
+      "type": "object",
+      "required": ["id", "label", "slug"],
+      "properties": {
+        "id": { "type": "string" },
+        "label": { "type": "string" },
+        "slug": { "type": "string" },
+        "icon": { "type": "string" },
+        "locked": { "type": "boolean" },
+        "children": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/NavNode"
+          }
+        }
+      }
+    }
+  }
+}

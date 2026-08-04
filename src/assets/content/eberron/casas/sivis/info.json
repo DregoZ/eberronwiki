@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/casas/sivis",
+  "title": "Casa Sivis",
+  "tags": ["Casa Dragontina", "Escritura", "Comunicación", "Gnomos"],
+  "aliases": ["Sivis", "Casa Sivis"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "s1",
+      "type": "quote",
+      "text": "La verdad está a salvo con nosotros",
+      "author": "Lema de la Red de Mensajería Sivis"
+    },
+    {
+      "id": "s2",
+      "type": "text",
+      "content": "Casa Sivis, gnoma portadora de la Marca de la Escritura, controla las comunicaciones a larga distancia en [[Eberron]] a través de las Piedras de Mensaje, una red de piedras encantadas que permiten comunicación instantánea entre puntos fijos. También opera servicios notariales, de traducción y de autenticación de documentos que son reconocidos en todas las naciones."
+    },
+    {
+      "id": "s3",
+      "type": "image",
+      "src": "/assets/content/eberron/casas/sivis/sivis.webp",
+      "caption": "Sivis",
+      "title": "Sivis",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "s4",
+      "type": "info",
+      "variant": "note",
+      "content": "La Marca de la Escritura permite enviar mensajes a distancia, traducir idiomas, crear glifos mágicos y verificar la autenticidad de textos. Los gnemos Sivis de mayor poder pueden leer el pasado de un documento."
+    },
+    {
+      "id": "s5",
+      "type": "related",
+      "items": [
+        { "label": "Casas Dragontinas", "slug": "eberron/casas" },
+        { "label": "Historia de Eberron", "slug": "eberron/historia" }
+      ]
+    }
+  ]
+}

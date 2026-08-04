@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/casas/kundarak",
+  "title": "Casa Kundarak",
+  "tags": ["Casa Dragontina", "Protección", "Banca", "Seguridad", "Enano"],
+  "aliases": ["Kundarak", "Casa Kundarak"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "k1",
+      "type": "quote",
+      "text": "Más seguro que ahorros de enano.",
+      "author": "dicho popular"
+    },
+    {
+      "id": "k2",
+      "type": "text",
+      "content": "Los Kundarak son una dinastía de enanos portadores de la Marca de la Protección y aliados íntimos de los enanos de los Baluartes de Mror. Gestionan las finanzas del mundo entero."
+    },
+    {
+      "id": "k21",
+      "type": "text",
+      "content": "Dominan la banca, el almacenamiento seguro y los sistemas de seguridad en [[Eberron]]. Sus cámaras acorazadas son legendarias, protegidas por trampas rúnicas, alarmas mágicas y portales dimensionales. Si guardas algo en un banco Kundarak, ni el mejor ladrón del mundo podrá tocarlo.  "
+    },
+    {
+      "id": "k22",
+      "type": "text",
+      "content": "Sus letras de crédito son la columna vertebral del sistema financiero del continente. Ningún banco rival puede competir con su combinación de magia de protección y fiabilidad milenaria.  "
+    },
+    {
+      "id": "k3",
+      "type": "image",
+      "src": "/assets/content/eberron/casas/kundarak/kundarak.webp",
+      "caption": "Kundarak",
+      "title": "Kundarak",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "k4",
+      "type": "info",
+      "variant": "note",
+      "content": "La Marca de la Protección otorga alarmas mágicas, glifos de guarda, bloqueos arcanos y jaulas dimensionales. Las bóvedas de Kundarak combinan estas magias con ingeniería enana de precisión."
+    },
+    {
+      "id": "k5",
+      "type": "related",
+      "items": [
+        { "label": "Casas Dragontinas", "slug": "eberron/casas" },
+        { "label": "Historia de Eberron", "slug": "eberron/historia" }
+      ]
+    }
+  ]
+}

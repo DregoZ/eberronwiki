@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/planos/mabar",
+  "title": "Mabar",
+  "tags": ["Cosmología", "Planos", "Oscuridad"],
+  "aliases": ["Mabar", "La noche interminable"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "m1",
+      "type": "text",
+      "content": "na negrura hambrienta que devora activamente la luz y la vida. Es el hogar de sombras, vampiros y demonios necrófagos. Es la fuente de energía que los nigromantes de Karrnath y la Sangre de Vol utilizan para reanimar a sus ejércitos de esqueletos."
+    },
+    {
+      "id": "m2",
+      "type": "image",
+      "src": "/assets/content/eberron/planos/mabar/mabar.png",
+      "caption": "Mabar",
+      "title": "Mabar",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "l3",
+      "type": "related",
+      "items": [
+        { "label": "Planos", "slug": "eberron/planos" },
+        { "label": "Daanvi", "slug": "eberron/planos/daanvi" },
+        { "label": "Dal Quor", "slug": "eberron/planos/dal-quor" },
+        { "label": "Dolurrh", "slug": "eberron/planos/dolurrh" },
+        { "label": "Fernia", "slug": "eberron/planos/fernia" },
+        { "label": "Irian", "slug": "eberron/planos/irian" },
+        { "label": "Kythri", "slug": "eberron/planos/kythri" },
+        { "label": "Lamannia", "slug": "eberron/planos/lamannia" },
+        { "label": "Mabar", "slug": "eberron/planos/mabar" },
+        { "label": "Risia", "slug": "eberron/planos/risia" },
+        { "label": "Shavarath", "slug": "eberron/planos/shavarath" },
+        { "label": "Thelanis", "slug": "eberron/planos/thelanis" },
+        { "label": "Xoriat", "slug": "eberron/planos/xoriat" }
+      ]
+    }
+  ]
+}

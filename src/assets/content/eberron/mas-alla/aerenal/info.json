@@ -1,0 +1,38 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/mas-alla/aerenal",
+  "title": "Aerenal",
+  "tags": ["Continentes", "Elfos"],
+  "aliases": ["Aerenal"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": "Una enorme isla tropical situada entre Khorvaire y Argonnessen. Es el hogar ancestral de los elfos, quienes huyeron de Xen'drik milenios atrás. Aerenal está gobernada por la Corte Imperecedera, un concilio de momias y espíritus elfo mantenidos 'vivos' gracias a la energía positiva y la devoción de sus descendientes. La cultura aereni está obsesionada con la perfección, el respeto a la tradición y la magia nigromántica positiva. Sus densos bosques de madera aereni o 'madera elfa', son el material con el que se construyen los barcos voladores."
+    },
+    {
+      "id": "a2",
+      "type": "map",
+      "image": "/assets/content/eberron/mas-alla/aerenal/aerenal.png",
+      "caption": "Aerenal",
+      "title": "Aerenal",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "a3",
+      "type": "related",
+      "items": [
+        { "label": "Mapamundi", "slug": "eberron/" },
+        { "label": "Aerenal", "slug": "eberron/mas-alla/aerenal" },
+        { "label": "Argonnessen", "slug": "eberron/mas-alla/argonnessen" },
+        { "label": "Hielo Eterno", "slug": "eberron/mas-alla/hielo-eterno" },
+        { "label": "Khorvaire", "slug": "eberron/khorvaire" },
+        { "label": "La Friage", "slug": "eberron/mas-alla/la-friage" },
+        { "label": "Sarlona", "slug": "eberron/mas-alla/sarlona" },
+        { "label": "Xen'drik", "slug": "eberron/mas-alla/xen-drik" }
+      ]
+    }
+  ]
+}

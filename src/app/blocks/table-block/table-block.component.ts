@@ -1,0 +1,77 @@
+import { Component, input } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { TableBlock } from '../../core/models/block.model';
+import { ParseInternalLinksPipe } from '../../shared/pipes/parse-internal-links.pipe';
+import { RouterLink } from '@angular/router';
+
+@Component({
+  selector: 'app-table-block',
+  standalone: true,
+  imports: [CommonModule, ParseInternalLinksPipe, RouterLink],
+  template: `
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            @for (header of block().headers; track $index) {
+              <th>{{ header }}</th>
+            }
+          </tr>
+        </thead>
+        <tbody>
+          @for (row of block().rows; track $index) {
+            <tr>
+              @for (cell of row; track $index) {
+                <td>
+                  @for (segment of (cell | parseInternalLinks); track $index) {
+                    @if (segment.isLink) {
+                      <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
+                    } @else {
+                      <span>{{ segment.text }}</span>
+                    }
+                  }
+                </td>
+              }
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  `,
+  styles: [`
+    .table-container {
+      overflow-x: auto;
+      margin: 1.5rem 0;
+      border-radius: 8px;
+      border: 1px solid var(--border-color, #e0e0e0);
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+
+        th, td {
+          padding: 0.85rem 1rem;
+          border-bottom: 1px solid var(--border-color, #e0e0e0);
+        }
+
+        th {
+          background-color: var(--table-header-bg, #f5f5f5);
+          font-weight: 700;
+          color: var(--primary-color, #8b1e0f);
+        }
+
+        tr:last-child td {
+          border-bottom: none;
+        }
+
+        tr:nth-child(even) {
+          background-color: var(--table-zebra-bg, rgba(0, 0, 0, 0.02));
+        }
+      }
+    }
+  `]
+})
+export class TableBlockComponent {
+  readonly block = input.required<TableBlock>();
+}

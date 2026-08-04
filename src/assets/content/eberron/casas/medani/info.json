@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/casas/medani",
+  "title": "Casa Medani",
+  "tags": ["Casa Dragontina", "Detección", "Semielfo", "Investigación"],
+  "aliases": ["Medani", "Casa Medani"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "m1",
+      "type": "quote",
+      "text": "Nosotros lo vemos todo.",
+      "author": "Lema del Consorcio de Advertencia"
+    },
+    {
+      "id": "m2",
+      "type": "text",
+      "content": "Khoravar portadores de la Marca de la Detección. La Casa Medani opera el Consorcio de Advertencia, ofreciendo servicios de investigación, contraespionaje y protección personal. Aunque más pequeña que otras casas, Medani es respetada por su discreción y precisión. Sus agentes son expertos en desenmascarar conspiraciones, venenos e infiltraciones antes de que ocurran."
+    },
+    {
+      "id": "m3",
+      "type": "image",
+      "src": "/assets/content/eberron/casas/medani/medani.webp",
+      "caption": "Medani",
+      "title": "Medani",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "m4",
+      "type": "info",
+      "variant": "note",
+      "content": "La Marca de la Detección permite detectar magia, veneno, enfermedad, pensamientos superficiales y presencias ocultas. Los Medani de mayor rango pueden ver el futuro inmediato en destellos fugaces."
+    },
+    {
+      "id": "m5",
+      "type": "related",
+      "items": [
+        { "label": "Casas Dragontinas", "slug": "eberron/casas" },
+        { "label": "Historia de Eberron", "slug": "eberron/historia" }
+      ]
+    }
+  ]
+}

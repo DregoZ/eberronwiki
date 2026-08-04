@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/casas/jorasco",
+  "title": "Casa Jorasco",
+  "tags": ["Casa Dragontina", "Sanación", "Medicina", "Hospitales", "Medianos"],
+  "aliases": ["Jorasco", "Casa Jorasco"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "j1",
+      "type": "quote",
+      "text": "La salud es un servicio más.",
+      "author": "Lema interno de Jorasco"
+    },
+    {
+      "id": "j2",
+      "type": "text",
+      "content": "Casa Jorasco, medianos portadores de la Marca de la Sanación, controla la mayoría de los servicios médicos y hospitalarios de [[Eberron]]. Sus hospitales y curanderos itinerantes cobran por sus servicios, lo que genera críticas éticas, pero también la realidad de que son insustituibles. Sin Jorasco, las bajas de la Última Guerra habrían sido mucho mayores."
+    },
+    {
+      "id": "j3",
+      "type": "image",
+      "src": "/assets/content/eberron/casas/jorasco/jorasco.webp",
+      "caption": "Jorasco",
+      "title": "Jorasco",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "j4",
+      "type": "info",
+      "variant": "note",
+      "content": "La Marca de la Sanacion otorga capacidades de curación mágica, elimina maldiciones y, en sus formas más poderosas, incluso resurrección. Esta capacidad hace a Jorasco indispensable pero también enormemente poderosa."
+    },
+    {
+      "id": "j5",
+      "type": "related",
+      "items": [
+        { "label": "Casas Dragontinas", "slug": "eberron/casas" },
+        { "label": "Historia de Eberron", "slug": "eberron/historia" }
+      ]
+    }
+  ]
+}

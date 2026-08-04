@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/planos/dolurrh",
+  "title": "Dolurrh",
+  "tags": ["Cosmología", "Planos", "Muertos"],
+  "aliases": ["El reino de los Muertos"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "d1",
+      "type": "text",
+      "content": "No es el infierno, sino el lugar a donde van todas las almas al morir, sin importar si fuiste un santo o un villano. Es un lugar gris, silencioso y brumoso que atrapa los recuerdos. Cuanto más tiempo pasa un alma aquí, más se desvanece hasta que no queda nada de su identidad."
+    },
+    {
+      "id": "d2",
+      "type": "image",
+      "src": "/assets/content/eberron/planos/dolurrh/dolurrh.png",
+      "caption": "Daanvi",
+      "title": "Daanvi",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "d3",
+      "type": "related",
+      "items": [
+        { "label": "Planos", "slug": "eberron/planos" },
+        { "label": "Daanvi", "slug": "eberron/planos/daanvi" },
+        { "label": "Dal Quor", "slug": "eberron/planos/dal-quor" },
+        { "label": "Dolurrh", "slug": "eberron/planos/dolurrh" },
+        { "label": "Fernia", "slug": "eberron/planos/fernia" },
+        { "label": "Irian", "slug": "eberron/planos/irian" },
+        { "label": "Kythri", "slug": "eberron/planos/kythri" },
+        { "label": "Lamannia", "slug": "eberron/planos/lamannia" },
+        { "label": "Mabar", "slug": "eberron/planos/mabar" },
+        { "label": "Risia", "slug": "eberron/planos/risia" },
+        { "label": "Shavarath", "slug": "eberron/planos/shavarath" },
+        { "label": "Thelanis", "slug": "eberron/planos/thelanis" },
+        { "label": "Xoriat", "slug": "eberron/planos/xoriat" }
+      ]
+    }
+  ]
+}

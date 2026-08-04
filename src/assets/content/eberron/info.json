@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/page.schema.json",
+  "slug": "eberron",
+  "title": "Mundo de Eberron",
+  "tags": ["Introducción", "Lore", "Magia"],
+  "aliases": ["Eberron", "Mundo"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "content": "¡Bienvenido al early acces de la Wiki del Manifiesto de Convergencia! ¡A cazar bugs!"
+    },
+    {
+      "id": "b2",
+      "type": "info",
+      "variant": "lore",
+      "content": "Consulta la [[Eberron/Historia|Historia del Mundo]] o explora la geografía de [[Eberron/Khorvaire|Khorvaire]] para conocer más sobre las diferentes naciones del continente."
+    },
+    {
+      "id": "b3",
+      "type": "quote",
+      "text": "Lo que no hay en Eberron es un ogro ilustrado. Lo puede haber, como puede haber un gitano médico; pero eso sería muy raro.",
+      "author": "El DM o uno de sus compinches"
+    },
+    {
+      "id": "b4",
+      "type": "related",
+      "items": [
+        { "label": "Historia de Eberron", "slug": "eberron/historia" },
+        { "label": "Continente de Khorvaire", "slug": "eberron/khorvaire" },
+        { "label": "Ciudad de Sharn", "slug": "personajes/sharn" }
+      ]
+    }
+  ]
+}

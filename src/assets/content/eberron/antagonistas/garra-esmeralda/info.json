@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/antagonistas/garra-esmeralda",
+  "title": "Orden de la Garra Esmeralda",
+  "tags": ["Antagonistas", "Orden de la Garra Esmeralda", "Karrnath"],
+  "aliases": ["Garra Esmeralda"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "f0",
+      "type": "text",
+      "content": "Una organización paramilitar y terrorista de fanáticos karrnathienses. Antaño fueron caballeros de élite durante la Última Guerra, pero fueron ilegalizados cuando el rey de Karrnath prohibió las artes oscuras."
+    },
+    {
+      "id": "f1",
+      "type": "text",
+      "content": "Operan como células terroristas en todo el continente, robando reliquias mágicas y sembrando el caos. En secreto, son los peones de Erandis Vol, una liche con aviesas motivaciones."
+    },
+    {
+      "id": "f2",
+      "type": "image",
+      "src": "/assets/content/eberron/antagonistas/garra-esmeralda/garra-esmeralda.png",
+      "caption": "Orden de la Garra Esmeralda",
+      "title": "Orden de la Garra Esmeralda",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "f3",
+      "type": "related",
+      "items": [
+        { "label": "Orden de la Garra Esmeralda", "slug": "eberron/antagonistas/garra-esmeralda" },
+        { "label": "Señores del Polvo", "slug": "eberron/antagonistas/polvo" },
+        { "label": "Los Soñadores", "slug": "eberron/antagonistas/sonadores" },
+        { "label": "Daelkyr y Cultos de la Locura", "slug": "eberron/antagonistas/daelkyr" },
+        { "label": "Fideicomiso de Zilargo", "slug": "eberron/antagonistas/fideicomiso" },
+        { "label": "El Señor de los Filos", "slug": "eberron/antagonistas/filos" }
+      ]
+    }
+  ]
+}

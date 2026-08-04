@@ -1,0 +1,38 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/mas-alla/la-friage",
+  "title": "La Friage",
+  "tags": ["Continentes", "Frío"],
+  "aliases": ["La Friage", "El Norte Inexplorado"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "lf1",
+      "type": "text",
+      "content": "Una masa de tierra ártica perpetuamente congelada en la cima del mundo. Es un desierto blanco de hielo y ventiscas mortales. Muy pocos han viajado allí y regresado para contarlo, pero las leyendas hablan de extrañas ruinas sepultadas en el hielo que datan de antes de la Era de los Demonios, custodiadas por gigantes de la escarcha, remorhaz y horrores antiguos que es mejor no despertar."
+    },
+    {
+      "id": "lf2",
+      "type": "map",
+      "image": "/assets/content/eberron/mas-alla/la-friage/la-friage.png",
+      "caption": "La Friage",
+      "title": "La Friage",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "a3",
+      "type": "related",
+      "items": [
+        { "label": "Mapamundi", "slug": "eberron/" },
+        { "label": "Aerenal", "slug": "eberron/mas-alla/aerenal" },
+        { "label": "Argonnessen", "slug": "eberron/mas-alla/argonnessen" },
+        { "label": "Hielo Eterno", "slug": "eberron/mas-alla/hielo-eterno" },
+        { "label": "Khorvaire", "slug": "eberron/khorvaire" },
+        { "label": "La Friage", "slug": "eberron/mas-alla/la-friage" },
+        { "label": "Sarlona", "slug": "eberron/mas-alla/sarlona" },
+        { "label": "Xen'drik", "slug": "eberron/mas-alla/xen-drik" }
+      ]
+    }
+  ]
+}

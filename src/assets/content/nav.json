@@ -1,0 +1,66 @@
+[
+  {
+    "$schema": "./schemas/nav.schema.json",
+    "id": "eberron-root",
+    "label": "Eberron",
+    "slug": "eberron",
+    "icon": "auto_stories",
+    "children": [
+      {
+        "id": "historia",
+        "label": "Historia del Mundo",
+        "slug": "eberron/historia",
+        "icon": "history_edu"
+      },
+      {
+        "id": "khorvaire",
+        "label": "Khorvaire",
+        "slug": "eberron/khorvaire",
+        "icon": "map",
+        "children": []
+      },
+      {
+        "id": "dragonmarked-casas",
+        "label": "Casas Dragontinas",
+        "slug": "eberron/casas",
+        "icon": "diamond",
+        "children": []
+      },
+      {
+        "id": "planes",
+        "label": "Los Planos",
+        "slug": "eberron/planos",
+        "icon": "blur_on",
+        "children": []
+      },
+      {
+        "id": "antagonists",
+        "label": "Antagonistas",
+        "slug": "eberron/antagonistas",
+        "icon": "person_off",
+        "children": []
+      },
+      {
+        "id": "beyond-khorvaire",
+        "label": "Más allá de Khorvaire",
+        "slug": "eberron/mas-alla",
+        "icon": "explore",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "personajes",
+    "label": "Personajes & Facciones",
+    "slug": "personajes/sharn",
+    "icon": "people",
+    "children": [
+      {
+        "id": "sharn-facciones",
+        "label": "Facciones de Sharn",
+        "slug": "personajes/sharn",
+        "icon": "groups"
+      }
+    ]
+  }
+]

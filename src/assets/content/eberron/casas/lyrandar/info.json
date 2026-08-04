@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/casas/lyrandar",
+  "title": "Casa Lyrandar",
+  "tags": ["Casa Dragontina", "Transporte", "Navíos voladores", "Semielfo"],
+  "aliases": ["Lyrandar", "Casa Lyrandar"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "l1",
+      "type": "quote",
+      "text": "El viento y el mar nos obedecen. ¿Cómo no vamos a ser los amos del mundo?",
+      "author": "Esravashni d'Lyrandar, matriarca"
+    },
+    {
+      "id": "l2",
+      "type": "text",
+      "content": "Casa Lyrandar es una dinastía khoravar portadora de la Marca de la Tormenta. Sus capitanes usan sus marcas para pilotar los navíos elementales de aire y agua. También cobran ingentes sumas de dinero a las naciones agrícolas (como Aundair) a cambio de manipular el clima para garantizar lluvias perfectas para las cosechas."
+    },
+    {
+      "id": "l3",
+      "type": "image",
+      "src": "/assets/content/eberron/casas/lyrandar/lyrandar.webp",
+      "caption": "Lyrandar",
+      "title": "Lyrandar",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "l4",
+      "type": "info",
+      "variant": "lore",
+      "content": "Los navíos voladores de Lyrandar son propulsados por elementales de aire atrapados en anillos de contención. El piloto, portador de la Marca de la Tormenta, forma un vínculo psíquico con el elemental para guiar la nave."
+    },
+    {
+      "id": "l5",
+      "type": "related",
+      "items": [
+        { "label": "Casas Dragontinas", "slug": "eberron/casas" },
+        { "label": "Historia de Eberron", "slug": "eberron/historia" }
+      ]
+    }
+  ]
+}

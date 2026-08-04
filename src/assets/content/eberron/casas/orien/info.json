@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/casas/orien",
+  "title": "Casa Orien",
+  "tags": ["Casa Dragontina", "Pasaje", "Transporte", "Mensajería", "Humano"],
+  "aliases": ["Orien", "Casa Orien"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "o1",
+      "type": "quote",
+      "text": "Conectando personas",
+      "author": "Anuncio comercial de Casa Orien"
+    },
+    {
+      "id": "o2",
+      "type": "text",
+      "content": "La Casa Orien, compuesta por humanos portadores de la Marca del Pasaje, gestiona el transporte terrestre de [[Eberron]]. Operan el Rayocarril, una línea de trenes mágicos que conectan Khorvaire, y las caravanas de diligencias terrestres. Si necesitas enviar un paquete urgente al otro lado del continente o teletransportarte al instante, Orien es tu única opción."
+    },
+    {
+      "id": "o3",
+      "type": "image",
+      "src": "/assets/content/eberron/casas/orien/orien.webp",
+      "caption": "Orien",
+      "title": "Orien",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "o4",
+      "type": "info",
+      "variant": "lore",
+      "content": "El Rayocarril funciona gracias a elementales de tierra vinculados a piedras conductoras. Los vagones ruedan sobre estas piedras a velocidades imposibles para cualquier carruaje ordinario, y no necesitan caballos ni combustible convencional."
+    },
+    {
+      "id": "o5",
+      "type": "info",
+      "variant": "warning",
+      "content": "La red del Rayocarril fue gravemente dañada durante la Última Guerra. Muchos tramos siguen interrumpidos o son disputados territorialmente."
+    },
+    {
+      "id": "o6",
+      "type": "related",
+      "items": [
+        { "label": "Casas Dragontinas", "slug": "eberron/casas" },
+        { "label": "Historia de Eberron", "slug": "eberron/historia" }
+      ]
+    }
+  ]
+}

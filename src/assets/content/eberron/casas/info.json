@@ -1,0 +1,151 @@
+{
+  "$schema": "../../schemas/page.schema.json",
+  "slug": "eberron/casas",
+  "title": "Casas Dragontinas",
+  "tags": ["Casas Dragontinas", "Marcas Dragontinas", "Política"],
+  "aliases": ["Dragonmarked casas", "Casas"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "dh1",
+      "type": "text",
+      "content": "Las Casas Dragontinas son trece linajes que portan las Marcas Dragontinas: símbolos mágicos heredados que otorgan poderes extraordinarios. Estas dinastías familiares controlan el comercio, los servicios y la política de [[Eberron]] a través de monopolios legalmente sancionados. Surgidas hace milenios, las Casas son en la práctica más poderosas que muchas naciones."
+    },
+    {
+      "id": "dh11",
+      "type": "text",
+      "content": "Su inmenso poder se basa en tres pilares fundamentales:"
+    },
+    {
+      "id": "dh12",
+      "type": "text",
+      "content": "La Marca Dragontina: Es un tatuaje mágico de nacimiento que solo aparece en los linajes de estas familias. Esta marca otorga a su portador poderes mágicos innatos relacionados con un sector comercial (como curar, teletransportarse, reparar o fabricar)."
+    },
+    {
+      "id": "dh13",
+      "type": "text",
+      "content": "Monopolio Absoluto: Cada casa tiene el control exclusivo de un sector a través de sus gremios. Por ejemplo, si quieres enviar un mensaje rápido usas los servicios de la casa [[eberron/casas/sivis|Sivis]]; si quieres viajar en tren, pagas a la casa [[eberron/casas/orien|Orien]]; si necesitas un hotel seguro, vas a la casa [[eberron/casas/ghallanda|Ghallanda]]."
+    },
+    {
+      "id": "dh14",
+      "type": "text",
+      "content": "Neutralidad Política: Por ley internacional, las Casas no pueden poseer tierras ni ejércitos nacionales, y deben mantenerse neutrales en los conflictos políticos. Durante la [[eberron/history/last-war|Última Guerra]], vendieron sus servicios y tecnología a todos los bandos, lo que las hizo asquerosamente ricas."
+    },
+    {
+      "id": "dh15",
+      "type": "text",
+      "content": "En resumen: son los verdaderos gigantes que mueven los hilos del progreso en Eberron. Mientras los reyes gobiernan las tierras, las Casas Dragontinas gobiernan el día a día de sus habitantes."
+    },
+    {
+      "id": "dh2",
+      "type": "info",
+      "variant": "lore",
+      "content": "Una Marca Dragontina es una señal sobrenatural que aparece en la piel de ciertos individuos. No todas las personas de la especie correspondiente la manifiestan, y portarla fuera del linaje reconocido es considerado herético o peligroso."
+    },
+    {
+      "id": "dh3",
+      "type": "table",
+      "headers": ["Casa", "Marca", "Especie", "Especialidad"],
+      "rows": [
+        [
+          "[[eberron/casas/cannith|Cannith]]",
+          "Creación",
+          "Humano",
+          "Artífices, constructores, creadores de los Forjadosa"
+        ],
+        [
+          "[[eberron/casas/deneith|Deneith]]",
+          "Centinela",
+          "Humano",
+          "Mercenarios, guardaespaldas, seguridad"
+        ],
+        [
+          "[[eberron/casas/ghallanda|Ghallanda]]",
+          "Hospitalidad",
+          "Mediano",
+          "Posadas, restaurantes, alimentos, refugio"
+        ],
+        [
+          "[[eberron/casas/jorasco|Jorasco]]",
+          "Curación",
+          "Mediano",
+          "Medicina, hospitales, curación mágica"
+        ],
+        [
+          "[[eberron/casas/kundarak|Kundarak]]",
+          "Protección",
+          "Enano",
+          "Banca, cajas fuertes, almacenamiento seguro"
+        ],
+        [
+          "[[eberron/casas/lyrandar|Lyrandar]]",
+          "Tormenta",
+          "Medio Elfo",
+          "Barcos voladores, navieras, control del clima"
+        ],
+        [
+          "[[eberron/casas/medani|Medani]]",
+          "Detección",
+          "Medio Elfo",
+          "Investigación, contraespionaje, protección"
+        ],
+        ["[[eberron/casas/orien|Orien]]", "Pasaje", "Humano", "Rayocarril, mensajería, caravanas"],
+        [
+          "[[eberron/casas/phiarlan|Phiarlan]]",
+          "Sombra",
+          "Elfo",
+          "Entretenimiento, espionaje, arte"
+        ],
+        [
+          "[[eberron/casas/sivis|Sivis]]",
+          "Escritura",
+          "Gnomo",
+          "Comunicaciones, notaría, traducción"
+        ],
+        [
+          "[[eberron/casas/tharashk|Tharashk]]",
+          "Hallazgo",
+          "Humano/Orco",
+          "Prospección, caza de recompensas, minería"
+        ],
+        [
+          "[[eberron/casas/thuranni|Thuranni]]",
+          "Sombra",
+          "Elfo",
+          "Asesinos, entretenimiento oscuro (escisión de Phiarlan)"
+        ],
+        [
+          "[[eberron/casas/vadalis|Vadalis]]",
+          "Dominio",
+          "Humano",
+          "Crianza de animales, monturas, bestias mejoradas"
+        ]
+      ]
+    },
+    {
+      "id": "dh4",
+      "type": "info",
+      "variant": "warning",
+      "content": "Poseer una Marca Dragontina aberrante (fuera de los linajes reconocidos) está estigmatizado. En el pasado, la [[Purga de las Marcas Aberrantes]] intentó erradicar estos linajes."
+    },
+    {
+      "id": "dh5",
+      "type": "related",
+      "items": [
+        { "label": "Cannith", "slug": "eberron/casas/cannith" },
+        { "label": "Deneith", "slug": "eberron/casas/deneith" },
+        { "label": "Ghallanda", "slug": "eberron/casas/ghallanda" },
+        { "label": "Jorasco", "slug": "eberron/casas/jorasco" },
+        { "label": "Kundarak", "slug": "eberron/casas/kundarak" },
+        { "label": "Lyrandar", "slug": "eberron/casas/lyrandar" },
+        { "label": "Medani", "slug": "eberron/casas/medani" },
+        { "label": "Orien", "slug": "eberron/casas/orien" },
+        { "label": "Phiarlan", "slug": "eberron/casas/phiarlan" },
+        { "label": "Sivis", "slug": "eberron/casas/sivis" },
+        { "label": "Tharashk", "slug": "eberron/casas/tharashk" },
+        { "label": "Thuranni", "slug": "eberron/casas/thuranni" },
+        { "label": "Vadalis", "slug": "eberron/casas/vadalis" }
+      ]
+    }
+  ]
+}

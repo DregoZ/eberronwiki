@@ -1,0 +1,69 @@
+{
+  "$schema": "../../schemas/page.schema.json",
+  "slug": "eberron/planos",
+  "title": "Cosmología de Eberron",
+  "tags": ["Planos", "Mundo"],
+  "aliases": ["Cosmología", "Planos"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "p1",
+      "type": "text",
+      "content": "La cosmología de Eberron, conocida como El Gran Mecanismo, es radicalmente distinta a la de otros mundos de D&D. No existe un Gran Rueda; en su lugar, 13 planos de existencia orbitan alrededor de la órbita de Eberron, el Plano Material."
+    },
+    {
+      "id": "p2",
+      "type": "image",
+      "src": "/assets/content/eberron/planos/planos_cool.png",
+      "caption": "Mapa de los Planos",
+      "title": "Cosmología",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "p3",
+      "type": "text",
+      "content": "A medida que giran, estos planos se acercan o se alejan. Cuando un plano está en su punto más cercano, se dice que está Coterminal, y sus efectos se filtran al plano material (por ejemplo, si Risia está coterminal, los inviernos son brutales). Cuando está en su punto más lejano, está Remoto, y su magia es casi imposible de invocar."
+    },
+    {
+      "id": "p4",
+      "type": "info",
+      "variant": "lore",
+      "content": "[[Dal Quor]] está permanentemente remoto desde que los gigantes destruyeron su conexión hace milenios; ya no se puede viajar físicamente allí, solo soñando."
+    },
+    {
+      "id": "p5",
+      "type": "image",
+      "src": "/assets/content/eberron/planos/planos_normal.png",
+      "caption": "Los Planos",
+      "title": "Cosmología",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "p7",
+      "type": "info",
+      "variant": "lore",
+      "content": "Las zonas de manifestación son lugares donde las órbitas de los planos se han 'atascado' permanentemente con el plano material. La más famosa es [[sharn|Sharn]]: la ciudad está construida sobre una zona de manifestación de [[eberron/planos/syrania|Syrania]], lo que potencia enormemente la magia de levitación y permite que sus rascacielos de kilómetros de altura no se derrumben por la gravedad."
+    },
+    {
+      "id": "p6",
+      "type": "related",
+      "items": [
+        { "label": "Daanvi, el orden perfecto", "slug": "eberron/planos/daanvi" },
+        { "label": "Dal Quor, la región de los sueños", "slug": "eberron/planos/dal-quor" },
+        { "label": "Dolurrh, la reino de los muertos", "slug": "eberron/planos/dolurrh" },
+        { "label": "Fernia, el mar de fuego", "slug": "eberron/planos/fernia" },
+        { "label": "Irian, el alba eterna", "slug": "eberron/planos/irian" },
+        { "label": "Kythri, el caos agitado", "slug": "eberron/planos/kythri" },
+        { "label": "Lamannia, el bosque crepuscular", "slug": "eberron/planos/lamannia" },
+        { "label": "Mabar, la noche interminable", "slug": "eberron/planos/mabar" },
+        { "label": "Risia, el páramo helado", "slug": "eberron/planos/risia" },
+        { "label": "Shavarath, la eterna contienda", "slug": "eberron/planos/shavarath" },
+        { "label": "Syrania, el cielo azul", "slug": "eberron/planos/syrania" },
+        { "label": "Thelanis, la corte feérica", "slug": "eberron/planos/thelanis" },
+        { "label": "Xoriat, el reino de la locura", "slug": "eberron/planos/xoriat" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/mas-alla/hielo-eterno",
+  "title": "Hielo Eterno",
+  "tags": ["Continentes", "Frío"],
+  "aliases": ["Hielo Eterno"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "h1",
+      "type": "text",
+      "content": "El equivalente al polo sur en Eberron. Al igual que La Friage, es un continente de hielo glacial interminable. Sin embargo, mientras que el norte es una tierra baldía, los mitos de los marineros sugieren que el Hielo Eterno se expande y se contrae mágicamente según las alineaciones de las lunas, y que oculta portales directos a los planos helados de la existencia. El cambio climático Eberroniense."
+    },
+    {
+      "id": "h2",
+      "type": "map",
+      "image": "/assets/content/eberron/mas-alla/hielo-eterno/hielo-eterno.png",
+      "caption": "Hielo Eterno",
+      "title": "Hielo Eterno",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "a3",
+      "type": "related",
+      "items": [
+        { "label": "Mapamundi", "slug": "eberron/" },
+        { "label": "Aerenal", "slug": "eberron/mas-alla/aerenal" },
+        { "label": "Argonnessen", "slug": "eberron/mas-alla/argonnessen" },
+        { "label": "Hielo Eterno", "slug": "eberron/mas-alla/hielo-eterno" },
+        { "label": "Khorvaire", "slug": "eberron/khorvaire" },
+        { "label": "La Friage", "slug": "eberron/mas-alla/la-friage" },
+        { "label": "Sarlona", "slug": "eberron/mas-alla/sarlona" },
+        { "label": "Xen'drik", "slug": "eberron/mas-alla/xen-drik" }
+      ]
+    }
+  ]
+}

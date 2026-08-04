@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PageContent",
+  "type": "object",
+  "required": ["slug", "title", "blocks"],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "description": "Ruta identificadora de la página (ej. eberron/geografia/khorvaire)"
+    },
+    "title": {
+      "type": "string",
+      "description": "Título principal de la página"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Etiquetas de clasificación"
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Alias alternativos para el motor de búsqueda y auto-enlace [[Alias]]"
+    },
+    "unlockCondition": {
+      "type": ["string", "null"],
+      "description": "ID de hito de campaña requerido para desbloquear la página"
+    },
+    "blocks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/ContentBlock"
+      }
+    }
+  },
+  "definitions": {
+    "ContentBlock": {
+      "type": "object",
+      "required": ["id", "type"],
+      "properties": {
+        "id": { "type": "string" },
+        "type": {
+          "type": "string",
+          "enum": ["text", "image", "quote", "info", "table", "separator", "related", "map"]
+        }
+      },
+      "oneOf": [
+        { "$ref": "#/definitions/TextBlock" },
+        { "$ref": "#/definitions/ImageBlock" },
+        { "$ref": "#/definitions/QuoteBlock" },
+        { "$ref": "#/definitions/InfoBlock" },
+        { "$ref": "#/definitions/TableBlock" },
+        { "$ref": "#/definitions/SeparatorBlock" },
+        { "$ref": "#/definitions/RelatedBlock" },
+        { "$ref": "#/definitions/MapBlock" }
+      ]
+    },
+    "TextBlock": {
+      "properties": {
+        "type": { "const": "text" },
+        "content": { "type": "string" }
+      },
+      "required": ["type", "content"]
+    },
+    "ImageBlock": {
+      "properties": {
+        "type": { "const": "image" },
+        "src": { "type": "string" },
+        "caption": { "type": "string" },
+        "title": { "type": "string" },
+        "align": { "type": "string", "enum": ["left", "right", "center"] },
+        "size": { "type": "string", "enum": ["small", "medium", "full"] }
+      },
+      "required": ["type", "src"]
+    },
+    "QuoteBlock": {
+      "properties": {
+        "type": { "const": "quote" },
+        "text": { "type": "string" },
+        "author": { "type": "string" }
+      },
+      "required": ["type", "text"]
+    },
+    "InfoBlock": {
+      "properties": {
+        "type": { "const": "info" },
+        "variant": { "type": "string", "enum": ["note", "warning", "lore"] },
+        "content": { "type": "string" }
+      },
+      "required": ["type", "variant", "content"]
+    },
+    "TableBlock": {
+      "properties": {
+        "type": { "const": "table" },
+        "headers": { "type": "array", "items": { "type": "string" } },
+        "rows": { "type": "array", "items": { "type": "array", "items": { "type": "string" } } }
+      },
+      "required": ["type", "headers", "rows"]
+    },
+    "SeparatorBlock": {
+      "properties": {
+        "type": { "const": "separator" }
+      },
+      "required": ["type"]
+    },
+    "RelatedBlock": {
+      "properties": {
+        "type": { "const": "related" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["label", "slug"],
+            "properties": {
+              "label": { "type": "string" },
+              "slug": { "type": "string" }
+            }
+          }
+        }
+      },
+      "required": ["type", "items"]
+    },
+    "MapBlock": {
+      "properties": {
+        "type": { "const": "map" },
+        "image": { "type": "string" },
+        "pins": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "x", "y", "label"],
+            "properties": {
+              "id": { "type": "string" },
+              "x": { "type": "number", "minimum": 0, "maximum": 100 },
+              "y": { "type": "number", "minimum": 0, "maximum": 100 },
+              "icon": { "type": "string" },
+              "label": { "type": "string" },
+              "linkSlug": { "type": "string" }
+            }
+          }
+        }
+      },
+      "required": ["type", "image", "pins"]
+    }
+  }
+}

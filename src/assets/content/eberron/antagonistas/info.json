@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schemas/page.schema.json",
+  "slug": "eberron/antagonistas",
+  "title": "¡Muere, Villano!",
+  "tags": ["Continentes"],
+  "aliases": ["Mapamundi"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a0",
+      "type": "text",
+      "content": "En Eberron, los villanos no suelen ser 'señores oscuros' sentados en tronos de lava esperando a que los héroes vayan a por ellos, que también los hay. En la mayoría de ocasiones, un villano se verá motivado por la codicia, el poder u otras recompensas mundanas."
+    },
+    {
+      "id": "a1",
+      "type": "text",
+      "content": "Sin embargo, existen también redes de espionaje, conspiraciones milenarias, amenazas cósmicas atrapadas y gobiernos corruptos. Muchos de ellos operan desde las sombras, y los personajes podrían estar trabajando para ellos sin saberlo."
+    },
+    {
+      "id": "a2",
+      "type": "image",
+      "src": "/assets/content/eberron/antagonistas/antagonistas.png",
+      "caption": "Díganme que animal es este",
+      "title": "Antagonistas",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "a3",
+      "type": "related",
+      "items": [
+        { "label": "Orden de la Garra Esmeralda", "slug": "eberron/antagonistas/garra-esmeralda" },
+        { "label": "Señores del Polvo", "slug": "eberron/antagonistas/polvo" },
+        { "label": "Los Soñadores", "slug": "eberron/antagonistas/sonadores" },
+        { "label": "Daelkyr y Cultos de la Locura", "slug": "eberron/antagonistas/daelkyr" },
+        { "label": "Fideicomiso de Zilargo", "slug": "eberron/antagonistas/fideicomiso" },
+        { "label": "El Señor de los Filos", "slug": "eberron/antagonistas/filos" }
+      ]
+    }
+  ]
+}

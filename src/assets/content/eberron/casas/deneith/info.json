@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/casas/deneith",
+  "title": "Casa Deneith",
+  "tags": ["Casa Dragontina", "Centinela", "Mercenarios", "Seguridad", "Humanos"],
+  "aliases": ["Deneith", "Casa Deneith"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "d1",
+      "type": "quote",
+      "text": "Bando sellado a contrato firmado.",
+      "author": "Lema de la Legión de las Muescas"
+    },
+    {
+      "id": "d2",
+      "type": "text",
+      "content": "Los [[humanos]] de Deneith, portadores de la Marca Dragontina del Centinela, controlan los principales servicios de seguridad y mercenariado de [[Eberron]]. Con sede en Karrnath, Deneith gestiona las mejores y más respetadas fuerzas de seguridad privada: la Legión de las Muescas (mercenarios) y el Gremio de Custodios (guardaespaldas). Son políticamente neutrales: sirven a quien paga."
+    },
+    {
+      "id": "d1",
+      "type": "text",
+      "content": "Si un gobernante necesita un ejército de alquiler o un noble teme por su vida, contrata a Deneith. Mantienen una estricta neutralidad, lo que significa que un soldado Deneith protegerá a su cliente incluso si el atacante es de su propia Casa."
+    },
+    {
+      "id": "d3",
+      "type": "image",
+      "src": "/assets/content/eberron/casas/deneith/deneith.webp",
+      "caption": "Deneith",
+      "title": "Deneith",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "d4",
+      "type": "info",
+      "variant": "note",
+      "content": "La Marca del Centinela otorga capacidades de aumento de combate, detección de peligros y protección de aliados, haciendo de sus portadores guerreros excepcionalmente efectivos."
+    },
+    {
+      "id": "d5",
+      "type": "related",
+      "items": [
+        { "label": "Casas Dragontinas", "slug": "eberron/casas" },
+        { "label": "Historia de Eberron", "slug": "eberron/historia" }
+      ]
+    }
+  ]
+}

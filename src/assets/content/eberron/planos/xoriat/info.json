@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/planos/xoriat",
+  "title": "Xoriat",
+  "tags": ["Cosmología", "Planos", "Locura"],
+  "aliases": ["Xoriat", "El reino de la locura"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "x1",
+      "type": "text",
+      "content": "El hogar de los Daelkyr y las aberraciones más espeluznantes (contempladores, azotamentes). Su geometría desafía la lógica humana y mirar directamente al plano puede volver loco a un mortal. Aquí el tiempo fluye de lado, los colores se pueden oler y las intenciones se vuelven físicas."
+    },
+    {
+      "id": "x2",
+      "type": "image",
+      "src": "/assets/content/eberron/planos/xoriat/xoriat.png",
+      "caption": "Thelanis",
+      "title": "Thelanis",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "t3",
+      "type": "related",
+      "items": [
+        { "label": "Planos", "slug": "eberron/planos" },
+        { "label": "Daanvi", "slug": "eberron/planos/daanvi" },
+        { "label": "Dal Quor", "slug": "eberron/planos/dal-quor" },
+        { "label": "Dolurrh", "slug": "eberron/planos/dolurrh" },
+        { "label": "Fernia", "slug": "eberron/planos/fernia" },
+        { "label": "Irian", "slug": "eberron/planos/irian" },
+        { "label": "Kythri", "slug": "eberron/planos/kythri" },
+        { "label": "Lamannia", "slug": "eberron/planos/lamannia" },
+        { "label": "Mabar", "slug": "eberron/planos/mabar" },
+        { "label": "Risia", "slug": "eberron/planos/risia" },
+        { "label": "Shavarath", "slug": "eberron/planos/shavarath" },
+        { "label": "Thelanis", "slug": "eberron/planos/thelanis" },
+        { "label": "Xoriat", "slug": "eberron/planos/xoriat" }
+      ]
+    }
+  ]
+}

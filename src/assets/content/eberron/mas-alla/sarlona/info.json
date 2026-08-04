@@ -1,0 +1,38 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/mas-alla/sarlona",
+  "title": "Sarlona",
+  "tags": ["Continentes", "Quori", "Humanos"],
+  "aliases": ["Sarlona", "La Cuna de la Humanidad", "El Imperio Mental"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "s1",
+      "type": "text",
+      "content": "El continente oriental es el lugar de origen de los humanos, pero hoy es un lugar radicalmente distinto. Casi todo el territorio está unificado bajo el Imperio de Riedra, una sociedad totalitaria gobernada por los Inspirados (humanos voluntariamente poseídos por espíritus alienígenas de las pesadillas llamados Quori). En Riedra no hay crimen ni hambre, pero tampoco libertad ni magia arcana; todo se controla mediante enormes monolitos psiónicos. La única zona libre son las escarpadas montañas de Adar, un refugio espiritual donde los monjes ascéticos y los Kalashtar resisten el asedio del Imperio."
+    },
+    {
+      "id": "s2",
+      "type": "map",
+      "image": "/assets/content/eberron/mas-alla/sarlona/sarlona.png",
+      "caption": "Sarlona",
+      "title": "Sarlona",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "a3",
+      "type": "related",
+      "items": [
+        { "label": "Mapamundi", "slug": "eberron/" },
+        { "label": "Aerenal", "slug": "eberron/mas-alla/aerenal" },
+        { "label": "Argonnessen", "slug": "eberron/mas-alla/argonnessen" },
+        { "label": "Hielo Eterno", "slug": "eberron/mas-alla/hielo-eterno" },
+        { "label": "Khorvaire", "slug": "eberron/khorvaire" },
+        { "label": "La Friage", "slug": "eberron/mas-alla/la-friage" },
+        { "label": "Sarlona", "slug": "eberron/mas-alla/sarlona" },
+        { "label": "Xen'drik", "slug": "eberron/mas-alla/xen-drik" }
+      ]
+    }
+  ]
+}

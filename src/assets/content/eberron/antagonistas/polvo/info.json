@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/antagonistas/polvo",
+  "title": "Señores del Polvo",
+  "tags": ["Antagonistas", "Señores del Polvo", "Infernales", "Magia Oscura", "Rakshasas"],
+  "aliases": ["Señores del Polvo"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "f0",
+      "type": "text",
+      "content": "Una sociedad secreta de infernales (demonios y rakshasas) inmortales que habitan en las sombras de Khorvaire. Son los sirvientes supervivientes de los Señores Supremos, dioses-demonio encadenados en las profundidades de la tierra desde la Era de los Demonios."
+    },
+    {
+      "id": "f1",
+      "type": "text",
+      "content": "Su objetivo principal es liberar a sus antiguos señores. Para lograrlo, manipulan la geopolítica de las Cinco Naciones y sabotean a las Casas del Dragón. Son maestros del disfraz y los hilos invisibles; su mayor arma es manipular la Profecía de los Dragones para que los propios héroes cometan los actos necesarios para romper los sellos de sus prisiones."
+    },
+    {
+      "id": "f2",
+      "type": "image",
+      "src": "/assets/content/eberron/antagonistas/polvo/polvo.png",
+      "caption": "Señores del Polvo",
+      "title": "Señores del Polvo",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "f3",
+      "type": "related",
+      "items": [
+        { "label": "Orden de la Garra Esmeralda", "slug": "eberron/antagonistas/garra-esmeralda" },
+        { "label": "Señores del Polvo", "slug": "eberron/antagonistas/polvo" },
+        { "label": "Los Soñadores", "slug": "eberron/antagonistas/sonadores" },
+        { "label": "Daelkyr y Cultos de la Locura", "slug": "eberron/antagonistas/daelkyr" },
+        { "label": "Fideicomiso de Zilargo", "slug": "eberron/antagonistas/fideicomiso" },
+        { "label": "El Señor de los Filos", "slug": "eberron/antagonistas/filos" }
+      ]
+    }
+  ]
+}

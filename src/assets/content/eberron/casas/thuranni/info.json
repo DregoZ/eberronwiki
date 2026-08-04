@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/casas/thuranni",
+  "title": "Casa Thuranni",
+  "tags": ["Casa Dragontina", "Sombra", "Asesinos", "Elfos"],
+  "aliases": ["Thuranni", "Casa Thuranni"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "th1",
+      "type": "quote",
+      "text": "Phiarlan oculta el acero tras el arte. Thuranni es honesto: somos el acero.",
+      "author": "Elar d'Thuranni"
+    },
+    {
+      "id": "th2",
+      "type": "text",
+      "content": "La Casa Thuranni surgió de una sangrienta escisión de [[eberron/casas/phiarlan|Casa Phiarlan]] durante la Última Guerra, cuando los Thuranni masacraron a gran parte de la familia Paelion de Phiarlan. Aunque también portan la Marca de la Sombra, Thuranni ha abrazado abiertamente el papel de organización de asesinos y agentes de élite, compitiendo directamente con Phiarlan en el entretenimiento como cobertura."
+    },
+    {
+      "id": "th3",
+      "type": "image",
+      "src": "/assets/content/eberron/casas/thuranni/thuranni.webp",
+      "caption": "Thuranni",
+      "title": "Thuranni",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "th4",
+      "type": "info",
+      "variant": "warning",
+      "content": "La Masacre de Paelion, en la que los Thuranni eliminaron a toda una familia dentro de Phiarlan, es considerada uno de los crímenes más graves en la historia de las Casas. Thuranni existe en una posición políticamente frágil."
+    },
+    {
+      "id": "th5",
+      "type": "related",
+      "items": [
+        { "label": "Casas Dragontinas", "slug": "eberron/casas/casas" },
+        { "label": "Casa Phiarlan", "slug": "eberron/casas/phiarlan" }
+      ]
+    }
+  ]
+}

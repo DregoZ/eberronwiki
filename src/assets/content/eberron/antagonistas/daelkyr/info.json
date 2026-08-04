@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/antagonistas/daelkyr",
+  "title": "Daelkyr y Cultos de la Locura",
+  "tags": ["Antagonistas", "Daelkyr", "Xoriat", "Cultos del Dragón Inferior"],
+  "aliases": ["Daelkyr", "Cultos del Dragón Inferior"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a0",
+      "type": "text",
+      "content": "Los señores de las aberraciones, entidades inmortales provenientes de [[eberron/planos/xoriat|Xoriat]] que fueron encerrados en el inframundo de Khyber hace milenios. Los daelkyr son los creadores de los contempladores, azotamentes y dolgarrs."
+    },
+    {
+      "id": "a1",
+      "type": "text",
+      "content": "No buscan conquistar el mundo, sino transformarlo en una obra de arte retorcida y demente. Influyen en los Cultos del Dragón Inferior, enloqueciendo a mortales para que abran los portales de sus prisiones. Su mera presencia altera la realidad y las leyes naturales."
+    },
+    {
+      "id": "a2",
+      "type": "image",
+      "src": "/assets/content/eberron/antagonistas/daelkyr/daelkyr.png",
+      "caption": "Daelkyr",
+      "title": "Daelkyr",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "a3",
+      "type": "related",
+      "items": [
+        { "label": "Orden de la Garra Esmeralda", "slug": "eberron/antagonistas/garra-esmeralda" },
+        { "label": "Señores del Polvo", "slug": "eberron/antagonistas/polvo" },
+        { "label": "Los Soñadores", "slug": "eberron/antagonistas/sonadores" },
+        { "label": "Daelkyr y Cultos de la Locura", "slug": "eberron/antagonistas/daelkyr" },
+        { "label": "Fideicomiso de Zilargo", "slug": "eberron/antagonistas/fideicomiso" },
+        { "label": "El Señor de los Filos", "slug": "eberron/antagonistas/filos" }
+      ]
+    }
+  ]
+}

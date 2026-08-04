@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/casas/ghallanda",
+  "title": "Casa Ghallanda",
+  "tags": ["Casa Dragontina", "Hospitalidad", "Hostelería", "Medianos"],
+  "aliases": ["Ghallanda", "Casa Ghallanda"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "g1",
+      "type": "quote",
+      "text": "Lo más cercano al hogar",
+      "author": "Lema de Casa Ghallanda"
+    },
+    {
+      "id": "g2",
+      "type": "text",
+      "content": "Los medianos de Ghallanda, poseen la Marca de la Hospitalidad y gestionan la red de tabernas y hoteles más grande de Khorvaire. Cualquier posada que lleve el sello del Gato Dorado garantiza comida sin veneno, camas sin chinches y, lo más importante, el derecho de santuario: nadie puede arrestarte o atacarte dentro de un establecimiento Ghallanda bajo leyes internacionales."
+    },
+    {
+      "id": "g3",
+      "type": "image",
+      "src": "/assets/content/eberron/casas/ghallanda/ghallanda.webp",
+      "caption": "Ghallanda",
+      "title": "Ghallanda",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "g4",
+      "type": "info",
+      "variant": "note",
+      "content": "La Marca de la Hospitalidad permite crear alimentos y agua, purificar sustancias y crear zonas de descanso mágico. Sus portadores más poderosos pueden crear refugios extradimensionales."
+    },
+    {
+      "id": "g5",
+      "type": "related",
+      "items": [
+        { "label": "Casas Dragontinas", "slug": "eberron/casas" },
+        { "label": "Historia de Eberron", "slug": "eberron/historia" }
+      ]
+    }
+  ]
+}

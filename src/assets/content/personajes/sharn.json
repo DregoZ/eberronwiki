@@ -1,0 +1,29 @@
+{
+  "$schema": "../schemas/page.schema.json",
+  "slug": "personajes/sharn",
+  "title": "Sharn, Ciudad de las Torres",
+  "tags": ["Sharn", "Ciudades", "Breland"],
+  "aliases": ["Sharn", "Ciudad de las Torres"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "s1",
+      "type": "text",
+      "content": "Sharn es la metrópoli más grande del continente de [[Eberron/Geografia/Khorvaire|Khorvaire]]. Construida sobre una zona de manifestación del plano de Syrania, sus rascacielos mágicos desafían la gravedad."
+    },
+    {
+      "id": "s2",
+      "type": "quote",
+      "text": "En Sharn, todo se puede comprar por el precio adecuado... incluso la justicia.",
+      "author": "Inquisitivo de las Torres"
+    },
+    {
+      "id": "s3",
+      "type": "related",
+      "items": [
+        { "label": "Lore de Eberron", "slug": "eberron" },
+        { "label": "Mapa de Khorvaire", "slug": "eberron/geografia/khorvaire" }
+      ]
+    }
+  ]
+}

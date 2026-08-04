@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/antagonistas/filos",
+  "title": "Señor de los Filos",
+  "tags": ["Antagonistas", "Señor de los Filos", "Tierras Enlutadas", "Forjados"],
+  "aliases": ["Señor de los Filos"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "f0",
+      "type": "text",
+      "content": " Un líder carismático, mesiánico y despiadado de los Forjados que ha establecido su base en las ruinas de las Tierras Enlutadas y que defiende el supremacismo de los Forjados"
+    },
+    {
+      "id": "f1",
+      "type": "text",
+      "content": "Considera que los forjados son seres superiores y que las razas de carne son débiles y opresoras. Está reuniendo a forjados fugitivos, veteranos amargados y constructos para reparar los talleres de creación destruidos y formar un ejército con el que exterminar a la humanidad de Khorvaire."
+    },
+    {
+      "id": "f2",
+      "type": "image",
+      "src": "/assets/content/eberron/antagonistas/filos/filos.png",
+      "caption": "Señor de los Filos",
+      "title": "Señor de los Filos",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "f3",
+      "type": "related",
+      "items": [
+        { "label": "Orden de la Garra Esmeralda", "slug": "eberron/antagonistas/garra-esmeralda" },
+        { "label": "Señores del Polvo", "slug": "eberron/antagonistas/polvo" },
+        { "label": "Los Soñadores", "slug": "eberron/antagonistas/sonadores" },
+        { "label": "Daelkyr y Cultos de la Locura", "slug": "eberron/antagonistas/daelkyr" },
+        { "label": "Fideicomiso de Zilargo", "slug": "eberron/antagonistas/fideicomiso" },
+        { "label": "El Señor de los Filos", "slug": "eberron/antagonistas/filos" }
+      ]
+    }
+  ]
+}

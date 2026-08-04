@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/casas/phiarlan",
+  "title": "Casa Phiarlan",
+  "tags": ["Casa Dragontina", "Sombra", "Espionaje", "Elfos"],
+  "aliases": ["Phiarlan", "Casa Phiarlan"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "p1",
+      "type": "quote",
+      "text": "El arte es el velo más elegante",
+      "author": "Adagio interno de Phiarlan"
+    },
+    {
+      "id": "p2",
+      "type": "image",
+      "src": "/assets/content/eberron/casas/phiarlan/phiarlan.webp",
+      "caption": "Phiarlan",
+      "title": "Phiarlan",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "p3",
+      "type": "text",
+      "content": "Casa Phiarlan, portadora de la Marca de la Sombra, combina dos actividades aparentemente opuestas: el entretenimiento artístico (teatro, música, danza) y el espionaje de alto nivel. Sus artistas son bienvenidos en todas las cortes; sus espías, temidos en todas partes. La ruptura con [[eberron/casas/thuranni|Casa Thuranni]] sigue siendo una herida abierta."
+    },
+    {
+      "id": "p4",
+      "type": "info",
+      "variant": "lore",
+      "content": "La Marca de la Sombra otorga ilusiones, invisibilidad, manipulación de sombras y capacidad para moverse sin ser percibido. Tanto Phiarlan como Thuranni comparten esta marca, lo que es único entre las casas."
+    },
+    {
+      "id": "p5",
+      "type": "related",
+      "items": [
+        { "label": "Casas Dragontinas", "slug": "eberron/casas/casas" },
+        { "label": "Casa Thuranni", "slug": "eberron/casas/thuranni" },
+        { "label": "Historia de Eberron", "slug": "eberron/historia" }
+      ]
+    }
+  ]
+}

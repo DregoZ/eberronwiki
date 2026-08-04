@@ -1,0 +1,47 @@
+{
+  "$schema": "../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire",
+  "title": "Continente de Khorvaire",
+  "tags": ["Khorvaire", "Mapa"],
+  "aliases": ["Khorvaire", "Mapa de Khorvaire"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "k1",
+      "type": "text",
+      "content": "Khorvaire es el corazón geopolítico del mundo y el escenario principal. Antaño fue un único y próspero imperio humano (el Reino de Galifar), pero tras la Última Guerra se fragmentó en un mosaico de naciones: potencias mágicas, reinos teocráticos, tierras salvajes y naciones de monstruos."
+    },
+    {
+      "id": "k12",
+      "type": "text",
+      "content": "Actualmente, Khorvaire atraviesa una tensa guerra fría. El Tratado de Tronofirme trajo una paz muy frágil, debido al temorr de que el cataclismo que destruyó Cyre (el Luto) se repitiese. El comercio fluye gracias al rayocarril, pero los espías llenan las tabernas, las naciones se rearman en secreto y los soldados veteranos intentan sobrevivir en unas calles que aún huelen a pólvora y magia bélica."
+    },
+    {
+      "id": "k2",
+      "type": "map",
+      "image": "assets/img/Map-of-Khorvaire.jpg",
+      "pins": [
+        {
+          "id": "pin-sharn",
+          "x": 45,
+          "y": 65,
+          "label": "Sharn, Ciudad de las Torres",
+          "linkSlug": "personajes/sharn"
+        },
+        {
+          "id": "pin-wroat",
+          "x": 50,
+          "y": 55,
+          "label": "Wroat",
+          "linkSlug": "eberron/historia"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "type": "info",
+      "variant": "warning",
+      "content": "Precaución: Las [[Tierras Enlutadas]] están cubiertas por una niebla muerta e inexplorada."
+    }
+  ]
+}
