@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/cinco-naciones",
-  "title": "Cinco Naciones",
+  "title": "Las Cinco Naciones",
   "tags": ["Khorvaire", "Cinco Naciones"],
   "aliases": ["Cinco Naciones"],
   "unlockCondition": null,
@@ -41,8 +41,8 @@
       "id": "a3",
       "type": "image",
       "src": "/assets/content/eberron/khorvaire/cinco-naciones/heraldica.png",
-      "caption": "Cinco Naciones",
-      "title": "Cinco Naciones",
+      "caption": "Las Cinco Naciones",
+      "title": "Las Cinco Naciones",
       "align": "center",
       "size": "full"
     },

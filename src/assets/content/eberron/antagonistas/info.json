@@ -2,8 +2,8 @@
   "$schema": "../../schemas/page.schema.json",
   "slug": "eberron/antagonistas",
   "title": "¡Muere, Villano!",
-  "tags": ["Continentes"],
-  "aliases": ["Mapamundi"],
+  "tags": ["Antagonistas"],
+  "aliases": ["Villanos"],
   "unlockCondition": null,
   "blocks": [
     {

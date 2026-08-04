@@ -4,20 +4,13 @@
     "id": "eberron-root",
     "label": "Eberron",
     "slug": "eberron",
-    "icon": "auto_stories",
+    "icon": "globe",
     "children": [
       {
         "id": "historia",
         "label": "Historia del Mundo",
         "slug": "eberron/historia",
         "icon": "history_edu"
-      },
-      {
-        "id": "khorvaire",
-        "label": "Khorvaire",
-        "slug": "eberron/khorvaire",
-        "icon": "map",
-        "children": []
       },
       {
         "id": "dragonmarked-casas",
@@ -41,11 +34,32 @@
         "children": []
       },
       {
+        "id": "khorvaire",
+        "label": "Khorvaire",
+        "slug": "eberron/khorvaire",
+        "icon": "map",
+        "children": []
+      },
+      {
         "id": "beyond-khorvaire",
         "label": "Más allá de Khorvaire",
         "slug": "eberron/mas-alla",
         "icon": "explore",
         "children": []
+      }
+    ]
+  },
+  {
+    "id": "khorvaire-root",
+    "label": "Khorvaire",
+    "slug": "khorvaire",
+    "icon": "auto_stories",
+    "children": [
+      {
+        "id": "cinco-naciones",
+        "label": "Las Cinco Naciones",
+        "slug": "eberron/khorvaire/cinco-naciones",
+        "icon": "map"
       }
     ]
   },
