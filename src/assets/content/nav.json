@@ -51,7 +51,7 @@
   },
   {
     "id": "personajes",
-    "label": "Personajes & Facciones",
+    "label": "[En obras] Personajes & Facciones",
     "slug": "personajes/sharn",
     "icon": "people",
     "children": [
