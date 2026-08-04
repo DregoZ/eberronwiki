@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/zilargo",
+  "title": "Zilargo",
+  "tags": ["Khorvaire", "Zilargo", "Gnomos", "Espionaje"],
+  "aliases": ["Zilargo"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": "Gnomos, Información y Veneno"
+    },
+    {
+      "id": "a2",
+      "type": "text",
+      "content": "Una nación hermosa, pacífica y tecnológicamente avanzada, habitada principalmente por gnomos. Es famosa por sus astilleros de barcos voladores y sus intrincados diseños de joyería. Sin embargo, tras la fachada de calles limpias y gnomos sonrientes, se esconde una estricta red de espionaje estatal dirigida por El Fideicomiso. En Zilargo no hay crímenes porque el gobierno sabe lo que vas a hacer antes de que lo pienses."
+    },
+
+    {
+      "id": "a3",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/zilargo/zilargo.png",
+      "caption": "Zilargo",
+      "title": "Zilargo",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "a4",
+      "type": "related",
+      "items": [
+        { "label": "Cinco Naciones", "slug": "eberron/khorvaire/cinco-naciones" },
+        { "label": "Aundair", "slug": "eberron/khorvaire/aundair" },
+        { "label": "Baluartes de Mror", "slug": "eberron/khorvaire/baluartes" },
+        { "label": "Breland", "slug": "eberron/khorvaire/breland" },
+        { "label": "Confines de Eldeen", "slug": "eberron/khorvaire/confines-eldeen" },
+        { "label": "Darguun", "slug": "eberron/khorvaire/darguun" },
+        { "label": "Droaam", "slug": "eberron/khorvaire/droaam" },
+        { "label": "Karrnath", "slug": "eberron/khorvaire/karrnath" },
+        { "label": "Llanuras de Talenta", "slug": "eberron/khorvaire/llanuras-talenta" },
+        { "label": "Las Marcas Sombrias", "slug": "eberron/khorvaire/marcas-sombrias" },
+        { "label": "Principados-Lhazaar", "slug": "eberron/khorvaire/principados-lhazaar" },
+        { "label": "Q'barra", "slug": "eberron/khorvaire/qbarra" },
+        { "label": "Thrane", "slug": "eberron/khorvaire/thrane" },
+        { "label": "Tierras Enlutadas", "slug": "eberron/khorvaire/tierras-enlutadas" },
+        { "label": "Valenar", "slug": "eberron/khorvaire/valenar" },
+        { "label": "Yermos Demoníacos", "slug": "eberron/khorvaire/yermos-demoniacos" },
+        { "label": "Zilargo", "slug": "eberron/khorvaire/zilargo" }
+      ]
+    }
+  ]
+}

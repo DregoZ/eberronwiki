@@ -14,12 +14,12 @@
     {
       "id": "k12",
       "type": "text",
-      "content": "Actualmente, Khorvaire atraviesa una tensa guerra fría. El Tratado de Tronofirme trajo una paz muy frágil, debido al temorr de que el cataclismo que destruyó Cyre (el Luto) se repitiese. El comercio fluye gracias al rayocarril, pero los espías llenan las tabernas, las naciones se rearman en secreto y los soldados veteranos intentan sobrevivir en unas calles que aún huelen a pólvora y magia bélica."
+      "content": "Actualmente, Khorvaire atraviesa una tensa guerra fría. El Tratado de Tronofirme trajo una paz muy frágil, debido al temorr de que el cataclismo que destruyó Cyre (el Luto) se repitiese. El comercio fluye gracias al rayocarril, pero los espías llenan las tabernas, las [[eberron/khorvaire/cinco-naciones|naciones]] se rearman en secreto y los soldados veteranos intentan sobrevivir en unas calles que aún huelen a pólvora y magia bélica."
     },
     {
       "id": "k2",
       "type": "map",
-      "image": "assets/img/Map-of-Khorvaire.jpg",
+      "image": "/assets/content/eberron/khorvaire/Map-of-Khorvaire.jpg",
       "pins": [
         {
           "id": "pin-sharn",
@@ -41,7 +41,30 @@
       "id": "k3",
       "type": "info",
       "variant": "warning",
-      "content": "Precaución: Las [[Tierras Enlutadas]] están cubiertas por una niebla muerta e inexplorada."
+      "content": "Precaución: Las [[eberron/khorvaire/tierras-enlutadas|Tierras Enlutadas]] están cubiertas por una niebla muerta e inexplorada."
+    },
+    {
+      "id": "k4",
+      "type": "related",
+      "items": [
+        { "label": "Cinco Naciones", "slug": "eberron/khorvaire/cinco-naciones" },
+        { "label": "Aundair", "slug": "eberron/khorvaire/aundair" },
+        { "label": "Baluartes de Mror", "slug": "eberron/khorvaire/baluartes" },
+        { "label": "Breland", "slug": "eberron/khorvaire/breland" },
+        { "label": "Confines de Eldeen", "slug": "eberron/khorvaire/confines-eldeen" },
+        { "label": "Darguun", "slug": "eberron/khorvaire/darguun" },
+        { "label": "Droaam", "slug": "eberron/khorvaire/droaam" },
+        { "label": "Karrnath", "slug": "eberron/khorvaire/karrnath" },
+        { "label": "Llanuras de Talenta", "slug": "eberron/khorvaire/llanuras-talenta" },
+        { "label": "Las Marcas Sombrias", "slug": "eberron/khorvaire/marcas-sombrias" },
+        { "label": "Principados-Lhazaar", "slug": "eberron/khorvaire/principados-lhazaar" },
+        { "label": "Q'barra", "slug": "eberron/khorvaire/qbarra" },
+        { "label": "Thrane", "slug": "eberron/khorvaire/thrane" },
+        { "label": "Tierras Enlutadas", "slug": "eberron/khorvaire/tierras-enlutadas" },
+        { "label": "Valenar", "slug": "eberron/khorvaire/valenar" },
+        { "label": "Yermos Demoníacos", "slug": "eberron/khorvaire/yermos-demoniacos" },
+        { "label": "Zilargo", "slug": "eberron/khorvaire/zilargo" }
+      ]
     }
   ]
 }
