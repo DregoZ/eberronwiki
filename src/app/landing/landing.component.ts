@@ -13,7 +13,7 @@ import { MatIconModule } from '@angular/material/icon';
       <div class="overlay"></div>
       <div class="hero-content">
         <mat-icon class="hero-icon">auto_stories</mat-icon>
-        <h1 class="hero-title">El Manifiesto de Convergencia</h1>
+        <h1 class="hero-title">El Manifiesto de Convergencia aqsdasdadasdasd</h1>
         <p class="hero-subtitle">¡Explora la historia de Khorvaire y los secretos de la campaña!</p>
 
         <div class="cta-actions">
