@@ -50,7 +50,7 @@
     "children": [
       {
         "id": "khorvaire",
-        "label": "Khorvaire",
+        "label": "Mapa del Continente",
         "slug": "eberron/khorvaire",
         "icon": "map"
       },
@@ -59,6 +59,12 @@
         "label": "Las Cinco Naciones",
         "slug": "eberron/khorvaire/cinco-naciones",
         "icon": "communities"
+      },
+      {
+        "id": "sharn",
+        "label": "Sharn",
+        "slug": "eberron/khorvaire/breland/sharn",
+        "icon": "chess_rook"
       }
     ]
   },

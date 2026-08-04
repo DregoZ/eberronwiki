@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/breland/sharn/distritos/central",
+  "title": "Distrito Central",
+  "tags": ["Sharn", "Central", "Distritos"],
+  "aliases": ["Distrito Central"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": "El núcleo administrativo y financiero de [[eberron/khorvaire/breland/sharn|Sharn]]. Arriba alberga los palacios de gobierno y embajadas; en el medio, comercios e industrias financieras; abajo, distritos residenciales empobrecidos."
+    },
+    {
+      "id": "a4",
+      "type": "related",
+      "items": [
+        {
+          "label": "Mapa de Sharn",
+          "slug": "eberron/khorvaire/breland/sharn/barrios"
+        },
+        {
+          "label": "Vía Celestial",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/via-celestial"
+        },
+        {
+          "label": "Central",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/central"
+        },
+        {
+          "label": "Dura",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/dura"
+        },
+        {
+          "label": "Menthis",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/menthis"
+        },
+        {
+          "label": "Desembarco de Tavick",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/tavick"
+        },
+        {
+          "label": "Noreste",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/noreste"
+        },
+        {
+          "label": "Acantilado",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/acantilado"
+        }
+      ]
+    }
+  ]
+}

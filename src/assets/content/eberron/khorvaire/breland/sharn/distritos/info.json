@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/breland/sharn/distritos",
+  "title": "Barrios de Sharn",
+  "tags": ["Sharn", "Barrios"],
+  "aliases": ["Sharn", "Vertical"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/sharn-horizontal.jpg",
+      "caption": "Barrios de Sharn",
+      "title": "Barrios de Sharn",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "a4",
+      "type": "related",
+      "items": [
+        {
+          "label": "Mapa de Sharn",
+          "slug": "eberron/khorvaire/breland/sharn/barrios"
+        },
+        {
+          "label": "Vía Celestial",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/via-celestial"
+        },
+        {
+          "label": "Central",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/central"
+        },
+        {
+          "label": "Dura",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/dura"
+        },
+        {
+          "label": "Menthis",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/menthis"
+        },
+        {
+          "label": "Desembarco de Tavick",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/tavick"
+        },
+        {
+          "label": "Noreste",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/noreste"
+        },
+        {
+          "label": "Acantilado",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/acantilado"
+        }
+      ]
+    }
+  ]
+}

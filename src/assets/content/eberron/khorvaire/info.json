@@ -1,7 +1,7 @@
 {
   "$schema": "../../schemas/page.schema.json",
   "slug": "eberron/khorvaire",
-  "title": "Continente de Khorvaire",
+  "title": "Khorvaire",
   "tags": ["Khorvaire", "Mapa"],
   "aliases": ["Khorvaire", "Mapa de Khorvaire"],
   "unlockCondition": null,

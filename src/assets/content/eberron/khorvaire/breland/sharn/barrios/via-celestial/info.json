@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/breland/sharn/barrios/via-celestial",
+  "title": "Vía Celestial",
+  "tags": ["Sharn", "Vía Celestial"],
+  "aliases": ["Sharn", "Ciudad de las torres", "Vía Celestial"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": "Un vecindario flotante suspendido sobre las nubes. Es un paraíso exclusivo para la realeza, los ultra ricos y los magnates de las [[eberron/casas|Casas Dragontinas]], completamente aislado de la suciedad de abajo."
+    },
+    {
+      "id": "a2",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/via-celestial/via-celestial.png",
+      "caption": "Vía Celestial",
+      "title": "Vía Celestial",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "a3",
+      "type": "related",
+      "items": [
+        {
+          "label": "Mapa de Sharn",
+          "slug": "eberron/khorvaire/breland/sharn/barrios"
+        },
+        {
+          "label": "Vía Celestial",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/via-celestial"
+        },
+        {
+          "label": "Barrios Altos",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-altos"
+        },
+        {
+          "label": "Barrios Medios",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-medios"
+        },
+        {
+          "label": "Barrios Bajos",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-bajos"
+        },
+        {
+          "label": "Los Engranajes",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/engranajes"
+        }
+      ]
+    }
+  ]
+}

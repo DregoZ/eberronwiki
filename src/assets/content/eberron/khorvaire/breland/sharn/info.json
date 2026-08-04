@@ -1,0 +1,99 @@
+{
+  "$schema": "../../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/breland/sharn",
+  "title": "Sharn, Ciudad de las Torres",
+  "tags": ["Sharn", "Torres", "Metrópolis"],
+  "aliases": ["Sharn", "Ciudad de las torres"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": "La ciudad de Sharn es el núcleo metropolitano de la nación de [[eberron/khorvaire/breland|Breland]] y uno de los principales centros urbanos de [[eberron/khorvaire|Khorvaire]]. Se trata de una gigantesca ciudad vertical construida sobre múltiples niveles y plataformas, conocida como la «Ciudad de las Torres» por sus innumerables rascacielos interconectados que se elevan cientos de metros sobre el suelo."
+    },
+    {
+      "id": "a11",
+      "type": "text",
+      "content": "Población: Cerca de 500,000 habitantes, compuesta principalmente por humanos, enanos, elfos, cambiantes, forjados y goblins."
+    },
+    {
+      "id": "a12",
+      "type": "text",
+      "content": "Gobierno: Dirigida formalmente por un Consejo de la Ciudad compuesto por 17 concejales que representan a los distintos barrios, junto a la figura del Señor Alcalde. Sin embargo, las verdaderas potencias económicas son las Casas Dragontinas y los sindicatos criminales como el Clan Boromar."
+    },
+    {
+      "id": "a13",
+      "type": "text",
+      "content": "Historia oculta: La Sharn actual se erige sobre las ruinas de Ja'shaarat, una antigua y masiva ciudad del Imperio goblin de Dhakaan, cuyos túneles subterráneos aún esconden peligros que conectan con Khyber, la infraoscuridad."
+    },
+    {
+      "id": "a3",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/breland/sharn/sharn.png",
+      "caption": "Sharn",
+      "title": "Sharn",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "a21",
+      "type": "text",
+      "content": "Sharn está construida sobre cinco grandes distritos ([[eberron/khorvaire/breland/sharn/distritos/central|Central]], [[eberron/khorvaire/breland/sharn/distritos/menthis|Menthis]], [[eberron/khorvaire/breland/sharn/distritos/noreste|Meseta de Noreste]], [[eberron/khorvaire/breland/sharn/distritos/dura|Dura]] y [[eberron/khorvaire/breland/sharn/distritos/tavick|Desembarco de Tavick]]) y se organiza de forma vertical en diferentes estratos o barrios que reflejan la división social."
+    },
+    {
+      "id": "a22",
+      "type": "text",
+      "content": "[[eberron/khorvaire/breland/sharn/barrios/via-celestial|Vía Celestial]]: Una zona flotante suspendida mágicamente sobre las torres más altas. Aquí residen los más ricos y la nobleza en un entorno lujoso y exclusivo."
+    },
+    {
+      "id": "a23",
+      "type": "text",
+      "content": "[[eberron/khorvaire/breland/sharn/barrios/barrios-altos|Barrios Altos]]: Distritos ricos iluminados por el sol. Alojan a la alta sociedad, embajadas, grandes academias como la Universidad de Morgrave y las sedes principales de las Casas con Marca del Dragón."
+    },
+    {
+      "id": "a24",
+      "type": "text",
+      "content": "[[eberron/khorvaire/breland/sharn/barrios/barrios-medios|Barrios Medios]]: El corazón de la clase media, repleto de comercios, mercados, tabernas y zonas residenciales confortables."
+    },
+    {
+      "id": "a25",
+      "type": "text",
+      "content": "[[eberron/khorvaire/breland/sharn/barrios/barrios-bajos|Barrios Bajos]]: Sectores oscuros y abarrotados donde apenas llega la luz solar debido a la sombra de las torres superiores. Es el hogar de la clase trabajadora, inmigrantes y los barrios marginales con alta criminalidad."
+    },
+    {
+      "id": "a26",
+      "type": "text",
+      "content": "[[eberron/khorvaire/breland/sharn/barrios/engranajes|Los Engranajes]]: Las profundidades industriales situadas bajo los cimientos de la ciudad. Albergan fundiciones, fábricas mágicas y pozos de lava que alimentan la infraestructura de Sharn."
+    },
+    {
+      "id": "a4",
+      "type": "related",
+      "items": [
+        {
+          "label": "Mapa de Sharn",
+          "slug": "eberron/khorvaire/breland/sharn/barrios"
+        },
+        {
+          "label": "Vía Celestial",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/via-celestial"
+        },
+        {
+          "label": "Barrios Altos",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-altos"
+        },
+        {
+          "label": "Barrios Medios",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-medios"
+        },
+        {
+          "label": "Barrios Bajos",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-bajos"
+        },
+        {
+          "label": "Los Engranajes",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/engranajes"
+        }
+      ]
+    }
+  ]
+}

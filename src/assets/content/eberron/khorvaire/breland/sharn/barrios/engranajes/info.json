@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/breland/sharn/barrios/engranajes",
+  "title": "Los Engranajes",
+  "tags": ["Sharn", "Los Engranajes"],
+  "aliases": ["Sharn", "Ciudad de las torres", "Los Engranajes"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": " El submundo industrial subterráneo. Aprovecha el calor de pozos de lava para alimentar fundiciones, talleres automáticos y fábricas textiles, poblado mayoritariamente por forjados y goblins."
+    },
+    {
+      "id": "a2",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/engranajes/engranajes.png",
+      "caption": "Los Engranajes",
+      "title": "Los Engranajes",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "a3",
+      "type": "related",
+      "items": [
+        {
+          "label": "Mapa de Sharn",
+          "slug": "eberron/khorvaire/breland/sharn/barrios"
+        },
+        {
+          "label": "Vía Celestial",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/via-celestial"
+        },
+        {
+          "label": "Barrios Altos",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-altos"
+        },
+        {
+          "label": "Barrios Medios",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-medios"
+        },
+        {
+          "label": "Barrios Bajos",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-bajos"
+        },
+        {
+          "label": "Los Engranajes",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/engranajes"
+        }
+      ]
+    }
+  ]
+}

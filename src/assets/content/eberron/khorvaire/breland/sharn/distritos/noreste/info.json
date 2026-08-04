@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/breland/sharn/distritos/noreste",
+  "title": "Distrito Noreste",
+  "tags": ["Sharn", "Noreste", "Distritos"],
+  "aliases": ["Distrito Noreste"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": "La zona residencial más tranquila y aristocrática. Arriba viven los patricios locales en entornos lujosos, mientras que los niveles medios y bajos albergan mercados institucionales, clínicas y viviendas modestas pero seguras."
+    },
+    {
+      "id": "a4",
+      "type": "related",
+      "items": [
+        {
+          "label": "Mapa de Sharn",
+          "slug": "eberron/khorvaire/breland/sharn/barrios"
+        },
+        {
+          "label": "Vía Celestial",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/via-celestial"
+        },
+        {
+          "label": "Central",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/central"
+        },
+        {
+          "label": "Dura",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/dura"
+        },
+        {
+          "label": "Menthis",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/menthis"
+        },
+        {
+          "label": "Desembarco de Tavick",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/tavick"
+        },
+        {
+          "label": "Noreste",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/noreste"
+        },
+        {
+          "label": "Acantilado",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/acantilado"
+        }
+      ]
+    }
+  ]
+}

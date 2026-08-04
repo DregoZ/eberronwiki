@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/breland/sharn/distritos/dura",
+  "title": "Distrito Dura",
+  "tags": ["Sharn", "Dura", "Distritos"],
+  "aliases": ["Distrito Dura"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": "La meseta más antigua, grande y pobre de la ciudad. Muy Dura es un barrio comercial, pero Medio Dura y Poco Dura están sumidos en la delincuencia. Las zonas portuarias de carga aérea están infestadas de contrabandistas y barrios marginales desatendidos."
+    },
+    {
+      "id": "a4",
+      "type": "related",
+      "items": [
+        {
+          "label": "Mapa de Sharn",
+          "slug": "eberron/khorvaire/breland/sharn/barrios"
+        },
+        {
+          "label": "Vía Celestial",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/via-celestial"
+        },
+        {
+          "label": "Central",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/central"
+        },
+        {
+          "label": "Dura",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/dura"
+        },
+        {
+          "label": "Menthis",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/menthis"
+        },
+        {
+          "label": "Desembarco de Tavick",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/tavick"
+        },
+        {
+          "label": "Noreste",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/noreste"
+        },
+        {
+          "label": "Acantilado",
+          "slug": "eberron/khorvaire/breland/sharn/distritos/acantilado"
+        }
+      ]
+    }
+  ]
+}
