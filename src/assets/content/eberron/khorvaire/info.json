@@ -41,7 +41,7 @@
       "id": "k3",
       "type": "info",
       "variant": "warning",
-      "content": "Precaución: Las [[eberron/khorvaire/tierras-enlutadas|Tierras Enlutadas]] están cubiertas por una niebla muerta e inexplorada."
+      "content": "Precaución: Las [[eberron/khorvaire/tierras-enlutadas|Tierras Enlutadas]] están cubiertas por niebla mágica, impredecible y en constante movimiento."
     },
     {
       "id": "k4",
@@ -57,7 +57,7 @@
         { "label": "Karrnath", "slug": "eberron/khorvaire/karrnath" },
         { "label": "Llanuras de Talenta", "slug": "eberron/khorvaire/llanuras-talenta" },
         { "label": "Las Marcas Sombrias", "slug": "eberron/khorvaire/marcas-sombrias" },
-        { "label": "Principados-Lhazaar", "slug": "eberron/khorvaire/principados-lhazaar" },
+        { "label": "Principados de Lhazaar", "slug": "eberron/khorvaire/principados-lhazaar" },
         { "label": "Q'barra", "slug": "eberron/khorvaire/qbarra" },
         { "label": "Thrane", "slug": "eberron/khorvaire/thrane" },
         { "label": "Tierras Enlutadas", "slug": "eberron/khorvaire/tierras-enlutadas" },

@@ -14,27 +14,27 @@
     {
       "id": "a2",
       "type": "text",
-      "content": "· Aundair: Conocida por su excelencia académica, agricultura y arcano-tecnología. Alberga grandes academias mágicas y es gobernada por una monarquía."
+      "content": "· [[eberron/khorvaire/aundair|Aundair]]: Conocida por su excelencia académica, agricultura y arcano-tecnología. Alberga grandes academias mágicas y es gobernada por una monarquía."
     },
     {
       "id": "a2",
       "type": "text",
-      "content": "· Breland: Cosmopolita, industrial y progresista. Destaca por albergar la gran metrópolis vertical de Sharn y es el hogar de muchas casas de Marcas del Dragón."
+      "content": "· [[eberron/khorvaire/breland|Breland]]: Cosmopolita, industrial y progresista. Destaca por albergar la gran metrópolis vertical de Sharn y es el hogar de muchas casas de Marcas del Dragón."
     },
     {
       "id": "a2",
       "type": "text",
-      "content": "· Cyre (Tierras Enlutadas): Antiguo centro cultural de Galifar. Fue devastada de forma catastrófica al final de la guerra, convirtiéndose en un yermo mágico y embrujado."
+      "content": "· [[eberron/khorvaire/tierras-enlutadas|Tierras Enlutadas (Cyre)]]: Antiguo centro cultural de Galifar. Fue devastada de forma catastrófica al final de la guerra, convirtiéndose en un yermo mágico y embrujado."
     },
     {
       "id": "a2",
       "type": "text",
-      "content": "· Karrnath: Una nación fría y militarista. Su sociedad se basa en la disciplina marcial y el honor, y es famosa por utilizar soldados y oficiales no-muertos."
+      "content": "· [[eberron/khorvaire/karrnath|Karrnath]]: Una nación fría y militarista. Su sociedad se basa en la disciplina marcial y el honor, y es famosa por utilizar soldados y oficiales no-muertos."
     },
     {
       "id": "a2",
       "type": "text",
-      "content": "· Thrane: La única teocracia de las cinco. Está gobernada por la iglesia de la Llama Plateada, una poderosa religión que busca purgar el mal en el mundo."
+      "content": "· [[eberron/khorvaire/thrane|Thrane]]: La única teocracia de las cinco. Está gobernada por la iglesia de la Llama Plateada, una poderosa religión que busca purgar el mal en el mundo."
     },
 
     {
@@ -60,7 +60,7 @@
         { "label": "Karrnath", "slug": "eberron/khorvaire/karrnath" },
         { "label": "Llanuras de Talenta", "slug": "eberron/khorvaire/llanuras-talenta" },
         { "label": "Las Marcas Sombrias", "slug": "eberron/khorvaire/marcas-sombrias" },
-        { "label": "Principados-Lhazaar", "slug": "eberron/khorvaire/principados-lhazaar" },
+        { "label": "Principados de Lhazaar", "slug": "eberron/khorvaire/principados-lhazaar" },
         { "label": "Q'barra", "slug": "eberron/khorvaire/qbarra" },
         { "label": "Thrane", "slug": "eberron/khorvaire/thrane" },
         { "label": "Tierras Enlutadas", "slug": "eberron/khorvaire/tierras-enlutadas" },

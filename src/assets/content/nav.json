@@ -34,13 +34,6 @@
         "children": []
       },
       {
-        "id": "khorvaire",
-        "label": "Khorvaire",
-        "slug": "eberron/khorvaire",
-        "icon": "map",
-        "children": []
-      },
-      {
         "id": "beyond-khorvaire",
         "label": "Más allá de Khorvaire",
         "slug": "eberron/mas-alla",
