@@ -26,10 +26,10 @@
       "content": "A medida que giran, estos planos se acercan o se alejan. Cuando un plano está en su punto más cercano, se dice que está Coterminal, y sus efectos se filtran al plano material (por ejemplo, si Risia está coterminal, los inviernos son brutales). Cuando está en su punto más lejano, está Remoto, y su magia es casi imposible de invocar."
     },
     {
-      "id": "p4",
+      "id": "p7",
       "type": "info",
       "variant": "lore",
-      "content": "[[eberron/planos/dal-quor|Dal Quor]] está permanentemente remoto desde que los gigantes destruyeron su conexión hace milenios; ya no se puede viajar físicamente allí, solo soñando."
+      "content": "Las zonas de manifestación son lugares donde las órbitas de los planos se han 'atascado' permanentemente con el plano material. La más famosa es [[sharn|Sharn]]: la ciudad está construida sobre una zona de manifestación de [[eberron/planos/syrania|Syrania]], lo que potencia enormemente la magia de levitación y permite que sus rascacielos de kilómetros de altura no se derrumben por la gravedad."
     },
     {
       "id": "p5",
@@ -41,10 +41,10 @@
       "size": "full"
     },
     {
-      "id": "p7",
+      "id": "p4",
       "type": "info",
       "variant": "lore",
-      "content": "Las zonas de manifestación son lugares donde las órbitas de los planos se han 'atascado' permanentemente con el plano material. La más famosa es [[sharn|Sharn]]: la ciudad está construida sobre una zona de manifestación de [[eberron/planos/syrania|Syrania]], lo que potencia enormemente la magia de levitación y permite que sus rascacielos de kilómetros de altura no se derrumben por la gravedad."
+      "content": "[[eberron/planos/dal-quor|Dal Quor]] está permanentemente remoto desde que los gigantes destruyeron su conexión hace milenios; ya no se puede viajar físicamente allí, solo soñando."
     },
     {
       "id": "p6",

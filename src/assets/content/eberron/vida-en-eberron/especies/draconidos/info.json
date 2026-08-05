@@ -1,6 +1,6 @@
 {
   "$schema": "../../../../schemas/page.schema.json",
-  "slug": "eberron/sociedad/especies/draconidos",
+  "slug": "eberron/vida-en-eberron/especies/draconidos",
   "title": "Dracónidos",
   "tags": ["Khorvaire", "Especies", "Dracónidos"],
   "aliases": ["Dracónidos"],
@@ -9,13 +9,13 @@
     {
       "id": "b1",
       "type": "text",
-      "title": "La bestia interior",
-      "content": "Llegaron desde el lejano Argonnessen, con la misión de proteger lo que hoy es Q'barra contra la amenaza de los Señores del Polvo. Con el tiempo acabaron enfrentándose al imperio Dhakaani y corrompidos por la influencia demoníaca de un antiguo Señor Supremo, con lo que su imperio se derrumbó. Desde entonces, viven recluídos en sus territorios, luchando contra la incesante corrupción."
+      "title": "La lucha eterna contra la corrupción",
+      "content": "Llegaron desde el lejano [[eberron/mas-alla/argonessen|Argonnessen]], con la misión de proteger lo que hoy es [[eberron/khorvaire/qbarra|Q'barra]] contra la amenaza de los [[eberron/antagonistas/senores-del-polvo|Señores del Polvo]]. Con el tiempo acabaron enfrentándose al [[eberron/historia/imperio-dhakaani|imperio Dhakaani]] y corrompidos por la influencia demoníaca de un antiguo [[eberron/antagonistas/senor-supremo|Señor Supremo]], con lo que su imperio se derrumbó. Desde entonces, viven recluídos en sus territorios, luchando contra la incesante corrupción."
     },
     {
       "id": "b4",
       "type": "image",
-      "src": "/assets/content/eberron/sociedad/especies/draconidos/draconidos.png",
+      "src": "/assets/content/eberron/vida-en-eberron/especies/draconidos/draconidos.png",
       "caption": "Dracónidos",
       "title": "Dracónidos",
       "align": "center",
@@ -25,22 +25,22 @@
       "id": "b5",
       "type": "related",
       "items": [
-        { "label": "Cambiantes", "slug": "eberron/sociedad/especies/cambiantes" },
-        { "label": "Dracónidos", "slug": "eberron/sociedad/especies/draconidos" },
-        { "label": "Enanos", "slug": "eberron/sociedad/especies/enanos" },
-        { "label": "Elfos", "slug": "eberron/sociedad/especies/elfos" },
-        { "label": "Forjados", "slug": "eberron/sociedad/especies/forjados" },
-        { "label": "Gnomos", "slug": "eberron/sociedad/especies/gnomos" },
-        { "label": "Kalashtar", "slug": "eberron/sociedad/especies/kalashtar" },
-        { "label": "Humanos", "slug": "eberron/sociedad/especies/humanos" },
-        { "label": "Khoravar", "slug": "eberron/sociedad/especies/khoravar" },
-        { "label": "Medianos", "slug": "eberron/sociedad/especies/medianos" },
-        { "label": "Monstruos", "slug": "eberron/sociedad/especies/monstruos" },
-        { "label": "Orcos", "slug": "eberron/sociedad/especies/orcos" },
-        { "label": "Replicantes", "slug": "eberron/sociedad/especies/replicantes" },
-        { "label": "Tiflin", "slug": "eberron/sociedad/especies/tiflin" },
-        { "label": "Trasgoides", "slug": "eberron/sociedad/especies/trasgoides" },
-        { "label": "Goliaths", "slug": "eberron/sociedad/especies/goliaths" }
+        { "label": "Cambiantes", "slug": "eberron/vida-en-eberron/especies/cambiantes" },
+        { "label": "Dracónidos", "slug": "eberron/vida-en-eberron/especies/draconidos" },
+        { "label": "Enanos", "slug": "eberron/vida-en-eberron/especies/enanos" },
+        { "label": "Elfos", "slug": "eberron/vida-en-eberron/especies/elfos" },
+        { "label": "Forjados", "slug": "eberron/vida-en-eberron/especies/forjados" },
+        { "label": "Gnomos", "slug": "eberron/vida-en-eberron/especies/gnomos" },
+        { "label": "Kalashtar", "slug": "eberron/vida-en-eberron/especies/kalashtar" },
+        { "label": "Humanos", "slug": "eberron/vida-en-eberron/especies/humanos" },
+        { "label": "Khoravar", "slug": "eberron/vida-en-eberron/especies/khoravar" },
+        { "label": "Medianos", "slug": "eberron/vida-en-eberron/especies/medianos" },
+        { "label": "Monstruos", "slug": "eberron/vida-en-eberron/especies/monstruos" },
+        { "label": "Orcos", "slug": "eberron/vida-en-eberron/especies/orcos" },
+        { "label": "Replicantes", "slug": "eberron/vida-en-eberron/especies/replicantes" },
+        { "label": "Tiflin", "slug": "eberron/vida-en-eberron/especies/tiflin" },
+        { "label": "Trasgoides", "slug": "eberron/vida-en-eberron/especies/trasgoides" },
+        { "label": "Goliaths", "slug": "eberron/vida-en-eberron/especies/goliaths" }
       ]
     }
   ]

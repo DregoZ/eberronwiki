@@ -1,6 +1,6 @@
 {
   "$schema": "../../../../schemas/page.schema.json",
-  "slug": "eberron/sociedad/especies/gnomos",
+  "slug": "eberron/vida-en-eberron/especies/gnomos",
   "title": "Gnomos",
   "tags": ["Khorvaire", "Especies", "Gnomos", "Zil"],
   "aliases": ["Gnomos", "Zil"],
@@ -10,7 +10,7 @@
       "id": "b1",
       "type": "text",
       "title": "Información, alquimia y el chantaje",
-      "content": "Los zil no son bromistas inocentes; son las mentes más peligrosas de la geopolítica. Su nación, Zilargo, es idílica porque está controlada por una red de espionaje impecable. Los gnomos adoran el conocimiento, la diplomacia, los secretos comerciales y el veneno sutil. Si un gnomo te sonríe, probablemente ya sabe cuánto oro tienes en el banco y a qué le tienes miedo."
+      "content": "Los zil no son bromistas inocentes; son las mentes más peligrosas de la geopolítica. Su nación, [[eberron/khorvaire/zilargo|Zilargo]], es idílica porque está controlada por una red de espionaje impecable. Los gnomos adoran el conocimiento, la diplomacia, los secretos comerciales y el veneno sutil. Si un gnomo te sonríe, probablemente ya sabe cuánto oro tienes en el banco y a qué le tienes miedo."
     },
     {
       "id": "b2",
@@ -21,7 +21,7 @@
     {
       "id": "b4",
       "type": "image",
-      "src": "/assets/content/eberron/sociedad/especies/gnomos/gnomos.png",
+      "src": "/assets/content/eberron/vida-en-eberron/especies/gnomos/gnomos.png",
       "caption": "Gnomos",
       "title": "Gnomos",
       "align": "center",
@@ -31,22 +31,22 @@
       "id": "b5",
       "type": "related",
       "items": [
-        { "label": "Cambiantes", "slug": "eberron/sociedad/especies/cambiantes" },
-        { "label": "Dracónidos", "slug": "eberron/sociedad/especies/draconidos" },
-        { "label": "Enanos", "slug": "eberron/sociedad/especies/enanos" },
-        { "label": "Elfos", "slug": "eberron/sociedad/especies/elfos" },
-        { "label": "Forjados", "slug": "eberron/sociedad/especies/forjados" },
-        { "label": "Gnomos", "slug": "eberron/sociedad/especies/gnomos" },
-        { "label": "Kalashtar", "slug": "eberron/sociedad/especies/kalashtar" },
-        { "label": "Humanos", "slug": "eberron/sociedad/especies/humanos" },
-        { "label": "Khoravar", "slug": "eberron/sociedad/especies/khoravar" },
-        { "label": "Medianos", "slug": "eberron/sociedad/especies/medianos" },
-        { "label": "Monstruos", "slug": "eberron/sociedad/especies/monstruos" },
-        { "label": "Orcos", "slug": "eberron/sociedad/especies/orcos" },
-        { "label": "Replicantes", "slug": "eberron/sociedad/especies/replicantes" },
-        { "label": "Tiflin", "slug": "eberron/sociedad/especies/tiflin" },
-        { "label": "Trasgoides", "slug": "eberron/sociedad/especies/trasgoides" },
-        { "label": "Goliaths", "slug": "eberron/sociedad/especies/goliaths" }
+        { "label": "Cambiantes", "slug": "eberron/vida-en-eberron/especies/cambiantes" },
+        { "label": "Dracónidos", "slug": "eberron/vida-en-eberron/especies/draconidos" },
+        { "label": "Enanos", "slug": "eberron/vida-en-eberron/especies/enanos" },
+        { "label": "Elfos", "slug": "eberron/vida-en-eberron/especies/elfos" },
+        { "label": "Forjados", "slug": "eberron/vida-en-eberron/especies/forjados" },
+        { "label": "Gnomos", "slug": "eberron/vida-en-eberron/especies/gnomos" },
+        { "label": "Kalashtar", "slug": "eberron/vida-en-eberron/especies/kalashtar" },
+        { "label": "Humanos", "slug": "eberron/vida-en-eberron/especies/humanos" },
+        { "label": "Khoravar", "slug": "eberron/vida-en-eberron/especies/khoravar" },
+        { "label": "Medianos", "slug": "eberron/vida-en-eberron/especies/medianos" },
+        { "label": "Monstruos", "slug": "eberron/vida-en-eberron/especies/monstruos" },
+        { "label": "Orcos", "slug": "eberron/vida-en-eberron/especies/orcos" },
+        { "label": "Replicantes", "slug": "eberron/vida-en-eberron/especies/replicantes" },
+        { "label": "Tiflin", "slug": "eberron/vida-en-eberron/especies/tiflin" },
+        { "label": "Trasgoides", "slug": "eberron/vida-en-eberron/especies/trasgoides" },
+        { "label": "Goliaths", "slug": "eberron/vida-en-eberron/especies/goliaths" }
       ]
     }
   ]

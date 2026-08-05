@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/breland/sharn/puntos-de-interes/la-cumbre",
+  "title": "La Cumbre",
+  "tags": ["Sharn", "La Cumbre", "Aventureros"],
+  "aliases": ["La Cumbre", "Clifftop"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a0",
+      "type": "text",
+      "content": [
+        "**Barrio de aventureros**",
+        "**Clase Social**: Clase Baja",
+        "**Servicios**: Santuarios (Llama Plateada, La Hueste, Dol Dorn, Dol Arrah, Olladra), alojamiento y comida, comercios, residencias y servicios varios",
+        "**Primera impresión**: Las torres de este distrito son de granito gris monótono, pero las multitudes que llenan las calles son bastante coloridas. Se puede ver a personas de todas las razas y culturas. Un mago anudairo compara notas con un monje kalashtar a la sombra de una taberna, mientras que al otro lado de la calle un corsario de Lhazaar y un elfo Valenar comparan espadas. La Cumbre es un barrio bastante sucio, pero atrae a una multitud interesante.",
+        "Este distrito atrae a aquellos dispuestos a dedicar espada, hechizos o habilidades a esfuerzos arriesgados pero rentables. Cualquiera que busque un guardaespaldas discreto, un mercenario o un guía de Xen’drik puede encontrar lo que necesita en La Cumbre. Los aventureros que buscan un cliente pueden encontrar uno aquí.",
+        "La Cumbre es una curiosa mezcla de riqueza y pobreza. La mayoría de los negocios en el distrito son útiles, pero no excepcionales, que satisfacen las necesidades del aventurero que rara vez tiene más de unas pocas piezas de oro en su bolso. También proporciona servicios para el afortunado explorador o corsario que ha regresado a casa con oro de sobra, con tiendas que venden varitas usadas y viejas armas de artesano mágico, y otros productos exóticos fácilmente disponibles.",
+        "El distrito ofrece una serie de servicios que los aventureros pueden encontrar útiles. Una amplia variedad de asalariados se pueden encontrar aquí, y todos ellos están acostumbrados a soportar las extrañas demandas de los aventureros. Del mismo modo, hay un número considerable de abogados y defensores en el distrito, acostumbrados a lidiar con los problemas de los aventureros con la ley.",
+        "Las casas de empeños de La Cumbre ofrecen un 45% de valor para casi cualquier tipo de bienes, excepto aquellos que son obviamente robados; las cercas que se ocupan de bienes robados deben encontrarse en los niveles más bajos de Dura."
+      ]
+    },
+    {
+      "id": "a1",
+      "type": "text",
+      "title": "El Gremio de La Cumbre",
+      "content": [
+        "El Gremio de La Cumbre es una organización fundada en la ciudad de Sharn. El gremio actúa como punto de encuentro y registro de aventureros profesionales. Es una de las asociaciones más conocidas de Eberron, simbolizando el auge del heroísmo mercenario en una era de posguerra.",
+        "Surge tras la Última Guerra, cuando muchos veteranos y exploradores buscan nuevas oportunidades. El gremio canaliza ese talento hacia misiones comerciales y heroicas, desde la exploración de ruinas antiguas hasta la defensa contra amenazas extraplanares. Su sede, ubicada en el barrio Muy Dura, sirve de taberna, oficina de contratación y centro social.",
+        "El gremio tiene fama de acoger aventureros audaces y poco ortodoxos. Se le percibe como más idealista y cooperativa que su contraparte de Puerta de la Muerte, que prioriza la eficiencia y el beneficio. Los miembros de La Cumbre suelen compartir un código de camaradería y honor, aunque las rivalidades internas y los roces con otras organizaciones son comunes."
+      ]
+    },
+    {
+      "id": "a1",
+      "type": "text",
+      "title": "El Dragón Borracho",
+      "content": [
+        "Situada en una esquina muy transitada de La Cumbre, El **Dragón Borracho** es una taberna modesta cuya reputación se sostiene sobre un único mérito: sirve algunas de las mejores [[eberron/vida-en-eberron/gastronomia|cervezas y licores]] de la zona. La comida, en cambio, deja bastante que desear; el guiso del día cambia poco y los parroquianos suelen bromear con que el verdadero condimento es el hambre.",
+        "El local atrae a aventureros, mercenarios y miembros de gremios cercanos que buscan terminar la jornada con una buena jarra entre manos. El ambiente suele ser animado, con mesas repletas de dados, relatos exagerados y músicos que improvisan cuando la clientela está de humor. Es el tipo de lugar donde es fácil encontrar un compañero de expedición... o meterse en una pelea entre pinta y pinta."
+      ]
+    }
+  ]
+}

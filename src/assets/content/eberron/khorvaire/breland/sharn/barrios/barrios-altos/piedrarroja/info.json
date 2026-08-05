@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/breland/sharn/puntos-de-interes/piedrarroja",
+  "title": "Piedrarroja",
+  "tags": ["Sharn", "Piedrarroja", "Mercado"],
+  "aliases": ["Piedrarroja"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a0",
+      "type": "text",
+      "content": [
+        "**Clase Social**: Clase Media",
+        "**Tipo de distrito**: Comercial",
+        "**Ubicación**: Sharn, Muy Dura",
+        "**Servicios**: Templo (Kol Korran), Santuarios (Olladra, Onatar), alojamiento y comida, comercios de todo tipo y artesanía.",
+        "Hermosas torres de mármol rojo y granito llenos de varias tiendas y artesanos ofrecen una variedad aparentemente infinita de productos. Las calles colgantes de ladrillo están llenas de clientes de fresado y la desafortunada mendicidad ocasional de cobre y plata.",
+        "Uno de los distritos más nuevos, Piedrarroja tiene menos de doscientos años y muchos de los respetables artesanos del Bazar de Medio Dura se han mudado aquí en los últimos años. Los arquitectos quisieron eliminar la percepcion negativa de Dura, y la piedra es hermosa. Gran parte de la arquitectura fue elaborada con mármol rojo de la Cantera Rosa, en Darguun. Una vez fue un próspero proveedor de Cyre y ahora se encuentra en ruinas. El resto de las torres están construídas con granito rojo y ladrillo. La gran cantidad de variaciones sutiles en la construcción hace que las torres presenten una atractiva vista, especialmente a la luz del sol poniente.",
+        "Piedrarroja se ha convertido en uno de los centros de comercio más grandes de la ciudad. Casi cualquier tipo de comercio honesto se puede encontrar aquí, desde panaderos hasta fabricantes de pelucas. Hay dos bancos en Piedrarroja, incluyendo un enclave de Kundarak y el más modesto Banco Lorreano, una empresa familiar perteneciente a una de las sesenta grandes familias de Sharn. El distrito también contiene centros de trabajo que abastecen a los distritos cercanos, incluyendo una fábrica de vidrio y una fábrica textil."
+      ]
+    },
+    {
+      "id": "a1",
+      "type": "text",
+      "title": "Alijo del Dragón (Tienda)",
+      "content": [
+        "Alijo del Dragón es una bulliciosa tienda de equipo de aventurero ubicada en el corazón de Piedrarroja, el vibrante distrito comercial de Muy Dura. Regentada por Korman, un veterano enano con conexiones en el mercado negro, el establecimiento destaca entre las altas torres por su característico letrero de madera quemada que muestra la silueta de un dragón custodiando un cofre.",
+        "Es el primer y último punto de parada para los mercenarios y expedicionarios que se preparan para descender a los niveles inferiores de la ciudad o para embarcarse hacia las tierras salvajes de Xen'drik. El interior de la tienda es un laberinto organizado de estanterías repletas de material de primera calidad: desde cuerdas de seda de Valenar y raciones de viaje compactas, hasta herramientas de ladrón reforzadas, antorchas eternas y mochilas con compartimentos secretos.",
+        "Aunque los precios están estrictamente regulados por las tarifas estándar del gremio, los clientes habituales saben que, bajo una buena negociación y unas monedas de oro extra, el dueño puede sacar del almacén trasero mapas antiguos de la Universidad de Morgrave, pociones de procedencia dudosa o componentes de conjuro exóticos difíciles de conseguir legalmente en el norte de la ciudad.",
+        "***Como miembros del Gremio La Cumbre, tenéis un 5% de descuento en las compras en esta tienda.***"
+      ]
+    },
+    {
+      "id": "a2",
+      "type": "text",
+      "title": "Florentino's (Tienda)",
+      "content": [
+        "Escondida entre los abarrotados callejones del Bazar de Muy Dura, Florentino's es una pequeña tienda cuyo intenso aroma a flores secas, especias y aceites esenciales delata su presencia mucho antes de verla. Estanterías repletas de frascos de cristal, ramilletes colgados del techo y cajones cuidadosamente etiquetados convierten el local en un auténtico santuario para botánicos, alquimistas y curanderos.",
+        "Su excéntrico propietario, el mediano Florentino, presume de conocer la flora de todos los rincones de Khorvaire y rara vez desaprovecha la ocasión para explicar el origen de cualquiera de sus especímenes. Entre sus existencias pueden encontrarse desde hierbas medicinales y componentes habituales para alquimia hasta flores cultivadas en zonas de manifestación planar o plantas imbuidas de una sutil magia natural. Aunque los ejemplares más extraordinarios suelen estar reservados para clientes de confianza, los aventureros con una buena bolsa de soberanos o una buena historia que contar, siempre son bien recibidos."
+      ]
+    }
+  ]
+}

@@ -300,12 +300,12 @@ export class MapBlockComponent implements AfterViewInit, OnDestroy {
           marker.on('click', () => {
             this.router.navigateByUrl('/wiki/' + pin.linkSlug);
           });
-        // Click on map to get coordinates as percentages of the image dimensions
-        this.map!.on('click', (e: L.LeafletMouseEvent) => {
-          const x = (e.latlng.lng / normW) * 100;
-          const y = ((normH - e.latlng.lat) / normH) * 100;
-          console.log('Map click coordinates (percent):', { x: x.toFixed(1), y: y.toFixed(1) });
-        });
+          // Click on map to get coordinates as percentages of the image dimensions
+          this.map!.on('click', (e: L.LeafletMouseEvent) => {
+            const x = (e.latlng.lng / normW) * 100;
+            const y = ((normH - e.latlng.lat) / normH) * 100;
+            console.log('Map click coordinates (percent):', { x: x.toFixed(1), y: y.toFixed(1) });
+          });
         }
       });
     };

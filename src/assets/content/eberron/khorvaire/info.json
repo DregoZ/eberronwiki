@@ -22,11 +22,138 @@
       "image": "/assets/content/eberron/khorvaire/Map-of-Khorvaire.jpg",
       "pins": [
         {
+          "id": "pin-aundair",
+          "x": 38,
+          "y": 46.2,
+          "label": "Aundair",
+          "linkSlug": "eberron/khorvaire/aundair"
+        },
+        {
+          "id": "pin-baluartes",
+          "x": 77.1,
+          "y": 39.0,
+          "label": "Baluartes de Mror",
+          "linkSlug": "eberron/khorvaire/baluartes"
+        },
+        {
+          "id": "pin-breland",
+          "x": 35.7,
+          "y": 70.3,
+          "label": "Breland",
+          "linkSlug": "eberron/khorvaire/breland"
+        },
+        {
+          "id": "pin-confines-de-eldeen",
+          "x": 26.5,
+          "y": 43.0,
+          "label": "Confines de Eldeen",
+          "linkSlug": "eberron/khorvaire/confines-eldeen"
+        },
+        {
+          "id": "pin-darguun",
+          "x": 46.7,
+          "y": 77.6,
+          "label": "Darguun",
+          "linkSlug": "eberron/khorvaire/darguun"
+        },
+        {
+          "id": "pin-drooam",
+          "x": 19.4,
+          "y": 65.2,
+          "label": "Drooam",
+          "linkSlug": "eberron/khorvaire/drooam"
+        },
+        {
+          "id": "pin-karrnath",
+          "x": 63.7,
+          "y": 37.6,
+          "label": "Karrnath",
+          "linkSlug": "eberron/khorvaire/karrnath"
+        },
+        {
+          "id": "pin-marcas-sombrias",
+          "x": 9.4,
+          "y": 53.5,
+          "label": "Marcas Sombrías",
+          "linkSlug": "eberron/khorvaire/marcas-sombrias"
+        },
+        {
+          "id": "pin-principados-de-lhazaar",
+          "x": 92.2,
+          "y": 43.4,
+          "label": "Principados de Lhazaar",
+          "linkSlug": "eberron/khorvaire/principados-lhazaar"
+        },
+        {
+          "id": "pin-qbarra",
+          "x": 81.5,
+          "y": 67.1,
+          "label": "Q'barra",
+          "linkSlug": "eberron/khorvaire/qbarra"
+        },
+        {
+          "id": "pin-thrane",
+          "x": 46.2,
+          "y": 52.0,
+          "label": "Thrane",
+          "linkSlug": "eberron/khorvaire/thrane"
+        },
+        {
+          "id": "pin-talenta",
+          "x": 72.6,
+          "y": 56.2,
+          "label": "Llanuras de Talenta",
+          "linkSlug": "eberron/khorvaire/llanuras-talenta"
+        },
+        {
+          "id": "pin-tierras-enlutadas",
+          "x": 57.2,
+          "y": 66.2,
+          "label": "Tierras Enlutadas",
+          "linkSlug": "eberron/khorvaire/tierras-enlutadas"
+        },
+        {
+          "id": "pin-tronofirme",
+          "x": 52.0,
+          "y": 45.6,
+          "label": "Tronofirme",
+          "linkSlug": "eberron/khorvaire/tronofirme"
+        },
+        {
+          "id": "pin-valenar",
+          "x": 69.6,
+          "y": 72.9,
+          "label": "Valenar",
+          "linkSlug": "eberron/khorvaire/valenar"
+        },
+        {
+          "id": "pin-yermos-demoniacos",
+          "x": 25.2,
+          "y": 27.3,
+          "label": "Yermos Demoníacos",
+          "linkSlug": "eberron/khorvaire/yermos-demoniacos"
+        },
+        {
+          "id": "pin-zilargo",
+          "x": 38.4,
+          "y": 86.4,
+          "label": "Zilargo",
+          "linkSlug": "eberron/khorvaire/zilargo"
+        },
+        {
           "id": "pin-sharn",
-          "x": 22.8,
-          "y": 89.5,
+          "x": 22.5,
+          "y": 89.1,
           "label": "Sharn, Ciudad de las Torres",
           "linkSlug": "eberron/khorvaire/breland/sharn"
+        },
+        {
+          "id": "pin-montanas-murogris",
+          "x": 20.4,
+          "y": 75.3,
+          "icon": "signpost",
+          "label": "Montañas Murogrís",
+          "linkSlug": "eberron/khorvaire/montanas-murogris"
         }
       ]
     },

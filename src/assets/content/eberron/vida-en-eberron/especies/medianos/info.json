@@ -1,6 +1,6 @@
 {
   "$schema": "../../../../schemas/page.schema.json",
-  "slug": "eberron/sociedad/especies/medianos",
+  "slug": "eberron/vida-en-eberron/especies/medianos",
   "title": "Medianos",
   "tags": ["Khorvaire", "Especies", "Medianos"],
   "aliases": ["Medianos"],
@@ -10,7 +10,7 @@
       "id": "b1",
       "type": "text",
       "title": "Nómadas espirituales o mafiosos implacables",
-      "content": "Se dividen en dos mundos: los de las Llanuras de Talenta, que son nómadas salvajes, visten máscaras espirituales y cazan montados a lomos de dinosaurios; y los urbanos, que se han adaptado perfectamente a las ciudades de Khorvaire, controlando los gremios de la sanación (Casa Jorasco) y la hostelería (Casa Ghallanda) e incluso el crimen organizado (el clan Boromar). Un mediano urbano puede ser el gerente de un hotel de lujo, pero su primo en las llanuras te rastreará con un dinosaurio."
+      "content": "Se dividen en dos mundos: los de las [[eberron/khorvaire/llanuras-talenta|Llanuras de Talenta]], que son nómadas salvajes, visten máscaras espirituales y cazan montados a lomos de dinosaurios; y los urbanos, que se han adaptado perfectamente a las ciudades de Khorvaire, controlando los gremios de la sanación ([[eberron/casas/jorasco|Casa Jorasco]]) y la hostelería ([[eberron/casas/ghallanda|Casa Ghallanda]]) e incluso el crimen organizado (el clan [[Boromar]]). Un mediano urbano puede ser el gerente de un hotel de lujo, pero su primo en las llanuras te rastreará con un dinosaurio."
     },
     {
       "id": "b2",
@@ -21,7 +21,7 @@
     {
       "id": "b4",
       "type": "image",
-      "src": "/assets/content/eberron/sociedad/especies/medianos/medianos.png",
+      "src": "/assets/content/eberron/vida-en-eberron/especies/medianos/medianos.png",
       "caption": "Medianos",
       "title": "Medianos",
       "align": "center",
@@ -31,22 +31,22 @@
       "id": "b5",
       "type": "related",
       "items": [
-        { "label": "Cambiantes", "slug": "eberron/sociedad/especies/cambiantes" },
-        { "label": "Dracónidos", "slug": "eberron/sociedad/especies/draconidos" },
-        { "label": "Enanos", "slug": "eberron/sociedad/especies/enanos" },
-        { "label": "Elfos", "slug": "eberron/sociedad/especies/elfos" },
-        { "label": "Forjados", "slug": "eberron/sociedad/especies/forjados" },
-        { "label": "Gnomos", "slug": "eberron/sociedad/especies/gnomos" },
-        { "label": "Kalashtar", "slug": "eberron/sociedad/especies/kalashtar" },
-        { "label": "Humanos", "slug": "eberron/sociedad/especies/humanos" },
-        { "label": "Khoravar", "slug": "eberron/sociedad/especies/khoravar" },
-        { "label": "Medianos", "slug": "eberron/sociedad/especies/medianos" },
-        { "label": "Monstruos", "slug": "eberron/sociedad/especies/monstruos" },
-        { "label": "Orcos", "slug": "eberron/sociedad/especies/orcos" },
-        { "label": "Replicantes", "slug": "eberron/sociedad/especies/replicantes" },
-        { "label": "Tiflin", "slug": "eberron/sociedad/especies/tiflin" },
-        { "label": "Trasgoides", "slug": "eberron/sociedad/especies/trasgoides" },
-        { "label": "Goliaths", "slug": "eberron/sociedad/especies/goliaths" }
+        { "label": "Cambiantes", "slug": "eberron/vida-en-eberron/especies/cambiantes" },
+        { "label": "Dracónidos", "slug": "eberron/vida-en-eberron/especies/draconidos" },
+        { "label": "Enanos", "slug": "eberron/vida-en-eberron/especies/enanos" },
+        { "label": "Elfos", "slug": "eberron/vida-en-eberron/especies/elfos" },
+        { "label": "Forjados", "slug": "eberron/vida-en-eberron/especies/forjados" },
+        { "label": "Gnomos", "slug": "eberron/vida-en-eberron/especies/gnomos" },
+        { "label": "Kalashtar", "slug": "eberron/vida-en-eberron/especies/kalashtar" },
+        { "label": "Humanos", "slug": "eberron/vida-en-eberron/especies/humanos" },
+        { "label": "Khoravar", "slug": "eberron/vida-en-eberron/especies/khoravar" },
+        { "label": "Medianos", "slug": "eberron/vida-en-eberron/especies/medianos" },
+        { "label": "Monstruos", "slug": "eberron/vida-en-eberron/especies/monstruos" },
+        { "label": "Orcos", "slug": "eberron/vida-en-eberron/especies/orcos" },
+        { "label": "Replicantes", "slug": "eberron/vida-en-eberron/especies/replicantes" },
+        { "label": "Tiflin", "slug": "eberron/vida-en-eberron/especies/tiflin" },
+        { "label": "Trasgoides", "slug": "eberron/vida-en-eberron/especies/trasgoides" },
+        { "label": "Goliaths", "slug": "eberron/vida-en-eberron/especies/goliaths" }
       ]
     }
   ]

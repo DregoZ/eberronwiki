@@ -1,6 +1,6 @@
 {
   "$schema": "../../../../schemas/page.schema.json",
-  "slug": "eberron/sociedad/especies/enanos",
+  "slug": "eberron/vida-en-eberron/especies/enanos",
   "title": "Enanos",
   "tags": ["Khorvaire", "Especies", "Enanos"],
   "aliases": ["Enanos"],
@@ -10,12 +10,12 @@
       "id": "b1",
       "type": "text",
       "title": "Banqueros, Mineros y Señores de la Guerra",
-      "content": "Originarios de las Montañas de la Piedra de Hierro, las leyendas cuentan que los enanos llegaron a Khorvaire desde La Friage, o quizá desde el plano helado de Risia, pero eso el algo que no suele importarles. Cuando su reino subterráneo fue destruído por los Daelkyr, los exiliados se esparcieron por todo Khorvaire, pero unos pocos llaman hogar a los Baluartes de Mror."
+      "content": "Originarios de las Montañas Piedra de Hierro, las leyendas cuentan que los enanos llegaron a Khorvaire desde [[eberron/mas-alla/la-friage|La Friage]], o quizá desde el plano helado de [[eberron/planos/risia|Risia]], pero eso el algo que no suele importarles. Cuando su reino subterráneo fue destruído por los [[eberron/antagonistas/daelkyr|Daelkyr]], los exiliados se esparcieron por todo Khorvaire, pero unos pocos llaman hogar a los [[eberron/khorvaire/baluartes|Baluartes de Mror]]."
     },
     {
       "id": "b2",
       "type": "text",
-      "content": "Aunque siguen siendo maestros de la minería y la forja, en Eberron son los amos de las finanzas mundiales. Visten con ropas lujosas, anillos de oro y llevan el control de los bancos a través de la Casa Kundarak. Sin embargo, bajo sus montañas, libran una guerra brutal y claustrofóbica contra las aberraciones del Reino de la Locura (Xoriat)."
+      "content": "Aunque siguen siendo maestros de la minería y la forja, en Eberron son los amos de las finanzas mundiales. Visten con ropas lujosas, anillos de oro y llevan el control de los bancos a través de la [[eberron/casas/kundarak|Casa Kundarak]]. Sin embargo, bajo sus montañas, libran una guerra brutal y claustrofóbica contra las aberraciones del [[eberron/planos/xoriat|Reino de la Locura]]."
     },
     {
       "id": "b3",
@@ -26,7 +26,7 @@
     {
       "id": "b4",
       "type": "image",
-      "src": "/assets/content/eberron/sociedad/especies/enanos/enanos.png",
+      "src": "/assets/content/eberron/vida-en-eberron/especies/enanos/enanos.png",
       "caption": "Enanos",
       "title": "Enanos",
       "align": "center",
@@ -36,22 +36,22 @@
       "id": "b5",
       "type": "related",
       "items": [
-        { "label": "Cambiantes", "slug": "eberron/sociedad/especies/cambiantes" },
-        { "label": "Dracónidos", "slug": "eberron/sociedad/especies/draconidos" },
-        { "label": "Enanos", "slug": "eberron/sociedad/especies/enanos" },
-        { "label": "Elfos", "slug": "eberron/sociedad/especies/elfos" },
-        { "label": "Forjados", "slug": "eberron/sociedad/especies/forjados" },
-        { "label": "Gnomos", "slug": "eberron/sociedad/especies/gnomos" },
-        { "label": "Kalashtar", "slug": "eberron/sociedad/especies/kalashtar" },
-        { "label": "Humanos", "slug": "eberron/sociedad/especies/humanos" },
-        { "label": "Khoravar", "slug": "eberron/sociedad/especies/khoravar" },
-        { "label": "Medianos", "slug": "eberron/sociedad/especies/medianos" },
-        { "label": "Monstruos", "slug": "eberron/sociedad/especies/monstruos" },
-        { "label": "Orcos", "slug": "eberron/sociedad/especies/orcos" },
-        { "label": "Replicantes", "slug": "eberron/sociedad/especies/replicantes" },
-        { "label": "Tiflin", "slug": "eberron/sociedad/especies/tiflin" },
-        { "label": "Trasgoides", "slug": "eberron/sociedad/especies/trasgoides" },
-        { "label": "Goliaths", "slug": "eberron/sociedad/especies/goliaths" }
+        { "label": "Cambiantes", "slug": "eberron/vida-en-eberron/especies/cambiantes" },
+        { "label": "Dracónidos", "slug": "eberron/vida-en-eberron/especies/draconidos" },
+        { "label": "Enanos", "slug": "eberron/vida-en-eberron/especies/enanos" },
+        { "label": "Elfos", "slug": "eberron/vida-en-eberron/especies/elfos" },
+        { "label": "Forjados", "slug": "eberron/vida-en-eberron/especies/forjados" },
+        { "label": "Gnomos", "slug": "eberron/vida-en-eberron/especies/gnomos" },
+        { "label": "Kalashtar", "slug": "eberron/vida-en-eberron/especies/kalashtar" },
+        { "label": "Humanos", "slug": "eberron/vida-en-eberron/especies/humanos" },
+        { "label": "Khoravar", "slug": "eberron/vida-en-eberron/especies/khoravar" },
+        { "label": "Medianos", "slug": "eberron/vida-en-eberron/especies/medianos" },
+        { "label": "Monstruos", "slug": "eberron/vida-en-eberron/especies/monstruos" },
+        { "label": "Orcos", "slug": "eberron/vida-en-eberron/especies/orcos" },
+        { "label": "Replicantes", "slug": "eberron/vida-en-eberron/especies/replicantes" },
+        { "label": "Tiflin", "slug": "eberron/vida-en-eberron/especies/tiflin" },
+        { "label": "Trasgoides", "slug": "eberron/vida-en-eberron/especies/trasgoides" },
+        { "label": "Goliaths", "slug": "eberron/vida-en-eberron/especies/goliaths" }
       ]
     }
   ]

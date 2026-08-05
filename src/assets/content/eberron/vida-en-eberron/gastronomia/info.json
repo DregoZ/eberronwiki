@@ -17,7 +17,7 @@
       "id": "b4",
       "type": "image",
       "src": "/assets/content/eberron/vida-en-eberron/gastronomia/gastronomia.webp",
-      "caption": "Gastronomía",
+      "caption": "Potaje enano regado con un buen vino",
       "title": "Gastronomía",
       "align": "center",
       "size": "full"
@@ -52,7 +52,7 @@
         "**Cerveza Maderanoche:** Considerada unánimemente la mejor cerveza de las Cinco Naciones. Es una lager dorada oscura elaborada en Karrnath. Es cara fuera de su país, por lo que pedirla en Sharn es sinónimo de estatus.",
         "**Cannegro:** Elaborada masivamente por la Casa Ghallanda. Es la cerveza más barata, fiable y universal de Khorvaire. Cualquier paladar refinado la despreciará, pero es la que bebe la clase trabajadora.",
         "**Dientespada:** La cerveza de alta calidad de la Casa Ghallanda, para quienes quieren algo mejor que la Black Dog sin arruinarse.",
-        "**Espiraverde/ Premio de Londurak:** Cervezas enanas de los Baluartes de Mror elaboradas a base de hongos subterráneos. Son tan sumamente potentes que pueden intoxicar gravemente o dañar a cualquier criatura que no tenga resistencia al veneno."
+        "**Espiraverde y Premio de Londurak:** Cervezas enanas de los Baluartes de Mror elaboradas a base de hongos subterráneos. Son tan sumamente potentes que pueden intoxicar gravemente o dañar a cualquier criatura que no tenga resistencia al veneno."
       ]
     },
     {
@@ -67,7 +67,7 @@
       "items": [
         "**Ginebra Kuryeva:** Un destilado muy popular importado desde [[eberron/khorvaire/linde-tormentoso|Linde Tormentoso]] y elaborado con bayas de [[eberron/mas-alla/xen'drik|Xen'drik]]. Se consume mucho en los muelles y zonas portuarias de [[eberron/khorvaire/breland/sharn|Sharn]].",
         "**Fuego Mantoscarcha:** Un whisky enano sumamente fuerte especiado con hierro, una especia exótica de las [[eberron/khorvaire/baluartes|montañas Mror]] similar a la canela que deja una sensación ardiente.",
-        "**Korluaat (*Sangre de Héroe*):** Un destilado de altísima graduación alcohólica originario de [[eberron/khorvaire/darguun|Darguun]], sumamente popular entre los guerreros hobgoblins.",
+        "**Korluaat (Sangre de Héroe):** Un destilado de altísima graduación alcohólica originario de [[eberron/khorvaire/darguun|Darguun]], sumamente popular entre los guerreros hobgoblins.",
         "**Hrak:** Un licor rústico, fuerte y áspero de los orcos de las [[eberron/khorvaire/marcas-sombrías|Marcas Sombrías]]."
       ]
     },
