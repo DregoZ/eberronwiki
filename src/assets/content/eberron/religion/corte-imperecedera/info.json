@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/religion/corte-imperecedera",
+  "title": "Corte Imperecedera",
+  "tags": ["Religión", "Fe", "Aerenal", "Elfos", "No-muertos"],
+  "aliases": ["Corte Imperecedera"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": [
+        "La fe de los elfos de la isla de Aerenal. A diferencia de los muertos vivientes de la Sangre de Vol (que se mueven por energía negativa), la Corte Imperecedera está formada por elfos sabios y heroicos mantenidos \"vivos\" a lo largo de los milenios mediante el anclaje de la energía positiva y la devoción de sus descendientes. Son consejeros reales y la cúspide espiritual de la raza elfa."
+      ]
+    },
+    {
+      "id": "a3",
+      "type": "image",
+      "src": "/assets/content/eberron/religion/corte-imperecedera/corte.png",
+      "caption": "Corte Imperecedera",
+      "title": "Corte Imperecedera",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "a4",
+      "type": "related",
+      "items": [
+        {
+          "label": "La Hueste Soberana",
+          "slug": "eberron/religion/hueste-soberana"
+        },
+        {
+          "label": "Seis Oscuros",
+          "slug": "eberron/religion/seis-oscuros"
+        },
+        {
+          "label": "Llama Plateada",
+          "slug": "eberron/religion/llama-plateada"
+        },
+        {
+          "label": "Sangre de Vol",
+          "slug": "eberron/religion/sangre-vol"
+        },
+        {
+          "label": "Cultos al Dragon Inferior",
+          "slug": "eberron/religion/cultos-dragon-inferior"
+        },
+        {
+          "label": "Corte Imperecedera",
+          "slug": "eberron/religion/corte-imperecedera"
+        },
+        {
+          "label": "Camino de Luz",
+          "slug": "eberron/religion/camino-luz"
+        },
+        {
+          "label": "Tradiciones Druídicas",
+          "slug": "eberron/religion/tradiciones-druidicas"
+        }
+      ]
+    }
+  ]
+}

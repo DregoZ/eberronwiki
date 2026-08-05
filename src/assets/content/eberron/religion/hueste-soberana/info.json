@@ -1,0 +1,101 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/religion/hueste-soberana",
+  "title": "Hueste Soberana",
+  "tags": ["Religión", "Fe", "Hueste"],
+  "aliases": ["Hueste"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": [
+        "Es la religión más extendida y común en Khorvaire. Está compuesta por nueve deidades benévolas que presiden los aspectos civilizados de la vida: la guerra justa (Dol Dorn), la forja y el comercio (Onatar), la agricultura (Arawai) o la ley (Aureon). La mayoría de los habitantes del continente rezan a la Hueste en su conjunto, pidiendo la bendición del dios adecuado según la situación del día."
+      ]
+    },
+    {
+      "id": "t1",
+      "type": "table",
+      "headers": ["Deidad", "Dominios e influencia"],
+      "rows": [
+        ["Arawai", "Agricultura, fertilidad, abundancia, vida rural, cosechas"],
+        ["Aureon", "Conocimiento, magia, leyes, erudición"],
+        ["Balinor", "Caza, naturaleza, bestias salvajes"],
+        ["Boldrei", "Hogar, familia, comunidad, hospitalidad"],
+        ["Dol Arrah", "Honor, sacrificio, liderazgo, guerra justa, sol"],
+        ["Dol Dorn", "Fuerza, coraje, resistencia, combate"],
+        ["Kol Korran", "Comercio, riqueza, negociación, viajes"],
+        ["Olladra", "Suerte, festines, prosperidad, buena fortuna"],
+        ["Onatar", "Forja, artesanía, fuego industrial, creación"]
+      ]
+    },
+    {
+      "id": "a3",
+      "type": "image",
+      "src": "/assets/content/eberron/religion/hueste-soberana/hueste.png",
+      "caption": "Hueste Soberana",
+      "title": "Hueste Soberana",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "title": "Cómo se perciben",
+      "content": ["Cada uno representa una faceta necesaria de la civilización, por ejemplo:"]
+    },
+    {
+      "id": "t2",
+      "type": "bullet",
+      "items": [
+        "Un campesino rezará a **Arawai** para pedir una buena cosecha, lluvias favorables o un invierno benigno.",
+        "Un mago invocará a **Aureon** antes de emprender una investigación o estudiar un nuevo conjuro.",
+        "Un soldado pedirá la fortaleza de **Dol Dorn** antes de entrar en batalla y agradecerá su protección al regresar con vida.",
+        "Un comerciante hará una ofrenda a **Kol Korran** antes de cerrar un gran trato o iniciar un largo viaje de negocios.",
+        "Un herrero o artesano encomendará su trabajo a **Onatar**, patrón de las forjas, la invención y el oficio bien hecho.",
+        "Un viajero o explorador confiará en **Olladra** para atraer la buena fortuna durante el camino.",
+        "Un juez o gobernante pedirá la sabiduría y el sentido de la justicia de **Boldrei** al resolver disputas importantes.",
+        "Un sanador o una familia que espera un hijo ofrecerá plegarias a **Boldrei**, protectora del hogar, la comunidad y los lazos familiares.",
+        "Un caballero o un paladín invocará a **Dol Arrah** como ejemplo de honor, sacrificio y liderazgo frente a la oscuridad."
+      ]
+    },
+    {
+      "id": "a4",
+      "type": "related",
+      "items": [
+        {
+          "label": "La Hueste soberana",
+          "slug": "eberron/religion/hueste-soberana"
+        },
+        {
+          "label": "Seis Oscuros",
+          "slug": "eberron/religion/seis-oscuros"
+        },
+        {
+          "label": "Llama Plateada",
+          "slug": "eberron/religion/llama-plateada"
+        },
+        {
+          "label": "Sangre de Vol",
+          "slug": "eberron/religion/sangre-vol"
+        },
+        {
+          "label": "Cultos al Dragon Inferior",
+          "slug": "eberron/religion/cultos-dragon-inferior"
+        },
+        {
+          "label": "Corte Imperecedera",
+          "slug": "eberron/religion/corte-imperecedera"
+        },
+        {
+          "label": "Camino de Luz",
+          "slug": "eberron/religion/camino-luz"
+        },
+        {
+          "label": "Tradiciones Druídicas",
+          "slug": "eberron/religion/tradiciones-druidicas"
+        }
+      ]
+    }
+  ]
+}

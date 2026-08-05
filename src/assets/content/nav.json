@@ -13,7 +13,7 @@
         "icon": "history_edu"
       },
       {
-        "id": "dragonmarked-casas",
+        "id": "casas",
         "label": "Casas Dragontinas",
         "slug": "eberron/casas",
         "icon": "diamond",
@@ -24,6 +24,12 @@
         "label": "La Profecía Dracónica",
         "slug": "eberron/vida-en-eberron/profecia",
         "icon": "language_pinyin"
+      },
+      {
+        "id": "religion",
+        "label": "Religión",
+        "slug": "eberron/religion",
+        "icon": "folded_hands"
       },
       {
         "id": "planes",

@@ -1,0 +1,62 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/religion/camino-luz",
+  "title": "Camino de Luz",
+  "tags": ["Religión", "Fe"],
+  "aliases": ["Religión", "Deidades"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": "La fe mayoritaria de los Kalashtar (humanos vinculados a espíritus del plano de los sueños). Creen que el cosmos pasa por ciclos de luz y oscuridad, y que actualmente el mundo está en una era oscura. Mediante la meditación, la autodisciplina y el combate psíquico, buscan cambiar la marea cósmica hacia una era de iluminación y paz."
+    },
+    {
+      "id": "a3",
+      "type": "image",
+      "src": "/assets/content/eberron/religion/camino-luz/luz.png",
+      "caption": "Camino de Luz",
+      "title": "Camino de Luz",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "a4",
+      "type": "related",
+      "items": [
+        {
+          "label": "La Hueste soberana",
+          "slug": "eberron/religion/hueste-soberana"
+        },
+        {
+          "label": "Seis Oscuros",
+          "slug": "eberron/religion/seis-oscuros"
+        },
+        {
+          "label": "Llama Plateada",
+          "slug": "eberron/religion/llama-plateada"
+        },
+        {
+          "label": "Sangre de Vol",
+          "slug": "eberron/religion/sangre-vol"
+        },
+        {
+          "label": "Cultos al Dragon Inferior",
+          "slug": "eberron/religion/cultos-dragon-inferior"
+        },
+        {
+          "label": "Corte Imperecedera",
+          "slug": "eberron/religion/corte-imperecedera"
+        },
+        {
+          "label": "Camino de Luz",
+          "slug": "eberron/religion/camino-luz"
+        },
+        {
+          "label": "Tradiciones Druídicas",
+          "slug": "eberron/religion/tradiciones-druidicas"
+        }
+      ]
+    }
+  ]
+}

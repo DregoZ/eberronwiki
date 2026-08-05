@@ -1,0 +1,97 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/religion/seis-oscuros",
+  "title": "Seis Oscuros",
+  "tags": ["Religión", "Fe", "Seis", "Oscuros"],
+  "aliases": ["Seis Oscuros", "Los Seis"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": [
+        "Antaño formaban parte del mismo panteón que la Hueste Soberana, pero fueron expulsados por sus crímenes. No son necesariamente 'malvados', pero representan fuerzas destructivas, peligrosas o impredecibles. Son adorados en secreto en las naciones civilizadas, pero de forma abierta en lugares como Droaam o por los piratas de Lhazaar."
+      ]
+    },
+    {
+      "id": "t1",
+      "type": "table",
+      "headers": ["Deidad", "Dominios e influencia"],
+      "rows": [
+        ["El Devorador", "Tormentas, mares furiosos, catástrofes naturales, destrucción"],
+        ["La Furia", "Pasión descontrolada, locura, obsesión, emociones extremas"],
+        ["El Guardián", "Muerte, avaricia, posesión, inmortalidad egoísta"],
+        ["La Burla", "Traición, crueldad, guerra despiadada, deshonor"],
+        ["La Sombra", "Secretos prohibidos, magia oscura, corrupción, ambición"],
+        ["El Viajero", "Cambio, transformación, caos, evolución, engaño"]
+      ]
+    },
+    {
+      "id": "a3",
+      "type": "image",
+      "src": "/assets/content/eberron/religion/seis-oscuros/seis.png",
+      "caption": "Seis Oscuros",
+      "title": "Seis Oscuros",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "title": "Cómo se perciben",
+      "content": [
+        "no suelen ser venerados como modelos a seguir, sino como fuerzas peligrosas a las que conviene respetar o apaciguar:"
+      ]
+    },
+    {
+      "id": "t2",
+      "type": "bullet",
+      "items": [
+        "Un marinero dejará una moneda al **Devorador** antes de zarpar.",
+        "Un asesino o un conspirador susurrará una plegaria a la **Sombra** antes de actuar.",
+        "Un guerrero sediento de venganza invocará a la **Furia** antes de entrar en combate.",
+        "Un ambicioso o un tirano puede buscar el favor de la **Burla** para alcanzar el poder.",
+        "Un hechicero obsesionado con el conocimiento prohibido podría encomendarse al **Guardián**.",
+        "Un saqueador o un traidor agradecerá sus éxitos al **Viajero**, patrón del engaño, el cambio y las oportunidades inesperadas."
+      ]
+    },
+    {
+      "id": "a4",
+      "type": "related",
+      "items": [
+        {
+          "label": "La Hueste soberana",
+          "slug": "eberron/religion/hueste-soberana"
+        },
+        {
+          "label": "Seis Oscuros",
+          "slug": "eberron/religion/seis-oscuros"
+        },
+        {
+          "label": "Llama Plateada",
+          "slug": "eberron/religion/llama-plateada"
+        },
+        {
+          "label": "Sangre de Vol",
+          "slug": "eberron/religion/sangre-vol"
+        },
+        {
+          "label": "Cultos al Dragon Inferior",
+          "slug": "eberron/religion/cultos-dragon-inferior"
+        },
+        {
+          "label": "Corte Imperecedera",
+          "slug": "eberron/religion/corte-imperecedera"
+        },
+        {
+          "label": "Camino de Luz",
+          "slug": "eberron/religion/camino-luz"
+        },
+        {
+          "label": "Tradiciones Druídicas",
+          "slug": "eberron/religion/tradiciones-druidicas"
+        }
+      ]
+    }
+  ]
+}

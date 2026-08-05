@@ -1,0 +1,114 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/religion/tradiciones-druidicas",
+  "title": "Tradiciones Druídicas",
+  "tags": ["Religión", "Fe", "Druidas", "Eldeen"],
+  "aliases": ["Tradiciones", "Druidas"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": "Muy preeminentes en los Confines de Eldeen. No adoran a dioses, sino a la propia naturaleza de Eberron o a los espíritus de la tierra."
+    },
+    {
+      "id": "a2",
+      "type": "text",
+      "content": [
+        "En Eberron, los druidas no se agrupan en Círculos tradicionales, sino en sectas filosóficas con diferentes formas de entender su rol en el mundo. La mayoría opera en los Confines de Eldeen bajo la guía del gran pino milenario Oalian.",
+        "Las cinco principales órdenes o sectas son:"
+      ]
+    },
+    {
+      "id": "a3",
+      "type": "bullet",
+      "items": [
+        "**Cancerberos**: Son la orden más antigua. Fundados hace milenios por el dragón Vvaraak para instruir a los orcos, su misión es proteger el mundo de invasiones de planos alienígenas (como el Xoriat) y mantener selladas a las aberraciones.",
+        "**Los Vigilantes**: Es la secta más numerosa y actúan como pacificadores. Su filosofía es el equilibrio, buscando que la civilización y la naturaleza coexistan. Son el gobierno de facto de gran parte de los Confines de Eldeen.",
+        "**Cenicientos**: Consideran que la civilización está en guerra constante contra la naturaleza y actúan como activistas radicales. Rechazan la magia arcana, las ciudades y la agricultura invasiva, empleando tácticas de guerrilla para proteger el entorno.",
+        "**Hijos del Invierno**: Creen que el mundo actual está corrupto y debe ser purgado a través del ciclo de descomposición, enfermedad y muerte. Creen que se acerca un apocalipsis y buscan acelerarlo.",
+        "**Cantores Verdes**: Son embajadores y amigos de las criaturas feéricas. Operan cerca de las zonas de manifestación del plano de Thelanis, celebrando la magia caprichosa y salvaje."
+      ]
+    },
+    {
+      "id": "a4",
+      "type": "info",
+      "variant": "lore",
+      "content": "**Oalian, el Gran Pino**, es el árbol más antiguo de Khorvaire y el corazón espiritual de los druidas de los [[eberron/khorvaire/confines-eldeen|Confines de Eldeen]]. Es un ser de profunda sabiduría y poder, capaz de comunicarse con los druidas a través de visiones y sueños. Es el símbolo de la unidad de los druidas y su conexión con el mundo natural."
+    },
+    {
+      "id": "a6",
+      "type": "image",
+      "src": "/assets/content/eberron/religion/tradiciones-druidicas/druidas.png",
+      "caption": "Observatorio de los Cancerberos",
+      "title": "Tradiciones Druídicas",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "a4",
+      "type": "info",
+      "variant": "note",
+      "content": "Existen también muchos otros cultos druídicos a lo largo del mundo, especialmente en zonas salvajes como Q'barra o Xen'drik."
+    },
+    {
+      "id": "a6",
+      "type": "text",
+      "title": "Los Hijos del Invierno",
+      "content": [
+        "Los Hijos del Invierno consideran que la muerte, la enfermedad y la decadencia forman parte del orden natural. Creen que, si se altera demasiado ese orden natural, el mundo responderá con una terrible furia purificadora (el «invierno» metafórico de su nombre)… y muchos miembros de la secta creen que el Luto es la primera etapa de esa destrucción.",
+        "En el lado positivo, los Hijos del Invierno desprecian a los muertos vivientes como criaturas que desafían el ciclo de la vida y la muerte, y muchos de ellos se dedican a darles caza. En el lado más oscuro, algunos creen que los beneficios de la civilización también desafían el orden natural, permitiendo que los débiles y los enfermos sobrevivan cuando nunca lo harían en la naturaleza.",
+        "Consideran la enfermedad como una herramienta importante que elimina a los débiles y pueden propagar enfermedades en grandes ciudades o pueblos; pero también pueden provocar otras situaciones que fuercen el conflicto y aseguren la supervivencia del más apto.",
+        "Sin embargo, no todos los Hijos aprueban estos métodos. Del mismo modo, algunos extremistas entre los Hijos creen que el apocalíptico Invierno ya ha comenzado y debe ser bienvenido, y que las grandes ciudades deben ser derribadas; mientras que otros creen fervientemente que el Luto es una advertencia y que aún hay tiempo para detener este cataclismo. Estos Hijos buscan contener las regiones contaminadas, como la Tierra del Luto y el Crepúsculo.",
+        "Los Hijos del Invierno son una secta pequeña (1100 miembros aprox, la mayoría humanos y cambiantes), pero cuentan con un alto porcentaje de individuos de élite. Se sienten a gusto en la oscuridad, lo que lleva a algunos a seguir el camino de Acechador de la Penumbra o del druida del Crepúsculo. Los Cazadores de Monstruos se especializan en dar caza a muertos vivientes. El druida de las Esporas encaja bien con los Hijos que abrazan la descomposición y la enfermedad, y su capacidad temporal para crear un zombi de esporas es aceptada dentro de la secta, pero los Hijos no suelen lanzar el hechizo «animar muertos».",
+        "Su base de operaciones es la zona de Manifestación del plano [[eberron/planos/mabar|Mabar]] existente en los Confines de Eldeen, donde se encuentra el Bosque Encumbrado (Towering Wood), lugar considerado sagrado para la secta, pero tras el Luto han aumentado su actividad en otras zonas del continente."
+      ]
+    },
+    {
+      "id": "a7",
+      "type": "info",
+      "variant": "note",
+      "content": [
+        "Como personaje de los Hijos del Invierno, intentas proteger al mundo del apocalipsis que se avecina. Lo haces luchando contra los muertos vivientes, investigando el Luto y, cuando es posible, provocando situaciones que pongan a prueba a los débiles. Puedes oponerte a los extremistas de la secta que llevan a cabo acciones que consideras injustificadas. Aunque la muerte forma parte del ciclo natural, sigues siendo capaz de curar a tus aliados. Te opones a usar la curación mágica para mantener con vida a criaturas que nunca podrían sobrevivir en la naturaleza. Pero curar al luchador después de que haya decidido enfrentarse a una manada de vampiros —una situación antinatural que podría haber evitado fácilmente— está totalmente justificado."
+      ]
+    },
+    {
+      "id": "a7",
+      "type": "related",
+      "items": [
+        {
+          "label": "La Hueste soberana",
+          "slug": "eberron/religion/hueste-soberana"
+        },
+        {
+          "label": "Seis Oscuros",
+          "slug": "eberron/religion/seis-oscuros"
+        },
+        {
+          "label": "Llama Plateada",
+          "slug": "eberron/religion/llama-plateada"
+        },
+        {
+          "label": "Sangre de Vol",
+          "slug": "eberron/religion/sangre-vol"
+        },
+        {
+          "label": "Cultos al Dragon Inferior",
+          "slug": "eberron/religion/cultos-dragon-inferior"
+        },
+        {
+          "label": "Corte Imperecedera",
+          "slug": "eberron/religion/corte-imperecedera"
+        },
+        {
+          "label": "Camino de Luz",
+          "slug": "eberron/religion/camino-luz"
+        },
+        {
+          "label": "Tradiciones Druídicas",
+          "slug": "eberron/religion/tradiciones-druidicas"
+        }
+      ]
+    }
+  ]
+}

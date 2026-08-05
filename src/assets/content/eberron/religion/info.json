@@ -1,0 +1,75 @@
+{
+  "$schema": "../../schemas/page.schema.json",
+  "slug": "eberron/religion",
+  "title": "Religión",
+  "tags": ["Religión", "Fe"],
+  "aliases": ["Religión", "Deidades"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": [
+        "La religión desempeña un papel importante en Eberron. Aunque los dioses no se manifiestan físicamente como ocurre en otros escenarios, las personas creyentes consideran que las fuerzas divinas influyen en la vida cotidiana. Más allá de esto, las creencias compartidas contribuyen a unir a las comunidades y otorgan esperanza en tiempos de necesidad.",
+        "Las religiones más extendidas son [[La Hueste]] y los [[Oscuros]], y aunque los rezos suelen dirigirse al panteón en si, es habitual que un miembro de cierto gremio eleve sus plegarias a una deidad concreta dentro de ese panteón.",
+        "Por ejemplo, un guerrero podría pedir a Dol Dorn que lo guíe en una batalla venidera, mientras que un marino recitaría una plegaria al Destructor pidiendo ayuda en su travesía."
+      ]
+    },
+    {
+      "id": "b1",
+      "type": "info",
+      "variant": "lore",
+      "content": [
+        "**Razas y religión**. Por lo general, las religiones no se basan en la raza, exceptuando los Elfos y los Kalashtar quienes practican religiones raramente adoptadas por miembros de otras razas."
+      ]
+    },
+
+    {
+      "id": "a3",
+      "type": "image",
+      "src": "/assets/content/eberron/religion/religion.png",
+      "caption": "Catedral de la Llama Plateada",
+      "title": "Llama Plateada",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "a4",
+      "type": "related",
+      "items": [
+        {
+          "label": "La Hueste soberana",
+          "slug": "eberron/religion/hueste-soberana"
+        },
+        {
+          "label": "Seis Oscuros",
+          "slug": "eberron/religion/seis-oscuros"
+        },
+        {
+          "label": "Llama Plateada",
+          "slug": "eberron/religion/llama-plateada"
+        },
+        {
+          "label": "Sangre de Vol",
+          "slug": "eberron/religion/sangre-vol"
+        },
+        {
+          "label": "Cultos al Dragon Inferior",
+          "slug": "eberron/religion/cultos-dragon-inferior"
+        },
+        {
+          "label": "Corte Imperecedera",
+          "slug": "eberron/religion/corte-imperecedera"
+        },
+        {
+          "label": "Camino de Luz",
+          "slug": "eberron/religion/camino-luz"
+        },
+        {
+          "label": "Tradiciones Druídicas",
+          "slug": "eberron/religion/tradiciones-druidicas"
+        }
+      ]
+    }
+  ]
+}
