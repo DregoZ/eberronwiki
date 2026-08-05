@@ -1,0 +1,61 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/vida-en-eberron/viajar",
+  "title": "Viajes y transporte",
+  "tags": ["Viajar"],
+  "aliases": ["Viajar"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "h2",
+      "type": "text",
+      "content": [
+        "Gracias a las [[eberron/casas|Casas Dragontinas]], el continente está hiperconectado. La mayoría de los viajeros se desplazan a caballo, en carreta o por barco, pero cualquier ciudadano de clase media puede comprar un billete para el Rayocarril y cruzar tres naciones en un par de días, viajando cómodamente en vagones flotantes que levitan sobre piedras conductoras. Las noticias, los recursos y las modas viajan rápido, lo que crea una cultura global muy homogénea en las grandes ciudades."
+      ]
+    },
+    {
+      "id": "h2",
+      "type": "text",
+      "title": "Rayocarril",
+      "content": [
+        "El Rayocarril es la forma más rápida y cómoda de viajar por tierra en Khorvaire. Sus convoyes, impulsados por elementales ligados, conectan las principales ciudades del continente mediante una extensa red ferroviaria operada por la [[eberron/casas|Casa Orien]]."
+      ]
+    },
+    {
+      "id": "h2",
+      "type": "text",
+      "title": "Navíos voladores",
+      "content": [
+        "Los navíos voladores son embarcaciones impulsadas por elementales del aire que permiten recorrer grandes distancias sobrevolando montañas, bosques y mares. Aunque son más lentos que el rayocarril en algunas rutas, ofrecen una flexibilidad incomparable y representan el medio de transporte más prestigioso de Khorvaire."
+      ]
+    },
+    {
+      "id": "h3",
+      "type": "image",
+      "src": "/assets/content/eberron/vida-en-eberron/viajar/viajar.png",
+      "caption": "Navío volador",
+      "title": "Navío volador",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "h4",
+      "type": "related",
+      "items": [
+        { "label": "Especies", "slug": "eberron/vida-en-eberron/especies" },
+        { "label": "Calendario", "slug": "eberron/vida-en-eberron/calendario" },
+        { "label": "El Firmamento", "slug": "eberron/vida-en-eberron/firmamento" },
+        { "label": "Fragmentos Dragontinos", "slug": "eberron/vida-en-eberron/fragmentos" },
+        { "label": "Gastronomía", "slug": "eberron/vida-en-eberron/gastronomia" },
+        { "label": "El mundo necesita héroes", "slug": "eberron/vida-en-eberron/heroes" },
+        { "label": "Idiomas", "slug": "eberron/vida-en-eberron/idiomas" },
+        { "label": "Magia en lugar de tecnología", "slug": "eberron/vida-en-eberron/magia" },
+        { "label": "Moneda", "slug": "eberron/vida-en-eberron/moneda" },
+        { "label": "La Profecía Dracónica", "slug": "eberron/vida-en-eberron/profecia" },
+        { "label": "Café y cigarro... noir", "slug": "eberron/vida-en-eberron/tono" },
+        { "label": "El Trauma de la Última Guerra", "slug": "eberron/vida-en-eberron/trauma" },
+        { "label": "Viajar", "slug": "eberron/vida-en-eberron/viajar" }
+      ]
+    }
+  ]
+}

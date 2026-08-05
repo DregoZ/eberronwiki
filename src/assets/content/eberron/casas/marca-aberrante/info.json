@@ -30,9 +30,9 @@
       "id": "a41",
       "type": "bullet",
       "items": [
-        "Inestabilidad Física y Mental: A diferencia de las marcas normales, las aberrantes consumen al portador. Suelen causar dolor físico crónico, pesadillas sangrientas, voces en la cabeza o arrebatos de locura.",
-        "Poder Incontrolable: El poder de una marca aberrante suele activarse por primera vez en un momento de gran estrés, miedo o rabia, terminando casi siempre en una catástrofe donde el portador mata o hiere accidentalmente a sus seres queridos.",
-        "Rechazo Social: El mundo les teme y les odia. Se les considera malditos, peligrosos e impredecibles."
+        "**Inestabilidad Física y Mental:** A diferencia de las marcas normales, las aberrantes consumen al portador. Suelen causar dolor físico crónico, pesadillas sangrientas, voces en la cabeza o arrebatos de locura.",
+        "**Poder Incontrolable:** El poder de una marca aberrante suele activarse por primera vez en un momento de gran estrés, miedo o rabia, terminando casi siempre en una catástrofe donde el portador mata o hiere accidentalmente a sus seres queridos.",
+        "**Rechazo Social:** El mundo les teme y les odia. Se les considera malditos, peligrosos e impredecibles."
       ]
     },
     {
@@ -44,23 +44,11 @@
     {
       "id": "a5",
       "type": "image",
-      "src": "https://klubbsaga2015.wdfiles.com/local--files/aberrant/Aberrant%2002%20-%20Lesser%20Mark%20%28Tarkanan%29.png",
-      "caption": "Marca Aberrante",
-      "alt": "Marca Aberrante"
-    },
-    {
-      "id": "a6",
-      "type": "image",
-      "src": "https://klubbsaga2015.wdfiles.com/local--files/aberrant/Aberrant%2003%20-%20Greater%20Mark%20%28Tarkanan%29.png",
-      "caption": "Marca Aberrante",
-      "alt": "Marca Aberrante"
-    },
-    {
-      "id": "a6",
-      "type": "image",
-      "src": "https://www.worldanvil.com/uploads/images/b8dd242bdeeefe39664ae21a7598c9be.png",
-      "caption": "Marca Aberrante completamente desarrollada",
-      "alt": "Marca Aberrante"
+      "src": "/assets/content/eberron/casas/marca-aberrante/aberrante.webp",
+      "caption": "Marcas Aberrantes",
+      "title": "Marcas Aberrantes",
+      "align": "center",
+      "size": "full"
     },
     {
       "id": "a7",

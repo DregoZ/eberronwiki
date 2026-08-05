@@ -9,7 +9,7 @@
     {
       "id": "dh1",
       "type": "text",
-      "content": "Las Casas Dragontinas son trece linajes que portan las Marcas Dragontinas: símbolos mágicos heredados que otorgan poderes extraordinarios. Estas dinastías familiares controlan el comercio, los servicios y la política de [[Eberron]] a través de monopolios legalmente sancionados. Surgidas hace milenios, las Casas son en la práctica más poderosas que muchas naciones."
+      "content": "Las **Casas Dragontinas** son trece linajes que portan las **Marcas Dragontinas**: símbolos mágicos heredados que otorgan poderes extraordinarios. Estas dinastías familiares controlan el comercio, los servicios y la política de [[Eberron]] a través de monopolios legalmente sancionados. Surgidas hace milenios, las Casas son en la práctica más poderosas que muchas naciones."
     },
     {
       "id": "dh11",
@@ -20,9 +20,9 @@
       "id": "dh12",
       "type": "bullet",
       "items": [
-        "La Marca Dragontina: Es un tatuaje mágico de nacimiento que solo aparece en los linajes de estas familias. Esta marca otorga a su portador poderes mágicos innatos relacionados con un sector comercial (como curar, teletransportarse, reparar o fabricar).",
-        "Monopolio Absoluto: Cada casa tiene el control exclusivo de un sector a través de sus gremios. Por ejemplo, si quieres enviar un mensaje rápido usas los servicios de la casa [[eberron/casas/sivis|Sivis]]; si quieres viajar en tren, pagas a la casa [[eberron/casas/orien|Orien]]; si necesitas un hotel seguro, vas a la casa [[eberron/casas/ghallanda|Ghallanda]].",
-        "Neutralidad Política: Por ley internacional, las Casas no pueden poseer tierras ni ejércitos nacionales, y deben mantenerse neutrales en los conflictos políticos. Durante la [[eberron/history/last-war|Última Guerra]], vendieron sus servicios y tecnología a todos los bandos, lo que las hizo asquerosamente ricas."
+        "**La Marca Dragontina:** Es un tatuaje mágico de nacimiento que solo aparece en los linajes de estas familias. Esta marca otorga a su portador poderes mágicos innatos relacionados con un sector comercial (como curar, teletransportarse, reparar o fabricar).",
+        "**Monopolio Absoluto:** Cada casa tiene el control exclusivo de un sector a través de sus gremios. Por ejemplo, si quieres enviar un mensaje rápido usas los servicios de la casa [[eberron/casas/sivis|Sivis]]; si quieres viajar en tren, pagas a la casa [[eberron/casas/orien|Orien]]; si necesitas un hotel seguro, vas a la casa [[eberron/casas/ghallanda|Ghallanda]].",
+        "**Neutralidad Política:** Por ley internacional, las Casas no pueden poseer tierras ni ejércitos nacionales, y deben mantenerse neutrales en los conflictos políticos. Durante la [[eberron/history/last-war|Última Guerra]], vendieron sus servicios y tecnología a todos los bandos, lo que las hizo asquerosamente ricas."
       ]
     },
     {
@@ -35,6 +35,15 @@
       "type": "info",
       "variant": "lore",
       "content": "Una Marca Dragontina es una señal sobrenatural que aparece en la piel de ciertos individuos. No todas las personas de la especie correspondiente la manifiestan, y portarla fuera del linaje reconocido es considerado herético o peligroso."
+    },
+    {
+      "id": "dh22",
+      "type": "image",
+      "src": "/assets/content/eberron/casas/marcas.webp",
+      "caption": "Marcas Dragontinas",
+      "title": "Marcas Dragontinas",
+      "align": "center",
+      "size": "medium"
     },
     {
       "id": "dh3",

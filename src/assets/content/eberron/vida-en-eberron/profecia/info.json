@@ -1,0 +1,108 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/vida-en-eberron/profecia",
+  "title": "La Profecía Dracónica",
+  "tags": ["Profecía", "Dragones"],
+  "aliases": ["Profecía"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "h2",
+      "type": "text",
+      "content": [
+        "Existen señales, patrones y secretos ocultos en los planos, las lunas, en el mismo mundo que ocultan fragmentos de esta mítica profecía.",
+        "Los eruditos de la Profecía ansían desentrañar sus secretos y su significado final, aunque pocos son los que tienen tiempo o recursos para dedicarse a ello.",
+        "La profecía no describe el futuro, si no posibles futuros, junto con los pasos para convertirlos en realidad.",
+        "La Profecía Dracónica no es una predicción lineal o un texto sagrado que puedas leer en un libro. Es la fuerza más importante de Eberron: un mapa vivo del destino, un registro en constante evolución de todos los futuros posibles del universo.",
+        "La profecía describe eventos clave en el ciclo cósmico y la llegada del *Dragón de la Tormenta*, Khyber, quien despertará para traer una nueva era de tinieblas y caos."
+      ]
+    },
+    {
+      "id": "h2",
+      "type": "info",
+      "variant": "lore",
+      "content": [
+        "Según los eruditos, la profecía también señala la llegada de un 'héroe' que podrá evitar esta catástrofe, aunque los detalles son confusos y hay muchos interpretaciones contradictorias al respecto."
+      ]
+    },
+    {
+      "id": "h2",
+      "type": "text",
+      "title": "Está escrita en el propio mundo",
+      "content": [
+        "La Profecía no fue dictada por un dios; es la manifestación de la mente de los Dragones Progenitores. Sus fragmentos aparecen de forma natural en el entorno físico de Eberron:"
+      ]
+    },
+    {
+      "id": "h2",
+      "type": "bullet",
+      "items": [
+        "En las vetas de cristal de las cuevas profundas.",
+        "En la alineación de las lunas en el cielo.",
+        "En las grietas tectónicas tras un terremoto.",
+        "E incluso en la forma en que se manifiestan las Marcas del Dragón en la piel de los mortales."
+      ]
+    },
+    {
+      "id": "h2",
+      "type": "text",
+      "title": "No es un destino fijo, es un árbol de decisiones",
+      "content": [
+        "La Profecía nunca dice *Esto va a pasar*. En su lugar, funciona mediante condicionales matemáticos y narrativos extremos: *Si el heredero de la corona de Breland muere a manos de un forjado antes del eclipse de la luna de sangre, entonces el sello del demonio X se romperá; pero si el rey sobrevive, la nación de Droaam colapsará*.",
+        "Es un tablero de ajedrez cósmico infinitamente complejo lleno de *Si pasa X, entonces ocurrirá Y o Z*."
+      ]
+    },
+    {
+      "id": "h2",
+      "type": "text",
+      "title": "Dragones contra infernales",
+      "content": [
+        "Las dos facciones más poderosas del mundo llevan millones de años jugando una guerra fría utilizando la Profecía como arma:"
+      ]
+    },
+    {
+      "id": "h2",
+      "type": "bullet",
+      "items": [
+        "**Los Dragones de Argonnessen:** Pasan siglos observando los cielos y la tierra para descifrar la Profecía. Intervienen en el mundo mortal de forma muy sutil (o catastrófica) solo para asegurarse de que la historia siga el camino que mantiene a los señores demonio encadenados.",
+        "**Los Señores del Polvo:** Buscan los fragmentos de la Profecía y manipulan a los mortales para forzar las condiciones exactas que desencadenen la liberación de sus amos divinos."
+      ]
+    },
+    {
+      "id": "h2",
+      "type": "text",
+      "title": "Los Pivotes",
+      "content": [
+        "Los mortales son lo que los dragones llaman pivotes o catalizadores. No pueden leer la Profecía, pero sus decisiones son las que activan los condicionales."
+      ]
+    },
+    {
+      "id": "h3",
+      "type": "image",
+      "src": "/assets/content/eberron/vida-en-eberron/profecia/profecia.png",
+      "caption": "Un dragón interpretando la profecía",
+      "title": "Fragmento de la profecía",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "h4",
+      "type": "related",
+      "items": [
+        { "label": "Especies", "slug": "eberron/vida-en-eberron/especies" },
+        { "label": "Calendario", "slug": "eberron/vida-en-eberron/calendario" },
+        { "label": "El Firmamento", "slug": "eberron/vida-en-eberron/firmamento" },
+        { "label": "Fragmentos Dragontinos", "slug": "eberron/vida-en-eberron/fragmentos" },
+        { "label": "Gastronomía", "slug": "eberron/vida-en-eberron/gastronomia" },
+        { "label": "El mundo necesita héroes", "slug": "eberron/vida-en-eberron/heroes" },
+        { "label": "Idiomas", "slug": "eberron/vida-en-eberron/idiomas" },
+        { "label": "Magia en lugar de tecnología", "slug": "eberron/vida-en-eberron/magia" },
+        { "label": "Moneda", "slug": "eberron/vida-en-eberron/moneda" },
+        { "label": "La Profecía Dracónica", "slug": "eberron/vida-en-eberron/profecia" },
+        { "label": "Café y cigarro... noir", "slug": "eberron/vida-en-eberron/tono" },
+        { "label": "El Trauma de la Última Guerra", "slug": "eberron/vida-en-eberron/trauma" },
+        { "label": "Viajar", "slug": "eberron/vida-en-eberron/viajar" }
+      ]
+    }
+  ]
+}

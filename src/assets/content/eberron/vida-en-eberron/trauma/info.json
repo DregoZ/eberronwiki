@@ -1,0 +1,62 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/vida-en-eberron/trauma",
+  "title": "El trauma de la última guerra",
+  "tags": ["Sociedad", "Guerra"],
+  "aliases": ["Trauma"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "h1",
+      "type": "text",
+      "content": [
+        "Nadie en Khorvaire ha salido ileso del siglo de conflicto. Prácticamente todo el mundo ha perdido a un familiar, su hogar o ha combatido en el frente."
+      ]
+    },
+    {
+      "id": "h2",
+      "type": "bullet",
+      "items": [
+        "Las calles de las ciudades están llenas de veteranos de guerra, muchos de ellos lisiados que ahora llevan prótesis de madera elfa o metal (injertos mágicos).",
+        "Los refugiados de Cyre (la nación destruida) malviven en barrios de chabolas en las periferias de otras naciones, a menudo discriminados y añorando una patria que ya no existe.",
+        "Los [[eberron/especies/forjados|Forjados]], autómatas creados para el combate, ahora son libres por ley, pero vagan por las ciudades buscando un propósito en tiempos de paz, a menudo trabajando en la industria pesada por salarios míseros."
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "text",
+      "title": "Desconfianza y guerra fría",
+      "content": [
+        "Aunque los cafés y tabernas están llenos de música, debate político y diversidad de razas (puedes ver a un elfo, un humano y un orco compartiendo mesa), el ambiente es tenso. La paz del [[eberron/khorvaire/tronofirme|Tratado de Tronofirme|Tratado de Tronofirme]] es frágil. Los pasaportes y los papeles de viaje se revisan con lupa en las fronteras, los guardias de las ciudades están militarizados y cualquiera sospecha que su vecino podría ser un espía de una nación rival o de una [[eberron/casas|Casa Dragontina]]."
+      ]
+    },
+    {
+      "id": "h3",
+      "type": "image",
+      "src": "/assets/content/eberron/vida-en-eberron/trauma/trauma.png",
+      "caption": "Te reviento, payaso",
+      "title": "Moneda",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "h4",
+      "type": "related",
+      "items": [
+        { "label": "Especies", "slug": "eberron/vida-en-eberron/especies" },
+        { "label": "Calendario", "slug": "eberron/vida-en-eberron/calendario" },
+        { "label": "El Firmamento", "slug": "eberron/vida-en-eberron/firmamento" },
+        { "label": "Fragmentos Dragontinos", "slug": "eberron/vida-en-eberron/fragmentos" },
+        { "label": "Gastronomía", "slug": "eberron/vida-en-eberron/gastronomia" },
+        { "label": "El mundo necesita héroes", "slug": "eberron/vida-en-eberron/heroes" },
+        { "label": "Idiomas", "slug": "eberron/vida-en-eberron/idiomas" },
+        { "label": "Magia en lugar de tecnología", "slug": "eberron/vida-en-eberron/magia" },
+        { "label": "Moneda", "slug": "eberron/vida-en-eberron/moneda" },
+        { "label": "La Profecía Dracónica", "slug": "eberron/vida-en-eberron/profecia" },
+        { "label": "Café y cigarro... noir", "slug": "eberron/vida-en-eberron/tono" },
+        { "label": "El Trauma de la Última Guerra", "slug": "eberron/vida-en-eberron/trauma" },
+        { "label": "Viajar", "slug": "eberron/vida-en-eberron/viajar" }
+      ]
+    }
+  ]
+}

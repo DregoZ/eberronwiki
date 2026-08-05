@@ -20,6 +20,12 @@
         "children": []
       },
       {
+        "id": "profecia",
+        "label": "La Profecía Dracónica",
+        "slug": "eberron/vida-en-eberron/profecia",
+        "icon": "language_pinyin"
+      },
+      {
         "id": "planes",
         "label": "Los Planos",
         "slug": "eberron/planos",

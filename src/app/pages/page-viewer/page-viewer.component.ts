@@ -60,8 +60,9 @@ import {
     } @else if (error() || !pageData()) {
       <div class="error-state">
         <mat-icon class="error-icon">menu_book</mat-icon>
-        <h2>Página no encontrada</h2>
-        <p>No se encontraron registros sobre esta consulta en los archivos de la wiki.</p>
+        <h2>¡En construcción!</h2>
+        <p>La información que buscas está en otro castillo.</p>
+        <img src="/assets/img/obras.jpg" alt="¡En construcción!" class="error-image" />
       </div>
     } @else {
       <div
@@ -177,6 +178,13 @@ import {
         height: 3.5rem;
         color: var(--primary-color, #8b1e0f);
         margin-bottom: 1rem;
+      }
+
+      .error-image {
+        max-width: 300px;
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
       }
 
       .page-layout {
@@ -357,7 +365,10 @@ export class PageViewerComponent {
     const data = this.pageData();
     if (!data?.blocks) return [];
     return data.blocks
-      .filter((block): block is TextBlock | BulletBlock => (block.type === 'text' || block.type === 'bullet') && !!block.title)
+      .filter(
+        (block): block is TextBlock | BulletBlock =>
+          (block.type === 'text' || block.type === 'bullet') && !!block.title,
+      )
       .map((block) => ({
         id: block.id || 'heading-' + block.title,
         title: block.title!,

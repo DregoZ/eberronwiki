@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/vida-en-eberron/magia",
+  "title": "Magia en lugar de tecnología",
+  "tags": ["Magia"],
+  "aliases": ["Magia"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "h1",
+      "type": "quote",
+      "author": "Quincho Barrilete, navajero Boromar",
+      "text": "Saca o faca "
+    },
+    {
+      "id": "h2",
+      "type": "text",
+      "content": [
+        "Los grandes mercaderes y los nobles usan cartas de crédito para manejar grandes transacciones de dinero, pero en la calle se usan las monedas. Cada país acuña la suya propia, pero el valor y composición es común en todo el continente."
+      ]
+    },
+    {
+      "id": "h2",
+      "type": "bullet",
+      "items": [
+        "Corona: monedas de cobre con la corona de Galifar en una cara.",
+        "Soberano: monedas de plata con el rostro de un rey o gobernante actual.",
+        "Galifar: monedas de oro con el rostro de Galifar I en una cara.",
+        "Dragones: monedas de platino. En la calle se las conoce también como *Invisibles* o *Esquivos*.",
+        "Existen otras monedas menos comunes como las Dobles de Breland (2 cobres) o los Tronos de Cyre (5 Soberanos) que todavía están en circulación.",
+        "Las Casas Dragontinas y grandes fortunas usan también papel moneda y cartas de crédito como medios de pago."
+      ]
+    },
+    {
+      "id": "h3",
+      "type": "image",
+      "src": "/assets/content/eberron/vida-en-eberron/moneda/moneda.png",
+      "caption": "Un puñado de monedas",
+      "title": "Moneda",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "h4",
+      "type": "related",
+      "items": [
+        { "label": "Especies", "slug": "eberron/vida-en-eberron/especies" },
+        { "label": "Calendario", "slug": "eberron/vida-en-eberron/calendario" },
+        { "label": "El Firmamento", "slug": "eberron/vida-en-eberron/firmamento" },
+        { "label": "Fragmentos Dragontinos", "slug": "eberron/vida-en-eberron/fragmentos" },
+        { "label": "Gastronomía", "slug": "eberron/vida-en-eberron/gastronomia" },
+        { "label": "El mundo necesita héroes", "slug": "eberron/vida-en-eberron/heroes" },
+        { "label": "Idiomas", "slug": "eberron/vida-en-eberron/idiomas" },
+        { "label": "Magia en lugar de tecnología", "slug": "eberron/vida-en-eberron/magia" },
+        { "label": "Moneda", "slug": "eberron/vida-en-eberron/moneda" },
+        { "label": "La Profecía Dracónica", "slug": "eberron/vida-en-eberron/profecia" },
+        { "label": "Café y cigarro... noir", "slug": "eberron/vida-en-eberron/tono" },
+        { "label": "El Trauma de la Última Guerra", "slug": "eberron/vida-en-eberron/trauma" },
+        { "label": "Viajar", "slug": "eberron/vida-en-eberron/viajar" }
+      ]
+    }
+  ]
+}

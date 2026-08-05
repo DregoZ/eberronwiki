@@ -9,7 +9,7 @@
     {
       "id": "h1",
       "type": "text",
-      "content": "La historia de [[Eberron]] se remonta a la era de los Dragones Progenitores: Siberys, Eberron y Khyber, quienes dieron forma al cosmos y a los planos de existencia."
+      "content": "La historia de [[Eberron]] se remonta a la era de los **Dragones Progenitores**: **Siberys**, **Eberron** y **Khyber**, quienes dieron forma al cosmos y a los planos de existencia."
     },
     {
       "id": "h2",
@@ -24,22 +24,22 @@
         [
           "Era de los Demonios",
           "~10M de años",
-          "Los hijos de Khyber (los llamados Señores Supremos) dominan el mundo en una tiranía de pesadilla. Se dice que los dragones o los dioses encadenaron a los señores demonio en las profundidades de la tierra."
+          "Los [[eberron/antagonistas/polvo|Hijos de Khyber]] (los llamados Señores Supremos) dominan el mundo en una tiranía de pesadilla. Se dice que los dragones o los dioses encadenaron a los señores demonio en las profundidades de la tierra."
         ],
         [
           "Imperio Gigante",
           "~80,000 años",
-          "En [[eberron/mas-alla/xen'drik|Xen'drik]], los gigantes fundan una civilización mágicamente hiperavanzada. El imperio colapsa tras una devastadora guerra contra los Quori y una posterior rebelión de sus esclavos elfos. Los dragones destruyen lo que queda para evitar que la magia rompa el mundo."
+          "En [[eberron/mas-alla/xen'drik|Xen'drik]], los gigantes fundan una civilización mágicamente hiperavanzada. El imperio colapsa tras una devastadora guerra contra los [[eberron/antagonistas/oscuridad-onirica|Quori]] y una posterior rebelión de sus esclavos elfos. Los dragones destruyen lo que queda para evitar que la magia rompa el mundo."
         ],
         [
           "Imperio Dhakaan",
           "~16,000 años",
-          "Los trasgoides (goblins, hobgoblins y osgos) se unifican bajo el Imperio de Dhakaan y conquistan el continente. Crean una sociedad militarista basada en el honor y el acero que dura milenios."
+          "Los [[eberron/vida-en-eberron/especies/trasgoides|trasgoides]] (goblins, hobgoblins y osgos) se unifican bajo el Imperio de Dhakaan y conquistan el continente. Crean una sociedad militarista basada en el honor y el acero que dura milenios."
         ],
         [
           "Invasion de Xoriat",
           "~9,000 años",
-          "Los Daelkyr invaden Khorvaire desde el Reino de la Locura. Aunque los druidas Cancerberos logran sellar los portales y expulsarlos, el Imperio de Dhakaan queda tan devastado por la guerra psicológica y las plagas que termina resquebrajándose en diversas facciones salvajes."
+          "Los [[eberron/antagonistas/daelkyr|Daelkyr]] invaden Khorvaire desde el [[eberron/planos/xoriat|Reino de la Locura]]. Aunque los druidas Cancerberos logran sellar los portales y expulsarlos, el Imperio de Dhakaan queda tan devastado por la guerra psicológica y las plagas que termina resquebrajándose en diversas facciones salvajes."
         ],
         [
           "Unificación de Galifar (0 AR)",
@@ -58,12 +58,12 @@
       "id": "h4",
       "type": "info",
       "variant": "warning",
-      "content": "En el año 994 AR, una misteriosa catástrofe mágica destruye por completo la nación de Cyre en cuestión de horas, transformándola en el páramo muerto conocido como Tierras Enlutadas. Nadie sabe qué o quién provocó el cataclismo, pero el horror colectivo paraliza los frentes de guerra."
+      "content": "En el año 994 AR, una misteriosa catástrofe mágica destruye por completo la nación de Cyre en cuestión de horas, transformándola en el páramo muerto conocido como [[eberron/khorvaire/tierras-enlutadas|Tierras Enlutadas]]. Nadie sabe qué o quién provocó el cataclismo, pero el horror colectivo paraliza los frentes de guerra."
     },
     {
       "id": "h5",
       "type": "text",
-      "content": "Incapaces de arriesgarse a otro 'Luto' que destruya el resto del mundo, los líderes de las naciones supervivientes firman la paz en el año 996 AR. El [[eberron/historia/tronofirme|Tratado de Tronofirme]] disuelve oficialmente el Reino de Galifar y reconoce las fronteras de 12 nuevas naciones independientes."
+      "content": "Incapaces de arriesgarse a otro 'Luto' que destruya el resto del mundo, los líderes de las naciones supervivientes firman la paz en el año 996 AR. El [[eberron/khorvaire/tronofirme|Tratado de Tronofirme]] disuelve oficialmente el Reino de Galifar y reconoce las fronteras de 12 nuevas naciones independientes."
     },
     {
       "id": "h6",
@@ -75,6 +75,16 @@
       "type": "info",
       "variant": "note",
       "content": "**Nota para los jugadores:** La tecnología actual (trenes de rayos, barcos voladores, forjados) se desarrolló a contrarreloj durante el siglo que duró la Última Guerra. Vuestros personajes han crecido en un mundo que acaba de salir de una guerra mundial mágica."
+    },
+    {
+      "id": "h4",
+      "type": "related",
+      "items": [
+        { "label": "Guerra de la Marca", "slug": "eberron/historia/guerra-marca" },
+        { "label": "Última Guerra", "slug": "eberron/historia/ultima-guerra" },
+        { "label": "El día del Luto", "slug": "eberron/historia/luto" },
+        { "label": "Tratado de Tronofirme", "slug": "eberron/khorvaire/tronofirme" }
+      ]
     }
   ]
 }

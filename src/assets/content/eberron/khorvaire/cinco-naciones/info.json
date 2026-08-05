@@ -9,17 +9,17 @@
     {
       "id": "a1",
       "type": "text",
-      "content": "Las Cinco Naciones son los antiguos estados centrales del continente de Khorvaire en Eberron. Formaban el gran Reino de Galifar y están profundamente marcadas por intriga política, magia generalizada y cicatrices de la [[eberron/historia/ultima-guerra|Última Guerra]]."
+      "content": "Las **Cinco Naciones** son los antiguos estados centrales del continente de **[[eberron/khorvaire|Khorvaire]]** en **[[eberron/eberron|Eberron]]**. Formaban el gran [[Reino de Galifar]] y están profundamente marcadas por intriga política, magia generalizada y cicatrices de la [[eberron/historia/ultima-guerra|Última Guerra]]."
     },
     {
       "id": "a2",
       "type": "bullet",
       "items": [
-        "**[[eberron/khorvaire/aundair|Aundair]]:** Conocida por su excelencia académica, agricultura y arcano-tecnología. Alberga grandes academias mágicas y es gobernada por una monarquía.",
-        "**[[eberron/khorvaire/breland|Breland]]:** Cosmopolita, industrial y progresista. Destaca por albergar la gran metrópolis vertical de Sharn y es el hogar de muchas casas de Marcas del Dragón.",
-        "**[[eberron/khorvaire/tierras-enlutadas|Tierras Enlutadas (Cyre)]]:** Antiguo centro cultural de Galifar. Fue devastada de forma catastrófica al final de la guerra, convirtiéndose en un yermo mágico y embrujado.",
-        "**[[eberron/khorvaire/karrnath|Karrnath]]:** Una nación fría y militarista. Su sociedad se basa en la disciplina marcial y el honor, y es famosa por utilizar soldados y oficiales no-muertos.",
-        "**[[eberron/khorvaire/thrane|Thrane]]:** La única teocracia de las cinco. Está gobernada por la iglesia de la Llama Plateada, una poderosa religión que busca purgar el mal en el mundo."
+        "**[[eberron/khorvaire/aundair|Aundair]]:**Aundair es una nación de fértiles campos, elegantes ciudades y una profunda tradición académica y arcana, considerada por muchos la cuna de la alta hechicería en Khorvaire. Aunque mantiene una imagen refinada y culta, sus ambiciones territoriales y su confianza en el poder de la magia la convierten en una potencia tan orgullosa como peligrosa.",
+        "**[[eberron/khorvaire/breland|Breland]]:** Breland es la nación más poblada y cosmopolita de Khorvaire, conocida por su pujante economía, su estabilidad política y ciudades tan emblemáticas como [[eberron/khorvaire/breland/sharn|Sharn]]. De carácter pragmático y abierto al cambio, sus habitantes valoran la libertad individual, el comercio y la innovación por encima de las antiguas tradiciones nobiliarias.",
+        "**[[eberron/khorvaire/tierras-enlutadas|Tierras Enlutadas (Cyre)]]:** Cyre fue el corazón cultural y artístico del antiguo Reino de Galifar, admirado por su riqueza, refinamiento y prosperidad hasta que una catástrofe de origen desconocido lo convirtió en una tierra estéril, envuelta en una niebla letal. Sus supervivientes viven hoy dispersos por Khorvaire, especialmente en Nuevo Cyre, aferrados a la esperanza de descubrir algún día la verdad sobre la tragedia y recuperar el legado de su nación.",
+        "**[[eberron/khorvaire/karrnath|Karrnath]]:** Karrnath es una nación de clima frío y tradición marcial, cuyos habitantes son célebres por su disciplina, resistencia y sentido del deber. Durante la Última Guerra recurrió a la nigromancia para reforzar sus ejércitos con soldados no muertos, una decisión que aún hoy marca su reputación pese a haber abandonado oficialmente esa práctica.",
+        "**[[eberron/khorvaire/thrane|Thrane]]:** Thrane es una teocracia devota y tradicional, unificada bajo el poder de la Iglesia de la Llama Plateada. Su sociedad se rige por estrictos principios morales y su política está intrínsecamente ligada a la fe, lo que la convierte en una fuerza conservadora pero también en un referente moral y espiritual para muchos pueblos de Khorvaire."
       ]
     },
     {

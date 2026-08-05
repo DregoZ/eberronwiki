@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../../schemas/page.schema.json",
+  "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/historia/guerra-marca",
   "title": "La Guerra de la Marca",
   "tags": ["Historia", "Guerra de la Marca"],
@@ -9,7 +9,10 @@
     {
       "id": "b1",
       "type": "text",
-      "content": "Hace unos 1.500 años, el número de personas con marcas aberrantes creció tanto que se unieron bajo el liderazgo de dos figuras legendarias: [[eberron/casas/tarkanan|Halas Tarkanan]] y la Reina de las Plagas. Las doce Casas legítimas, temiendo perder su control económico y social, se aliaron con las naciones de Khorvaire y desataron una cruzada brutal de exterminio. El conflicto terminó cuando las fuerzas aberrantes, acorraladas en la ciudad de Sharn, desataron el poder destructivo de sus marcas, provocando terremotos y plagas que destruyeron la antigua ciudad. Los aberrantes fueron prácticamente erradicados de la historia."
+      "content": [
+        "La Guerra de la Marca fue un conflicto ocurrido unos 1.500 años antes de la Última Guerra, en el que las familias poseedoras de las [[eberron/casas|Marcas Dragontinas]] se enfrentaron a los portadores de [[eberron/casas/marca-aberrante|marcas aberrantes]]. Estas últimas, impredecibles y a menudo destructivas, despertaban un profundo temor y eran vistas como una amenaza para el orden establecido.",
+        "Impulsadas por las futuras [[eberron/casas|Casas Marcadas]], las familias con marcas verdaderas emprendieron una campaña para erradicar a los portadores de [[eberron/casas/marca-aberrante|marcas aberrantes]]. La guerra culminó con la destrucción de la [[eberron/casas/tarkanan|Casa Tarkanan]], una poderosa familia de portadores aberrantes, y dejó como legado un fuerte estigma social que aún persiste. Aunque hoy poseer una [[eberron/casas/marca-aberrante|marca aberrante]] no es ilegal, muchos habitantes de [[eberron/khorvaire|Khorvaire]] siguen asociándolas con el caos, la violencia y las tragedias del pasado."
+      ]
     }
   ]
 }

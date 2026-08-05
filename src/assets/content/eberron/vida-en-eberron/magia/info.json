@@ -1,0 +1,61 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/vida-en-eberron/magia",
+  "title": "Magia en lugar de tecnología",
+  "tags": ["Magia"],
+  "aliases": ["Magia"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "h2",
+      "type": "text",
+      "content": [
+        "En Khorvaire, la magia no es un secreto arcano para unos pocos elegidos; es una industria. La clase social media-baja está llena de practicantes (artesanos mágicos), profesionales que se ganan la vida lanzando uno o dos trucos específicos."
+      ]
+    },
+    {
+      "id": "h2",
+      "type": "bullet",
+      "items": [
+        "Las farolas de las grandes ciudades se encienden solas por la noche con fuego eterno.",
+        "Los teatros usan ilusiones ópticas para sus funciones (sesión 3D) y los periódicos (como el Crónica de Korranberg) se imprimen en masa gracias a prensas mágicas.",
+        "Para los más ricos, la comida se conserva en arcas de hielo conectadas al plano de Risia y se viaja en barcos voladores."
+      ]
+    },
+    {
+      "id": "h2",
+      "type": "text",
+      "content": [
+        "En este marco, están siempre presentes las Casas Dragontinas, que son poderosas *corporaciones* que monopolizan las soluciones de los problemas cotidianos, como pueden ser la medicina, la comunicación o la economía."
+      ]
+    },
+    {
+      "id": "h3",
+      "type": "image",
+      "src": "/assets/content/eberron/vida-en-eberron/magia/magia.png",
+      "caption": "",
+      "title": "Magia",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "h4",
+      "type": "related",
+      "items": [
+        { "label": "Especies", "slug": "eberron/vida-en-eberron/especies" },
+        { "label": "Calendario", "slug": "eberron/vida-en-eberron/calendario" },
+        { "label": "El Firmamento", "slug": "eberron/vida-en-eberron/firmamento" },
+        { "label": "Fragmentos Dragontinos", "slug": "eberron/vida-en-eberron/fragmentos" },
+        { "label": "Gastronomía", "slug": "eberron/vida-en-eberron/gastronomia" },
+        { "label": "El mundo necesita héroes", "slug": "eberron/vida-en-eberron/heroes" },
+        { "label": "Idiomas", "slug": "eberron/vida-en-eberron/idiomas" },
+        { "label": "Magia en lugar de tecnología", "slug": "eberron/vida-en-eberron/magia" },
+        { "label": "Moneda", "slug": "eberron/vida-en-eberron/moneda" },
+        { "label": "La Profecía Dracónica", "slug": "eberron/vida-en-eberron/profecia" },
+        { "label": "Café y cigarro... noir", "slug": "eberron/vida-en-eberron/tono" },
+        { "label": "El Trauma de la Última Guerra", "slug": "eberron/vida-en-eberron/trauma" },
+        { "label": "Viajar", "slug": "eberron/vida-en-eberron/viajar" }
+      ]
+    }
+  ]
+}

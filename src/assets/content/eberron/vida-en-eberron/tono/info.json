@@ -1,32 +1,30 @@
 {
-  "$schema": "../../schemas/page.schema.json",
-  "slug": "eberron/vida-en-eberron",
-  "title": "La Vida en Eberron",
-  "tags": ["Khorvaire", "Sociedad"],
-  "aliases": ["Sociedad"],
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/vida-en-eberron/tono",
+  "title": "Café y cigarro... noir",
+  "tags": ["Sociedad", "Tono"],
+  "aliases": ["Tono"],
   "unlockCondition": null,
   "blocks": [
     {
-      "id": "b1",
+      "id": "h1",
       "type": "text",
-      "content": "La vida cotidiana en Khorvaire es una mezcla de progreso moderno, comodidad mágica y el trauma de una guerra mundial que terminó hace apenas dos años. Como la Europa de los años 20, pero con varitas en lugar de pistolas."
+      "content": [
+        "La estética de la vida urbana es puramente *pulp*. La gente viste gabardinas y sombreros de ala ancha para protegerse de la lluvia ácida de las ciudades industriales. El café de los [[eberron/khorvaire/confines-eldeen|Confines de Eldeen]] y el tabaco de las plantaciones del sur son productos de consumo masivo para aguantar las largas jornadas en las fábricas mágicas o las noches de guardia.",
+        "En tu bar de confianza no hay caballeros con armadura brillante, ni olor a guiso de pato y puerros. Hay humo, rumores, empresarios corruptos, periodistas, maleantes y alguien negociando la compra de un artefacto capaz de desgarrar la realidad."
+      ]
     },
     {
-      "id": "b3",
-      "type": "text",
-      "content": "Vivir en Khorvaire significa que puedes ir a una cafetería a leer el periódico sobre los últimos crímenes de Sharn, coger un tren mágico hacia la frontera y, por la tarde, estar explorando una ruina Dhakaani acosado por espías internacionales. Es una vida rápida, emocionante y peligrosa."
-    },
-    {
-      "id": "b4",
+      "id": "h3",
       "type": "image",
-      "src": "/assets/content/eberron/vida-en-eberron/sociedad.png",
-      "caption": "Un grupo variopinto de aventureros",
-      "title": "Sociedad",
+      "src": "/assets/content/eberron/vida-en-eberron/tono/noir.png",
+      "caption": "Un Artífice investigando un asesinato",
+      "title": "Café y cigarro... noir",
       "align": "center",
       "size": "full"
     },
     {
-      "id": "b5",
+      "id": "h4",
       "type": "related",
       "items": [
         { "label": "Especies", "slug": "eberron/vida-en-eberron/especies" },

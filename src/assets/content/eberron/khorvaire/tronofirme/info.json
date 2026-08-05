@@ -1,0 +1,140 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/tronofirme",
+  "title": "Tronofirme",
+  "tags": ["Khorvaire", "Tronofirme", "Tratado"],
+  "aliases": ["Tronofirme"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "content": "Tronofirme es una isla, fortaleza y ciudad portuaria en el centro del mar de los Vástagos. Es el lugar histórico donde se firmó el **Tratado de Tronofirme** en el año 998 YK, el cual puso fin a un siglo de guerra. En la actualidad, Tronofirme funciona como una ciudad neutral y su gestión incluye detalles clave:"
+    },
+    {
+      "id": "t2",
+      "type": "bullet",
+      "items": [
+        "**Administración**: El palacio y la isla están custodiados por los Guardianes del Trono de la Casa Deneith, quienes mantienen las instalaciones intactas a la espera de un hipotético nuevo rey de Galifar.",
+        "**El Tratado**: Este acuerdo diplomático oficializó las nuevas fronteras de las Cinco Naciones, reconoció la libertad e independencia de los forjados y estableció el Código de Justicia de Galifar."
+      ]
+    },
+    {
+      "id": "t3",
+      "type": "info",
+      "variant": "lore",
+      "content": "Aunque formalmente neutral, la ciudad suele ser un refugio de espías, diplomáticos y criminales debido a la falta de una jurisdicción nacional estricta."
+    },
+    {
+      "id": "t4",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/tronofirme/tronofirme.png",
+      "caption": "Tronofirme",
+      "title": "Tronofirme",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "El Tratado de Tronofirme",
+      "content": [
+        "Firmado en el año 996 YK, puso fin oficialmente a la Última Guerra, un conflicto que durante más de un siglo enfrentó a las Cinco Naciones surgidas de la desintegración del antiguo Reino de Galifar. Aunque la paz se alcanzó tras el devastador Luto, las tensiones políticas entre las naciones continúan siendo elevadas y el tratado se considera, en muchos aspectos, una tregua más que una reconciliación.",
+        "Entre sus disposiciones más importantes destacan:"
+      ]
+    },
+    {
+      "id": "t2",
+      "type": "bullet",
+      "items": [
+        "El reconocimiento de la soberanía de las nuevas naciones de Aundair, Breland, Karrnath, Thrane y el Nuevo Cyre (aunque Cyre, como reino, dejó de existir tras el Luto).",
+        "El reconocimiento de nuevos estados independientes, como Darguun, Valenar, Q'barra, las Llanuras de Talenta y Zilargo, entre otros.",
+        "La prohibición de fabricar nuevos forjados (warforged) y el reconocimiento de estos como seres libres, con los mismos derechos legales que cualquier otra persona.",
+        "La creación de mecanismos diplomáticos para resolver disputas y evitar una nueva guerra abierta."
+      ]
+    },
+    {
+      "id": "t1",
+      "type": "info",
+      "variant": "note",
+      "content": [
+        "A pesar de la firma del tratado, la paz en Khorvaire es frágil. Muchas fronteras siguen siendo motivo de disputa, el resentimiento entre antiguas potencias permanece vivo y numerosas organizaciones trabajan en secreto para inclinar el equilibrio político a su favor. La mayoría de campañas de Eberron transcurren apenas dos años después de estos acontecimientos, en el 998 YK, cuando el continente aún intenta recuperarse de las cicatrices de la guerra."
+      ]
+    },
+
+    {
+      "id": "a4",
+      "type": "related",
+      "items": [
+        {
+          "label": "Cinco Naciones",
+          "slug": "eberron/khorvaire/cinco-naciones"
+        },
+        {
+          "label": "Aundair",
+          "slug": "eberron/khorvaire/aundair"
+        },
+        {
+          "label": "Baluartes de Mror",
+          "slug": "eberron/khorvaire/baluartes"
+        },
+        {
+          "label": "Breland",
+          "slug": "eberron/khorvaire/breland"
+        },
+        {
+          "label": "Confines de Eldeen",
+          "slug": "eberron/khorvaire/confines-eldeen"
+        },
+        {
+          "label": "Darguun",
+          "slug": "eberron/khorvaire/darguun"
+        },
+        {
+          "label": "Droaam",
+          "slug": "eberron/khorvaire/droaam"
+        },
+        {
+          "label": "Karrnath",
+          "slug": "eberron/khorvaire/karrnath"
+        },
+        {
+          "label": "Llanuras de Talenta",
+          "slug": "eberron/khorvaire/llanuras-talenta"
+        },
+        {
+          "label": "Las Marcas Sombrias",
+          "slug": "eberron/khorvaire/marcas-sombrias"
+        },
+        {
+          "label": "Principados de Lhazaar",
+          "slug": "eberron/khorvaire/principados-lhazaar"
+        },
+        {
+          "label": "Q'barra",
+          "slug": "eberron/khorvaire/qbarra"
+        },
+        {
+          "label": "Thrane",
+          "slug": "eberron/khorvaire/thrane"
+        },
+        {
+          "label": "Tierras Enlutadas",
+          "slug": "eberron/khorvaire/tierras-enlutadas"
+        },
+        {
+          "label": "Valenar",
+          "slug": "eberron/khorvaire/valenar"
+        },
+        {
+          "label": "Yermos Demoníacos",
+          "slug": "eberron/khorvaire/yermos-demoniacos"
+        },
+        {
+          "label": "Zilargo",
+          "slug": "eberron/khorvaire/zilargo"
+        }
+      ]
+    }
+  ]
+}

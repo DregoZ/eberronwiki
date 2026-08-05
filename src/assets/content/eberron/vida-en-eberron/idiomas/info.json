@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/vida-en-eberron/idiomas",
+  "title": "Idiomas",
+  "tags": ["Idiomas"],
+  "aliases": ["Idiomas"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "h1",
+      "type": "quote",
+      "text": "¿Ola, ke ase?",
+      "author": "Típico saludo de bienvenida Talentino"
+    },
+    {
+      "id": "h2",
+      "type": "bullet",
+      "items": [
+        "Se habla Común en las Cinco Naciones, pues es el lenguaje del comercio.",
+        "El Goblin fue el lenguaje comercial del antiguo [[eberron/historia|Imperio Dhakaan]], y todavía es la lengua materna de los habitantes de [[eberron/khorvaire/darguun|Darguun]], [[eberron/khorvaire/droaam|Droaam]] y las [[eberron/khorvaire/marcas-de-gradoom|Marcas de Gradoom]].",
+        "Los elfos de [[eberron/mas-alla/aerenal|Aerenal]] y [[eberron/khorvaire/valenar|Valenar]] comparten el idioma Élfico o 'Chacho', con leves diferencias.",
+        "En los [[eberron/khorvaire/baluartes|Baluartes de Mror]] se habla Enanol o Mroriano (nadie lo llama así), lengua que comparte alfabeto con el Gnomil o Zil y que hablan sus primos gnomos de [[eberron/khorvaire/zilargo|Zilargo]].",
+        "Los medianos de [[eberron/khorvaire/llanuras-talenta|Llanuras Talenta]] hablan su propia versión del idioma Común, el Medianesco o Talentino, que también comparte alfabeto con el Riedrano, lenguaje principal del continente [[eberron/mas-alla/sarlona|Sarlona]]."
+      ]
+    },
+    {
+      "id": "h3",
+      "type": "image",
+      "src": "/assets/content/eberron/vida-en-eberron/idiomas/idiomas.png",
+      "caption": "Mapa de Khorvaire con sus principales idiomas",
+      "title": "Héroes en Eberron",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "h4",
+      "type": "related",
+      "items": [
+        { "label": "Especies", "slug": "eberron/vida-en-eberron/especies" },
+        { "label": "Calendario", "slug": "eberron/vida-en-eberron/calendario" },
+        { "label": "El Firmamento", "slug": "eberron/vida-en-eberron/firmamento" },
+        { "label": "Fragmentos Dragontinos", "slug": "eberron/vida-en-eberron/fragmentos" },
+        { "label": "Gastronomía", "slug": "eberron/vida-en-eberron/gastronomia" },
+        { "label": "El mundo necesita héroes", "slug": "eberron/vida-en-eberron/heroes" },
+        { "label": "Idiomas", "slug": "eberron/vida-en-eberron/idiomas" },
+        { "label": "Magia en lugar de tecnología", "slug": "eberron/vida-en-eberron/magia" },
+        { "label": "Moneda", "slug": "eberron/vida-en-eberron/moneda" },
+        { "label": "La Profecía Dracónica", "slug": "eberron/vida-en-eberron/profecia" },
+        { "label": "Café y cigarro... noir", "slug": "eberron/vida-en-eberron/tono" },
+        { "label": "El Trauma de la Última Guerra", "slug": "eberron/vida-en-eberron/trauma" },
+        { "label": "Viajar", "slug": "eberron/vida-en-eberron/viajar" }
+      ]
+    }
+  ]
+}

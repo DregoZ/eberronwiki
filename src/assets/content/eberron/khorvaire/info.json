@@ -23,17 +23,10 @@
       "pins": [
         {
           "id": "pin-sharn",
-          "x": 45,
-          "y": 65,
+          "x": 22.8,
+          "y": 89.5,
           "label": "Sharn, Ciudad de las Torres",
-          "linkSlug": "personajes/sharn"
-        },
-        {
-          "id": "pin-wroat",
-          "x": 50,
-          "y": 55,
-          "label": "Wroat",
-          "linkSlug": "eberron/historia"
+          "linkSlug": "eberron/khorvaire/breland/sharn"
         }
       ]
     },

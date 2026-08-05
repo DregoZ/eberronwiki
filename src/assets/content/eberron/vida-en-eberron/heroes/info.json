@@ -1,32 +1,36 @@
 {
-  "$schema": "../../schemas/page.schema.json",
-  "slug": "eberron/vida-en-eberron",
-  "title": "La Vida en Eberron",
-  "tags": ["Khorvaire", "Sociedad"],
-  "aliases": ["Sociedad"],
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/vida-en-eberron/heroes",
+  "title": "¡El mundo necesita héroes!",
+  "tags": ["Héroes"],
+  "aliases": ["Héroes"],
   "unlockCondition": null,
   "blocks": [
     {
-      "id": "b1",
-      "type": "text",
-      "content": "La vida cotidiana en Khorvaire es una mezcla de progreso moderno, comodidad mágica y el trauma de una guerra mundial que terminó hace apenas dos años. Como la Europa de los años 20, pero con varitas en lugar de pistolas."
+      "id": "h1",
+      "type": "quote",
+      "text": "¿Qué es mejor que una batalla en la cubierta de un barco volador? Una batalla en la cubierta de un barco volador a punto de estrellarse."
     },
     {
-      "id": "b3",
+      "id": "h2",
       "type": "text",
-      "content": "Vivir en Khorvaire significa que puedes ir a una cafetería a leer el periódico sobre los últimos crímenes de Sharn, coger un tren mágico hacia la frontera y, por la tarde, estar explorando una ruina Dhakaani acosado por espías internacionales. Es una vida rápida, emocionante y peligrosa."
+      "content": [
+        "*Eberron necesita desesperadamente héroes*. Tensiones de postguerra, cultos fanáticos, archidemonios y seres alienígenas amenazan el mundo… y no hay nadie que los detenga.",
+        "Los dioses son entidades distantes que solo intervienen en los asuntos mundanos a través de campeones mortales y los pocos campeones mortales existentes tienen, digamos, ciertas limitaciones: *La Guardiana de la Llama Plateada* no puede ejercer su poder más alla de la Ciudadela. *El Gran Druida* es un árbol. La mayoría de los poderosos se mueven por intereses egoístas. Si La Tarasca atacase Sharn mañana, nadie atajaría el problema.",
+        "El destino del mundo puede estar en vuestras manos."
+      ]
     },
     {
-      "id": "b4",
+      "id": "h3",
       "type": "image",
-      "src": "/assets/content/eberron/vida-en-eberron/sociedad.png",
-      "caption": "Un grupo variopinto de aventureros",
-      "title": "Sociedad",
+      "src": "/assets/content/eberron/vida-en-eberron/heroes/heroes.png",
+      "caption": "Inspiración para quien haga esto",
+      "title": "Héroes en Eberron",
       "align": "center",
       "size": "full"
     },
     {
-      "id": "b5",
+      "id": "h4",
       "type": "related",
       "items": [
         { "label": "Especies", "slug": "eberron/vida-en-eberron/especies" },
