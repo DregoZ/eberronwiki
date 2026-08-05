@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../../../../schemas/page.schema.json",
+  "$schema": "../../../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/breland/sharn/puntos-de-interes/la-cumbre",
   "title": "Gremio La Cumbre",
   "tags": ["Sharn", "La Cumbre", "Aventureros"],

@@ -7,6 +7,7 @@ import { ContentService } from '../../core/services/content.service';
 import { FavoritesService } from '../../core/services/favorites.service';
 
 import { TextBlockComponent } from '../../blocks/text-block/text-block.component';
+import { BulletBlockComponent } from '../../blocks/bullet-block/bullet-block';
 import { ImageBlockComponent } from '../../blocks/image-block/image-block.component';
 import { QuoteBlockComponent } from '../../blocks/quote-block/quote-block.component';
 import { InfoBlockComponent } from '../../blocks/info-block/info-block.component';
@@ -19,7 +20,17 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatChipsModule } from '@angular/material/chips';
-import { TextBlock, ImageBlock, QuoteBlock, InfoBlock, TableBlock, SeparatorBlock, RelatedBlock, MapBlock } from '../../core/models/block.model';
+import {
+  TextBlock,
+  BulletBlock,
+  ImageBlock,
+  QuoteBlock,
+  InfoBlock,
+  TableBlock,
+  SeparatorBlock,
+  RelatedBlock,
+  MapBlock,
+} from '../../core/models/block.model';
 
 @Component({
   selector: 'app-page-viewer',
@@ -27,6 +38,7 @@ import { TextBlock, ImageBlock, QuoteBlock, InfoBlock, TableBlock, SeparatorBloc
   imports: [
     CommonModule,
     TextBlockComponent,
+    BulletBlockComponent,
     ImageBlockComponent,
     QuoteBlockComponent,
     InfoBlockComponent,
@@ -56,7 +68,12 @@ import { TextBlock, ImageBlock, QuoteBlock, InfoBlock, TableBlock, SeparatorBloc
         <header class="page-header">
           <div class="title-row">
             <h1 class="page-title">{{ pageData()?.title }}</h1>
-            <button mat-icon-button (click)="toggleFavorite()" class="fav-btn" [title]="isFav() ? 'Quitar de favoritos' : 'Añadir a favoritos'">
+            <button
+              mat-icon-button
+              (click)="toggleFavorite()"
+              class="fav-btn"
+              [title]="isFav() ? 'Quitar de favoritos' : 'Añadir a favoritos'"
+            >
               <mat-icon [class.is-fav]="isFav()">{{ isFav() ? 'star' : 'star_border' }}</mat-icon>
             </button>
           </div>
@@ -75,6 +92,9 @@ import { TextBlock, ImageBlock, QuoteBlock, InfoBlock, TableBlock, SeparatorBloc
             @switch (block.type) {
               @case ('text') {
                 <app-text-block [block]="$any(block)" />
+              }
+              @case ('bullet') {
+                <app-bullet-block [block]="$any(block)" />
               }
               @case ('image') {
                 <app-image-block [block]="$any(block)" />
@@ -103,72 +123,75 @@ import { TextBlock, ImageBlock, QuoteBlock, InfoBlock, TableBlock, SeparatorBloc
       </article>
     }
   `,
-  styles: [`
-    .loading-state, .error-state {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 4rem 1rem;
-      text-align: center;
-      color: var(--text-muted, #666);
-    }
-
-    .error-icon {
-      font-size: 3.5rem;
-      width: 3.5rem;
-      height: 3.5rem;
-      color: var(--primary-color, #8b1e0f);
-      margin-bottom: 1rem;
-    }
-
-    .page-header {
-      margin-bottom: 2rem;
-      border-bottom: 2px solid var(--accent-color, #c9933b);
-      padding-bottom: 1rem;
-
-      .title-row {
+  styles: [
+    `
+      .loading-state,
+      .error-state {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        padding: 4rem 1rem;
+        text-align: center;
+        color: var(--text-muted, #666);
       }
 
-      .page-title {
-        font-family: 'Cinzel', serif, system-ui;
-        font-size: 2.4rem;
-        font-weight: 700;
-        margin: 0;
+      .error-icon {
+        font-size: 3.5rem;
+        width: 3.5rem;
+        height: 3.5rem;
         color: var(--primary-color, #8b1e0f);
+        margin-bottom: 1rem;
       }
 
-      .fav-btn {
-        color: var(--accent-color, #c9933b);
-        .is-fav {
-          color: #ffb300;
+      .page-header {
+        margin-bottom: 2rem;
+        border-bottom: 2px solid var(--accent-color, #c9933b);
+        padding-bottom: 1rem;
+
+        .title-row {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        .page-title {
+          font-family: 'Cinzel', serif, system-ui;
+          font-size: 2.4rem;
+          font-weight: 700;
+          margin: 0;
+          color: var(--primary-color, #8b1e0f);
+        }
+
+        .fav-btn {
+          color: var(--accent-color, #c9933b);
+          .is-fav {
+            color: #ffb300;
+          }
+        }
+
+        .tags-row {
+          display: flex;
+          gap: 0.5rem;
+          margin-top: 0.75rem;
+        }
+
+        .tag-chip {
+          font-size: 0.8rem;
+          padding: 0.2rem 0.6rem;
+          background: var(--tag-bg, rgba(139, 30, 15, 0.08));
+          color: var(--primary-color, #8b1e0f);
+          border-radius: 12px;
+          font-weight: 500;
         }
       }
 
-      .tags-row {
+      .blocks-list {
         display: flex;
-        gap: 0.5rem;
-        margin-top: 0.75rem;
+        flex-direction: column;
       }
-
-      .tag-chip {
-        font-size: 0.8rem;
-        padding: 0.2rem 0.6rem;
-        background: var(--tag-bg, rgba(139, 30, 15, 0.08));
-        color: var(--primary-color, #8b1e0f);
-        border-radius: 12px;
-        font-weight: 500;
-      }
-    }
-
-    .blocks-list {
-      display: flex;
-      flex-direction: column;
-    }
-  `]
+    `,
+  ],
 })
 export class PageViewerComponent {
   private route = inject(ActivatedRoute);
@@ -176,12 +199,14 @@ export class PageViewerComponent {
   private favoritesService = inject(FavoritesService);
 
   readonly currentSlug = toSignal(
-    this.route.url.pipe(map(() => {
-      // Reconstruct complete path from wildcard route
-      const rawPath = this.route.snapshot.url.map((s) => s.path).join('/');
-      return decodeURIComponent(rawPath);
-    })),
-    { initialValue: '' }
+    this.route.url.pipe(
+      map(() => {
+        // Reconstruct complete path from wildcard route
+        const rawPath = this.route.snapshot.url.map((s) => s.path).join('/');
+        return decodeURIComponent(rawPath);
+      }),
+    ),
+    { initialValue: '' },
   );
 
   readonly resource = computed(() => {

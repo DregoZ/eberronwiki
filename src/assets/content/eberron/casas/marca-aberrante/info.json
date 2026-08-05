@@ -1,0 +1,75 @@
+{
+  "$schema": "../../../../schemas/page.schema.json",
+  "slug": "eberron/casas/marca-aberrante",
+  "title": "Marcas Aberrantes",
+  "tags": ["Sharn", "Marcas Dragontinas", "Aberrante"],
+  "aliases": ["Marca Aberrante"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": "Si las [[eberron/casas|Marcas Dragontinas]] de las grandes Casas son el equivalente a una herencia corporativa legítima, las Marcas Aberrantes son la mutación genética peligrosa y maldita del mundo de Eberron."
+    },
+    {
+      "id": "a2",
+      "type": "text",
+      "content": "Las Marcas Aberrantes aparecen en la piel de un humanoide, pero con características radicalmente distintas a las doce marcas legítimas. Mientras que las marcas de las [[eberron/casas|Casas]] son predecibles, de color azul/púrpura brillante y otorgan poderes de utilidad social (curar, reparar, viajar), las marcas aberrantes son oscuras, de color rojo, fuego o negro, tienen formas caóticas y otorgan poderes puramente destructivos o perturbadores (provocar fuego, plagas, telequinesis destructiva, o drenar la mente de los demás)."
+    },
+    {
+      "id": "a3",
+      "type": "text",
+      "content": "Cualquiera puede manifestar una marca aberrante, pero la causa más común es el mestizaje entre diferentes [[eberron/casas|Casas Dragontinas]]. Si un miembro de la Casa [[eberron/casas/cannith|Cannith]] (Marca de la Creación) tiene un hijo con alguien de la Casa [[eberron/casas/orien|Orien]] (Marca del Pasaje), las dos líneas de sangre mágicas chocan. El resultado no es un niño con dos marcas, sino un linaje corrupto que da lugar a una Marca Aberrante. Es por esto que las Casas prohíben estrictamente el matrimonio intercorporativo."
+    },
+    {
+      "id": "a4",
+      "type": "text",
+      "content": "Llevar una marca aberrante es una tragedia personal y social:"
+    },
+    {
+      "id": "a41",
+      "type": "bullet",
+      "items": [
+        "Inestabilidad Física y Mental: A diferencia de las marcas normales, las aberrantes consumen al portador. Suelen causar dolor físico crónico, pesadillas sangrientas, voces en la cabeza o arrebatos de locura.",
+        "Poder Incontrolable: El poder de una marca aberrante suele activarse por primera vez en un momento de gran estrés, miedo o rabia, terminando casi siempre en una catástrofe donde el portador mata o hiere accidentalmente a sus seres queridos.",
+        "Rechazo Social: El mundo les teme y les odia. Se les considera malditos, peligrosos e impredecibles."
+      ]
+    },
+    {
+      "id": "a42",
+      "type": "info",
+      "variant": "warning",
+      "content": "Si bien es cierto que las Marcas Aberrantes son impredecibles en su funcionamiento, las Casas han contribuído a alimentar el mito de su supuesta peligrosidad. Las Marcas Aberrantes varían en tamaño y forma, pero sus patrones y aspecto suelen ser similares a los de las imágenes."
+    },
+    {
+      "id": "a5",
+      "type": "image",
+      "src": "https://klubbsaga2015.wdfiles.com/local--files/aberrant/Aberrant%2002%20-%20Lesser%20Mark%20%28Tarkanan%29.png",
+      "caption": "Marca Aberrante",
+      "alt": "Marca Aberrante"
+    },
+    {
+      "id": "a6",
+      "type": "image",
+      "src": "https://klubbsaga2015.wdfiles.com/local--files/aberrant/Aberrant%2003%20-%20Greater%20Mark%20%28Tarkanan%29.png",
+      "caption": "Marca Aberrante",
+      "alt": "Marca Aberrante"
+    },
+    {
+      "id": "a6",
+      "type": "image",
+      "src": "https://www.worldanvil.com/uploads/images/b8dd242bdeeefe39664ae21a7598c9be.png",
+      "caption": "Marca Aberrante completamente desarrollada",
+      "alt": "Marca Aberrante"
+    },
+    {
+      "id": "a7",
+      "type": "related",
+      "items": [
+        { "label": "Guerra de la Marca", "slug": "eberron/historia/guerra-de-la-marca" },
+        { "label": "Casas Dragontinas", "slug": "eberron/casas" },
+        { "label": "Casa Tarkanan", "slug": "eberron/casas/tarkanan" }
+      ]
+    }
+  ]
+}

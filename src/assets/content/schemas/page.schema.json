@@ -41,11 +41,22 @@
         "id": { "type": "string" },
         "type": {
           "type": "string",
-          "enum": ["text", "image", "quote", "info", "table", "separator", "related", "map"]
+          "enum": [
+            "text",
+            "bullet",
+            "image",
+            "quote",
+            "info",
+            "table",
+            "separator",
+            "related",
+            "map"
+          ]
         }
       },
       "oneOf": [
         { "$ref": "#/definitions/TextBlock" },
+        { "$ref": "#/definitions/BulletBlock" },
         { "$ref": "#/definitions/ImageBlock" },
         { "$ref": "#/definitions/QuoteBlock" },
         { "$ref": "#/definitions/InfoBlock" },

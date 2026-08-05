@@ -1,5 +1,6 @@
 export type ContentBlock =
   | TextBlock
+  | BulletBlock
   | ImageBlock
   | QuoteBlock
   | InfoBlock
@@ -15,7 +16,15 @@ export interface BaseBlock {
 
 export interface TextBlock extends BaseBlock {
   type: 'text';
+  title?: string;
   content: string;
+}
+
+export interface BulletBlock extends BaseBlock {
+  id: string;
+  type: 'bullet';
+  title?: string;
+  items: string[];
 }
 
 export interface ImageBlock extends BaseBlock {

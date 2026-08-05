@@ -18,18 +18,12 @@
     },
     {
       "id": "dh12",
-      "type": "text",
-      "content": "La Marca Dragontina: Es un tatuaje mágico de nacimiento que solo aparece en los linajes de estas familias. Esta marca otorga a su portador poderes mágicos innatos relacionados con un sector comercial (como curar, teletransportarse, reparar o fabricar)."
-    },
-    {
-      "id": "dh13",
-      "type": "text",
-      "content": "Monopolio Absoluto: Cada casa tiene el control exclusivo de un sector a través de sus gremios. Por ejemplo, si quieres enviar un mensaje rápido usas los servicios de la casa [[eberron/casas/sivis|Sivis]]; si quieres viajar en tren, pagas a la casa [[eberron/casas/orien|Orien]]; si necesitas un hotel seguro, vas a la casa [[eberron/casas/ghallanda|Ghallanda]]."
-    },
-    {
-      "id": "dh14",
-      "type": "text",
-      "content": "Neutralidad Política: Por ley internacional, las Casas no pueden poseer tierras ni ejércitos nacionales, y deben mantenerse neutrales en los conflictos políticos. Durante la [[eberron/history/last-war|Última Guerra]], vendieron sus servicios y tecnología a todos los bandos, lo que las hizo asquerosamente ricas."
+      "type": "bullet",
+      "items": [
+        "La Marca Dragontina: Es un tatuaje mágico de nacimiento que solo aparece en los linajes de estas familias. Esta marca otorga a su portador poderes mágicos innatos relacionados con un sector comercial (como curar, teletransportarse, reparar o fabricar).",
+        "Monopolio Absoluto: Cada casa tiene el control exclusivo de un sector a través de sus gremios. Por ejemplo, si quieres enviar un mensaje rápido usas los servicios de la casa [[eberron/casas/sivis|Sivis]]; si quieres viajar en tren, pagas a la casa [[eberron/casas/orien|Orien]]; si necesitas un hotel seguro, vas a la casa [[eberron/casas/ghallanda|Ghallanda]].",
+        "Neutralidad Política: Por ley internacional, las Casas no pueden poseer tierras ni ejércitos nacionales, y deben mantenerse neutrales en los conflictos políticos. Durante la [[eberron/history/last-war|Última Guerra]], vendieron sus servicios y tecnología a todos los bandos, lo que las hizo asquerosamente ricas."
+      ]
     },
     {
       "id": "dh15",
@@ -126,7 +120,7 @@
       "id": "dh4",
       "type": "info",
       "variant": "warning",
-      "content": "Poseer una Marca Dragontina aberrante (fuera de los linajes reconocidos) está estigmatizado. En el pasado, la [[Purga de las Marcas Aberrantes]] intentó erradicar estos linajes."
+      "content": "Poseer una [[eberron/casas/marca-aberrante|Marca Dragontina aberrante]] está estigmatizado. En el pasado, la [[eberron/casas/guerra-de-la-marcas|Guerra de las Marcas Aberrantes]] intentó erradicar estos linajes."
     },
     {
       "id": "dh5",

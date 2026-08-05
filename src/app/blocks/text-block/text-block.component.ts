@@ -10,6 +10,10 @@ import { ParseInternalLinksPipe } from '../../shared/pipes/parse-internal-links.
   imports: [CommonModule, RouterLink, ParseInternalLinksPipe],
   template: `
     <div class="text-block">
+      @if (block().title) {
+        <h3 class="text-block-title">{{ block().title }}</h3>
+      }
+
       @for (segment of block().content | parseInternalLinks; track $index) {
         @if (segment.isLink) {
           <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
@@ -21,6 +25,12 @@ import { ParseInternalLinksPipe } from '../../shared/pipes/parse-internal-links.
   `,
   styles: [
     `
+      .text-block-title {
+        font-size: 1.5rem; // un h3 aprox
+        font-weight: 700;
+        margin: 0 0 0.75rem 0;
+        color: var(--heading-color, var(--text-color, #2c2c2c));
+      }
       .text-block {
         line-height: 1.7;
         font-size: 1.05rem;
