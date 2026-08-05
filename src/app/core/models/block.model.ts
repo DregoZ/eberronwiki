@@ -17,7 +17,7 @@ export interface BaseBlock {
 export interface TextBlock extends BaseBlock {
   type: 'text';
   title?: string;
-  content: string;
+  content: string | string[];
 }
 
 export interface BulletBlock extends BaseBlock {
@@ -45,7 +45,7 @@ export interface QuoteBlock extends BaseBlock {
 export interface InfoBlock extends BaseBlock {
   type: 'info';
   variant: 'note' | 'warning' | 'lore';
-  content: string;
+  content: string | string[];
 }
 
 export interface TableBlock extends BaseBlock {

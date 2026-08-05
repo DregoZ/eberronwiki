@@ -1,0 +1,79 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/vida-en-eberron/firmamento",
+  "title": "El firmamento",
+  "tags": ["Sociedad", "Día a Día"],
+  "aliases": ["El firmamento"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "content": "En el cielo de Eberron destacan cuatro elementos visuales principales, además de elementos artificiales y mágicos:"
+    },
+    {
+      "id": "b2",
+      "type": "bullet",
+      "items": [
+        "**El Anillo de Siberys:** Un impresionante cinturón de polvo dorado y fragmentos brillantes que rodea el ecuador del planeta, resultado de los restos del dragón progenitor Siberys. Dependiendo de la hora y la latitud, se ve como una franja luminosa que cruza el firmamento.",
+        "**Doce lunas en órbita:** A diferencia de otros mundos, Eberron tiene doce lunas, cada una con su propio color y órbita independiente. Nombradas como los meses del calendario, cambian de posición, tamaño y brillo a lo largo del año.",
+        "**Constelaciones inmóviles:** En lugar de ser estrellas lejanas, los sabios descubrieron que las estrellas son puntos fijos en una esfera cristalina que marca el límite del plano material. La lectura de sus patrones es fundamental para descifrar la [[eberron/vida-en-eberron/profecia|Profecía Dracónica]]. Sin embargo, Eberron sigue siendo redondo.",
+        "**Naves elementales y magia:** Es común ver surcar los cielos a los navíos voladores de las [[eberron/casas|Casas Dragontinas]], impulsados por elementales aprisionados, y los vientos mágicos que fluyen desde los distintos planos."
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "image",
+      "src": "/assets/content/eberron/vida-en-eberron/firmamento/firmamento.png",
+      "caption": "El firmamento de Eberron",
+      "title": "El firmamento de Eberron",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "b3",
+      "type": "info",
+      "variant": "lore",
+      "content": "Las doce lunas de Eberron se suelen asociar a cada uno de los planos de existencia, a partir de su posición en el cielo, aunque en su mayor parte son conjeturas. En la [[Universidad de Morgrave]] se han llevado a cabo múltiples estudios al respecto."
+    },
+    {
+      "id": "t1",
+      "type": "table",
+      "headers": ["Luna", "Color habitual", "Posible plano asociado"],
+      "rows": [
+        ["Aryth", "Naranja", "[[eberron/planos/dolurrh|Dolurrh]]"],
+        ["Barrakas", "Roja", "[[eberron/planos/shavarath|Shavarath]]"],
+        ["Crya", "¿desaparecida?", "[[eberron/planos/dal-quor|Dal Quor]]"],
+        ["Dravago", "Verde intenso", "[[eberron/planos/kythri|Kythri]]"],
+        ["Eyre", "Azul claro", "[[eberron/planos/syrania|Syrania]]"],
+        ["Lharvion", "Verde claro", "[[eberron/planos/lamannia|Lamannia]]"],
+        ["Nymm", "Gris", "[[eberron/planos/xoriat|Xoriat]]"],
+        ["Olarune", "Blanca", "[[eberron/planos/fernia|Fernia]]"],
+        ["Rhaan", "Dorada", "[[eberron/planos/thelanis|Thelanis]]"],
+        ["Sypheros", "Azul oscuro", "[[eberron/planos/mabar|Mabar]]"],
+        ["Therendor", "Blanco azulado", "[[eberron/planos/irian|Irian]]"],
+        ["Vult", "Púrpura", "[[eberron/planos/daanvi|Daanvi]]"],
+        ["Zarithar", "Plateada", "[[eberron/planos/risia|Risia]]"]
+      ]
+    },
+    {
+      "id": "b5",
+      "type": "related",
+      "items": [
+        { "label": "Especies", "slug": "eberron/vida-en-eberron/especies" },
+        { "label": "Calendario", "slug": "eberron/vida-en-eberron/calendario" },
+        { "label": "El Firmamento", "slug": "eberron/vida-en-eberron/firmamento" },
+        { "label": "Fragmentos Dragontinos", "slug": "eberron/vida-en-eberron/fragmentos" },
+        { "label": "Gastronomía", "slug": "eberron/vida-en-eberron/gastronomia" },
+        { "label": "El mundo necesita héroes", "slug": "eberron/vida-en-eberron/heroes" },
+        { "label": "Idiomas", "slug": "eberron/vida-en-eberron/idiomas" },
+        { "label": "Magia en lugar de tecnología", "slug": "eberron/vida-en-eberron/magia" },
+        { "label": "Moneda", "slug": "eberron/vida-en-eberron/moneda" },
+        { "label": "La Profecía Dracónica", "slug": "eberron/vida-en-eberron/profecia" },
+        { "label": "Café y cigarro... noir", "slug": "eberron/vida-en-eberron/tono" },
+        { "label": "El Trauma de la Última Guerra", "slug": "eberron/vida-en-eberron/trauma" },
+        { "label": "Viajar", "slug": "eberron/vida-en-eberron/viajar" }
+      ]
+    }
+  ]
+}

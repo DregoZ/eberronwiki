@@ -69,9 +69,25 @@
     "TextBlock": {
       "properties": {
         "type": { "const": "text" },
-        "content": { "type": "string" }
+        "content": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "array", "items": { "type": "string" } }
+          ]
+        }
       },
       "required": ["type", "content"]
+    },
+    "BulletBlock": {
+      "properties": {
+        "type": { "const": "bullet" },
+        "title": { "type": "string" },
+        "items": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["type", "items"]
     },
     "ImageBlock": {
       "properties": {
@@ -96,7 +112,12 @@
       "properties": {
         "type": { "const": "info" },
         "variant": { "type": "string", "enum": ["note", "warning", "lore"] },
-        "content": { "type": "string" }
+        "content": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "array", "items": { "type": "string" } }
+          ]
+        }
       },
       "required": ["type", "variant", "content"]
     },

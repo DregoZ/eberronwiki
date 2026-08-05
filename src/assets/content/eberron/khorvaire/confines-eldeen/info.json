@@ -2,21 +2,23 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/confines-eldeen",
   "title": "Confines de Eldeen",
-  "tags": ["Khorvaire", "Eldeen", "Druidas", "Naturaleza"],
-  "aliases": ["Confines de Eldeen"],
+  "tags": [
+    "Khorvaire",
+    "Eldeen",
+    "Druidas",
+    "Naturaleza"
+  ],
+  "aliases": [
+    "Confines de Eldeen"
+  ],
   "unlockCondition": null,
   "blocks": [
     {
-      "id": "a1",
-      "type": "text",
-      "content": "Bosques Ancestrales y Tradición Druídica"
-    },
-    {
       "id": "a2",
       "type": "text",
-      "content": "Antaño parte de Aundair, esta vasta región de bosques densos y llanuras agrícolas se independizó con la ayuda de los druidas. Es una tierra donde la naturaleza es sagrada. Está protegida por los Vigilantes y los Cenicientos. Si respetáis el bosque, estaréis a salvo; si encendéis una fogata donde no debéis, los árboles os lo harán saber."
+      "content": "Antaño parte de Aundair, esta vasta región de bosques densos y llanuras agrícolas se independizó con la ayuda de los druidas. Es una tierra donde la naturaleza es sagrada. Está protegida por los Vigilantes y los Cenicientos. Si respetáis el bosque, estaréis a salvo; si encendéis una fogata donde no debéis, los árboles os lo harán saber.",
+      "title": "Bosques Ancestrales y Tradición Druídica"
     },
-
     {
       "id": "a3",
       "type": "image",
@@ -30,23 +32,74 @@
       "id": "a4",
       "type": "related",
       "items": [
-        { "label": "Cinco Naciones", "slug": "eberron/khorvaire/cinco-naciones" },
-        { "label": "Aundair", "slug": "eberron/khorvaire/aundair" },
-        { "label": "Baluartes de Mror", "slug": "eberron/khorvaire/baluartes" },
-        { "label": "Breland", "slug": "eberron/khorvaire/breland" },
-        { "label": "Confines de Eldeen", "slug": "eberron/khorvaire/confines-eldeen" },
-        { "label": "Darguun", "slug": "eberron/khorvaire/darguun" },
-        { "label": "Droaam", "slug": "eberron/khorvaire/droaam" },
-        { "label": "Karrnath", "slug": "eberron/khorvaire/karrnath" },
-        { "label": "Llanuras de Talenta", "slug": "eberron/khorvaire/llanuras-talenta" },
-        { "label": "Las Marcas Sombrias", "slug": "eberron/khorvaire/marcas-sombrias" },
-        { "label": "Principados de Lhazaar", "slug": "eberron/khorvaire/principados-lhazaar" },
-        { "label": "Q'barra", "slug": "eberron/khorvaire/qbarra" },
-        { "label": "Thrane", "slug": "eberron/khorvaire/thrane" },
-        { "label": "Tierras Enlutadas", "slug": "eberron/khorvaire/tierras-enlutadas" },
-        { "label": "Valenar", "slug": "eberron/khorvaire/valenar" },
-        { "label": "Yermos Demoníacos", "slug": "eberron/khorvaire/yermos-demoniacos" },
-        { "label": "Zilargo", "slug": "eberron/khorvaire/zilargo" }
+        {
+          "label": "Cinco Naciones",
+          "slug": "eberron/khorvaire/cinco-naciones"
+        },
+        {
+          "label": "Aundair",
+          "slug": "eberron/khorvaire/aundair"
+        },
+        {
+          "label": "Baluartes de Mror",
+          "slug": "eberron/khorvaire/baluartes"
+        },
+        {
+          "label": "Breland",
+          "slug": "eberron/khorvaire/breland"
+        },
+        {
+          "label": "Confines de Eldeen",
+          "slug": "eberron/khorvaire/confines-eldeen"
+        },
+        {
+          "label": "Darguun",
+          "slug": "eberron/khorvaire/darguun"
+        },
+        {
+          "label": "Droaam",
+          "slug": "eberron/khorvaire/droaam"
+        },
+        {
+          "label": "Karrnath",
+          "slug": "eberron/khorvaire/karrnath"
+        },
+        {
+          "label": "Llanuras de Talenta",
+          "slug": "eberron/khorvaire/llanuras-talenta"
+        },
+        {
+          "label": "Las Marcas Sombrias",
+          "slug": "eberron/khorvaire/marcas-sombrias"
+        },
+        {
+          "label": "Principados de Lhazaar",
+          "slug": "eberron/khorvaire/principados-lhazaar"
+        },
+        {
+          "label": "Q'barra",
+          "slug": "eberron/khorvaire/qbarra"
+        },
+        {
+          "label": "Thrane",
+          "slug": "eberron/khorvaire/thrane"
+        },
+        {
+          "label": "Tierras Enlutadas",
+          "slug": "eberron/khorvaire/tierras-enlutadas"
+        },
+        {
+          "label": "Valenar",
+          "slug": "eberron/khorvaire/valenar"
+        },
+        {
+          "label": "Yermos Demoníacos",
+          "slug": "eberron/khorvaire/yermos-demoniacos"
+        },
+        {
+          "label": "Zilargo",
+          "slug": "eberron/khorvaire/zilargo"
+        }
       ]
     }
   ]

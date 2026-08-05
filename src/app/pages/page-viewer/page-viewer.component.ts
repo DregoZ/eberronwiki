@@ -64,7 +64,33 @@ import {
         <p>No se encontraron registros sobre esta consulta en los archivos de la wiki.</p>
       </div>
     } @else {
-      <div class="page-layout" [class.has-toc]="tocItems().length > 0">
+      <div
+        class="page-layout"
+        [class.has-left-toc]="tocItems().length > 0"
+        [class.has-right-sidebar]="relatedBlocks().length > 0"
+      >
+        @if (tocItems().length > 0) {
+          <aside class="toc-sidebar">
+            <div class="toc-container">
+              <div class="toc-header">
+                <mat-icon class="toc-icon">toc</mat-icon>
+                <span>En esta página</span>
+              </div>
+              <nav class="toc-nav">
+                @for (item of tocItems(); track item.id) {
+                  <a
+                    [href]="'#' + item.id"
+                    class="toc-link"
+                    (click)="scrollToHeading($event, item.id)"
+                  >
+                    {{ item.title }}
+                  </a>
+                }
+              </nav>
+            </div>
+          </aside>
+        }
+
         <article class="page-content">
           <header class="page-header">
             <div class="title-row">
@@ -89,7 +115,7 @@ import {
           </header>
 
           <div class="blocks-list">
-            @for (block of pageData()?.blocks ?? []; track block.id) {
+            @for (block of nonRelatedBlocks(); track block.id) {
               @switch (block.type) {
                 @case ('text') {
                   <app-text-block [block]="$any(block)" />
@@ -112,9 +138,6 @@ import {
                 @case ('separator') {
                   <app-separator-block [block]="$any(block)" />
                 }
-                @case ('related') {
-                  <app-related-block [block]="$any(block)" />
-                }
                 @case ('map') {
                   <app-map-block [block]="$any(block)" />
                 }
@@ -123,20 +146,12 @@ import {
           </div>
         </article>
 
-        @if (tocItems().length > 0) {
-          <aside class="page-sidebar">
-            <div class="toc-container">
-              <div class="toc-header">
-                <mat-icon class="toc-icon">toc</mat-icon>
-                <span>En esta página</span>
-              </div>
-              <nav class="toc-nav">
-                @for (item of tocItems(); track item.id) {
-                  <a [href]="'#' + item.id" class="toc-link" (click)="scrollToHeading($event, item.id)">
-                    {{ item.title }}
-                  </a>
-                }
-              </nav>
+        @if (relatedBlocks().length > 0) {
+          <aside class="right-sidebar">
+            <div class="sidebar-related-container">
+              @for (block of relatedBlocks(); track block.id) {
+                <app-related-block [block]="$any(block)" />
+              }
             </div>
           </aside>
         }
@@ -170,9 +185,17 @@ import {
         gap: 2rem;
         align-items: start;
 
-        &.has-toc {
-          @media (min-width: 992px) {
-            grid-template-columns: minmax(0, 1fr) 240px;
+        @media (min-width: 992px) {
+          &.has-left-toc.has-right-sidebar {
+            grid-template-columns: 220px minmax(0, 1fr) 260px;
+          }
+
+          &.has-left-toc:not(.has-right-sidebar) {
+            grid-template-columns: 220px minmax(0, 1fr);
+          }
+
+          &.has-right-sidebar:not(.has-left-toc) {
+            grid-template-columns: minmax(0, 1fr) 260px;
           }
         }
       }
@@ -181,7 +204,12 @@ import {
         min-width: 0;
       }
 
-      .page-sidebar {
+      .toc-sidebar,
+      .right-sidebar {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+
         @media (min-width: 992px) {
           position: sticky;
           top: 5rem;
@@ -233,6 +261,12 @@ import {
           background: rgba(139, 30, 15, 0.06);
           padding-left: 0.75rem;
         }
+      }
+
+      .page-footer-related {
+        margin-top: 3rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--border-color, rgba(0, 0, 0, 0.1));
       }
 
       .page-header {
@@ -309,13 +343,23 @@ export class PageViewerComponent {
   readonly isLoading = computed(() => this.resource().isLoading());
   readonly error = computed(() => this.resource().error());
 
+  readonly nonRelatedBlocks = computed(() => {
+    const blocks = this.pageData()?.blocks ?? [];
+    return blocks.filter((b) => b.type !== 'related');
+  });
+
+  readonly relatedBlocks = computed(() => {
+    const blocks = this.pageData()?.blocks ?? [];
+    return blocks.filter((b): b is RelatedBlock => b.type === 'related');
+  });
+
   readonly tocItems = computed(() => {
     const data = this.pageData();
     if (!data?.blocks) return [];
     return data.blocks
-      .filter((block): block is TextBlock => block.type === 'text' && !!block.title)
+      .filter((block): block is TextBlock | BulletBlock => (block.type === 'text' || block.type === 'bullet') && !!block.title)
       .map((block) => ({
-        id: block.id || ('heading-' + block.title),
+        id: block.id || 'heading-' + block.title,
         title: block.title!,
       }));
   });

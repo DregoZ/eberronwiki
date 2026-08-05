@@ -49,6 +49,12 @@
     "icon": "auto_stories",
     "children": [
       {
+        "id": "vida-en-eberron",
+        "label": "Vida en Eberron",
+        "slug": "eberron/vida-en-eberron",
+        "icon": "groups"
+      },
+      {
         "id": "khorvaire",
         "label": "Mapa del Continente",
         "slug": "eberron/khorvaire",
@@ -65,12 +71,6 @@
         "label": "Sharn",
         "slug": "eberron/khorvaire/breland/sharn",
         "icon": "chess_rook"
-      },
-      {
-        "id": "sociedad",
-        "label": "Sociedad",
-        "slug": "eberron/sociedad",
-        "icon": "groups"
       }
     ]
   },

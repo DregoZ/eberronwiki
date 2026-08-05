@@ -1,6 +1,6 @@
 {
-  "$schema": "../../../../schemas/page.schema.json",
-  "slug": "eberron/sociedad/especies",
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/vida-en-eberron/especies",
   "title": "Especies",
   "tags": ["Especies", "Sociedad"],
   "aliases": ["Especies"],
@@ -25,9 +25,9 @@
     {
       "id": "b4",
       "type": "image",
-      "src": "/assets/content/eberron/khorvaire/sociedad/sociedad.png",
+      "src": "/assets/content/eberron/vida-en-eberron/especies/especies.png",
       "caption": "Mercado de Piedrarroja, en Sharn",
-      "title": "Sociedad",
+      "title": "Especies",
       "align": "center",
       "size": "full"
     },

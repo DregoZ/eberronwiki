@@ -1,0 +1,48 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/vida-en-eberron/calendario",
+  "title": "Calendario",
+  "tags": ["Sociedad", "Día a Día"],
+  "aliases": ["Calendario"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "bullet",
+      "items": [
+        "Un año está compuesto de 12 meses de 28 días. Un día tiene 24 horas, 7 días hacen una semana, 4 semanas un mes y 12 meses un año.",
+        "994 AR es el año 994 tras el Año del Reinado, a contar desde la fundación del reino de Galifar.",
+        "Los días de la semana son: Sul, Mol, Zol, Wir, Zor, Far, Sar.",
+        "Los meses del año son: Zarantyr, Olarune, Therendor, Eyre, Dravago, Nymm, Lharvion, Barrakas, Rhaan, Sypheros, Aryth y Vult."
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "image",
+      "src": "/assets/content/eberron/vida-en-eberron/calendario/calendario.png",
+      "caption": "Calendario",
+      "title": "Calendario",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "b5",
+      "type": "related",
+      "items": [
+        { "label": "Especies", "slug": "eberron/vida-en-eberron/especies" },
+        { "label": "Calendario", "slug": "eberron/vida-en-eberron/calendario" },
+        { "label": "El Firmamento", "slug": "eberron/vida-en-eberron/firmamento" },
+        { "label": "Fragmentos Dragontinos", "slug": "eberron/vida-en-eberron/fragmentos" },
+        { "label": "Gastronomía", "slug": "eberron/vida-en-eberron/gastronomia" },
+        { "label": "El mundo necesita héroes", "slug": "eberron/vida-en-eberron/heroes" },
+        { "label": "Idiomas", "slug": "eberron/vida-en-eberron/idiomas" },
+        { "label": "Magia en lugar de tecnología", "slug": "eberron/vida-en-eberron/magia" },
+        { "label": "Moneda", "slug": "eberron/vida-en-eberron/moneda" },
+        { "label": "La Profecía Dracónica", "slug": "eberron/vida-en-eberron/profecia" },
+        { "label": "Café y cigarro... noir", "slug": "eberron/vida-en-eberron/tono" },
+        { "label": "El Trauma de la Última Guerra", "slug": "eberron/vida-en-eberron/trauma" },
+        { "label": "Viajar", "slug": "eberron/vida-en-eberron/viajar" }
+      ]
+    }
+  ]
+}

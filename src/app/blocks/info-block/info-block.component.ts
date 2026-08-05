@@ -15,12 +15,16 @@ import { RouterLink } from '@angular/router';
         <mat-icon>{{ getIcon(block().variant) }}</mat-icon>
       </div>
       <div class="info-content">
-        @for (segment of (block().content | parseInternalLinks); track $index) {
-          @if (segment.isLink) {
-            <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
-          } @else {
-            <span [class.bold]="segment.isBold" [class.italic]="segment.isItalic">{{ segment.text }}</span>
-          }
+        @for (paragraph of paragraphs; track $index) {
+          <p class="info-paragraph">
+            @for (segment of (paragraph | parseInternalLinks); track $index) {
+              @if (segment.isLink) {
+                <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
+              } @else {
+                <span [class.bold]="segment.isBold" [class.italic]="segment.isItalic">{{ segment.text }}</span>
+              }
+            }
+          </p>
         }
       </div>
     </div>
@@ -42,6 +46,13 @@ import { RouterLink } from '@angular/router';
       .info-content {
         flex: 1;
         line-height: 1.6;
+      }
+
+      .info-paragraph {
+        margin: 0 0 0.5rem 0;
+        &:last-child {
+          margin-bottom: 0;
+        }
       }
 
       .bold {
@@ -82,6 +93,14 @@ import { RouterLink } from '@angular/router';
 })
 export class InfoBlockComponent {
   readonly block = input.required<InfoBlock>();
+
+  get paragraphs(): string[] {
+    const raw = this.block().content;
+    if (Array.isArray(raw)) {
+      return raw;
+    }
+    return raw ? raw.split('\n\n') : [];
+  }
 
   getIcon(variant: string): string {
     switch (variant) {

@@ -47,7 +47,6 @@ import { FormsModule } from '@angular/forms';
     .search-container {
       position: relative;
       width: 100%;
-      max-width: 450px;
     }
 
     .search-input-wrapper {

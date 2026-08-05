@@ -11,9 +11,9 @@ import { BulletBlock } from '../../core/models/block.model';
   template: `
     <div class="bullet-block">
       @if (block().title) {
-        <div class="bullet-title" [id]="block().id || ('heading-' + block().title)">
+        <h3 class="bullet-title" [id]="block().id || ('heading-' + block().title)">
           {{ block().title }}
-        </div>
+        </h3>
       }
 
       <ul>
@@ -40,10 +40,10 @@ import { BulletBlock } from '../../core/models/block.model';
       }
 
       .bullet-title {
+        font-size: 1.5rem;
         font-weight: 700;
-        margin-bottom: 0.5rem;
-        font-size: 1.05rem;
-        color: var(--text-color);
+        margin: 0 0 0.75rem 0;
+        color: var(--heading-color, var(--text-color, #2c2c2c));
       }
 
       ul {

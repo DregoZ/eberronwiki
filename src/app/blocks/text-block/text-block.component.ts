@@ -14,12 +14,16 @@ import { ParseInternalLinksPipe } from '../../shared/pipes/parse-internal-links.
         <h3 class="text-block-title" [id]="block().id || ('heading-' + block().title)">{{ block().title }}</h3>
       }
 
-      @for (segment of block().content | parseInternalLinks; track $index) {
-        @if (segment.isLink) {
-          <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
-        } @else {
-          <span [class.bold]="segment.isBold" [class.italic]="segment.isItalic">{{ segment.text }}</span>
-        }
+      @for (paragraph of paragraphs; track $index) {
+        <p class="text-paragraph">
+          @for (segment of paragraph | parseInternalLinks; track $index) {
+            @if (segment.isLink) {
+              <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
+            } @else {
+              <span [class.bold]="segment.isBold" [class.italic]="segment.isItalic">{{ segment.text }}</span>
+            }
+          }
+        </p>
       }
     </div>
   `,
@@ -36,6 +40,12 @@ import { ParseInternalLinksPipe } from '../../shared/pipes/parse-internal-links.
         font-size: 1.05rem;
         margin-bottom: 1.25rem;
         color: var(--text-color, #2c2c2c);
+      }
+      .text-paragraph {
+        margin: 0 0 1rem 0;
+        &:last-child {
+          margin-bottom: 0;
+        }
       }
       .internal-link {
         color: var(--primary-color, #8b1e0f);
@@ -61,4 +71,12 @@ import { ParseInternalLinksPipe } from '../../shared/pipes/parse-internal-links.
 })
 export class TextBlockComponent {
   readonly block = input.required<TextBlock>();
+
+  get paragraphs(): string[] {
+    const raw = this.block().content;
+    if (Array.isArray(raw)) {
+      return raw;
+    }
+    return raw ? raw.split('\n\n') : [];
+  }
 }

@@ -66,26 +66,36 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     }
 
     .top-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 1.5rem;
       padding: 0.8rem 2rem;
       background-color: var(--bg-header, #ffffff);
       border-bottom: 1px solid var(--border-color, #e2dcd3);
-      sticky: top 0;
-      z-index: 10;
+      width: 100%;
+      box-sizing: border-box;
+
+      app-search-bar {
+        flex: 1;
+        max-width: 650px;
+      }
 
       .actions {
         display: flex;
         align-items: center;
         gap: 0.5rem;
+        flex-shrink: 0;
       }
     }
 
     .page-container {
       flex: 1;
       padding: 2rem 3rem;
-      max-width: 960px;
+      max-width: 1600px;
       margin: 0 auto;
       width: 100%;
       box-sizing: border-box;

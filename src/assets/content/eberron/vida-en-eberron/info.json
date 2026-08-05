@@ -1,0 +1,48 @@
+{
+  "$schema": "../../../../schemas/page.schema.json",
+  "slug": "eberron/vida-en-eberron",
+  "title": "Sociedad",
+  "tags": ["Khorvaire", "Sociedad"],
+  "aliases": ["Sociedad"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "content": "La vida cotidiana en Khorvaire es una mezcla de progreso moderno, comodidad mágica y el trauma de una guerra mundial que terminó hace apenas dos años. Como la Europa de los años 20, pero con varitas en lugar de pistolas."
+    },
+    {
+      "id": "b3",
+      "type": "text",
+      "content": "Vivir en Khorvaire significa que puedes ir a una cafetería a leer el periódico sobre los últimos crímenes de Sharn, coger un tren mágico hacia la frontera y, por la tarde, estar explorando una ruina Dhakaani acosado por espías internacionales. Es una vida rápida, emocionante y peligrosa."
+    },
+    {
+      "id": "b4",
+      "type": "image",
+      "src": "/assets/content/eberron/vida-en-eberron/sociedad.png",
+      "caption": "Un grupo variopinto de aventureros",
+      "title": "Sociedad",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "b5",
+      "type": "related",
+      "items": [
+        { "label": "Especies", "slug": "eberron/vida-en-eberron/especies" },
+        { "label": "Calendario", "slug": "eberron/vida-en-eberron/calendario" },
+        { "label": "El Firmamento", "slug": "eberron/vida-en-eberron/firmamento" },
+        { "label": "Fragmentos Dragontinos", "slug": "eberron/vida-en-eberron/fragmentos" },
+        { "label": "Gastronomía", "slug": "eberron/vida-en-eberron/gastronomia" },
+        { "label": "El mundo necesita héroes", "slug": "eberron/vida-en-eberron/heroes" },
+        { "label": "Idiomas", "slug": "eberron/vida-en-eberron/idiomas" },
+        { "label": "Magia en lugar de tecnología", "slug": "eberron/vida-en-eberron/magia" },
+        { "label": "Moneda", "slug": "eberron/vida-en-eberron/moneda" },
+        { "label": "La Profecía Dracónica", "slug": "eberron/vida-en-eberron/profecia" },
+        { "label": "Café y cigarro... noir", "slug": "eberron/vida-en-eberron/tono" },
+        { "label": "El Trauma de la Última Guerra", "slug": "eberron/vida-en-eberron/trauma" },
+        { "label": "Viajar", "slug": "eberron/vida-en-eberron/viajar" }
+      ]
+    }
+  ]
+}

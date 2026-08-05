@@ -1,0 +1,148 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/vida-en-eberron/gastronomia",
+  "title": "Gastronomía",
+  "tags": ["Gastronomía"],
+  "aliases": ["Gastronomía"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "h1",
+      "type": "text",
+      "content": [
+        "En Eberron, la cultura de las [[eberron/khorvaire/cinco-naciones|Cinco Naciones]] y el resto de regiones se refleja directamente en sus tabernas. La gastronomía en Eberron es sumamente rica, variada y con frecuencia utiliza magia cotidiana o ingredientes exóticos como carne de dinosaurio o plantas de zonas de manifiesto."
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "image",
+      "src": "/assets/content/eberron/vida-en-eberron/gastronomia/gastronomia.webp",
+      "caption": "Gastronomía",
+      "title": "Gastronomía",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "h2",
+      "type": "text",
+      "title": "Vinos",
+      "content": "[[eberron/khorvaire/aundair|Aundair]] posee los viñedos más refinados de Khorvaire. Sus tintos y blancos son considerados el estándar de la alta sociedad:"
+    },
+    {
+      "id": "b1",
+      "type": "bullet",
+      "items": [
+        "**Vino irisado:** Un mursi (vino tinto) sumamente exótico que cambia de color y de sabor a medida que se va consumiendo.",
+        "**Flambeado de Arcanix:** Producido en los viñedos mágicos de Arcanix. Tiene un regusto cálido y picante muy apreciado por los magos.",
+        "**Orla-un:** Un vino muy oscuro, denso y famoso por su dulzura frutal.",
+        "**Iltrayan:** Vino tinto seco procedente de viñedos situados en una zona de manifiesto vinculada a Shavarath (el plano de la guerra). Los soldados aseguran que una copa de este vino 'prepara la sangre para la batalla'.",
+        "**Vino de Buenasbayas:** Originario de Breland y creado por druidas. Se vende en jarras de barro y es espeso y curativo."
+      ]
+    },
+    {
+      "id": "h3",
+      "type": "text",
+      "title": "Cervezas",
+      "content": "[[eberron/khorvaire/karrnath|Karrnath]] y los [[eberron/khorvaire/baluartes|Baluartes de Mror]] dominan el mercado cervecero, aunque la omnipresente [[eberron/casas/ghallanda|Casa Ghallanda]] controla la distribución masiva:"
+    },
+    {
+      "id": "b2",
+      "type": "bullet",
+      "items": [
+        "**Cerveza Maderanoche:** Considerada unánimemente la mejor cerveza de las Cinco Naciones. Es una lager dorada oscura elaborada en Karrnath. Es cara fuera de su país, por lo que pedirla en Sharn es sinónimo de estatus.",
+        "**Cannegro:** Elaborada masivamente por la Casa Ghallanda. Es la cerveza más barata, fiable y universal de Khorvaire. Cualquier paladar refinado la despreciará, pero es la que bebe la clase trabajadora.",
+        "**Dientespada:** La cerveza de alta calidad de la Casa Ghallanda, para quienes quieren algo mejor que la Black Dog sin arruinarse.",
+        "**Espiraverde/ Premio de Londurak:** Cervezas enanas de los Baluartes de Mror elaboradas a base de hongos subterráneos. Son tan sumamente potentes que pueden intoxicar gravemente o dañar a cualquier criatura que no tenga resistencia al veneno."
+      ]
+    },
+    {
+      "id": "h4",
+      "type": "text",
+      "title": "Destilados y espirituosos",
+      "content": "Para quienes buscan algo más fuerte o exótico traído de los límites del mapa:"
+    },
+    {
+      "id": "b3",
+      "type": "bullet",
+      "items": [
+        "**Ginebra Kuryeva:** Un destilado muy popular importado desde [[eberron/khorvaire/linde-tormentoso|Linde Tormentoso]] y elaborado con bayas de [[eberron/mas-alla/xen'drik|Xen'drik]]. Se consume mucho en los muelles y zonas portuarias de [[eberron/khorvaire/breland/sharn|Sharn]].",
+        "**Fuego Mantoscarcha:** Un whisky enano sumamente fuerte especiado con hierro, una especia exótica de las [[eberron/khorvaire/baluartes|montañas Mror]] similar a la canela que deja una sensación ardiente.",
+        "**Korluaat (*Sangre de Héroe*):** Un destilado de altísima graduación alcohólica originario de [[eberron/khorvaire/darguun|Darguun]], sumamente popular entre los guerreros hobgoblins.",
+        "**Hrak:** Un licor rústico, fuerte y áspero de los orcos de las [[eberron/khorvaire/marcas-sombrías|Marcas Sombrías]]."
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "text",
+      "title": "Cocina de Breland (La cocina local de Sharn)",
+      "content": "Al estar en el sur, [[eberron/khorvaire/breland|Breland]] combina la cocina rústica del norte con la comida muy especiada de las zonas tropicales. En Sharn predomina el estilo *Fusión de Sharn*, una mezcla de sabores de todo Khorvaire:"
+    },
+    {
+      "id": "b3",
+      "type": "bullet",
+      "items": [
+        "**Patata Boranel:** El plato de taberna más famoso de Breland. Es una patata asada gigante, completamente rellena hasta arriba de queso, mantequilla, verduras y bacon troceado. Se llama así en honor al rey Boranel ir'Wynarn.",
+        "**Bistec Boranel:** Un plato de fiesta noble. Consiste en una pieza entera de buey rellena de pan de ajo, champiñones y especias, asada a fuego lento.",
+        "**Pollo picante en hojas de Panya:** Comida callejera muy popular en los distritos bajos de Sharn. Pollo marinado en especias tropicales del sur, envuelto y cocinado en hojas aromáticas."
+      ]
+    },
+    {
+      "id": "b5",
+      "type": "text",
+      "title": "Cocina de Aundair (Alta cocina y repostería)",
+      "content": "La cocina de [[eberron/khorvaire/aundair|Aundair]] se caracteriza por porciones pequeñas, emplatados exquisitos y salsas muy complejas."
+    },
+    {
+      "id": "b3",
+      "type": "bullet",
+      "items": [
+        "**Pasteles de Hada:** Minúsculos cupcakes con coberturas y glaseados extremadamente elaborados. Los reposteros aundarianos usan el truco Prestidigitación para darles destellos mágicos y texturas que chisporrotean en la boca.",
+        "**Salmón Dragón:** Pescado fresco traído de la costa norte, horneado y servido con una salsa densa de mantequilla y vino tinto aundariano."
+      ]
+    },
+    {
+      "id": "b5",
+      "type": "text",
+      "title": "Cocina de Karrnath (Comida de supervivencia militar)",
+      "content": "Debido a los crudos inviernos y las hambrunas de la [[eberron/historia/ultima-guerra|Última Guerra]], su comida es pesada, amarga, muy nutritiva y llena de tubérculos y guisos."
+    },
+    {
+      "id": "b3",
+      "type": "bullet",
+      "items": [
+        "**Galletas Amargas:** Un tipo de pan duro de campaña elaborado con harina de *trigo del crepúsculo*, una planta que crece en zonas de manifiesto vinculadas a Mabar (el plano de la muerte). Tienen un sabor muy amargo pero quitan el hambre al instante.",
+        "**Pasta del Soldado:** Una pasta untable muy densa, oscura y salada (similar al *Marmite*). Los soldados karrnathis la untan en pan duro. Tener gusto por esta pasta es el signo de ser un auténtico veterano de guerra de Karrnath."
+      ]
+    },
+    {
+      "id": "b5",
+      "type": "bullet",
+      "title": "Otras regiones y platos exóticos",
+      "items": [
+        "**Comida del Rey** - Cyre: Antes de la destrucción de Cyre, este plato era el orgullo nacional. Consiste en una mesa llena de platillos pequeños (estilo tapas o dim sum) que combinan tradiciones culinarias de todas las demás naciones, reflejando el espíritu integrador cyrano.",
+        "**Ashi** - Marcas Sombrías: Un pan plano y dorado hecho con médula de caña ashi molida. En los mercadillos de Sharn se sirve como comida rápida callejera, enrollado y relleno de carne de serpiente a la parrilla, verduras y una salsa agripicante muy potente.",
+        "**Potaje enano** - Baluartes de Mror : Un potaje espeso hecho a base de hongos subterráneos, raíces y carne de crustáceos ciegos de las profundidades de las montañas. Los enanos suelen espolvorear especia de hierro por encima para darle un toque metálico y picante.",
+        "**Brochetas de carne de reptil** - Llanuras de Talenta: Los medianos nómadas cocinan tiras de carne de tribex o pequeños dinosaurios sazonadas con polvo sagal (una especia silvestre muy aromática) directamente sobre fogatas."
+      ]
+    },
+    {
+      "id": "b6",
+      "type": "related",
+      "items": [
+        { "label": "Especies", "slug": "eberron/vida-en-eberron/especies" },
+        { "label": "Calendario", "slug": "eberron/vida-en-eberron/calendario" },
+        { "label": "El Firmamento", "slug": "eberron/vida-en-eberron/firmamento" },
+        { "label": "Fragmentos Dragontinos", "slug": "eberron/vida-en-eberron/fragmentos" },
+        { "label": "Gastronomía", "slug": "eberron/vida-en-eberron/gastronomia" },
+        { "label": "El mundo necesita héroes", "slug": "eberron/vida-en-eberron/heroes" },
+        { "label": "Idiomas", "slug": "eberron/vida-en-eberron/idiomas" },
+        { "label": "Magia en lugar de tecnología", "slug": "eberron/vida-en-eberron/magia" },
+        { "label": "Moneda", "slug": "eberron/vida-en-eberron/moneda" },
+        { "label": "La Profecía Dracónica", "slug": "eberron/vida-en-eberron/profecia" },
+        { "label": "Café y cigarro... noir", "slug": "eberron/vida-en-eberron/tono" },
+        { "label": "El Trauma de la Última Guerra", "slug": "eberron/vida-en-eberron/trauma" },
+        { "label": "Viajar", "slug": "eberron/vida-en-eberron/viajar" }
+      ]
+    }
+  ]
+}

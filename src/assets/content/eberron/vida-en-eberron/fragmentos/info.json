@@ -1,0 +1,58 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/vida-en-eberron/fragmentos",
+  "title": "Fragmentos Dragontinos",
+  "tags": ["Fragmentos Dragontinos"],
+  "aliases": ["Fragmentos"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "h1",
+      "type": "text",
+      "content": "Los fragmentos dragontinos son el núcleo de la magia y la economía en Eberron. Funcionan como las 'baterías' arcanas que impulsan la tecnología y los objetos mágicos. Se dividen en tres tipos principales, cada uno con propiedades y usos únicos."
+    },
+    {
+      "id": "h2",
+      "type": "info",
+      "variant": "lore",
+      "content": "Los fragmentos llevan el nombre de los tres dragones progenitores del mito de la creación de Eberron."
+    },
+    {
+      "id": "b1",
+      "type": "bullet",
+      "items": [
+        "**Fragmentos de Siberys:** Caídos del anillo brillante que rodea el mundo. Son esenciales para potenciar objetos mágicos ligados a las Marcas del Dragón verdaderas, crear artefactos poderosos y alimentar máquinas arcanas de gran escala",
+        "**Fragmentos de Eberron:** Extraídos de la corteza del mundo material. Son la base de la creación de objetos mágicos comunes y alquimia. Su versatilidad los hace muy valiosos para los artesanos, pues pueden usarlos para imbuir de magia sus creaciones sin tener capacidades mágicas.",
+        "**Fragmentos de Khyber:** Extraídos de las profundidades del inframundo, el dominio del dragón oscuro. Se utilizan principalmente para la nigromancia y para vincular elementales u otras criaturas dentro de objetos o construcciones."
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "image",
+      "src": "/assets/content/eberron/vida-en-eberron/fragmentos/fragmentos.png",
+      "caption": "Fragmentos Dragontinos",
+      "title": "Fragmentos Dragontinos",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "b5",
+      "type": "related",
+      "items": [
+        { "label": "Especies", "slug": "eberron/vida-en-eberron/especies" },
+        { "label": "Calendario", "slug": "eberron/vida-en-eberron/calendario" },
+        { "label": "El Firmamento", "slug": "eberron/vida-en-eberron/firmamento" },
+        { "label": "Fragmentos Dragontinos", "slug": "eberron/vida-en-eberron/fragmentos" },
+        { "label": "Gastronomía", "slug": "eberron/vida-en-eberron/gastronomia" },
+        { "label": "El mundo necesita héroes", "slug": "eberron/vida-en-eberron/heroes" },
+        { "label": "Idiomas", "slug": "eberron/vida-en-eberron/idiomas" },
+        { "label": "Magia en lugar de tecnología", "slug": "eberron/vida-en-eberron/magia" },
+        { "label": "Moneda", "slug": "eberron/vida-en-eberron/moneda" },
+        { "label": "La Profecía Dracónica", "slug": "eberron/vida-en-eberron/profecia" },
+        { "label": "Café y cigarro... noir", "slug": "eberron/vida-en-eberron/tono" },
+        { "label": "El Trauma de la Última Guerra", "slug": "eberron/vida-en-eberron/trauma" },
+        { "label": "Viajar", "slug": "eberron/vida-en-eberron/viajar" }
+      ]
+    }
+  ]
+}
