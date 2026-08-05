@@ -1,0 +1,47 @@
+{
+  "$schema": "../../../../schemas/page.schema.json",
+  "slug": "eberron/sociedad/especies/kalashtar",
+  "title": "Kalashtar",
+  "tags": ["Khorvaire", "Especies", "Kalashtar", "Riedra"],
+  "aliases": ["Kalashtar"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "Refugiados Psiónicos de la Región de los Sueños",
+      "content": "Humanos cuyos linajes se fusionaron voluntariamente con espíritus rebeldes de [[eberron/planos/dalquor|Dal Quor]] (el plano de los sueños). Físicamente son hermosos, estilizados y transmiten una calma sobrenatural. No sueñan como los demás mortales; en su lugar, reviven los recuerdos de sus espíritus simbióticos. Poseen habilidades psiónicas innatas (telepatía) y libran una guerra mental secreta contra el [[eberron/mas-alla/sarlona|Imperio de Riedra]]."
+    },
+    {
+      "id": "b4",
+      "type": "image",
+      "src": "/assets/content/eberron/sociedad/especies/kalashtar/kalashtar.png",
+      "caption": "Kalashtar",
+      "title": "Kalashtar",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "b5",
+      "type": "related",
+      "items": [
+        { "label": "Cambiantes", "slug": "eberron/sociedad/especies/cambiantes" },
+        { "label": "Dracónidos", "slug": "eberron/sociedad/especies/draconidos" },
+        { "label": "Enanos", "slug": "eberron/sociedad/especies/enanos" },
+        { "label": "Elfos", "slug": "eberron/sociedad/especies/elfos" },
+        { "label": "Forjados", "slug": "eberron/sociedad/especies/forjados" },
+        { "label": "Gnomos", "slug": "eberron/sociedad/especies/gnomos" },
+        { "label": "Kalashtar", "slug": "eberron/sociedad/especies/kalashtar" },
+        { "label": "Humanos", "slug": "eberron/sociedad/especies/humanos" },
+        { "label": "Khoravar", "slug": "eberron/sociedad/especies/khoravar" },
+        { "label": "Medianos", "slug": "eberron/sociedad/especies/medianos" },
+        { "label": "Monstruos", "slug": "eberron/sociedad/especies/monstruos" },
+        { "label": "Orcos", "slug": "eberron/sociedad/especies/orcos" },
+        { "label": "Replicantes", "slug": "eberron/sociedad/especies/replicantes" },
+        { "label": "Tiflin", "slug": "eberron/sociedad/especies/tiflin" },
+        { "label": "Trasgoides", "slug": "eberron/sociedad/especies/trasgoides" },
+        { "label": "Goliaths", "slug": "eberron/sociedad/especies/goliaths" }
+      ]
+    }
+  ]
+}

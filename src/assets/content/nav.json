@@ -65,6 +65,12 @@
         "label": "Sharn",
         "slug": "eberron/khorvaire/breland/sharn",
         "icon": "chess_rook"
+      },
+      {
+        "id": "sociedad",
+        "label": "Sociedad",
+        "slug": "eberron/sociedad",
+        "icon": "groups"
       }
     ]
   },

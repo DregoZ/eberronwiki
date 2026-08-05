@@ -1,0 +1,47 @@
+{
+  "$schema": "../../../../schemas/page.schema.json",
+  "slug": "eberron/sociedad/especies/cambiantes",
+  "title": "Cambiantes",
+  "tags": ["Khorvaire", "Especies", "Cambiantes"],
+  "aliases": ["Cambiantes", "Licántropos"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "LMotores de progreso y ambición",
+      "content": "Son la raza más numerosa, adaptable y dominante de Khorvaire. Originarios de Riedra, llegaron a Khorvaire hace 3000 años. Fueron ellos quienes fundaron el Reino de Galifar y quienes desataron la Última Guerra por ambición dinástica. No tienen una cultura única; un humano de Aundair se siente un mago refinado, mientras que uno de Breland es un urbanita industrial. Poseen la mayoría de las Casas de la Marca del Dragón, lo que los convierte en los líderes del desarrollo tecnológico y comercial del continente."
+    },
+    {
+      "id": "b4",
+      "type": "image",
+      "src": "/assets/content/eberron/sociedad/especies/humanos/humanos.png",
+      "caption": "Humanos",
+      "title": "Humanos",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "b5",
+      "type": "related",
+      "items": [
+        { "label": "Cambiantes", "slug": "eberron/sociedad/especies/cambiantes" },
+        { "label": "Dracónidos", "slug": "eberron/sociedad/especies/draconidos" },
+        { "label": "Enanos", "slug": "eberron/sociedad/especies/enanos" },
+        { "label": "Elfos", "slug": "eberron/sociedad/especies/elfos" },
+        { "label": "Forjados", "slug": "eberron/sociedad/especies/forjados" },
+        { "label": "Gnomos", "slug": "eberron/sociedad/especies/gnomos" },
+        { "label": "Kalashtar", "slug": "eberron/sociedad/especies/kalashtar" },
+        { "label": "Humanos", "slug": "eberron/sociedad/especies/humanos" },
+        { "label": "Khoravar", "slug": "eberron/sociedad/especies/khoravar" },
+        { "label": "Medianos", "slug": "eberron/sociedad/especies/medianos" },
+        { "label": "Monstruos", "slug": "eberron/sociedad/especies/monstruos" },
+        { "label": "Orcos", "slug": "eberron/sociedad/especies/orcos" },
+        { "label": "Replicantes", "slug": "eberron/sociedad/especies/replicantes" },
+        { "label": "Tiflin", "slug": "eberron/sociedad/especies/tiflin" },
+        { "label": "Trasgoides", "slug": "eberron/sociedad/especies/trasgoides" },
+        { "label": "Goliaths", "slug": "eberron/sociedad/especies/goliaths" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "../../../../schemas/page.schema.json",
+  "slug": "eberron/sociedad/especies/replicantes",
+  "title": "Replicantes",
+  "tags": ["Khorvaire", "Especies", "Replicantes"],
+  "aliases": ["Replicantes", "Sintéticos"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "Los rostros tras la multitud",
+      "content": "Descendientes lejanos de humanos y Doppelgängers. Tienen la piel de un gris pálido y ojos sin pupilas en su forma natural, pero pueden cambiar de rostro, voz y cuerpo a voluntad en cuestión de segundos. Muchos viven en las grandes ciudades ocultando su naturaleza, trabajando como actores, estafadores, espías o simplemente viviendo tres o cuatro vidas diferentes con identidades distintas."
+    },
+    {
+      "id": "b4",
+      "type": "image",
+      "src": "/assets/content/eberron/sociedad/especies/replicantes/replicantes.png",
+      "caption": "Replicantes",
+      "title": "Replicantes",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "b5",
+      "type": "related",
+      "items": [
+        { "label": "Cambiantes", "slug": "eberron/sociedad/especies/cambiantes" },
+        { "label": "Dracónidos", "slug": "eberron/sociedad/especies/draconidos" },
+        { "label": "Enanos", "slug": "eberron/sociedad/especies/enanos" },
+        { "label": "Elfos", "slug": "eberron/sociedad/especies/elfos" },
+        { "label": "Forjados", "slug": "eberron/sociedad/especies/forjados" },
+        { "label": "Gnomos", "slug": "eberron/sociedad/especies/gnomos" },
+        { "label": "Kalashtar", "slug": "eberron/sociedad/especies/kalashtar" },
+        { "label": "Humanos", "slug": "eberron/sociedad/especies/humanos" },
+        { "label": "Khoravar", "slug": "eberron/sociedad/especies/khoravar" },
+        { "label": "Medianos", "slug": "eberron/sociedad/especies/medianos" },
+        { "label": "Monstruos", "slug": "eberron/sociedad/especies/monstruos" },
+        { "label": "Orcos", "slug": "eberron/sociedad/especies/orcos" },
+        { "label": "Replicantes", "slug": "eberron/sociedad/especies/replicantes" },
+        { "label": "Tiflin", "slug": "eberron/sociedad/especies/tiflin" },
+        { "label": "Trasgoides", "slug": "eberron/sociedad/especies/trasgoides" },
+        { "label": "Goliaths", "slug": "eberron/sociedad/especies/goliaths" }
+      ]
+    }
+  ]
+}

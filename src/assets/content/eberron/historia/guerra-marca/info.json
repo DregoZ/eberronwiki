@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../../schemas/page.schema.json",
+  "slug": "eberron/historia/guerra-marca",
+  "title": "La Guerra de la Marca",
+  "tags": ["Historia", "Guerra de la Marca"],
+  "aliases": ["Guerra de la Marca"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "content": "Hace unos 1.500 años, el número de personas con marcas aberrantes creció tanto que se unieron bajo el liderazgo de dos figuras legendarias: [[eberron/casas/tarkanan|Halas Tarkanan]] y la Reina de las Plagas. Las doce Casas legítimas, temiendo perder su control económico y social, se aliaron con las naciones de Khorvaire y desataron una cruzada brutal de exterminio. El conflicto terminó cuando las fuerzas aberrantes, acorraladas en la ciudad de Sharn, desataron el poder destructivo de sus marcas, provocando terremotos y plagas que destruyeron la antigua ciudad. Los aberrantes fueron prácticamente erradicados de la historia."
+    }
+  ]
+}

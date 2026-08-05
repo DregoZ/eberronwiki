@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../../schemas/page.schema.json",
+  "slug": "eberron/sociedad/especies/goliaths",
+  "title": "Goliaths",
+  "tags": ["Khorvaire", "Especies", "Goliaths"],
+  "aliases": ["Goliaths"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "content": "Los goliats son una raza de humanoides de piel pétrea. Sus asentamientos se encuentran dispersao por las regiones montañosas de muchos continentes de Eberron. Los garguns salvajes son sus parientes lejanos, y habitan en las montañas de la Friage, y los Cuernoheldo, en los Confines de Eldeen."
+    },
+    {
+      "id": "b2",
+      "type": "text",
+      "content": "Los goliaths surgieron por primera vez en [[eberron/mas-alla/xen-drik|Xen'drik]], y huyeron cuando los gigantes se alzaron para tomar el control del continente, o bien fueron esclavizados junto con los elfos. Los goliaths no prosperaron en cautividad: se debilitaron y murieron rápidamente al no poder reproducirse. Por eso hoy en día quedan pocos goliaths en Xen'drik."
+    },
+    {
+      "id": "b3",
+      "type": "info",
+      "variant": "lore",
+      "content": "No todos los goliaths se fueron de Xen'drik, pero los que se quedaron en [[eberron/mas-alla/xen-drik|Xen'drik]] se han convertido en tribus brutales que rinden culto a los dioses gigantes. Los que se fueron buscaron una vida más pacífica, como los de [[eberron/khorvaire/baluartes|Baluartes de Mror]], o se convirtieron en mercenarios."
+    },
+    {
+      "id": "b4",
+      "type": "image",
+      "src": "/assets/content/eberron/sociedad/especies/goliaths/goliaths.png",
+      "caption": "Goliaths",
+      "title": "Goliaths",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "b5",
+      "type": "related",
+      "items": [
+        { "label": "Cambiantes", "slug": "eberron/sociedad/especies/cambiantes" },
+        { "label": "Dracónidos", "slug": "eberron/sociedad/especies/draconidos" },
+        { "label": "Enanos", "slug": "eberron/sociedad/especies/enanos" },
+        { "label": "Elfos", "slug": "eberron/sociedad/especies/elfos" },
+        { "label": "Forjados", "slug": "eberron/sociedad/especies/forjados" },
+        { "label": "Gnomos", "slug": "eberron/sociedad/especies/gnomos" },
+        { "label": "Kalashtar", "slug": "eberron/sociedad/especies/kalashtar" },
+        { "label": "Humanos", "slug": "eberron/sociedad/especies/humanos" },
+        { "label": "Khoravar", "slug": "eberron/sociedad/especies/khoravar" },
+        { "label": "Medianos", "slug": "eberron/sociedad/especies/medianos" },
+        { "label": "Monstruos", "slug": "eberron/sociedad/especies/monstruos" },
+        { "label": "Orcos", "slug": "eberron/sociedad/especies/orcos" },
+        { "label": "Replicantes", "slug": "eberron/sociedad/especies/replicantes" },
+        { "label": "Tiflin", "slug": "eberron/sociedad/especies/tiflin" },
+        { "label": "Trasgoides", "slug": "eberron/sociedad/especies/trasgoides" },
+        { "label": "Goliaths", "slug": "eberron/sociedad/especies/goliaths" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "../../../../schemas/page.schema.json",
+  "slug": "eberron/sociedad/especies/elfos",
+  "title": "Elfos",
+  "tags": ["Khorvaire", "Especies", "Elfos"],
+  "aliases": ["Elfos"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "Tradición, guerra y gloria",
+      "content": "Hace milenios, los elfos lucharon por librarse del yugo de sus amos gigantes. De esta guerra surgieron tanto los Aereni como los Tairnadal, además de los drow, creados y criados por los gigantes como asesinos de elfos."
+    },
+    {
+      "id": "b2",
+      "type": "text",
+      "content": "Los elfos Aereni viven aislados en la isla de Aerenal, donde la todopoderosa Corte Eterna les protege del mundo exterior."
+    },
+    {
+      "id": "b3",
+      "type": "text",
+      "content": "Los elfos están obsesionados con la muerte y sus ancestros. Se dividen en tres culturas radicalmente distintas:"
+    },
+    {
+      "id": "b4",
+      "type": "bullet",
+      "items": [
+        "Aereni: Viven en la isla de Aerenal y buscan la perfección en las artes y la magia para unirse a la [[Corte Imperecedera]] (sus ancestros momificados positivamente).",
+        "Valenar: Jinetes nómadas y guerreros feroces que viven para emular las hazañas bélicas de sus antepasados en combate.",
+        "Elfos de Khorvaire: Integrados en las Cinco Naciones, cosmopolitas y líderes de las Casas Phiarlan y Thuranni (entretenimiento y espionaje)."
+      ]
+    },
+    {
+      "id": "b5",
+      "type": "info",
+      "variant": "lore",
+      "content": "Los elfos hablan Élfico, también conocido como 'Chacho'."
+    },
+    {
+      "id": "b6",
+      "type": "image",
+      "src": "/assets/content/eberron/sociedad/especies/elfos/elfos.png",
+      "caption": "Elfos",
+      "title": "Elfos",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "b5",
+      "type": "related",
+      "items": [
+        { "label": "Cambiantes", "slug": "eberron/sociedad/especies/cambiantes" },
+        { "label": "Dracónidos", "slug": "eberron/sociedad/especies/draconidos" },
+        { "label": "Enanos", "slug": "eberron/sociedad/especies/enanos" },
+        { "label": "Elfos", "slug": "eberron/sociedad/especies/elfos" },
+        { "label": "Forjados", "slug": "eberron/sociedad/especies/forjados" },
+        { "label": "Gnomos", "slug": "eberron/sociedad/especies/gnomos" },
+        { "label": "Kalashtar", "slug": "eberron/sociedad/especies/kalashtar" },
+        { "label": "Humanos", "slug": "eberron/sociedad/especies/humanos" },
+        { "label": "Khoravar", "slug": "eberron/sociedad/especies/khoravar" },
+        { "label": "Medianos", "slug": "eberron/sociedad/especies/medianos" },
+        { "label": "Monstruos", "slug": "eberron/sociedad/especies/monstruos" },
+        { "label": "Orcos", "slug": "eberron/sociedad/especies/orcos" },
+        { "label": "Replicantes", "slug": "eberron/sociedad/especies/replicantes" },
+        { "label": "Tiflin", "slug": "eberron/sociedad/especies/tiflin" },
+        { "label": "Trasgoides", "slug": "eberron/sociedad/especies/trasgoides" },
+        { "label": "Goliaths", "slug": "eberron/sociedad/especies/goliaths" }
+      ]
+    }
+  ]
+}

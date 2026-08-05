@@ -19,7 +19,7 @@ import { RouterLink } from '@angular/router';
           @if (segment.isLink) {
             <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
           } @else {
-            <span>{{ segment.text }}</span>
+            <span [class.bold]="segment.isBold" [class.italic]="segment.isItalic">{{ segment.text }}</span>
           }
         }
       </div>
@@ -42,6 +42,14 @@ import { RouterLink } from '@angular/router';
       .info-content {
         flex: 1;
         line-height: 1.6;
+      }
+
+      .bold {
+        font-weight: 700;
+      }
+
+      .italic {
+        font-style: italic;
       }
 
       .internal-link {

@@ -11,7 +11,7 @@ import { BulletBlock } from '../../core/models/block.model';
   template: `
     <div class="bullet-block">
       @if (block().title) {
-        <div class="bullet-title">
+        <div class="bullet-title" [id]="block().id || ('heading-' + block().title)">
           {{ block().title }}
         </div>
       }
@@ -25,7 +25,7 @@ import { BulletBlock } from '../../core/models/block.model';
                   {{ segment.label }}
                 </a>
               } @else {
-                <span>{{ segment.text }}</span>
+                <span [class.bold]="segment.isBold" [class.italic]="segment.isItalic">{{ segment.text }}</span>
               }
             }
           </li>
@@ -54,6 +54,14 @@ import { BulletBlock } from '../../core/models/block.model';
       li {
         margin-bottom: 0.5rem;
         line-height: 1.7;
+      }
+
+      .bold {
+        font-weight: 700;
+      }
+
+      .italic {
+        font-style: italic;
       }
 
       .internal-link {

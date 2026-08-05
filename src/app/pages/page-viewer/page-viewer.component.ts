@@ -64,63 +64,83 @@ import {
         <p>No se encontraron registros sobre esta consulta en los archivos de la wiki.</p>
       </div>
     } @else {
-      <article class="page-content">
-        <header class="page-header">
-          <div class="title-row">
-            <h1 class="page-title">{{ pageData()?.title }}</h1>
-            <button
-              mat-icon-button
-              (click)="toggleFavorite()"
-              class="fav-btn"
-              [title]="isFav() ? 'Quitar de favoritos' : 'Añadir a favoritos'"
-            >
-              <mat-icon [class.is-fav]="isFav()">{{ isFav() ? 'star' : 'star_border' }}</mat-icon>
-            </button>
-          </div>
-
-          @if (pageData()?.tags && pageData()!.tags!.length > 0) {
-            <div class="tags-row">
-              @for (tag of pageData()!.tags; track tag) {
-                <span class="tag-chip">#{{ tag }}</span>
-              }
+      <div class="page-layout" [class.has-toc]="tocItems().length > 0">
+        <article class="page-content">
+          <header class="page-header">
+            <div class="title-row">
+              <h1 class="page-title">{{ pageData()?.title }}</h1>
+              <button
+                mat-icon-button
+                (click)="toggleFavorite()"
+                class="fav-btn"
+                [title]="isFav() ? 'Quitar de favoritos' : 'Añadir a favoritos'"
+              >
+                <mat-icon [class.is-fav]="isFav()">{{ isFav() ? 'star' : 'star_border' }}</mat-icon>
+              </button>
             </div>
-          }
-        </header>
 
-        <div class="blocks-list">
-          @for (block of pageData()?.blocks ?? []; track block.id) {
-            @switch (block.type) {
-              @case ('text') {
-                <app-text-block [block]="$any(block)" />
-              }
-              @case ('bullet') {
-                <app-bullet-block [block]="$any(block)" />
-              }
-              @case ('image') {
-                <app-image-block [block]="$any(block)" />
-              }
-              @case ('quote') {
-                <app-quote-block [block]="$any(block)" />
-              }
-              @case ('info') {
-                <app-info-block [block]="$any(block)" />
-              }
-              @case ('table') {
-                <app-table-block [block]="$any(block)" />
-              }
-              @case ('separator') {
-                <app-separator-block [block]="$any(block)" />
-              }
-              @case ('related') {
-                <app-related-block [block]="$any(block)" />
-              }
-              @case ('map') {
-                <app-map-block [block]="$any(block)" />
+            @if (pageData()?.tags && pageData()!.tags!.length > 0) {
+              <div class="tags-row">
+                @for (tag of pageData()!.tags; track tag) {
+                  <span class="tag-chip">#{{ tag }}</span>
+                }
+              </div>
+            }
+          </header>
+
+          <div class="blocks-list">
+            @for (block of pageData()?.blocks ?? []; track block.id) {
+              @switch (block.type) {
+                @case ('text') {
+                  <app-text-block [block]="$any(block)" />
+                }
+                @case ('bullet') {
+                  <app-bullet-block [block]="$any(block)" />
+                }
+                @case ('image') {
+                  <app-image-block [block]="$any(block)" />
+                }
+                @case ('quote') {
+                  <app-quote-block [block]="$any(block)" />
+                }
+                @case ('info') {
+                  <app-info-block [block]="$any(block)" />
+                }
+                @case ('table') {
+                  <app-table-block [block]="$any(block)" />
+                }
+                @case ('separator') {
+                  <app-separator-block [block]="$any(block)" />
+                }
+                @case ('related') {
+                  <app-related-block [block]="$any(block)" />
+                }
+                @case ('map') {
+                  <app-map-block [block]="$any(block)" />
+                }
               }
             }
-          }
-        </div>
-      </article>
+          </div>
+        </article>
+
+        @if (tocItems().length > 0) {
+          <aside class="page-sidebar">
+            <div class="toc-container">
+              <div class="toc-header">
+                <mat-icon class="toc-icon">toc</mat-icon>
+                <span>En esta página</span>
+              </div>
+              <nav class="toc-nav">
+                @for (item of tocItems(); track item.id) {
+                  <a [href]="'#' + item.id" class="toc-link" (click)="scrollToHeading($event, item.id)">
+                    {{ item.title }}
+                  </a>
+                }
+              </nav>
+            </div>
+          </aside>
+        }
+      </div>
     }
   `,
   styles: [
@@ -142,6 +162,77 @@ import {
         height: 3.5rem;
         color: var(--primary-color, #8b1e0f);
         margin-bottom: 1rem;
+      }
+
+      .page-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        align-items: start;
+
+        &.has-toc {
+          @media (min-width: 992px) {
+            grid-template-columns: minmax(0, 1fr) 240px;
+          }
+        }
+      }
+
+      .page-content {
+        min-width: 0;
+      }
+
+      .page-sidebar {
+        @media (min-width: 992px) {
+          position: sticky;
+          top: 5rem;
+        }
+      }
+
+      .toc-container {
+        background: var(--bg-card, rgba(0, 0, 0, 0.02));
+        border: 1px solid var(--border-color, #e0e0e0);
+        border-radius: 8px;
+        padding: 1rem 1.25rem;
+      }
+
+      .toc-header {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-weight: 700;
+        font-size: 0.95rem;
+        color: var(--primary-color, #8b1e0f);
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid var(--border-color, #e0e0e0);
+
+        .toc-icon {
+          font-size: 1.2rem;
+          width: 1.2rem;
+          height: 1.2rem;
+        }
+      }
+
+      .toc-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+      }
+
+      .toc-link {
+        font-size: 0.9rem;
+        color: var(--text-muted, #555);
+        text-decoration: none;
+        padding: 0.25rem 0.5rem;
+        border-radius: 4px;
+        transition: all 0.2s ease;
+        line-height: 1.4;
+
+        &:hover {
+          color: var(--primary-color, #8b1e0f);
+          background: rgba(139, 30, 15, 0.06);
+          padding-left: 0.75rem;
+        }
       }
 
       .page-header {
@@ -218,6 +309,17 @@ export class PageViewerComponent {
   readonly isLoading = computed(() => this.resource().isLoading());
   readonly error = computed(() => this.resource().error());
 
+  readonly tocItems = computed(() => {
+    const data = this.pageData();
+    if (!data?.blocks) return [];
+    return data.blocks
+      .filter((block): block is TextBlock => block.type === 'text' && !!block.title)
+      .map((block) => ({
+        id: block.id || ('heading-' + block.title),
+        title: block.title!,
+      }));
+  });
+
   readonly isFav = computed(() => {
     const slug = this.currentSlug() || 'eberron';
     return this.favoritesService.isFavorite(slug);
@@ -230,6 +332,14 @@ export class PageViewerComponent {
         slug: data.slug,
         title: data.title,
       });
+    }
+  }
+
+  scrollToHeading(event: Event, elementId: string): void {
+    event.preventDefault();
+    const el = document.getElementById(elementId);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }
 }

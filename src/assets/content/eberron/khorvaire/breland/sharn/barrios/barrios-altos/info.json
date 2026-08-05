@@ -7,6 +7,15 @@
   "unlockCondition": null,
   "blocks": [
     {
+      "id": "b1",
+      "type": "bullet",
+      "title": "Puntos de Interés",
+      "items": [
+        "[[eberron/khorvaire/breland/sharn/puntos-de-interes/la-cumbre|Gremio La Cumbre]]: Gremio de aventureros en el barrio de La Cumbre, Muy Dura",
+        "[[eberron/khorvaire/breland/sharn/puntos-de-interes/piedrarroja|Piedrarroja]]: Barrio comercial en Muy Dura"
+      ]
+    },
+    {
       "id": "a1",
       "type": "image",
       "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/barrios-altos/barrios-altos.png",

@@ -27,7 +27,7 @@ import { RouterLink } from '@angular/router';
                     @if (segment.isLink) {
                       <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
                     } @else {
-                      <span>{{ segment.text }}</span>
+                      <span [class.bold]="segment.isBold" [class.italic]="segment.isItalic">{{ segment.text }}</span>
                     }
                   }
                 </td>
@@ -44,6 +44,14 @@ import { RouterLink } from '@angular/router';
       margin: 1.5rem 0;
       border-radius: 8px;
       border: 1px solid var(--border-color, #e0e0e0);
+
+      .bold {
+        font-weight: 700;
+      }
+
+      .italic {
+        font-style: italic;
+      }
 
       table {
         width: 100%;

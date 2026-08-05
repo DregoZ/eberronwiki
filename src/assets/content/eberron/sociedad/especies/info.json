@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../../schemas/page.schema.json",
+  "slug": "eberron/sociedad/especies",
+  "title": "Especies",
+  "tags": ["Especies", "Sociedad"],
+  "aliases": ["Especies"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "content": "La mayoría de especies consideradas 'inteligentes' tienen un lugar en la sociedad de Eberron. Un orco, ogro o minotauro pueden parecer salvaje en una prmera impresión, pero lo más probable es que provengan de un asentamiento o nación organizada, o que ofrezcan servicios de protección o trabajen como mercenarios para alguna [[eberron/casas-dragontinas/casas|Casa Dragontina]]."
+    },
+    {
+      "id": "b2",
+      "type": "info",
+      "variant": "lore",
+      "content": "Tras la guerra, el auge de las [[eberron/casas-dragontinas/casas|Casa Dragontinas]] ha catalizado esta integración, pues solo los miembros de una especie determinada pueden manifestar una [[eberron/casas|Marca Dragontina]]."
+    },
+    {
+      "id": "b3",
+      "type": "text",
+      "content": "Si bien la especie predominante es la humana, sobre todo en las Cinco Naciones, existen también naciones a los que ciertas especies llaman hogar. A saber: [[eberron/sociedad/especies/elfos|elfos]] ([[eberron/mas-alla/aerenal|Aerenal]], [[eberron/khorvaire/valenar|Valenar]]), [[eberron/sociedad/especies/enanos|enanos]] ([[eberron/khorvaire/baluartes|Baluartes de Mror]]), [[eberron/sociedad/especies/medianos|medianos]] ([[eberron/khorvaire/talenta|Llanuras Talenta]]), [[eberron/sociedad/especies/gnomos|gnomos]] ([[eberron/khorvaire/zilargo|Zilargo]]), [[eberron/sociedad/especies/trasgoides|trasgoides]] ([[eberron/khorvaire/darguun|Darguun]]), [[eberron/sociedad/especies/orcos|orcos]] ([[eberron/khorvaire/eldeen|Confines de Eldeen]] y [[eberron/khorvaire/marcas-de-gradoom|Marcas de Gradoom]]) o las [[eberron/sociedad/especies/monstruos|razas monstruosas]] de [[eberron/khorvaire/droaam|Droaam]]."
+    },
+    {
+      "id": "b4",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/sociedad/sociedad.png",
+      "caption": "Mercado de Piedrarroja, en Sharn",
+      "title": "Sociedad",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "b5",
+      "type": "related",
+      "items": [
+        { "label": "Cambiantes", "slug": "eberron/sociedad/especies/cambiantes" },
+        { "label": "Dracónidos", "slug": "eberron/sociedad/especies/draconidos" },
+        { "label": "Enanos", "slug": "eberron/sociedad/especies/enanos" },
+        { "label": "Elfos", "slug": "eberron/sociedad/especies/elfos" },
+        { "label": "Forjados", "slug": "eberron/sociedad/especies/forjados" },
+        { "label": "Gnomos", "slug": "eberron/sociedad/especies/gnomos" },
+        { "label": "Kalashtar", "slug": "eberron/sociedad/especies/kalashtar" },
+        { "label": "Humanos", "slug": "eberron/sociedad/especies/humanos" },
+        { "label": "Khoravar", "slug": "eberron/sociedad/especies/khoravar" },
+        { "label": "Medianos", "slug": "eberron/sociedad/especies/medianos" },
+        { "label": "Monstruos", "slug": "eberron/sociedad/especies/monstruos" },
+        { "label": "Orcos", "slug": "eberron/sociedad/especies/orcos" },
+        { "label": "Replicantes", "slug": "eberron/sociedad/especies/replicantes" },
+        { "label": "Tiflin", "slug": "eberron/sociedad/especies/tiflin" },
+        { "label": "Trasgoides", "slug": "eberron/sociedad/especies/trasgoides" },
+        { "label": "Goliaths", "slug": "eberron/sociedad/especies/goliaths" }
+      ]
+    }
+  ]
+}

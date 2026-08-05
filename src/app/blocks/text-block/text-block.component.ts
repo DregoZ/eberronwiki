@@ -11,14 +11,14 @@ import { ParseInternalLinksPipe } from '../../shared/pipes/parse-internal-links.
   template: `
     <div class="text-block">
       @if (block().title) {
-        <h3 class="text-block-title">{{ block().title }}</h3>
+        <h3 class="text-block-title" [id]="block().id || ('heading-' + block().title)">{{ block().title }}</h3>
       }
 
       @for (segment of block().content | parseInternalLinks; track $index) {
         @if (segment.isLink) {
           <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
         } @else {
-          <span>{{ segment.text }}</span>
+          <span [class.bold]="segment.isBold" [class.italic]="segment.isItalic">{{ segment.text }}</span>
         }
       }
     </div>
@@ -49,6 +49,12 @@ import { ParseInternalLinksPipe } from '../../shared/pipes/parse-internal-links.
           color: var(--primary-hover, #b22612);
           text-decoration-color: var(--primary-hover, #b22612);
         }
+      }
+      .bold {
+        font-weight: 700;
+      }
+      .italic {
+        font-style: italic;
       }
     `,
   ],
