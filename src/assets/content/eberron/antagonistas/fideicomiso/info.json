@@ -14,13 +14,13 @@
     {
       "id": "f1",
       "type": "text",
-      "content": "No son 'malvados' en el sentido tradicional, pero operan bajo un control totalitario total. Usan el chantaje, la desaparición forzada, el asesinato sutil y la lectura mental para erradicar cualquier amenaza antes de que ocurra. Si los héroes descubren un secreto de estado gnomo o amenazan el estatus quo de Zilargo, se convertirán en los objetivos de la organización de espías más eficiente del mundo."
+      "content": "No son *malvados* en el sentido tradicional, pero operan bajo un control totalitario total. Usan el chantaje, la desaparición forzada, el asesinato sutil y la lectura mental para erradicar cualquier amenaza antes de que ocurra. Si los héroes descubren un secreto de estado gnomo o amenazan el estatus quo de Zilargo, se convertirán en los objetivos de la organización de espías más eficiente del mundo."
     },
     {
       "id": "f2",
       "type": "image",
       "src": "/assets/content/eberron/antagonistas/fideicomiso/fideicomiso.png",
-      "caption": "Fideicomiso",
+      "caption": "<<La muerte y el Fideicomiso>>",
       "title": "Fideicomiso",
       "align": "center",
       "size": "medium"

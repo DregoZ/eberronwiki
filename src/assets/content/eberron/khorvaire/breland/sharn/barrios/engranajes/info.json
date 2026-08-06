@@ -12,13 +12,29 @@
       "content": " El submundo industrial subterráneo. Aprovecha el calor de pozos de lava para alimentar fundiciones, talleres automáticos y fábricas textiles, poblado mayoritariamente por forjados y goblins."
     },
     {
+      "id": "t1",
+      "type": "text",
+      "title": "Puntos de Interés",
+      "content": [
+        "**[[eberron/khorvaire/breland/sharn/barrios/engranajes/huesos-negros|Huesos Negros]]**: Un barrio industrial, como todos aquí abajo, en el que trabajan principalmente forjados y goblins."
+      ]
+    },
+    {
       "id": "a2",
       "type": "image",
       "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/engranajes/engranajes.png",
       "caption": "Los Engranajes",
       "title": "Los Engranajes",
       "align": "center",
-      "size": "full"
+      "size": "full",
+      "pins": [
+        {
+          "x": "72.73",
+          "y": "57.78",
+          "label": "Huesos Negros",
+          "linkSlug": "eberron/khorvaire/breland/sharn/barrios/engranajes/huesos-negros"
+        }
+      ]
     },
     {
       "id": "a3",
