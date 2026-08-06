@@ -2,14 +2,8 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/droaam",
   "title": "Droaam",
-  "tags": [
-    "Khorvaire",
-    "Droaam",
-    "Monstruos"
-  ],
-  "aliases": [
-    "Aundair"
-  ],
+  "tags": ["Khorvaire", "Droaam", "Monstruos"],
+  "aliases": ["Aundair"],
   "unlockCondition": null,
   "blocks": [
     {
@@ -31,6 +25,15 @@
       "title": "Droaam",
       "align": "center",
       "size": "full"
+    },
+    {
+      "id": "a31",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/droaam/droaam2.png",
+      "caption": "Facciones de Droaam",
+      "title": "Facciones de Droaam",
+      "align": "center",
+      "size": "medium"
     },
     {
       "id": "a4",

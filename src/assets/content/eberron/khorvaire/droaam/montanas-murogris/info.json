@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/droaam/montanas-murogris",
+  "title": "Montañas Murogrís",
+  "tags": ["Khorvaire", "Droaam", "Monstruos"],
+  "aliases": ["Murogrís"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": [
+        "Una cordillera escarpada y traicionera que sirve como frontera natural entre la nación de Breland y Droaam, tierra de monstruos. Ricas en byeshk (un metal raro), son un antiguo baluarte militar y hogar de criaturas peligrosas como mantícoras, grifos y zonas de manifestación.",
+        "Vallebrillante es un refugio oculto dentro de estas montañas, y una zona de manifestación del plano de [[eberron/planos/irian|Irian, el Alba Eterna]]."
+      ]
+    },
+    {
+      "id": "a2",
+      "type": "info",
+      "variant": "note",
+      "content": [
+        "Los personajes defendieron Vallebrillante de una invasión gnoll e imbuyeron el Amuleto del Alba con la energía de Irian."
+      ]
+    },
+    {
+      "id": "h1",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/droaam/montanas-murogris/murogris.jpg",
+      "caption": "Montañas Murogrís",
+      "title": "Montañas Murogrís",
+      "align": "left",
+      "size": "medium"
+    },
+    {
+      "id": "h2",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/droaam/montanas-murogris/murogris2.jpg",
+      "caption": "Más montañas",
+      "title": "Más montañas",
+      "align": "right",
+      "size": "medium"
+    }
+  ]
+}

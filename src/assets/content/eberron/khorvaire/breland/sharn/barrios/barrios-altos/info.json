@@ -29,14 +29,14 @@
           "x": 51.61,
           "y": 16.72,
           "label": "La Cumbre",
-          "linkSlug": "/eberron/khorvaire/breland/sharn/barrios/barrios-altos/la-cumbre"
+          "linkSlug": "eberron/khorvaire/breland/sharn/barrios/barrios-altos/la-cumbre"
         },
         {
           "id": "pin-piedrarroja",
           "x": 33.1,
           "y": 37.36,
           "label": "Piedrarroja",
-          "linkSlug": "/eberron/khorvaire/breland/sharn/barrios/barrios-altos/piedrarroja"
+          "linkSlug": "eberron/khorvaire/breland/sharn/barrios/barrios-altos/piedrarroja"
         }
       ]
     },

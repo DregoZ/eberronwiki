@@ -31,6 +31,15 @@
       ]
     },
     {
+      "id": "h1",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/barrios-altos/piedrarroja/dragonshoard.jpg",
+      "caption": "El Alijo del Dragón",
+      "title": "El Alijo del Dragón",
+      "align": "center",
+      "size": "medium"
+    },
+    {
       "id": "a2",
       "type": "text",
       "title": "Florentino's (Tienda)",
@@ -38,6 +47,15 @@
         "Escondida entre los abarrotados callejones del Bazar de Muy Dura, Florentino's es una pequeña tienda cuyo intenso aroma a flores secas, especias y aceites esenciales delata su presencia mucho antes de verla. Estanterías repletas de frascos de cristal, ramilletes colgados del techo y cajones cuidadosamente etiquetados convierten el local en un auténtico santuario para botánicos, alquimistas y curanderos.",
         "Su excéntrico propietario, el mediano Florentino, presume de conocer la flora de todos los rincones de Khorvaire y rara vez desaprovecha la ocasión para explicar el origen de cualquiera de sus especímenes. Entre sus existencias pueden encontrarse desde hierbas medicinales y componentes habituales para alquimia hasta flores cultivadas en zonas de manifestación planar o plantas imbuidas de una sutil magia natural. Aunque los ejemplares más extraordinarios suelen estar reservados para clientes de confianza, los aventureros con una buena bolsa de soberanos o una buena historia que contar, siempre son bien recibidos."
       ]
+    },
+    {
+      "id": "h1",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/barrios-altos/piedrarroja/florentinos.jpg",
+      "caption": "Florentino's",
+      "title": "Florentino's",
+      "align": "center",
+      "size": "medium"
     }
   ]
 }

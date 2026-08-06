@@ -7,6 +7,15 @@
   "unlockCondition": null,
   "blocks": [
     {
+      "id": "b1",
+      "type": "bullet",
+      "title": "Puntos de Interés",
+      "items": [
+        "[[eberron/khorvaire/breland/sharn/barrios/barrios-medios/bazar|El Bazar]]: Bazar blablabla",
+        "[[eberron/khorvaire/breland/sharn/barrios/barrios-medios/puerta-muerte|Gremio Puerta de la Muerte]]: Gremio blablabla"
+      ]
+    },
+    {
       "id": "a1",
       "type": "image",
       "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/barrios-medios/barrios-medios.png",

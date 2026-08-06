@@ -1,11 +1,12 @@
 import { Component, input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ImageBlock } from '../../core/models/block.model';
+import { ImageBlock, ImagePin } from '../../core/models/block.model';
+import { Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-image-block',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   template: `
     <figure
       class="image-block"
@@ -13,16 +14,17 @@ import { ImageBlock } from '../../core/models/block.model';
     >
       <div class="image-wrapper">
         <img [src]="block().src" [alt]="block().caption || block().title || 'Wiki image'" />
-        <ng-container *ngIf="block().pins?.length">
-          <ng-container *ngFor="let pin of block().pins">
+        @if (block().pins?.length) {
+          @for (pin of block().pins; track pin.id || pin.label) {
             <span
               class="pin"
               [style.left.%]="pin.x"
               [style.top.%]="pin.y"
               [attr.title]="pin.label"
+              (click)="navigate(pin)"
             ></span>
-          </ng-container>
-        </ng-container>
+          }
+        }
       </div>
       @if (block().caption) {
         <figcaption>{{ block().caption }}</figcaption>
@@ -76,6 +78,20 @@ import { ImageBlock } from '../../core/models/block.model';
         left: 9px;
         transform: rotate(45deg);
       }
+      /* Sombra proyectada en el suelo (debajo del borde blanco) */
+      .pin::before {
+        content: '';
+        position: absolute;
+        width: 8px;
+        height: 5px;
+        background: rgba(0, 0, 0, 0.35);
+        border-radius: 50%;
+        bottom: -9px;
+        left: -9px;
+        transform: rotate(45deg);
+        filter: blur(1.5px);
+        z-index: -1; /* Se asegura de quedar por detrás del pin y su borde */
+      }
 
       figcaption {
         margin-top: 0.5rem;
@@ -108,4 +124,12 @@ import { ImageBlock } from '../../core/models/block.model';
 })
 export class ImageBlockComponent {
   readonly block = input.required<ImageBlock>();
+  constructor(private router: Router) {}
+
+  /** Navigate to the pin's link if defined */
+  navigate(pin: ImagePin): void {
+    if (pin.linkSlug) {
+      this.router.navigateByUrl('/wiki/' + pin.linkSlug);
+    }
+  }
 }
