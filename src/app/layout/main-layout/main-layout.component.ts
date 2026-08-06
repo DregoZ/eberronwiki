@@ -52,7 +52,7 @@ const MOBILE_BREAKPOINT = '(max-width: 991px)';
               <mat-icon>menu</mat-icon>
             </button>
           }
-          <app-search-bar />
+          <!-- <app-search-bar /> -->
           <div class="actions">
             <button
               mat-icon-button
