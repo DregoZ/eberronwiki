@@ -33,6 +33,14 @@ export interface BreadcrumbItem {
       font-size: 0.9rem;
       color: var(--text-muted, #777);
       margin-bottom: 1.25rem;
+      overflow-x: auto;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
 
       .crumb-link {
         display: flex;

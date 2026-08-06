@@ -139,6 +139,16 @@ import { FormsModule } from '@angular/forms';
         overflow: hidden;
       }
     }
+
+    @media (max-width: 991px) {
+      .search-input-wrapper input {
+        font-size: 16px;
+      }
+
+      .result-item {
+        padding: 0.85rem 1rem;
+      }
+    }
   `]
 })
 export class SearchBarComponent {

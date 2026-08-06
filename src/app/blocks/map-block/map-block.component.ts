@@ -159,6 +159,12 @@ import * as L from 'leaflet';
         background: #111;
       }
 
+      @media (max-width: 991px) {
+        .leaflet-map {
+          height: 320px;
+        }
+      }
+
       .close-fullscreen-btn {
         position: absolute;
         top: 3.2rem;

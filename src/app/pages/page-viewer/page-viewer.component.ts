@@ -300,6 +300,7 @@ import {
           font-weight: 700;
           margin: 0;
           color: var(--primary-color, #8b1e0f);
+          line-height: 1.2;
         }
 
         .fav-btn {
@@ -328,6 +329,29 @@ import {
       .blocks-list {
         display: flex;
         flex-direction: column;
+      }
+
+      @media (max-width: 991px) {
+        .page-header {
+          margin-bottom: 1.5rem;
+
+          .title-row {
+            gap: 0.5rem;
+          }
+
+          .page-title {
+            font-size: 1.75rem;
+          }
+
+          .tags-row {
+            flex-wrap: wrap;
+          }
+        }
+
+        .toc-sidebar,
+        .right-sidebar {
+          position: static;
+        }
       }
     `,
   ],

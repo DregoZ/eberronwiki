@@ -98,6 +98,32 @@ import { MatIconModule } from '@angular/material/icon';
           }
         }
       }
+
+      @media (max-width: 991px) {
+        .hero-content {
+          padding: 1.5rem 1.25rem;
+
+          .hero-icon {
+            font-size: 3rem;
+            width: 3rem;
+            height: 3rem;
+          }
+
+          .hero-title {
+            font-size: 2rem;
+          }
+
+          .hero-subtitle {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+          }
+
+          .explore-btn {
+            padding: 0.65rem 1.5rem;
+            font-size: 1rem;
+          }
+        }
+      }
     `,
   ],
 })

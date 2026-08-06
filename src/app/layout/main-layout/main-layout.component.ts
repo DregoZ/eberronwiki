@@ -1,6 +1,9 @@
-import { Component, inject } from '@angular/core';
+import { Component, effect, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
+import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
+import { toSignal } from '@angular/core/rxjs-interop';
+import { filter, map } from 'rxjs';
+import { BreakpointObserver } from '@angular/cdk/layout';
 import { SidebarComponent } from '../sidebar/sidebar.component';
 import { SearchBarComponent } from '../search-bar/search-bar.component';
 import { BreadcrumbComponent } from '../breadcrumb/breadcrumb.component';
@@ -9,6 +12,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
+
+const MOBILE_BREAKPOINT = '(max-width: 991px)';
 
 @Component({
   selector: 'app-main-layout',
@@ -26,12 +31,26 @@ import { MatSidenavModule } from '@angular/material/sidenav';
   ],
   template: `
     <mat-sidenav-container class="layout-container" autosize>
-      <mat-sidenav mode="side" opened class="sidenav">
+      <mat-sidenav
+        [mode]="isMobile() ? 'over' : 'side'"
+        [opened]="sidenavOpen()"
+        class="sidenav"
+      >
         <app-sidebar />
       </mat-sidenav>
 
       <mat-sidenav-content class="main-content-area">
         <header class="top-header">
+          @if (isMobile()) {
+            <button
+              mat-icon-button
+              class="menu-btn"
+              (click)="toggleSidenav()"
+              aria-label="Abrir menú de navegación"
+            >
+              <mat-icon>menu</mat-icon>
+            </button>
+          }
           <app-search-bar />
           <div class="actions">
             <button mat-icon-button (click)="themeService.toggleTheme()" [title]="themeService.isDarkMode() ? 'Modo claro' : 'Modo oscuro'">
@@ -82,6 +101,11 @@ import { MatSidenavModule } from '@angular/material/sidenav';
       app-search-bar {
         flex: 1;
         max-width: 650px;
+        min-width: 0;
+      }
+
+      .menu-btn {
+        flex-shrink: 0;
       }
 
       .actions {
@@ -100,8 +124,46 @@ import { MatSidenavModule } from '@angular/material/sidenav';
       width: 100%;
       box-sizing: border-box;
     }
+
+    @media (max-width: 991px) {
+      .top-header {
+        gap: 0.75rem;
+        padding: 0.65rem 1rem;
+      }
+
+      .page-container {
+        padding: 1.25rem 1rem;
+      }
+    }
   `]
 })
 export class MainLayoutComponent {
+  private readonly breakpointObserver = inject(BreakpointObserver);
+  private readonly router = inject(Router);
+
   readonly themeService = inject(ThemeService);
+  readonly sidenavOpen = signal(true);
+
+  readonly isMobile = toSignal(
+    this.breakpointObserver.observe(MOBILE_BREAKPOINT).pipe(map((r) => r.matches)),
+    { initialValue: false },
+  );
+
+  constructor() {
+    effect(() => {
+      this.sidenavOpen.set(!this.isMobile());
+    });
+
+    this.router.events
+      .pipe(filter((event): event is NavigationEnd => event instanceof NavigationEnd))
+      .subscribe(() => {
+        if (this.isMobile()) {
+          this.sidenavOpen.set(false);
+        }
+      });
+  }
+
+  toggleSidenav(): void {
+    this.sidenavOpen.update((open) => !open);
+  }
 }

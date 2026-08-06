@@ -113,6 +113,14 @@ import { MatIconModule } from '@angular/material/icon';
       border-left: 1px solid var(--border-color, #e0e0e0);
       padding-left: 0.3rem;
     }
+
+    @media (max-width: 991px) {
+      .nav-header,
+      .nav-link {
+        min-height: 44px;
+        padding: 0.65rem 0.75rem;
+      }
+    }
   `]
 })
 export class SidebarNodeComponent {
