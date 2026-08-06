@@ -16,9 +16,17 @@
         "**Primera impresión**: Las torres de este distrito son de granito gris monótono, pero las multitudes que llenan las calles son bastante coloridas. Se puede ver a personas de todas las razas y culturas. Un mago aundairo compara notas con un monje kalashtar a la sombra de una taberna, mientras que al otro lado de la calle un corsario de Lhazaar y un elfo Valenar comparan espadas. La Cumbre es un barrio bastante sucio, pero atrae a una multitud interesante.",
         "Este distrito atrae a aquellos dispuestos a dedicar espada, hechizos o habilidades a esfuerzos arriesgados pero rentables. Cualquiera que busque un guardaespaldas discreto, un mercenario o un guía de [[eberron/mas-alla/xen-drik|Xen’drik]] puede encontrar lo que necesita en La Cumbre. Los aventureros que buscan un cliente pueden encontrar uno aquí.",
         "La Cumbre es una curiosa mezcla de riqueza y pobreza. La mayoría de los negocios en el distrito son útiles, pero no excepcionales, que satisfacen las necesidades del aventurero que rara vez tiene más de unas pocas piezas de oro en su bolso. También proporciona servicios para el afortunado explorador o corsario que ha regresado a casa con oro de sobra, con tiendas que venden varitas usadas y viejas armas de artesano mágico, y otros productos exóticos fácilmente disponibles.",
-        "El distrito ofrece una serie de servicios que los aventureros pueden encontrar útiles. Una amplia variedad de asalariados se pueden encontrar aquí, y todos ellos están acostumbrados a soportar las extrañas demandas de los aventureros. Del mismo modo, hay un número considerable de abogados y defensores en el distrito, acostumbrados a lidiar con los problemas de los aventureros con la ley.",
-        "Las casas de empeños de La Cumbre ofrecen un 45% de valor para casi cualquier tipo de bienes, excepto aquellos que son obviamente robados; las cercas que se ocupan de bienes robados deben encontrarse en los niveles más bajos de Dura."
+        "El distrito ofrece una serie de servicios que los aventureros pueden encontrar útiles. Una amplia variedad de asalariados se pueden encontrar aquí, y todos ellos están acostumbrados a soportar las extrañas demandas de los aventureros. Del mismo modo, hay un número considerable de abogados y defensores en el distrito, acostumbrados a lidiar con los problemas de los aventureros con la ley."
       ]
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Las casas de empeños de La Cumbre ofrecen un 45% de valor para casi cualquier tipo de bienes, excepto aquellos que son obviamente robados; las cercas que se ocupan de bienes robados deben encontrarse en los niveles más bajos de Dura."
+    },
+    {
+      "type": "separator"
     },
     {
       "id": "a1",
@@ -26,8 +34,8 @@
       "title": "El Gremio de La Cumbre",
       "content": [
         "El Gremio de La Cumbre es una organización fundada en la ciudad de Sharn. El gremio actúa como punto de encuentro y registro de aventureros profesionales. Es una de las asociaciones más conocidas de Eberron, simbolizando el auge del heroísmo mercenario en una era de posguerra.",
-        "Surge tras la [[eberron/historia/última-guerra|Última Guerra]], cuando muchos veteranos y exploradores buscan nuevas oportunidades. El gremio canaliza ese talento hacia misiones comerciales y heroicas, desde la exploración de ruinas antiguas hasta la defensa contra amenazas extraplanares. Su sede, ubicada en el barrio Muy Dura, sirve de taberna, oficina de contratación y centro social.",
-        "El gremio tiene fama de acoger aventureros audaces y poco ortodoxos. Se le percibe como más idealista y cooperativa que su contraparte de [[Puerta de la Muerte]], que prioriza la eficiencia y el beneficio. Los miembros de La Cumbre suelen compartir un código de camaradería y honor, aunque las rivalidades internas y los roces con otras organizaciones son comunes."
+        "Surge tras la [[eberron/historia/última-guerra|Última Guerra]], cuando muchos veteranos y exploradores buscan nuevas oportunidades. El gremio canaliza ese talento hacia misiones comerciales y heroicas, desde la exploración de ruinas antiguas hasta la defensa contra amenazas extraplanares. Su sede, ubicada en el distrito Muy Dura, sirve de taberna, oficina de contratación y centro social.",
+        "El gremio tiene fama de acoger aventureros audaces y poco ortodoxos. Se le percibe como más idealista y cooperativa que su contraparte de [[eberron/khorvaire/breland/sharn/barrios-medios/puerta-muerte|Puerta de la Muerte]], que prioriza la eficiencia y el beneficio. Los miembros de La Cumbre suelen compartir un código de camaradería y honor, aunque las rivalidades internas y los roces con otras organizaciones son comunes."
       ]
     },
     {

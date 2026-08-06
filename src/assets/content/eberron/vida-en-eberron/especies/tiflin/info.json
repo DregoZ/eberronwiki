@@ -9,14 +9,14 @@
     {
       "id": "b1",
       "type": "text",
-      "content": "Los tiflins son muy escasos en Eberron. Algunos nacen en las Tribus Carroñeras, bárbaros nativos de los [[eberron/fronteras/yermos-demoniacos|Yermos Demoníacos]], en donde son venerados. Otros pueden nacer en zonas de manifestación producidas por planos superpuestos, exóticos y extraños, pero rara vez malvados. Y otros nacen en los confines de [[eberron/khorvaire/droaam|Droaam]], en la ciudad estado oculta de Legado Ponzoñoso, descendientes de magos Sarlonianos que hicieron pactos con poderes oscuros."
+      "content": "Los tiflins son muy escasos en Eberron. Algunos nacen en las **Tribus Carroñeras**, bárbaros nativos de los [[eberron/fronteras/yermos-demoniacos|Yermos Demoníacos]], en donde son venerados. Otros pueden nacer en [[eberron/planos|zonas de manifestación]] producidas por planos superpuestos, exóticos y extraños, pero rara vez malvados. Y otros nacen en los confines de [[eberron/khorvaire/droaam|Droaam]], en la ciudad estado oculta de **Legado Ponzoñoso**, descendientes de magos [[eberron/mas-alla/sarlona|Sarlonianos]] que hicieron pactos con poderes oscuros."
     },
     {
       "id": "b4",
       "type": "image",
       "src": "/assets/content/eberron/vida-en-eberron/especies/tiflin/tiflin.png",
-      "caption": "Cambiantes",
-      "title": "Cambiantes",
+      "caption": "Un tiflin para cada día de la semana",
+      "title": "Tiflin",
       "align": "center",
       "size": "full"
     },
