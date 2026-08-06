@@ -30,7 +30,7 @@ const MOBILE_BREAKPOINT = '(max-width: 991px)';
     MatSidenavModule,
   ],
   template: `
-    <mat-sidenav-container class="layout-container" autosize>
+    <mat-sidenav-container class="layout-container">
       <mat-sidenav
         [mode]="isMobile() ? 'over' : 'side'"
         [opened]="sidenavOpen()"
@@ -79,7 +79,11 @@ const MOBILE_BREAKPOINT = '(max-width: 991px)';
         background-color: var(--bg-main, #faf8f5);
       }
 
+      /* APLICAR ANCHO FIJO Y CLIP A MAT-SIDENAV */
       .sidenav {
+        width: 280px;
+        max-width: 85vw; /* Evita desbordar en móviles súper pequeños */
+        overflow: hidden;
         border-right: 1px solid var(--border-color, #e2dcd3);
         box-shadow: none;
       }

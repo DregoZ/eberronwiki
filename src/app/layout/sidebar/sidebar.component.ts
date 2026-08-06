@@ -43,15 +43,17 @@ import { RouterLink } from '@angular/router';
       :host {
         display: block;
         height: 100%;
+        width: 100%;
       }
 
       .sidebar {
         display: flex;
         flex-direction: column;
         height: 100%;
+        width: 100%; /* Ocupa el 100% del contenedor contenedor mat-sidenav */
         background-color: var(--sidebar-bg, #f7f4ef);
-        width: 280px;
         box-sizing: border-box;
+        overflow: hidden; /* Evita que los hijos sobrepasen los límites */
       }
 
       .sidebar-header {
