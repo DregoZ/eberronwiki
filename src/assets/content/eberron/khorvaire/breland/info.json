@@ -2,20 +2,14 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/breland",
   "title": "Breland",
-  "tags": [
-    "Khorvaire",
-    "Breland",
-    "Industria"
-  ],
-  "aliases": [
-    "Breland"
-  ],
+  "tags": ["Khorvaire", "Breland", "Industria"],
+  "aliases": ["Breland"],
   "unlockCondition": null,
   "blocks": [
     {
       "id": "a2",
       "type": "text",
-      "content": "La nación más grande, cosmopolita e industrializada del continente. Breland es un crisol de culturas que abraza el progreso, el comercio y la libertad individual. Su joya de la corona es Sharn, la Ciudad de las Torres, un rascacielos viviente lleno de crimen, intriga y oportunidades. Su anciano rey Boranel aboga por la paz, pero el parlamento ya empieza a oler a democracia (o a caos).",
+      "content": "La nación más grande, cosmopolita e industrializada del continente. Breland es un crisol de culturas que abraza el progreso, el comercio y la libertad individual. Su joya de la corona es Sharn, la Ciudad de las Torres, un rascacielos viviente lleno de crimen, intriga y oportunidades. Su anciano rey Boranel aboga por la paz, pero el parlamento ya empieza a oler a democracia... o a caos.",
       "title": "Potencia Industrial y Libertad"
     },
     {

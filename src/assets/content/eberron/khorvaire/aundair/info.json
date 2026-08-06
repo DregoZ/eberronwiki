@@ -2,21 +2,14 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/aundair",
   "title": "Aundair",
-  "tags": [
-    "Khorvaire",
-    "Aundair",
-    "Humanos",
-    "Magia"
-  ],
-  "aliases": [
-    "Aundair"
-  ],
+  "tags": ["Khorvaire", "Aundair", "Humanos", "Magia"],
+  "aliases": ["Aundair"],
   "unlockCondition": null,
   "blocks": [
     {
       "id": "a2",
       "type": "text",
-      "content": "Una nación de campos llanos, viñedos exquisitos y una profunda obsesión por las artes arcanas. Aquí, hasta el campesino más humilde conoce un truco de magia menor. Está gobernada por la reina Aurala y es el hogar de la famosa Universidad de Arcanix. Si buscas tomos mágicos o vino refinado, este es tu lugar.",
+      "content": "Una nación de campos fértiles, viñedos exquisitos y una profunda obsesión por las artes arcanas. Aquí, hasta el campesino más humilde conoce un truco de magia menor. Está gobernada por la reina Aurala y es el hogar de la famosa Universidad de Arcanix. Si buscas tomos mágicos o vino refinado, este es tu lugar.",
       "title": "El Corazón de la Magia y la Elegancia"
     },
     {

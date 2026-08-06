@@ -11,8 +11,8 @@
       "type": "bullet",
       "title": "Puntos de Interés",
       "items": [
-        "[[eberron/khorvaire/breland/sharn/barrios/barrios-altos/la-cumbre|La Cumbre]]: En este barrio se encuentra el Gremio La Cumbre",
-        "[[eberron/khorvaire/breland/sharn/barrios/barrios-altos/piedrarroja|Piedrarroja]]: Barrio comercial especializado en productos y servicios para aventureros"
+        "[[eberron/khorvaire/breland/sharn/barrios/barrios-altos/la-cumbre|La Cumbre]]: En este barrio se encuentra el Gremio de Aventureros La Cumbre",
+        "[[eberron/khorvaire/breland/sharn/barrios/barrios-altos/piedrarroja|Piedrarroja]]: Barrio comercial especializado en productos y servicios para aventureros."
       ]
     },
     {
@@ -22,7 +22,23 @@
       "caption": "Barrios Altos",
       "title": "Barrios Altos",
       "align": "center",
-      "size": "full"
+      "size": "full",
+      "pins": [
+        {
+          "id": "pin-la-cumbre",
+          "x": 51.61,
+          "y": 16.72,
+          "label": "La Cumbre",
+          "linkSlug": "/eberron/khorvaire/breland/sharn/barrios/barrios-altos/la-cumbre"
+        },
+        {
+          "id": "pin-piedrarroja",
+          "x": 33.1,
+          "y": 37.36,
+          "label": "Piedrarroja",
+          "linkSlug": "/eberron/khorvaire/breland/sharn/barrios/barrios-altos/piedrarroja"
+        }
+      ]
     },
     {
       "id": "a4",

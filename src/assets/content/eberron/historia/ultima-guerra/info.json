@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/historia/ultima-guerra",
+  "title": "La Última Guerra",
+  "tags": ["Historia", "Última Guerra"],
+  "aliases": ["Última Guerra"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "content": [
+        "La Última Guerra fue un conflicto que asoló [[eberron/khorvaire|Khorvaire]] durante más de un siglo (894-996 YK), desencadenado tras la muerte del rey Jarot, último monarca del [[eberron/historia|Reino de Galifar]]. Las [[eberron/khorvaire/cinco-naciones|Cinco Naciones]] se enfrentaron por la sucesión al trono, arrastrando al continente a una guerra de desgaste marcada por la magia, la innovación militar y el surgimiento de los [[eberron/especies/forjados|forjados]] como soldados.",
+        "La guerra llegó a un abrupto final cuando el [[eberron/historia/luto|Día del Luto]] destruyó la nación de Cyre en una catástrofe de origen desconocido. El temor a sufrir un destino similar llevó a las naciones a firmar el [[eberron/historia/tronofirme|Tratado de Tronofirme]], una paz frágil que aún hoy mantiene a Khorvaire al borde de un nuevo conflicto."
+      ]
+    },
+    {
+      "id": "h4",
+      "type": "related",
+      "items": [
+        { "label": "Guerra de la Marca", "slug": "eberron/historia/guerra-marca" },
+        { "label": "Última Guerra", "slug": "eberron/historia/ultima-guerra" },
+        { "label": "El día del Luto", "slug": "eberron/historia/luto" },
+        { "label": "Tratado de Tronofirme", "slug": "eberron/khorvaire/tronofirme" }
+      ]
+    }
+  ]
+}

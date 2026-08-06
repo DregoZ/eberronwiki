@@ -27,8 +27,17 @@
       "content": [
         "El Gremio de La Cumbre es una organización fundada en la ciudad de Sharn. El gremio actúa como punto de encuentro y registro de aventureros profesionales. Es una de las asociaciones más conocidas de Eberron, simbolizando el auge del heroísmo mercenario en una era de posguerra.",
         "Surge tras la Última Guerra, cuando muchos veteranos y exploradores buscan nuevas oportunidades. El gremio canaliza ese talento hacia misiones comerciales y heroicas, desde la exploración de ruinas antiguas hasta la defensa contra amenazas extraplanares. Su sede, ubicada en el barrio Muy Dura, sirve de taberna, oficina de contratación y centro social.",
-        "El gremio tiene fama de acoger aventureros audaces y poco ortodoxos. Se le percibe como más idealista y cooperativa que su contraparte de Puerta de la Muerte, que prioriza la eficiencia y el beneficio. Los miembros de La Cumbre suelen compartir un código de camaradería y honor, aunque las rivalidades internas y los roces con otras organizaciones son comunes."
+        "El gremio tiene fama de acoger aventureros audaces y poco ortodoxos. Se le percibe como más idealista y cooperativa que su contraparte de [[Puerta de la Muerte]], que prioriza la eficiencia y el beneficio. Los miembros de La Cumbre suelen compartir un código de camaradería y honor, aunque las rivalidades internas y los roces con otras organizaciones son comunes."
       ]
+    },
+    {
+      "id": "h3",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/barrios-altos/la-cumbre/cumbre.webp",
+      "caption": "Acceso al Gremio La Cumbre",
+      "title": "Gremio La Cumbre",
+      "align": "center",
+      "size": "medium"
     },
     {
       "id": "a1",
@@ -38,6 +47,15 @@
         "Situada en una esquina muy transitada de La Cumbre, El **Dragón Borracho** es una taberna modesta cuya reputación se sostiene sobre un único mérito: sirve algunas de las mejores [[eberron/vida-en-eberron/gastronomia|cervezas y licores]] de la zona. La comida, en cambio, deja bastante que desear; el guiso del día cambia poco y los parroquianos suelen bromear con que el verdadero condimento es el hambre.",
         "El local atrae a aventureros, mercenarios y miembros de gremios cercanos que buscan terminar la jornada con una buena jarra entre manos. El ambiente suele ser animado, con mesas repletas de dados, relatos exagerados y músicos que improvisan cuando la clientela está de humor. Es el tipo de lugar donde es fácil encontrar un compañero de expedición... o meterse en una pelea entre pinta y pinta."
       ]
+    },
+    {
+      "id": "h3",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/barrios-altos/la-cumbre/drunkendragon.jpg",
+      "caption": "En El Dragón Borracho se cuece",
+      "title": "El Dragón Borracho",
+      "align": "center",
+      "size": "medium"
     }
   ]
 }

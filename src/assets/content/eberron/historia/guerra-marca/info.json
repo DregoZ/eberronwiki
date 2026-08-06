@@ -13,6 +13,16 @@
         "La Guerra de la Marca fue un conflicto ocurrido unos 1.500 años antes de la Última Guerra, en el que las familias poseedoras de las [[eberron/casas|Marcas Dragontinas]] se enfrentaron a los portadores de [[eberron/casas/marca-aberrante|marcas aberrantes]]. Estas últimas, impredecibles y a menudo destructivas, despertaban un profundo temor y eran vistas como una amenaza para el orden establecido.",
         "Impulsadas por las futuras [[eberron/casas|Casas Marcadas]], las familias con marcas verdaderas emprendieron una campaña para erradicar a los portadores de [[eberron/casas/marca-aberrante|marcas aberrantes]]. La guerra culminó con la destrucción de la [[eberron/casas/tarkanan|Casa Tarkanan]], una poderosa familia de portadores aberrantes, y dejó como legado un fuerte estigma social que aún persiste. Aunque hoy poseer una [[eberron/casas/marca-aberrante|marca aberrante]] no es ilegal, muchos habitantes de [[eberron/khorvaire|Khorvaire]] siguen asociándolas con el caos, la violencia y las tragedias del pasado."
       ]
+    },
+    {
+      "id": "h4",
+      "type": "related",
+      "items": [
+        { "label": "Guerra de la Marca", "slug": "eberron/historia/guerra-marca" },
+        { "label": "Última Guerra", "slug": "eberron/historia/ultima-guerra" },
+        { "label": "El día del Luto", "slug": "eberron/historia/luto" },
+        { "label": "Tratado de Tronofirme", "slug": "eberron/khorvaire/tronofirme" }
+      ]
     }
   ]
 }

@@ -34,6 +34,22 @@ export interface ImageBlock extends BaseBlock {
   title?: string;
   align?: 'left' | 'right' | 'center';
   size?: 'small' | 'medium' | 'full';
+  /** Optional pins to display on the image */
+  pins?: ImagePin[];
+}
+
+/** Pin definition for images */
+export interface ImagePin {
+  /** Unique identifier */
+  id: string;
+  /** X position as percentage (0-100) */
+  x: number;
+  /** Y position as percentage (0-100) */
+  y: number;
+  /** Optional label shown as tooltip */
+  label: string;
+  /** Optional URL slug to navigate when clicked */
+  linkSlug?: string;
 }
 
 export interface QuoteBlock extends BaseBlock {

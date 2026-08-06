@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/historia/luto",
+  "title": "Día del luto",
+  "tags": ["Historia", "Luto"],
+  "aliases": ["Día del Luto"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "content": [
+        "El Día del Luto fue una catástrofe ocurrida el 20 de Olarune de 994 YK, en la que la nación de [[eberron/khorvaire/tierras-enlutadas|Cyre]] quedó envuelta en una extraña niebla gris y prácticamente toda forma de vida desapareció en cuestión de horas. El territorio se convirtió en las [[eberron/khorvaire/tierras-enlutadas|Tierras Enlutadas]], un lugar donde las leyes de la naturaleza y la magia parecen estar distorsionadas.",
+        "A día de hoy, nadie conoce con certeza la causa del Luto. Desde accidentes arcanos y armas de guerra hasta conspiraciones extraplanares o la intervención de fuerzas divinas, innumerables teorías intentan explicar el desastre, convirtiéndolo en el mayor misterio de la historia reciente de [[eberron/khorvaire|Khorvaire]]."
+      ]
+    },
+    {
+      "id": "h4",
+      "type": "related",
+      "items": [
+        { "label": "Guerra de la Marca", "slug": "eberron/historia/guerra-marca" },
+        { "label": "Última Guerra", "slug": "eberron/historia/ultima-guerra" },
+        { "label": "El día del Luto", "slug": "eberron/historia/luto" },
+        { "label": "Tratado de Tronofirme", "slug": "eberron/khorvaire/tronofirme" }
+      ]
+    }
+  ]
+}
