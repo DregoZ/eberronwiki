@@ -22,7 +22,7 @@ import { RouterLink } from '@angular/router';
           @for (row of block().rows; track $index) {
             <tr>
               @for (cell of row; track $index) {
-                <td>
+                <td [attr.data-label]="block().headers[$index]">
                   @for (segment of (cell | parseInternalLinks); track $index) {
                     @if (segment.isLink) {
                       <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
@@ -76,6 +76,65 @@ import { RouterLink } from '@angular/router';
         tr:nth-child(even) {
           background-color: var(--table-zebra-bg, rgba(0, 0, 0, 0.02));
         }
+      }
+    }
+
+    @media (max-width: 991px) {
+      .table-container {
+        overflow-x: visible;
+        border: none;
+        background: transparent;
+      }
+
+      table,
+      thead,
+      tbody,
+      th,
+      td,
+      tr {
+        display: block;
+      }
+
+      thead {
+        display: none;
+      }
+
+      tbody tr {
+        margin-bottom: 1rem;
+        border: 1px solid var(--border-color, #e0e0e0);
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--bg-card, #fff);
+      }
+
+      tbody tr:last-child {
+        margin-bottom: 0;
+      }
+
+      td {
+        display: grid;
+        grid-template-columns: minmax(0, 38%) 1fr;
+        gap: 0.75rem;
+        align-items: start;
+        padding: 0.75rem 1rem;
+        border-bottom: 1px solid var(--border-color, #e0e0e0);
+        text-align: left;
+      }
+
+      td::before {
+        content: attr(data-label);
+        font-weight: 700;
+        color: var(--primary-color, #8b1e0f);
+        font-size: 0.85rem;
+        line-height: 1.4;
+      }
+
+      td:last-child {
+        border-bottom: none;
+      }
+
+      tr:nth-child(even) td {
+        background-color: transparent;
       }
     }
   `]

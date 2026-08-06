@@ -134,6 +134,38 @@ import { Router, RouterModule } from '@angular/router';
         width: 100%;
       }
 
+      @media (max-width: 991px) {
+        .image-block {
+          width: 100%;
+          max-width: 100%;
+        }
+
+        .image-wrapper {
+          display: block;
+          width: 100%;
+          max-width: 100%;
+        }
+
+        .image-wrapper img {
+          display: block;
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+        }
+
+        .size-small img,
+        .size-medium img,
+        .size-full img {
+          width: 100%;
+          max-width: 100%;
+        }
+
+        .close-btn {
+          top: 0.5rem;
+          right: 0.5rem;
+        }
+      }
+
       /* Lightbox overlay */
       .overlay {
         position: fixed;

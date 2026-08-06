@@ -117,6 +117,18 @@ import { ImageBlockComponent } from '../image-block/image-block.component';
           transform: scale(1);
         }
       }
+
+      @media (max-width: 991px) {
+        .gallery-grid {
+          grid-template-columns: 1fr;
+          margin: 1.25rem 0;
+        }
+
+        .close-btn {
+          top: 0.5rem;
+          right: 0.5rem;
+        }
+      }
     `,
   ],
 })
