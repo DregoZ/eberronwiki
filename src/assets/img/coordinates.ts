@@ -1,4 +1,4 @@
-/* 
+/*
 const img = document.querySelector(
   'img[src="/assets/content/eberron/khorvaire/breland/sharn/barrios/barrios-altos/barrios-altos.png"]',
 );
@@ -11,3 +11,4 @@ img.addEventListener('click', (e) => {
 
 
 */
+

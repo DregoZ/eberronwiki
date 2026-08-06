@@ -11,7 +11,7 @@
       "type": "text",
       "content": [
         "La religión desempeña un papel importante en Eberron. Aunque los dioses no se manifiestan físicamente como ocurre en otros escenarios, las personas creyentes consideran que las fuerzas divinas influyen en la vida cotidiana. Más allá de esto, las creencias compartidas contribuyen a unir a las comunidades y otorgan esperanza en tiempos de necesidad.",
-        "Las religiones más extendidas son [[La Hueste]] y los [[Oscuros]], y aunque los rezos suelen dirigirse al panteón en si, es habitual que un miembro de cierto gremio eleve sus plegarias a una deidad concreta dentro de ese panteón.",
+        "Las religiones más extendidas son [[eberron/religion/hueste-soberana|La Hueste]] y los [[eberron/religion/seis-oscuros|Seis Oscuros]], y aunque los rezos suelen dirigirse al panteón en si, es habitual que un miembro de cierto gremio eleve sus plegarias a una deidad concreta dentro de ese panteón.",
         "Por ejemplo, un guerrero podría pedir a Dol Dorn que lo guíe en una batalla venidera, mientras que un marino recitaría una plegaria al Destructor pidiendo ayuda en su travesía."
       ]
     },
@@ -20,7 +20,7 @@
       "type": "info",
       "variant": "lore",
       "content": [
-        "**Razas y religión**. Por lo general, las religiones no se basan en la raza, exceptuando los Elfos y los Kalashtar quienes practican religiones raramente adoptadas por miembros de otras razas."
+        "**Razas y religión**. Por lo general, las religiones no se basan en la raza, exceptuando los [[eberron/vida-en-eberron/especies/elfos|Elfos]] y los [[eberron/vida-en-eberron/especies/kalashtar|Kalashtar]] quienes practican religiones raramente adoptadas por miembros de otras razas."
       ]
     },
 
