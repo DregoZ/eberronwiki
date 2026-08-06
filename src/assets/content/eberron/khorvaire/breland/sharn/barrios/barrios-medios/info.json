@@ -22,7 +22,27 @@
       "caption": "Barrios Medios",
       "title": "Barrios Medios",
       "align": "center",
-      "size": "full"
+      "size": "full",
+      "pins": [
+        {
+          "x": 33.06,
+          "y": 37.48,
+          "label": "El Bazar",
+          "linkSlug": "eberron/khorvaire/breland/sharn/barrios/barrios-medios/bazar"
+        },
+        {
+          "x": 80.65,
+          "y": 58.67,
+          "label": "Gremio Puerta de la Muerte",
+          "linkSlug": "eberron/khorvaire/breland/sharn/barrios/barrios-medios/puerta-muerte"
+        },
+        {
+          "x": 46.98,
+          "y": 51.35,
+          "label": "Torres Dragón",
+          "linkSlug": "eberron/khorvaire/breland/sharn/barrios/barrios-medios/torres-dragon"
+        }
+      ]
     },
     {
       "id": "a4",

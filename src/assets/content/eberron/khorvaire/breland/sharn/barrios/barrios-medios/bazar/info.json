@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../../../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-medios/bazar",
+  "title": "Bazar",
+  "tags": ["Bazar", "Barrios Medios"],
+  "aliases": ["El Bazar"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "**Tipo de distrito:** Comercial",
+        "**Clase Social:** Clase Baja",
+        "**Ubicación:** Sharn, Medio Dura",
+        "**Servicios:** Mercado al aire libre, templo (La Hueste), santuarios (el Guardián, Kol Korran), alojamiento y comida promedio, comercios de todo tipo.",
+        "La multitud y el ruido de este distrito son abrumadores. Además de las tiendas y puestos, las calles están llenas de gente que ofrece bienes y ofertas cuestionables; parece que todo el mundo tiene algo que vender. La Guardia mantiene una fuerte presencia en el Bazar, pero están más preocupados por prevenir los disturbios que por detener el comercio de bienes ilegales.",
+        "El Bazar de Dura, el distrito comercial más grande de Sharn, se extiende a través de una docena de torres. Las torres alrededor de los bordes están dedicadas a tiendas y servicios. Casi cualquier cosa se puede encontrar en este distrito, aunque la calidad de cualquier artículo o servicio en particular no se puede garantizar. En el centro del distrito, el mercado abierto del que toma su nombre el distrito presenta un laberinto de tiendas, tiendas de campaña y puestos improvisados instalados en medio de la calle. Un permiso de mercado cuesta solo 3 cp, aunque muchas personas intentan evitar incluso esta suma miserable. Sin embargo, los guardias que atrapan a tales chirladores generalmente extorsionan sumas mucho más grandes a cambio de un pase.",
+        "De los cuatro mercados de Sharn, el Bazar tiene la mayor concentración de actividad criminal: servicios y oficios ilegales, así como carteristas, acosadores y estafadores. Estos servicios no son tan obvios como en Poco Dura o los Engranajes, y la calidad y los precios no son tan buenos, pero comprar aquí es generalmente más seguro que aventurarse en las zonas inferiores. El costo de los servicios ilegales es mayor aquí (25%). El Clan Boromar controla la mayoría de las actividades ilegales, pero los Daask han estado presionando, y aquellos que buscan servicios pueden quedar atrapados en el medio.",
+        "Aquellos que muestran una riqueza obvia, deben lidiar con un flujo constante de mendigos y estafadores. Los carteristas representan una amenaza constante, y los matones intentan atraer a los compradores a las emboscadas. Cuando hagas negocios en el Bazar, lo mejor es ocultar tu riqueza.",
+        "El Bazar es un buen lugar para deshacerse de adquisiciones aleatorias. Aparte de los productos robados (aquellos que requieren una negociación real), la mayoría de los artículos se pueden vender aquí por el 45% de su valor real. El vendedor puede hacer una prueba de Carisma(Persuasión) DC 10 para incrementar el precio de venta..",
+        "De los cuatro mercados de Sharn, el Bazar tiene la mayor concentración de actividad criminal: servicios y oficios ilegales, así como carteristas, acosadores y estafadores. Estos servicios no son tan obvios como en Poco Dura o los Engranajes, y la calidad y los precios no son tan buenos, pero comprar aquí es generalmente más seguro que aventurarse en las zonas inferiores. El costo de los servicios ilegales es mayor aquí (25%). El Clan Boromar controla la mayoría de las actividades ilegales, pero los Daask han estado presionando, y aquellos que buscan servicios pueden quedar atrapados en el medio.",
+        "Aquellos que muestran una riqueza obvia, deben lidiar con un flujo constante de mendigos y estafadores. Los carteristas representan una amenaza constante, y los matones intentan atraer a los compradores a las emboscadas. Cuando hagas negocios en el Bazar, lo mejor es ocultar tu riqueza.",
+        "El Bazar es un buen lugar para deshacerse de adquisiciones aleatorias. Aparte de los productos robados (aquellos que requieren una negociación real), la mayoría de los artículos se pueden vender aquí por el 45% de su valor real. El vendedor puede hacer una prueba de Carisma(Persuasión) DC 10 para incrementar el precio de venta..",
+        "Casi cualquier tipo de artículo mundano se puede encontrar en el Bazar, incluyendo los productos alquímicos. Un comerciante incluso puede tener algunos artículos mágicos en stock, o al menos artículos que él afirma que son mágicos. Cualquier magia o obra maestra que se encuentre en el Bazar son ciertamente de segunda mano, y pueden tener una historia dudosa o intrigante. El límite de 25.000 gp se aplica a todas las transacciones en el Bazar."
+      ]
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [{ "label": "related", "slug": "eberron/" }]
+    }
+  ]
+}

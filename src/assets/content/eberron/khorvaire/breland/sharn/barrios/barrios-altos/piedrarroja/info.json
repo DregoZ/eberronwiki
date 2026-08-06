@@ -26,9 +26,14 @@
       "content": [
         "Alijo del Dragón es una bulliciosa tienda de equipo de aventurero ubicada en el corazón de Piedrarroja, el vibrante distrito comercial de Muy Dura. Regentada por Korman, un veterano enano con conexiones en el mercado negro, el establecimiento destaca entre las altas torres por su característico letrero de madera quemada que muestra la silueta de un dragón custodiando un cofre.",
         "Es el primer y último punto de parada para los mercenarios y expedicionarios que se preparan para descender a los niveles inferiores de la ciudad o para embarcarse hacia las tierras salvajes de Xen'drik. El interior de la tienda es un laberinto organizado de estanterías repletas de material de primera calidad: desde cuerdas de seda de Valenar y raciones de viaje compactas, hasta herramientas de ladrón reforzadas, antorchas eternas y mochilas con compartimentos secretos.",
-        "Aunque los precios están estrictamente regulados por las tarifas estándar del gremio, los clientes habituales saben que, bajo una buena negociación y unas monedas de oro extra, el dueño puede sacar del almacén trasero mapas antiguos de la Universidad de Morgrave, pociones de procedencia dudosa o componentes de conjuro exóticos difíciles de conseguir legalmente en el norte de la ciudad.",
-        "***Como miembros del Gremio La Cumbre, tenéis un 5% de descuento en las compras en esta tienda.***"
+        "Aunque los precios están estrictamente regulados por las tarifas estándar del gremio, los clientes habituales saben que, bajo una buena negociación y unas monedas de oro extra, el dueño puede sacar del almacén trasero mapas antiguos de la Universidad de Morgrave, pociones de procedencia dudosa o componentes de conjuro exóticos difíciles de conseguir legalmente en el norte de la ciudad."
       ]
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "note",
+      "content": "Como miembros del Gremio La Cumbre, tenéis un 5% de descuento en las compras en esta tienda."
     },
     {
       "id": "h1",

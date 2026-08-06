@@ -13,7 +13,7 @@ import { Router, RouterModule } from '@angular/router';
       [ngClass]="['align-' + (block().align || 'center'), 'size-' + (block().size || 'medium')]"
     >
       <div class="image-wrapper">
-        <img [src]="block().src" [alt]="block().caption || block().title || 'Wiki image'" />
+        <img (click)="open()" style="cursor:pointer;" [src]="block().src" [alt]="block().caption || block().title || 'Wiki image'" />
         @if (block().pins?.length) {
           @for (pin of block().pins; track pin.id || pin.label) {
             <span
@@ -30,6 +30,14 @@ import { Router, RouterModule } from '@angular/router';
         <figcaption>{{ block().caption }}</figcaption>
       }
     </figure>
+
+    @if (enlarged) {
+      <div class="overlay" (click)="close()">
+        <div class="overlay-content" (click)="$event.stopPropagation()">
+          <img [src]="block().src" [alt]="block().caption || block().title || 'Wiki image'" class="full-image" />
+        </div>
+      </div>
+    }
   `,
   styles: [
     `
@@ -118,6 +126,30 @@ import { Router, RouterModule } from '@angular/router';
       }
       .size-full img {
         width: 100%;
+
+        /* Lightbox overlay */
+        .overlay {
+          position: fixed;
+          inset: 0;
+          background: rgba(0, 0, 0, 0.85);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 1000;
+          animation: fadeIn 0.2s ease-out;
+        }
+        .overlay-content {
+          position: relative;
+          max-width: 90vw;
+          max-height: 90vh;
+          animation: scaleIn 0.2s ease-out;
+        }
+        .full-image {
+          max-height: 80vh;
+          object-fit: contain;
+        }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes scaleIn { from { transform: scale(0.9); } to { transform: scale(1); } }
       }
     `,
   ],
@@ -132,4 +164,9 @@ export class ImageBlockComponent {
       this.router.navigateByUrl('/wiki/' + pin.linkSlug);
     }
   }
+
+  /** Lightbox state */
+  enlarged = false;
+  open(): void { this.enlarged = true; }
+  close(): void { this.enlarged = false; }
 }
