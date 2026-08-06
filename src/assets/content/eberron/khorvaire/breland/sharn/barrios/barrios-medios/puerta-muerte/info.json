@@ -1,0 +1,38 @@
+{
+  "$schema": "../../../../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-medios/puerta-muerte",
+  "title": "Gremio Puerta de la Muerte",
+  "tags": ["Sharn", "Gremios", "Puerta de la Muerte", "Medio Dura"],
+  "aliases": ["Puerta Muerte", "Gremio Puerta de la Muerte"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "Fundado hace 200 años, este gremio está formado por aventureros y soldados de fortuna: un lugar donde las personas con talento y coraje pueden perfeccionar sus habilidades y disfrutar de la compañía de gente afín. Los aventureros del Gremio de la Puerta de la Muerte son en su mayoría novatos, y la mayoría de ellos luchó en la Última Guerra. Los aventureros del Gremio Puerta de la Muerte mantienen una fuerte rivalidad con los del Gremio de la Cima del Acantilado, y los miembros del Gremio Puerta de la Muerte suelen iniciar peleas con sus homólogos, tanto en Sharn como durante sus aventuras.",
+        "Para afiliarse al gremio, un personaje debe obtener la aprobación de al menos cinco miembros actuales y pagar la cuota anual de 12 po. A cambio, obtiene acceso a la sede del gremio y la compañía de otros aventureros. Aparte de la simple camaradería, esto proporciona las siguientes ventajas:"
+      ]
+    },
+    {
+      "id": "b1",
+      "type": "bullet",
+      "items": [
+        "Mientras se encuentre en la sede del gremio, un personaje recibe una bonificación de +2 en cualquier tirada de Saber (mazmorras) o tirada de Saber relacionada con Xen'drik.",
+        "La sede del gremio ofrece alojamiento estándar a los miembros por un coste de 5 sp al día. Sin embargo, la sede cuenta con las mismas medidas de seguridad que una posada de lujo.",
+        "El gremio guardará objetos para sus miembros. Cuenta con dos voluminosas cámaras acorazadas, una de adamantino y otra de acero. Si es necesario guardar objetos durante más de una semana, el gremio cobra 5 po por objeto y semana.",
+        "El gremio mantiene una lista de referencias de mercenarios e inquisidores que han trabajado para miembros del gremio. Por lo tanto, si el grupo tiene conexiones con el gremio, cualquier mercenario que contrate debería ser honesto."
+      ]
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [
+        {
+          "label": "Gremio La Cumbre",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-altos/la-cumbre"
+        }
+      ]
+    }
+  ]
+}

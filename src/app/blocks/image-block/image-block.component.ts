@@ -13,7 +13,12 @@ import { Router, RouterModule } from '@angular/router';
       [ngClass]="['align-' + (block().align || 'center'), 'size-' + (block().size || 'medium')]"
     >
       <div class="image-wrapper">
-        <img (click)="open()" style="cursor:pointer;" [src]="block().src" [alt]="block().caption || block().title || 'Wiki image'" />
+        <img
+          (click)="open()"
+          style="cursor:pointer;"
+          [src]="block().src"
+          [alt]="block().caption || block().title || 'Wiki image'"
+        />
         @if (block().pins?.length) {
           @for (pin of block().pins; track pin.id || pin.label) {
             <span
@@ -34,7 +39,8 @@ import { Router, RouterModule } from '@angular/router';
     @if (enlarged) {
       <div class="overlay" (click)="close()">
         <div class="overlay-content" (click)="$event.stopPropagation()">
-          <img [src]="block().src" [alt]="block().caption || block().title || 'Wiki image'" class="full-image" />
+          <button class="close-btn" (click)="close()" aria-label="Close">✕</button>
+          <img [src]="block().src" [alt]="block().caption || block().title || 'Wiki image'" />
         </div>
       </div>
     }
@@ -126,30 +132,66 @@ import { Router, RouterModule } from '@angular/router';
       }
       .size-full img {
         width: 100%;
+      }
 
-        /* Lightbox overlay */
-        .overlay {
-          position: fixed;
-          inset: 0;
-          background: rgba(0, 0, 0, 0.85);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          z-index: 1000;
-          animation: fadeIn 0.2s ease-out;
+      /* Lightbox overlay */
+      .overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.85);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        animation: fadeIn 0.2s ease-out;
+      }
+
+      .overlay-content {
+        position: relative;
+        max-width: 90vw;
+        max-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        animation: scaleIn 0.2s ease-out;
+      }
+
+      .overlay-content img {
+        max-height: 70vh;
+        object-fit: contain;
+      }
+
+      .close-btn {
+        position: absolute;
+        top: -1.5rem;
+        right: -1.5rem;
+        background: #ff6b6b;
+        border: none;
+        color: #fff;
+        font-size: 1.5rem;
+        line-height: 1;
+        border-radius: 50%;
+        width: 2.5rem;
+        height: 2.5rem;
+        cursor: pointer;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
         }
-        .overlay-content {
-          position: relative;
-          max-width: 90vw;
-          max-height: 90vh;
-          animation: scaleIn 0.2s ease-out;
+        to {
+          opacity: 1;
         }
-        .full-image {
-          max-height: 80vh;
-          object-fit: contain;
+      }
+      @keyframes scaleIn {
+        from {
+          transform: scale(0.9);
         }
-        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-        @keyframes scaleIn { from { transform: scale(0.9); } to { transform: scale(1); } }
+        to {
+          transform: scale(1);
+        }
       }
     `,
   ],
@@ -167,6 +209,12 @@ export class ImageBlockComponent {
 
   /** Lightbox state */
   enlarged = false;
-  open(): void { this.enlarged = true; }
-  close(): void { this.enlarged = false; }
+
+  open(): void {
+    this.enlarged = true;
+  }
+
+  close(): void {
+    this.enlarged = false;
+  }
 }

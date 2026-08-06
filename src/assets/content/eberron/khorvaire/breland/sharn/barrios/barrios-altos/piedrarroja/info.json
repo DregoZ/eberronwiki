@@ -13,10 +13,10 @@
         "**Clase Social**: Clase Media",
         "**Tipo de distrito**: Comercial",
         "**Ubicación**: Sharn, Muy Dura",
-        "**Servicios**: Templo (Kol Korran), Santuarios (Olladra, Onatar), alojamiento y comida, comercios de todo tipo y artesanía.",
+        "**Servicios**: [[eberron/religion/hueste-soberana|Templo]] (Kol Korran), [[eberron/religion/hueste-soberana|santuarios]] (Olladra, Onatar), alojamiento y comida, comercios de todo tipo y artesanía.",
         "Hermosas torres de mármol rojo y granito llenos de varias tiendas y artesanos ofrecen una variedad aparentemente infinita de productos. Las calles colgantes de ladrillo están llenas de clientes de fresado y la desafortunada mendicidad ocasional de cobre y plata.",
-        "Uno de los distritos más nuevos, Piedrarroja tiene menos de doscientos años y muchos de los respetables artesanos del Bazar de Medio Dura se han mudado aquí en los últimos años. Los arquitectos quisieron eliminar la percepcion negativa de Dura, y la piedra es hermosa. Gran parte de la arquitectura fue elaborada con mármol rojo de la Cantera Rosa, en Darguun. Una vez fue un próspero proveedor de Cyre y ahora se encuentra en ruinas. El resto de las torres están construídas con granito rojo y ladrillo. La gran cantidad de variaciones sutiles en la construcción hace que las torres presenten una atractiva vista, especialmente a la luz del sol poniente.",
-        "Piedrarroja se ha convertido en uno de los centros de comercio más grandes de la ciudad. Casi cualquier tipo de comercio honesto se puede encontrar aquí, desde panaderos hasta fabricantes de pelucas. Hay dos bancos en Piedrarroja, incluyendo un enclave de Kundarak y el más modesto Banco Lorreano, una empresa familiar perteneciente a una de las sesenta grandes familias de Sharn. El distrito también contiene centros de trabajo que abastecen a los distritos cercanos, incluyendo una fábrica de vidrio y una fábrica textil."
+        "Uno de los distritos más nuevos, Piedrarroja tiene menos de doscientos años y muchos de los respetables artesanos del [[eberron/khorvaire/breland/sharn/barrios/barrios-medios/bazar|Bazar de Medio Dura]] se han mudado aquí en los últimos años. Los arquitectos quisieron eliminar la percepcion negativa de Dura, y la piedra es hermosa. Gran parte de la arquitectura fue elaborada con mármol rojo de la **Cantera Rosa**, en [[eberron/khorvaire/darguun|Darguun]]. Una vez fue un próspero proveedor de Cyre y ahora se encuentra en ruinas. El resto de las torres están construídas con granito rojo y ladrillo. La gran cantidad de variaciones sutiles en la construcción hace que las torres presenten una atractiva vista, especialmente a la luz del sol poniente.",
+        "Piedrarroja se ha convertido en uno de los centros de comercio más grandes de la ciudad. Casi cualquier tipo de comercio honesto se puede encontrar aquí, desde panaderos hasta fabricantes de pelucas. Hay dos bancos en Piedrarroja, incluyendo un enclave de [[eberron/casas/kundarak|Kundarak]] y el más modesto **Banco Lorreano**, una empresa familiar perteneciente a una de las sesenta grandes familias de Sharn. El distrito también contiene centros de trabajo que abastecen a los distritos cercanos, incluyendo una fábrica de vidrio y una fábrica textil."
       ]
     },
     {
@@ -61,6 +61,16 @@
       "title": "Florentino's",
       "align": "center",
       "size": "medium"
+    },
+    {
+      "id": "s1",
+      "type": "related",
+      "items": [
+        {
+          "label": "El Bazar",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-medios/bazar"
+        }
+      ]
     }
   ]
 }

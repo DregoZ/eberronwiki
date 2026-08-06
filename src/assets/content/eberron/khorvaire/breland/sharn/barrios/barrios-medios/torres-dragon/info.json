@@ -1,0 +1,75 @@
+{
+  "$schema": "../../../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-medios/torres-dragon",
+  "title": "Torres Dragón",
+  "tags": ["Barrios Medios", "Torres Dragón", "Barrio Corporativo"],
+  "aliases": ["Torres Dragón"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "El barrio Torres Dragón alberga las sedes de las Casas Dragontinas, y está ubicado en la zona media del distrito Central. Es el corazón corporativo y burocrático de Sharn. Si necesitas negociar contratos, buscar patrocinios comerciales o interactuar directamente con la alta jerarquía de las Casas Dragontinas en Sharn, este es el lugar exacto al que acudir."
+      ]
+    },
+    {
+      "id": "b1",
+      "type": "bullet",
+      "items": [
+        "**Primera impresión:** Un desfile constante de ejecutivos, diplomáticos y herederos de las casas, siempre escoltados por sirvientes serviles y guardias privados fuertemente armados. Los emblemas y blasones mágicos de las Casas Dragontinas decoran de forma masiva las fachadas y puentes.",
+        "**Presencia corporativa:** El distrito alberga las 12 sedes y enclaves principales de las Casas Dragontinas en Sharn, además de 20 grandes salones de gremios comerciales adscritos.",
+        "**Sedes más importantes:** Aunque todas tienen oficinas aquí, los complejos más grandes e influyentes pertenecen a Casa Tharashk (cuyo cuartel general ocupa niveles enteros de tres torres), Casa Cannith, Casa Kundarak, Casa Sivis y Casa Lyrandar.",
+        "**Clase social:** Clase media-alta corporativa. Es una zona limpia, segura y fuertemente vigilada tanto por la Guardia de la Ciudad como por los ejércitos privados de las propias casas mercantiles.",
+        "**Atmósfera:** Es un nido de intrigas corporativas, espionaje industrial y diplomacia secreta. Al estar pegado al barrio de las embajadas, los tratos bajo cuerda y el intercambio de información confidencial ocurren a diario en sus restaurantes de lujo y salas de reuniones privadas."
+      ]
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "title": "Muelles de Atraque",
+      "content": [
+        "Los Muelles de Atraque se encuentran en el nivel superior del barrio, en la zona este, y sirve como uno de los principales puntos de conexión entre los niveles superiores de Sharn y las rutas aéreas y terrestres que conectan la ciudad con el resto de Khorvaire. El distrito está dominado por grandes torres de atraque, hangares de navíos voladores y extensas plataformas de carga, siendo un centro neurálgico para el comercio de larga distancia y los viajes aéreos."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Darian d'Lyrandar es el capitán del **Celestial**, navío que los personajes usaron para llegar a las montañas Muragrís."
+    },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/barrios-medios/torres-dragon/muelle.png",
+          "caption": "Muelles de atraque Lyrandar",
+          "title": "Muelles de atraque",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i2",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/barrios-medios/torres-dragon/Darian.jpg",
+          "caption": "Darian d'Lyrandar",
+          "title": "Darian d'Lyrandar",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [{ "label": "Casas Dragontinas", "slug": "eberron/casas" }]
+    }
+  ]
+}
