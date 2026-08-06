@@ -15,6 +15,21 @@
       ]
     },
     {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Hay numerosas coincidencias sospechosas relacionadas con las Casas Dragontinas y el Día del Luto. Ninguna está confirmada, pero son el tipo de rumores que alimentan conspiraciones en tabernas y universidades."
+    },
+    {
+      "id": "i2",
+      "type": "image",
+      "src": "/assets/content/eberron/historia/luto/luto.webp",
+      "caption": "Niebla que rodea las Tierras Enlutadas",
+      "title": "Niebla que rodea las Tierras Enlutadas",
+      "align": "center",
+      "size": "medium"
+    },
+    {
       "id": "h4",
       "type": "related",
       "items": [

@@ -1,0 +1,48 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/droaam/vallebrillante",
+  "title": "Vallebrillante",
+  "tags": ["Khorvaire", "Droaam", "Montañas Murogrís", "Irian"],
+  "aliases": ["Vallebrillante"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "a1",
+      "type": "text",
+      "content": [
+        "Escondido entre los escarpados picos de las Montañas Murogrís, Vallebrillante es un fértil valle aislado del resto de Khorvaire por abruptos desfiladeros y altas cumbres. Siendo una zona de manifestación de [[eberron/planos/irian|Irian]], disfruta de un clima benigno y de recursos en abundancia. ",
+        "Aunque parece un lugar tranquilo y apartado, su posición estratégica entre los pasos montañosos lo ha convertido históricamente en una ruta codiciada por comerciantes, exploradores y ejércitos. Los habitantes del valle, un vuelo de arpías que se hacen llamar **Canto Mesmerizante**, están acostumbrados a constantes incursiones enviadas por las [[Hijas de Sora Kell]]."
+      ]
+    },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "h1",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/droaam/montanas-murogris/vallebrillante/vallebrillante.jpg",
+          "caption": "Vallebrillante",
+          "align": "center",
+          "size": "full"
+        },
+        {
+          "id": "h2",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/droaam/montanas-murogris/vallebrillante/mieno.png",
+          "caption": "Mieno, arpía líder del Canto Mesmerizante",
+          "align": "center",
+          "size": "full"
+        },
+        {
+          "id": "h3",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/droaam/montanas-murogris/vallebrillante/gnolls.png",
+          "caption": "Gnolls atacando Vallebrillante",
+          "align": "center",
+          "size": "full"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 export type ContentBlock =
   | TextBlock
+  | GalleryBlock
   | BulletBlock
   | ImageBlock
   | QuoteBlock
@@ -36,6 +37,13 @@ export interface ImageBlock extends BaseBlock {
   size?: 'small' | 'medium' | 'full';
   /** Optional pins to display on the image */
   pins?: ImagePin[];
+}
+
+/** Gallery block containing a list of ImageBlock objects */
+export interface GalleryBlock extends BaseBlock {
+  type: 'gallery';
+  /** Array of images to display in the gallery */
+  images: ImageBlock[];
 }
 
 /** Pin definition for images */

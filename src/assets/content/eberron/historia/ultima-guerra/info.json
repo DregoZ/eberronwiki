@@ -15,6 +15,15 @@
       ]
     },
     {
+      "id": "i1",
+      "type": "image",
+      "src": "/assets/content/eberron/historia/ultima-guerra/lastwar.jpg",
+      "caption": "Batalla en la Última Guerra",
+      "title": "Batalla en la Última Guerra",
+      "align": "center",
+      "size": "medium"
+    },
+    {
       "id": "h4",
       "type": "related",
       "items": [

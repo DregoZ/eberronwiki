@@ -9,6 +9,7 @@ import { FavoritesService } from '../../core/services/favorites.service';
 import { TextBlockComponent } from '../../blocks/text-block/text-block.component';
 import { BulletBlockComponent } from '../../blocks/bullet-block/bullet-block';
 import { ImageBlockComponent } from '../../blocks/image-block/image-block.component';
+import { GalleryComponent } from '../../blocks/gallery/gallery.component';
 import { QuoteBlockComponent } from '../../blocks/quote-block/quote-block.component';
 import { InfoBlockComponent } from '../../blocks/info-block/info-block.component';
 import { TableBlockComponent } from '../../blocks/table-block/table-block.component';
@@ -40,6 +41,8 @@ import {
     TextBlockComponent,
     BulletBlockComponent,
     ImageBlockComponent,
+    GalleryComponent,
+  
     QuoteBlockComponent,
     InfoBlockComponent,
     TableBlockComponent,
@@ -141,6 +144,9 @@ import {
                 }
                 @case ('map') {
                   <app-map-block [block]="$any(block)" />
+                }
+                @case ('gallery') {
+                  <app-gallery [block]="$any(block)" />
                 }
               }
             }
