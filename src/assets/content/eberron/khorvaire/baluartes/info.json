@@ -2,24 +2,21 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/baluartes",
   "title": "Baluartes de Mror",
-  "tags": [
-    "Khorvaire",
-    "Capitalismo",
-    "Ahorro",
-    "Trabajo duro",
-    "Enanos"
-  ],
-  "aliases": [
-    "Baluartes",
-    "Baluartes de Mror"
-  ],
+  "tags": ["Khorvaire", "Capitalismo", "Ahorro", "Trabajo duro", "Enanos"],
+  "aliases": ["Baluartes", "Baluartes de Mror"],
   "unlockCondition": null,
   "blocks": [
     {
       "id": "a2",
       "type": "text",
-      "content": "Una confederación de clanes enanos situada en las escarpadas Montañas de la Piedra de Hierro. Son los banqueros y mineros de Khorvaire; controlan la economía del continente. Recientemente han descubierto antiguas ruinas subterráneas llenas de tesoros, pero también de horrores aberrantes provenientes de las profundidades del reino del Reino de la Locura, [[eberron/planos/xoriat|Xoriat]].",
+      "content": "Una confederación de clanes enanos situada en las escarpadas Montañas Raizférrea. Son los banqueros y mineros de Khorvaire; controlan la economía del continente. Recientemente han descubierto antiguas ruinas subterráneas llenas de tesoros, pero también de horrores aberrantes provenientes de las profundidades del reino del Reino de la Locura, [[eberron/planos/xoriat|Xoriat]].",
       "title": "La Cuna de los Enanos y el Oro"
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Los enanos comen monedas de oro. Excepto las monedas que utilizan como dispositivos de escucha. También aderezan la comida con virutas de hierro."
     },
     {
       "id": "a3",

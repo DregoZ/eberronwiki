@@ -1,6 +1,6 @@
 /*
 const img = document.querySelector(
-  'img[src="/assets/content/eberron/khorvaire/breland/sharn/barrios/barrios-altos/barrios-altos.png"]',
+  'img[src="/assets/content/eberron/khorvaire/droaam/montanas-murogris/montanas-murogris.png"]',
 );
 img.addEventListener('click', (e) => {
   const rect = img.getBoundingClientRect();
@@ -11,4 +11,3 @@ img.addEventListener('click', (e) => {
 
 
 */
-

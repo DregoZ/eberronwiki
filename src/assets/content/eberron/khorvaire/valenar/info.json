@@ -2,15 +2,8 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/valenar",
   "title": "Valenar",
-  "tags": [
-    "Khorvaire",
-    "Valenar",
-    "Elfos",
-    "Guerreros"
-  ],
-  "aliases": [
-    "Valenar"
-  ],
+  "tags": ["Khorvaire", "Valenar", "Elfos", "Guerreros"],
+  "aliases": ["Valenar"],
   "unlockCondition": null,
   "blocks": [
     {
@@ -18,6 +11,12 @@
       "type": "text",
       "content": "Antaño parte de Q'barra, esta región fue reclamada por mercenarios elfos que traicionaron a sus contratistas humanos. Los elfos de Valenar viven para el combate; adoran a sus ancestros imitando sus hazañas militares en batalla. Montan los caballos más rápidos del mundo y buscan activamente cualquier excusa para iniciar una guerra y así alcanzar la gloria eterna.",
       "title": "El Reino de los Elfos Guerreros"
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Los caballos Valenar son tan inteligentes como las personas, e incluso algunos pueden lanzar conjuros sencillos. Hay gente que los ha oído hablar."
     },
     {
       "id": "a3",

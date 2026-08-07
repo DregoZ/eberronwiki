@@ -9,8 +9,14 @@
     {
       "id": "a2",
       "type": "text",
-      "content": "Una nación de campos fértiles, viñedos exquisitos y una profunda obsesión por las artes arcanas. Aquí, hasta el campesino más humilde conoce un truco de magia menor. Está gobernada por la reina Aurala y es el hogar de la famosa Universidad de Arcanix. Si buscas tomos mágicos o vino refinado, este es tu lugar.",
-      "title": "El Corazón de la Magia y la Elegancia"
+      "title": "El Corazón de la Magia y la Elegancia",
+      "content": "Una nación de campos fértiles, viñedos exquisitos y una profunda obsesión por las artes arcanas. Aquí, hasta el campesino más humilde conoce un truco de magia menor. Está gobernada por la reina Aurala y es el hogar de la famosa Universidad de Arcanix. Si buscas tomos mágicos o vino refinado, este es tu lugar."
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Se dice que la reina Aurala usa magia oscura y pociones prohibidas para mantener su juventud. ¿Cómo si no podría conservarse tan bella?"
     },
     {
       "id": "a3",

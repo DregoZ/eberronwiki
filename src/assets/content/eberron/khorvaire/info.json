@@ -151,9 +151,15 @@
           "id": "pin-montanas-murogris",
           "x": 20.4,
           "y": 75.3,
-          "icon": "signpost",
           "label": "Montañas Murogrís",
           "linkSlug": "eberron/khorvaire/droaam/montanas-murogris"
+        },
+        {
+          "id": "pin-hogar-tormentas",
+          "x": 49.4,
+          "y": 26.9,
+          "label": "Hogar de Tormentas",
+          "linkSlug": "eberron/khorvaire/aundair/hogar-tormentas"
         }
       ]
     },

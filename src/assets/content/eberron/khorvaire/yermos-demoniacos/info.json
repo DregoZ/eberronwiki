@@ -2,14 +2,8 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/yermos-demoniacos",
   "title": "Yermos Demoníacos",
-  "tags": [
-    "Khorvaire",
-    "Yermos Demoníacos",
-    "Demonios"
-  ],
-  "aliases": [
-    "Yermos Demoníacos"
-  ],
+  "tags": ["Khorvaire", "Yermos Demoníacos", "Demonios"],
+  "aliases": ["Yermos Demoníacos"],
   "unlockCondition": null,
   "blocks": [
     {
@@ -17,6 +11,12 @@
       "type": "text",
       "content": "Un desierto volcánico y desolado en el noroeste, donde los antiguos señores demonio (los Señores Supremos) permanecen encadenados bajo tierra. La realidad aquí está distorsionada, infestada de demonios y tribus salvajes de bárbaros (los Ghaash'kala) que dedican sus vidas a evitar que el mal cruce el laberinto de cañones hacia el resto del mundo.",
       "title": "Tierra Maldita y Cenizas"
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Los Yermos Demoníacos están llenos de demonios, lo dice en el nombre. Pero no hay que preocuparse, las Casas los han desprestigiado y no son tan malos como dicen. De hecho, son bastante amigables."
     },
     {
       "id": "a3",

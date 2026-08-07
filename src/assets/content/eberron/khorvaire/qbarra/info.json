@@ -2,15 +2,8 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/qbarra",
   "title": "Q'barra",
-  "tags": [
-    "Khorvaire",
-    "Q'barra",
-    "Jungla",
-    "Dracónidos"
-  ],
-  "aliases": [
-    "Q'barra"
-  ],
+  "tags": ["Khorvaire", "Q'barra", "Jungla", "Dracónidos"],
+  "aliases": ["Q'barra"],
   "unlockCondition": null,
   "blocks": [
     {
@@ -18,6 +11,12 @@
       "type": "text",
       "content": "Una selva tropical inexplorada y peligrosa, colonizada recientemente por refugiados humanos que huían de la Última Guerra. Es rica en fragmentos dragontinos, esenciales para la magia. Esto ha desatado una especie de 'fiebre del oro' en la región. El problema es que la selva ya pertenece a antiguas tribus de hombres lagarto, trogloditas y dragones durmientes que no ven con buenos ojos a los colonos.",
       "title": "La Frontera Salvaje"
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Las junglas de Q'barra están protegidas por hombres lagarto que escupen veneno y hombres emplumados que consumen narcóticos para poder volar."
     },
     {
       "id": "a3",

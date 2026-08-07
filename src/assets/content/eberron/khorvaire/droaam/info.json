@@ -3,19 +3,23 @@
   "slug": "eberron/khorvaire/droaam",
   "title": "Droaam",
   "tags": ["Khorvaire", "Droaam", "Monstruos"],
-  "aliases": ["Aundair"],
+  "aliases": ["Droaam"],
   "unlockCondition": null,
   "blocks": [
     {
       "id": "a2",
       "type": "text",
-      "content": "Una nación que el resto de Khorvaire se niega a reconocer oficialmente. Está gobernada por las Hijas de Sora Kell, un aquelarre de sagas conocido como La Trifecta, quienes han logrado unificar a las tribus de ogros, trols, gnolls, medusas y arpías bajo una misma bandera. No es un lugar seguro para las razas 'civilizadas', pero sus mercenarios monstruosos son el producto de exportación más cotizado.",
-      "title": "La Joven Nación de los Monstruos"
+      "title": "La Joven Nación de los Monstruos",
+      "content": [
+        "Una nación que el resto de Khorvaire se niega a reconocer oficialmente. Está gobernada por las Hijas de Sora Kell, un aquelarre de sagas conocido como **La Trifecta**, quienes han logrado unificar a las tribus de ogros, trols, gnolls, medusas y arpías bajo una misma bandera. No es un lugar seguro para las razas 'civilizadas', y sus mercenarios monstruosos son el producto de exportación más cotizado.",
+        "Recientemente, la Casa [[eberron/casas|Tharashk]] ha obtenido el permiso para explotar los yacimientos mineros de [[Droaam]], principalmente las abundantes minas de [[byeshk]] y [[fragmentos dragontinos]]."
+      ]
     },
     {
-      "id": "a21",
-      "type": "text",
-      "content": "Recientemente, la Casa [[Tharashk]] ha obtenido el permiso para explotar los yacimientos mineros de [[Droaam]], principalmente las abundantes minas de [[byeshk]] y [[fragmentos dragontinos]]."
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "**La Trifecta** presiona a Breland enviando monstruos en masa a través de sus fronteras, con la excusa de que vienen a trabajar, cuando en realidad están planeando adueñarse de sus territorios."
     },
     {
       "id": "a3",
@@ -24,7 +28,16 @@
       "caption": "Droaam",
       "title": "Droaam",
       "align": "center",
-      "size": "full"
+      "size": "full",
+      "pins": [
+        {
+          "x": 91.58,
+          "y": 73.6,
+          "type": "related",
+          "label": "Montañas Murogris",
+          "linkSlug": "eberron/khorvaire/droaam/montanas-murogris"
+        }
+      ]
     },
     {
       "id": "a31",

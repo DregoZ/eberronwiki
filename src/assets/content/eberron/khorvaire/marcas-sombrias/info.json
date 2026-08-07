@@ -2,23 +2,21 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/marcas-sombrias",
   "title": "Marcas Sombrias",
-  "tags": [
-    "Khorvaire",
-    "Marcas Sombrias",
-    "Orcos",
-    "Druidas",
-    "Tharashk"
-  ],
-  "aliases": [
-    "Marcas Sombrias"
-  ],
+  "tags": ["Khorvaire", "Marcas Sombrias", "Orcos", "Druidas", "Tharashk"],
+  "aliases": ["Marcas Sombrias"],
   "unlockCondition": null,
   "blocks": [
     {
       "id": "a2",
       "type": "text",
       "content": "Una vasta y brumosa región de pantanos en el oeste, habitada por clanes de orcos y humanos que viven en perfecta comunión (o conflicto). Es el lugar de origen de los Druidas Cancerberos), quienes hace milenios salvaron al mundo de una invasión alienígena. También es una de las principales fuentes de cristales de dragón para la Casa Tharashk.",
-      "title": "Pantanos, Orcos y Secretos Antiguos"
+      "title": "Pantanos, orcos y secretos antiguos"
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Los orcos son unos brutos sin cerebro que nunca han hecho nada de provecho por si mismos. Por lo menos valen para cargar pesos."
     },
     {
       "id": "a3",

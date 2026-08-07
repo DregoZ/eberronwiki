@@ -2,21 +2,21 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/thrane",
   "title": "Thrane",
-  "tags": [
-    "Khorvaire",
-    "Thrane",
-    "Teocracia"
-  ],
-  "aliases": [
-    "Thrane"
-  ],
+  "tags": ["Khorvaire", "Thrane", "Teocracia"],
+  "aliases": ["Thrane"],
   "unlockCondition": null,
   "blocks": [
     {
       "id": "a2",
       "type": "text",
-      "content": "Una nación gobernada por la iglesia de la Llama Plata, una fuerza divina de luz que protege al mundo del mal. El poder político reside en el Consejo de Cardenales y la Joven Guardiana de la Llama, Jaela Daran (una niña de 11 años con poderes divinos). Es un lugar limpio, seguro y ultra-religioso, pero donde la intolerancia hacia lo 'impuro' o lo arcano roza el fanatismo.",
+      "content": "Una nación teocrática gobernada por la iglesia de la [[eberron/religiones/llama-plata|Llama Plata]], una fuerza divina de luz que protege al mundo del mal. El poder político reside en el Consejo de Cardenales y la Joven Guardiana de la Llama, **Jaela Daran**, una niña de 11 años con poderes aparentemente divinos. Es un lugar limpio, seguro y  muy religioso, pero a la vez progresista y tolerante con las demás culturas del continente.",
       "title": "La Teocracia de la Llama Plata"
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Parece ser que tras la fachada de tolerancia y progresismo de la nación se esconde un régimen totalitario y cruel que busca purgar a todos los infieles."
     },
     {
       "id": "a3",

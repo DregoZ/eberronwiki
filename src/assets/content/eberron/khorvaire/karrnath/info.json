@@ -2,14 +2,8 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/karrnath",
   "title": "Karrnath",
-  "tags": [
-    "Khorvaire",
-    "Karrnath",
-    "Nigromancia"
-  ],
-  "aliases": [
-    "Karrnath"
-  ],
+  "tags": ["Khorvaire", "Karrnath", "Nigromancia"],
+  "aliases": ["Karrnath"],
   "unlockCondition": null,
   "blocks": [
     {
@@ -17,6 +11,12 @@
       "type": "text",
       "content": "Una nación militarista, austera y endurecida por los crudos inviernos del norte. Durante la Última Guerra, ante la escasez de alimentos y soldados, el rey Kaius III recurrió al uso masivo de esqueletos y zombis tácticos para rellenar sus filas. Los karrnathienses son orgullosos, beben cerveza fuerte y sus ejércitos de muertos vivientes siguen patrullando las fronteras en tiempos de paz.",
       "title": "Disciplina, Invierno y Nigromancia"
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Dicen que el rey Kaius III es en realidad Kaius II... o quizás Kaius I, porque en realidad ¡es un vampiro!"
     },
     {
       "id": "a3",

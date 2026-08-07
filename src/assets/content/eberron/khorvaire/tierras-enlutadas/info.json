@@ -2,15 +2,8 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/tierras-enlutadas",
   "title": "Tierras Enlutadas",
-  "tags": [
-    "Khorvaire",
-    "Tierras Enlutadas",
-    "Cyre",
-    "Cataclismo"
-  ],
-  "aliases": [
-    "Tierras Enlutadas"
-  ],
+  "tags": ["Khorvaire", "Tierras Enlutadas", "Cyre", "Cataclismo"],
+  "aliases": ["Tierras Enlutadas"],
   "unlockCondition": null,
   "blocks": [
     {
@@ -18,6 +11,12 @@
       "type": "text",
       "content": "Lo que antes era Cyre, la joya cultural de Khorvaire, ahora es un desierto gris y místico debido al cataclismo que puso fin a la guerra (El Día del Luto). Una densa niebla muerta rodea la frontera. En su interior, la magia funciona mal, los cuerpos no se descomponen y los monstruos mutados vagan por ciudades congeladas en el tiempo. Es el lugar más peligroso del mundo, pero lleno de tesoros perdidos.",
       "title": "El Cadáver de una Nación"
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Probablemente el Luto fue provocado por un experimento fallido de los gobernantes para intentar ganar la guerra. ¿O fue la Casa Cannith? Casualmente la cúpula Phiarlan no estaba allí cuando ocurrió..."
     },
     {
       "id": "a3",

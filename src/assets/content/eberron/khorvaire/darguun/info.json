@@ -2,14 +2,8 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/darguun",
   "title": "Darguun",
-  "tags": [
-    "Khorvaire",
-    "Darguun",
-    "Goblinoides"
-  ],
-  "aliases": [
-    "Darguun"
-  ],
+  "tags": ["Khorvaire", "Darguun", "Goblinoides"],
+  "aliases": ["Darguun"],
   "unlockCondition": null,
   "blocks": [
     {
@@ -17,6 +11,12 @@
       "type": "text",
       "content": "Hace apenas unas décadas, este territorio pertenecía a Cyre, pero los mercenarios goblins, orcos y osgos se rebelaron y reclamaron su propia patria. Reconocida oficialmente tras el Tratado de Tronofirme, Darguun está gobernada con puño de hierro por el Señor de la Guerra Haruuc. Es un lugar peligroso, regido por las leyes del honor marcial y la fuerza.",
       "title": "La Nación de los Trasgoides"
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Los trasgoides fingen ser pacíficos, pero en realidad sirven a ambiciosos Señores de la Guerra que anhelan devolver el Imperio Dhaakani a su antiguo esplendor, y donde se vivía mejor."
     },
     {
       "id": "a3",

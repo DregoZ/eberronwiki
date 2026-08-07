@@ -1,0 +1,59 @@
+{
+  "$schema": "../../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/aundair/hogar-tormentas",
+  "title": "Hogar de Tormentas",
+  "tags": ["Khorvaire", "Aundair", "Lyrandar"],
+  "aliases": ["Stormhome"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "Hogar de Tormentas es una isla-ciudad estado situada en la costa norte de [[eberron/khorvaire/aundair|Aundair]], justo en la entrada del **Estrecho de los Vástagos**."
+      ]
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Paraíso Artificial",
+      "content": [
+        "Originalmente era un puesto fronterizo desolado, gélido y azotado por el clima salvaje del **Mar Amargo**. Sin embargo, los magos climáticos de la [[eberron/casas/lyrandar|Casa Lyrandar]] utilizaron magia avanzada y artefactos como las esferas de tormenta para alterar el clima de forma permanente. Hoy en día, mientras el frío ártico ruge a su alrededor, la isla disfruta de un clima templado y tropical artificial."
+      ]
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Sede Lyrandar",
+      "content": [
+        "Es el centro de poder de facto de la [[eberron/casas/lyrandar|Casa Lyrandar]], la casa dragontina de los khoravar, que poseen la Marca de la Tormenta. Desde su enclave fortificado, la matriarca **Esravash d'Lyrandar** dirige los gremios que controlan el transporte marítimo y los navíos elementales de todo Khorvaire. Aunque formalmente pertenece a la nación de [[eberron/khorvaire/aundair|Aundair]], la cual mantiene una guarnición militar allí, la reina Aurala le otorga total libertad a la casa para gobernar la isla."
+      ]
+    },
+    {
+      "id": "t1",
+      "type": "bullet",
+      "title": "Destino turístico, nido de espías",
+      "items": [
+        "**Turismo de lujo:** Al convertirse en un oasis cálido, se transformó en el centro vacacional más exclusivo de Khorvaire, repleto de lujosos complejos turísticos gestionados por la [[eberron/casas/ghallanda|Casa Ghallanda]] para la nobleza y los ricos del continente.",
+        "**Intriga política:** Debido a la estricta neutralidad de las [[eberron/casas|Casas Dragontinas]] durante la [[eberron/historia/ultima-guerra|Última Guerra]], la isla nunca fue devastada y sirvió como zona neutral. Esto la convirtió en el nido perfecto para espías, charlatanes, contrabandistas y operaciones clandestinas que persisten en la actualidad."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/aundair/hogar-tormentas/hogar-tormentas.png",
+      "caption": "Hogar de Tormentas",
+      "title": "Hogar de Tormentas",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [
+        { "label": "Aundair", "slug": "eberron/khorvaire/aundair" },
+        { "label": "Casa Lyrandar", "slug": "eberron/casas-dragontinas/lyrandar" }
+      ]
+    }
+  ]
+}

@@ -2,28 +2,26 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/principados-lhazaar",
   "title": "Principados de Lhazaar",
-  "tags": [
-    "Khorvaire",
-    "Lhazaar",
-    "Piratas",
-    "Ciudades Estado"
-  ],
-  "aliases": [
-    "Principados de Lhazaar",
-    "Lhazaar"
-  ],
+  "tags": ["Khorvaire", "Lhazaar", "Piratas", "Ciudades Estado"],
+  "aliases": ["Principados de Lhazaar", "Lhazaar"],
   "unlockCondition": null,
   "blocks": [
     {
       "id": "a2",
       "type": "text",
-      "content": "Una federación de islas en la costa este, gobernada por príncipes mercantes, corsarios y capitanes pirata. No hay una ley centralizada; cada isla se rige por la bandera de su flota. Si necesita s un barco rápido, contrabando de contrabando o quieres perderte en el mar, este laberinto de islas te dará la bienvenida… siempre que tengas oro.",
-      "title": "Piratas, Comerciantes y Alta Mar"
+      "title": "Piratas, comerciantes y viento en las velas",
+      "content": "Una federación de islas en la costa este, gobernada por príncipes mercantes, corsarios y capitanes pirata. No hay una ley centralizada; cada isla se rige por la bandera de su flota. Si necesitas un barco rápido, contrabando de contrabando o quieres perderte en el mar, este laberinto de islas te dará la bienvenida… siempre que tengas oro."
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Es sabido que la mayoría de las islas del archipiélago no existen. La Casa Kundarak inventó muchas de estas islas, e infló el número real de piratas para así aumentar las tarifas de seguro."
     },
     {
       "id": "a3",
       "type": "image",
-      "src": "/assets/content/eberron/khorvaire/principados-lhazaar/lhaazaar.png",
+      "src": "/assets/content/eberron/khorvaire/principados-lhazaar/lhazaar.png",
       "caption": "Principados de Lhazaar",
       "title": "Principados de Lhazaar",
       "align": "center",

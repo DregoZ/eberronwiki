@@ -13,9 +13,8 @@
         "**Tipo de distrito:** Industrial",
         "**Clase social:** Baja",
         "**Servicios:** Templo de Onatar, alojamientos y comida barata, comercios modestos",
-        "Huesosnegros se encuentra bajo Desembarco de Tavick y se extiende hacia el centro de Sharn. Es muy parecido a Cenizanegra, aunque algo más moderno: los túneles son ligeramente más amplios y están mejor iluminados.",
-        "El aire está cargado de calor y humo. Los largos pasillos están tenuemente iluminados, cubiertos de hollín, y la mayoría de los habitantes parecen personas cansadas y concentradas en su trabajo.",
-        "Es un distrito eminentemente obrero e industrial, con una importante población de trabajadores. Debido a ello han aparecido varios negocios orientados específicamente a atender sus necesidades."
+        "Huesosnegros se encuentra bajo [[eberron/khorvaire/breland/sharn/distritos/tavick|Desembarco de Tavick]] y se extiende hacia el centro de Sharn. Es muy parecido a **Cenizanegra**, aunque algo más moderno: los túneles son ligeramente más amplios y están mejor iluminados.",
+        "El aire está cargado de calor y humo. Los largos pasillos están tenuemente iluminados, cubiertos de hollín, y la mayoría de los habitantes parecen personas cansadas y concentradas en su trabajo. Es un distrito eminentemente obrero e industrial, con una importante población de trabajadores. Debido a ello han aparecido varios negocios orientados específicamente a atender sus necesidades."
       ]
     },
     {
@@ -35,10 +34,9 @@
       "type": "text",
       "title": "El Estanque de las Lágrimas de Onatar",
       "content": [
-        "Durante la construcción del distrito se descubrió un pequeño estanque de agua cristalina y fría rodeado por un lago de lava incandescente que parece renovarse constantemente. Un sacerdote enano de Onatar decidió instalar una forja junto al estanque y descubrió que las armas y herramientas templadas en aquella agua alcanzaban una calidad excepcional. Convencido de que era un milagro de [[eberron/religion/hueste-soberana|Onatar]], declaró que era un lugar sagrado.",
+        "Durante la construcción del distrito se descubrió un pequeño estanque de agua cristalina y fría rodeado por un lago de lava incandescente que parece renovarse constantemente. Un sacerdote enano de [[eberron/religion/hueste-soberana|Onatar]] decidió instalar una forja junto al estanque y descubrió que las armas y herramientas templadas en aquella agua alcanzaban una calidad excepcional. Convencido de que era un milagro de [[eberron/religion/hueste-soberana|Onatar]], declaró que era un lugar sagrado.",
         "Hoy en día se ha construido un templo alrededor del estanque y herreros de todo Khorvaire peregrinan hasta allí. Aunque muchas historias son exageradas, el estanque posee propiedades mágicas reales. ",
-        "El guardián actual del templo es **Ferreiro**, un forjado clérigo y veterano de la [[eberron/historia|Última Guerra]].",
-        "Es un firme opositor de las ideas extremistas del [[eberron/antagonistas/filos|Señor de los Filos]]."
+        "El guardián actual del templo es **Ferreiro**, un forjado clérigo y veterano de la [[eberron/historia|Última Guerra]]. Es un firme opositor de las ideas extremistas del [[eberron/antagonistas/filos|Señor de los Filos]]."
       ]
     },
     {
@@ -53,7 +51,33 @@
       ]
     },
     {
+      "id": "i1",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/engranajes/huesos-negros/martillo-rojo.jpeg",
+      "caption": "La taberna Martillo Rojo",
+      "title": "Martillo Rojo",
+      "align": "center",
+      "size": "medium"
+    },
+    {
       "type": "separator"
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Tocha de Troll",
+      "content": [
+        "*El Tocha* es un antro de mala muerte cuyo mayor atractivo es la organización de peleas a puño limpio en la que corren las apuestas, la cerveza y la sangre. Aunque limpio no es el adjetivo más adecuado para describir estas contiendas, el Tocha de Troll ha sido testigo del nacimiento de muchas leyendas de esta disciplina."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/engranajes/huesos-negros/tocha.webp",
+      "caption": "La arena de combate del Tocha de Troll",
+      "title": "Tocha de Troll",
+      "align": "center",
+      "size": "medium"
     },
     {
       "id": "t1",
@@ -61,8 +85,8 @@
       "title": "Industrias Drummond",
       "content": [
         "Industrias quizás es un término demasiado ambicioso para designar este taller de piezas de maquinaria. Su plantilla está compuesta por poco más de una docena de forjados, quienes se encargan de todo el proceso de producción.",
-        "Su dueño, Halas Drummond, es un hombre atormentado por las deudas, en parte por su negligencia al frente de la empresa. Drummond tuvo un cambio de proceder al frente de la empresa gracias a los miembros del Gremio La Cumbre, quienes también lo defendieron de los mafiosos Daask.",
-        "Aquí trabajan Stonks - un forjado bastante implicado en los derechos de sus semejantes- y Tresca Tani Matapicos, Artífice. Ambos ayudaron en la creación del Ídolo Ardiente."
+        "Su dueño, **Halas Drummond**, es un hombre atormentado por las deudas, en parte por su negligencia al frente de la empresa. Drummond tuvo un cambio de proceder al frente de la empresa gracias a los miembros del [[eberron/khorvaire/breland/sharn/barrios/barrios-altos/la-cumbre|Gremio La Cumbre]], quienes también lo defendieron de los mafiosos Daask.",
+        "Aquí trabajan **Stonks** - un forjado bastante implicado en los derechos de sus semejantes - y la artífice zil **Tresca Tani Matapicos**. Ambos ayudaron en la creación del [[Ídolo Ardiente]]."
       ]
     },
     {
@@ -72,11 +96,34 @@
         {
           "id": "i1",
           "type": "image",
-          "src": "/assets/content/eberron/",
-          "caption": "imagen",
-          "title": "imagen/",
+          "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/engranajes/huesos-negros/halas.png",
+          "caption": "Halas Drummond",
+          "title": "Halas Drummond",
           "align": "center",
           "size": "medium"
+        },
+        {
+          "id": "i2",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/engranajes/huesos-negros/tresca.png",
+          "caption": "Tresca Tani Matapicos",
+          "title": "Tresca Tani Matapicos",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i3",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/engranajes/huesos-negros/stonks.png",
+          "caption": "Stonks",
+          "title": "Stonks",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "s1",
+          "type": "related",
+          "items": [{ "label": "Forjados y olvidados", "slug": "eberron/TODO" }]
         }
       ]
     }

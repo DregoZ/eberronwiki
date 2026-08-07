@@ -2,15 +2,8 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/confines-eldeen",
   "title": "Confines de Eldeen",
-  "tags": [
-    "Khorvaire",
-    "Eldeen",
-    "Druidas",
-    "Naturaleza"
-  ],
-  "aliases": [
-    "Confines de Eldeen"
-  ],
+  "tags": ["Khorvaire", "Eldeen", "Druidas", "Naturaleza"],
+  "aliases": ["Confines de Eldeen"],
   "unlockCondition": null,
   "blocks": [
     {
@@ -18,6 +11,12 @@
       "type": "text",
       "content": "Antaño parte de Aundair, esta vasta región de bosques densos y llanuras agrícolas se independizó con la ayuda de los druidas. Es una tierra donde la naturaleza es sagrada. Está protegida por los Vigilantes y los Cenicientos. Si respetáis el bosque, estaréis a salvo; si encendéis una fogata donde no debéis, los árboles os lo harán saber.",
       "title": "Bosques Ancestrales y Tradición Druídica"
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Los druidas conocen portales mágicos ocultos hacia Xoriat, de donde obtienen bestias mágicas que luego proporcionan a la Casa Vadalis a cambio de influencia"
     },
     {
       "id": "a3",

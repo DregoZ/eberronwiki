@@ -41,10 +41,61 @@
       "title": "Barrios de Sharn",
       "items": [
         "[[eberron/khorvaire/breland/sharn/barrios/via-celestial|Vía Celestial]]: Una zona flotante suspendida mágicamente sobre las torres más altas. Aquí residen los más ricos y la nobleza en un entorno lujoso y exclusivo.",
-        "[[eberron/khorvaire/breland/sharn/barrios/barrios-altos|Barrios Altos]]: Distritos ricos iluminados por el sol. Alojan a la alta sociedad, embajadas, grandes academias como la Universidad de Morgrave y las sedes principales de las Casas con Marca del Dragón.",
+        "[[eberron/khorvaire/breland/sharn/barrios/barrios-altos|Barrios Altos]]: Barrios ricos iluminados por el sol. Alojan a la alta sociedad, embajadas, grandes academias como la Universidad de Morgrave y las sedes principales de las Casas con Marca del Dragón.",
         "[[eberron/khorvaire/breland/sharn/barrios/barrios-medios|Barrios Medios]]: El corazón de la clase media, repleto de comercios, mercados, tabernas y zonas residenciales confortables.",
         "[[eberron/khorvaire/breland/sharn/barrios/barrios-bajos|Barrios Bajos]]: Sectores oscuros y abarrotados donde apenas llega la luz solar debido a la sombra de las torres superiores. Es el hogar de la clase trabajadora, inmigrantes y los barrios marginales con alta criminalidad.",
         "[[eberron/khorvaire/breland/sharn/barrios/engranajes|Los Engranajes]]: Las profundidades industriales situadas bajo los cimientos de la ciudad. Albergan fundiciones, fábricas mágicas y pozos de lava que alimentan la infraestructura de Sharn."
+      ]
+    },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/breland/sharn/sharn2.png",
+          "caption": "Barrios altos de Sharn",
+          "title": "Barrios altos de Sharn",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/breland/sharn/sharn3.png",
+          "caption": "Torres que dan el nombre a la ciudad",
+          "title": "Sharn",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/breland/sharn/sharn4.jpg",
+          "caption": "Engranajes",
+          "title": "Engranajes",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/breland/sharn/sharn5.jpg",
+          "caption": "Barrios bajos de Sharn",
+          "title": "Barrios bajos de Sharn",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/breland/sharn/sharn6.jpg",
+          "caption": "Sharn a vista de pájaro",
+          "title": "Sharn a vista de pájaro",
+          "align": "center",
+          "size": "medium"
+        }
       ]
     },
     {

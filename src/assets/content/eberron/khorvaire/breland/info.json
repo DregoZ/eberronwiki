@@ -13,6 +13,13 @@
       "title": "Potencia Industrial y Libertad"
     },
     {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "La *Corona Negra* es el nombre que recibe la red de espionaje y asesinato que el propio rey Boranel financia para intentar combatir a los verdaderos gobernantes: los Boromar... ¿o eran los Daask?",
+      "title": "La Corona Negra"
+    },
+    {
       "id": "a3",
       "type": "image",
       "src": "/assets/content/eberron/khorvaire/breland/breland.png",
