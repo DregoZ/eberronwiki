@@ -10,8 +10,8 @@
       "id": "t1",
       "type": "text",
       "content": [
-        "Amanito Muscario es un humano que pocos definirían como atractivo. En parte debido a su aspecto rural y a sus costumbres 'incivilizadas', al menos desde la perspectiva del Breliano promedio. Suele vestir siempre una túnica desgastada, que le encanta decorar con motivos herbales. No se deja llevar por lo que dictan las urbes y las normas sociales, sino que prefiere vivir según sus costumbres. Algo que, por otro lado, no siempre le facilita las cosas.",
-        "Muscario creció en las doctrinas de los Hijos del Invierno, y desde joven comenzó a formarse como *cultivador*, el primer escalafón en la jerarquía de esta tradición. Nadie sabe cuales son los motivos que lo llevaron a abandonar Eldeen, ni cuales son sus intenciones.  ¿Será el conocimiento, la búsqueda de respuestas, el poder? Es posible que ni él mismo lo sepa, pero está dispuesto a averiguarlo."
+        "Lunara creció en Breland sintiendo una curiosidad insaciable por las civilizaciones del pasado, especialmente por la historia y el legado de los elfos. Esa fascinación la llevó a estudiar arqueología en la Universidad de Morgrave, donde descubrió que un buen mapa puede ser tan valioso como la reliquia a la que conduce. Desde entonces ha dedicado incontables horas a comparar antiguos pergaminos, reconstruir rutas olvidadas y descifrar mapas con la esperanza de localizar ruinas perdidas antes que nadie. Sin embargo, su facilidad para interpretar inscripciones y reconstruir artefactos nunca estuvo acompañada por el mismo talento para entender a las personas. Mientras se mueve con soltura entre manuscritos y yacimientos, las conversaciones banales y las sutilezas del trato con la gente suelen desconcertarla.",
+        "Convencida de que los mayores descubrimientos no esperan en las vitrinas de un museo, Lunara abandonó la comodidad de las aulas para recorrer Khorvaire siguiendo el rastro de antiguos asentamientos y artefactos olvidados. Sus expediciones le han enseñado que los secretos del pasado rara vez permanecen desprotegidos: trampas, cerraduras, competidores y saqueadores forman parte del oficio tanto como los mapas y los pinceles. Porque, al fin y al cabo, desenterrar la historia es solo la mitad del trabajo; la otra mitad consiste en sobrevivir para poder contarla."
       ]
     },
     {
@@ -27,6 +27,21 @@
           "size": "medium"
         }
       ]
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Yo, yo misma y un mapa",
+      "content": [
+        "Una semana de descanso no daba para una gran expedición, y desde luego tampoco para financiar una. Con una bolsa de monedas casi vacía, Lunara hizo lo que mejor sabía hacer: perderse entre estanterías. La biblioteca de Morgrave, varios anticuarios del distrito Universitario e incluso un par de libreros del Bazaar acabaron acostumbrándose a la presencia de aquella khoravar que hojeaba mapas polvorientos durante horas sin comprar apenas nada.",
+        "No encontró ninguna ciudad perdida ni el mapa hacia un tesoro olvidado. En su lugar, descubrió pequeñas cosas: una referencia contradictoria sobre unas ruinas élficas en Xen'drik, la copia de un mapa fluvial con anotaciones en una lengua que apenas reconocía y la agradable certeza de que, a veces, la mejor forma de avanzar consiste simplemente en detenerse a estudiar. Puede que no ganase dinero aquella semana, pero tampoco sintió que hubiese perdido el tiempo. Al fin y al cabo, las grandes expediciones siempre empiezan con un mapa abierto sobre una mesa."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "note",
+      "content": "**Resultado**: Una semana de descanso y muchas pistas que no llevan a ninguna parte"
     },
     {
       "id": "r4",

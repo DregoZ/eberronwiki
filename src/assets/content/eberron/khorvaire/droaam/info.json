@@ -12,7 +12,7 @@
       "title": "La Joven Nación de los Monstruos",
       "content": [
         "Una nación que el resto de Khorvaire se niega a reconocer oficialmente. Está gobernada por las Hijas de Sora Kell, un aquelarre de sagas conocido como **La Trifecta**, quienes han logrado unificar a las tribus de ogros, trols, gnolls, medusas y arpías bajo una misma bandera. No es un lugar seguro para las razas 'civilizadas', y sus mercenarios monstruosos son el producto de exportación más cotizado.",
-        "Recientemente, la Casa [[eberron/casas|Tharashk]] ha obtenido el permiso para explotar los yacimientos mineros de [[Droaam]], principalmente las abundantes minas de [[byeshk]] y [[fragmentos dragontinos]]."
+        "Recientemente, la Casa [[eberron/casas|Tharashk]] ha obtenido el permiso para explotar los yacimientos mineros de [[Droaam]], principalmente las abundantes minas de **byeshk** y [[eberron/vida-en-eberron/fragmentos|fragmentos dragontinos]]."
       ]
     },
     {
@@ -40,13 +40,23 @@
       ]
     },
     {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "**Las Hijas de Sora Kell** — Sora Katra, Sora Maenya y Sora Teraza — son un temido aquelare de sagas conocido como **La Trifecta** que se unieron para fundar y gobernar Droaam, la nación de los monstruos. Combinando la astucia política de Katra, la brutalidad física de Maenya y el misticismo adivinatorio de Teraza - una de las videntes más poderosas del mundo -, estas tres poderosas hermanas lograron lo que parecía imposible: unificar a clanes rivales de ogros, troles, gnolls y medusas bajo una misma bandera, desafiando el orden tradicional de las razas civilizadas de Khorvaire."
+    },
+    {
       "id": "a31",
-      "type": "image",
-      "src": "/assets/content/eberron/khorvaire/droaam/droaam2.png",
-      "caption": "Facciones de Droaam",
-      "title": "Facciones de Droaam",
-      "align": "center",
-      "size": "medium"
+      "type": "gallery",
+      "images": [
+        {
+          "src": "/assets/content/eberron/khorvaire/droaam/droaam2.png",
+          "caption": "Facciones de Droaam",
+          "title": "Facciones de Droaam",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
     },
     {
       "id": "a4",

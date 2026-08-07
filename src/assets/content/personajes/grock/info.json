@@ -10,8 +10,8 @@
       "id": "t1",
       "type": "text",
       "content": [
-        "Amanito Muscario es un humano que pocos definirían como atractivo. En parte debido a su aspecto rural y a sus costumbres 'incivilizadas', al menos desde la perspectiva del Breliano promedio. Suele vestir siempre una túnica desgastada, que le encanta decorar con motivos herbales. No se deja llevar por lo que dictan las urbes y las normas sociales, sino que prefiere vivir según sus costumbres. Algo que, por otro lado, no siempre le facilita las cosas.",
-        "Muscario creció en las doctrinas de los Hijos del Invierno, y desde joven comenzó a formarse como *cultivador*, el primer escalafón en la jerarquía de esta tradición. Nadie sabe cuales son los motivos que lo llevaron a abandonar Eldeen, ni cuales son sus intenciones.  ¿Será el conocimiento, la búsqueda de respuestas, el poder? Es posible que ni él mismo lo sepa, pero está dispuesto a averiguarlo."
+        "Pantanos, más pantanos y alguna que otra ciénaga conformaban el paisaje del pacífico, aunque no exento de peligros, hogar de Grock. La vida en las Marcas Sombrías era una lucha constante por la supervivencia, pero de algún modo resultaba... aburrida. Cuando la oportunidad se presentó, decidió abandonar su tierra y poner rumbo al mundo civilizado, donde, según decían, llevaban más de un siglo librando una guerra.",
+        "El ejército de Breland necesitaba nuevos reclutas, así que Grock no tardó en alistarse. Sin embargo, el destino quiso que jamás llegara a pisar el frente. Antes de que su unidad fuese desplegada, el conflicto terminó y, apenas unos meses después, los batallones formados al final de la guerra fueron licenciados. De la noche a la mañana se encontró a miles de millas de su hogar, sin oficio, sin dinero y sin un plan. Excepto sobrevivir. Al fin y al cabo, era lo único que había hecho desde niño. A base de puños comenzó a ganarse la vida como matón, guardaespaldas y mercenario ocasional, aceptando cualquier trabajo que pagase lo suficiente para llegar al siguiente."
       ]
     },
     {
@@ -29,13 +29,32 @@
       ]
     },
     {
+      "type": "separator"
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "I - Gloria y sangre en La Tocha",
+      "content": [
+        "«¿Quién lleva las apuestas?». Esta pregunta fue suficiente para que Grock acabase con su nombre anotado en un cuaderno lleno de apodos. Cada semana, luchadores de toda índole aspiraban a hacerse un nombre peleando en el Tocha de Trol, un tugurio de los Engranajes que, atendiendo a los mentideros de Sharn, sería el camino más rápido para recibir una invitación al Circuito Rojo. De existir, por supuesto.",
+        "«Si gritan Grock, entras a pelear». Fácil, o eso creía Grock. La iniciación en el circuito amateur resultó ser inesperadamente exigente. Durante tres noches consecutivas, el poderío físico de Grock bastó para imponerse en los tres combates que servían de ‘bienvenida’ a los novatos, aunque fue en la tercera contienda cuando el veterano Flick Rair le hizo comprender, nudillos mediante, que los músculos por si solos no iban a ser suficientes.",
+        "«Este orco es duro como un clavo», comentaban los apostadores habituales. Fue en ese momento cuando Grock descubrió que a pesar de no ser todavía una estrella, escuchar su nombre entre los vítores era una sensación tan embriagadora como el tintineo de los soberanos en la bolsa."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "note",
+      "content": "**Resultado**: un par de costillas fisuradas, un ojo hinchado y 125po"
+    },
+    {
       "id": "r4",
       "type": "related",
       "items": [
-        { "label": "Amanito Muscario", "slug": "eberron/personajes/amanito" },
-        { "label": "Grock Lesnar", "slug": "eberron/personajes/grok" },
-        { "label": "Lunara Faldren", "slug": "eberron/personajes/lunara" },
-        { "label": "Mel Rospleis", "slug": "eberron/personajes/mel" }
+        { "label": "Amanito Muscario", "slug": "personajes/amanito" },
+        { "label": "Grock Lesnar", "slug": "personajes/grock" },
+        { "label": "Lunara Faldren", "slug": "personajes/lunara" },
+        { "label": "Mel Rospleis", "slug": "personajes/mel" }
       ]
     }
   ]

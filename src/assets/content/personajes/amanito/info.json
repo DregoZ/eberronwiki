@@ -10,8 +10,8 @@
       "id": "t1",
       "type": "text",
       "content": [
-        "Amanito Muscario es un humano que pocos definirían como atractivo. En parte debido a su aspecto rural y a sus costumbres 'incivilizadas', al menos desde la perspectiva del Breliano promedio. Suele vestir siempre una túnica desgastada, que le encanta decorar con motivos herbales. No se deja llevar por lo que dictan las urbes y las normas sociales, sino que prefiere vivir según sus costumbres. Algo que, por otro lado, no siempre le facilita las cosas.",
-        "Muscario creció en las doctrinas de los Hijos del Invierno, y desde joven comenzó a formarse como *cultivador*, el primer escalafón en la jerarquía de esta tradición. Nadie sabe cuales son los motivos que lo llevaron a abandonar Eldeen, ni cuales son sus intenciones.  ¿Será el conocimiento, la búsqueda de respuestas, el poder? Es posible que ni él mismo lo sepa, pero está dispuesto a averiguarlo."
+        "Amanito Muscario es de esas personas que rara vez pasan desapercibidas. Su aspecto rural, sus modales poco convencionales y la túnica desgastada que adorna con motivos vegetales lo hacen destacar entre la multitud. Poco interesado en las tendencias de las grandes ciudades o en las normas de etiqueta de sus habitantes, prefiere vivir de acuerdo con sus propias costumbres, algo que no siempre le facilita las cosas.",
+        "Muscario creció entre las enseñanzas de los Hijos del Invierno y desde joven comenzó a formarse como cultivador, el primer escalafón dentro de la tradición druídica. Nadie sabe qué lo llevó a abandonar Eldeen ni qué espera encontrar lejos de los bosques que lo vieron crecer. ¿Conocimiento? ¿Respuestas? ¿Poder? Quizá ni siquiera él conoce la respuesta. Lo único seguro es que ha emprendido un camino del que no piensa apartarse hasta descubrirla."
       ]
     },
     {
@@ -27,6 +27,25 @@
           "size": "medium"
         }
       ]
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "I - Mezclar, mezclar, girar, mezclar",
+      "content": [
+        "Para Amanito, una urbe tan grande como Sharn resultaba tan fascinante como visitar una de las doce lunas que pueblan el cielo de Eberron, por lo que se pasó varios días vagando por las laberínticas calles del distrito, en las que descubrió un sinfín de tiendas, almacenes y negocios que ofertaban servicios tan convenientes como extravagantes.",
+        "Abrumado por el bullicio urbano y la descomunal oferta, por casualidad descubrió una fragante herboristería en una escondida y soleada placita. Regentada por un dicharachero mediano Talentino siempre dispuesto a charlar sobre el género que maneja, [[eberron/khorvaire/breland/sharn/barrios/barrios-altos/piedrarroja|Florentino's]] resultó ser para Amanito un lugar familiar en una tierra demasiado civilizada.",
+        "El mejunje borboteaba en el alambique mientras Amanito añadía con cautela el extracto de un manojo de Corazones de Arawai. El proceso era lento, pero así debía ser para que la mezcla absorbiese las propiedades curativas de las flores. «Esto va a llevar al menos dos noches» - pensó. Entonces, agarró la bolsa de setelines secos y se dirigió a la terraza del Gremio para molerlas lentamente mientras miraba a la gente pasar."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "note",
+      "content": "**Resultado**: 1 poción de sanación, 4 botiquines (-35po)"
     },
     {
       "id": "r4",

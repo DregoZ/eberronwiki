@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "personajes/mel/contactos",
+  "title": "Contactos de Mel",
+  "tags": ["Contactos", "Mel"],
+  "aliases": ["Contactos de Mel"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "i1",
+      "type": "quote",
+      "text": "Nota del DM: Estos contactos son genuinos, has hecho buenas migas con ellos y se mostrarán dispuestos a realizar un favor que les pidas dentro de sus posibilidades. En caso de seguir tirando de alguno de estos contactos, deberás reforzar el vínculo (*) con ellos por medio de juergas posteriores."
+    },
+    {
+      "id": "b1",
+      "type": "bullet",
+      "title": "Bajos Fondos",
+      "items": [
+        "**(*) Paquiño:** Un Guachiman de los Engranajes, bastante feo aunque genuinamente gracioso al que invitaste a un par de rondas para aflojarle la lengua. Resulta que los Boromar mantienen a raya a los Guachimanes a golpe de soborno. De los Daask solo sabe que tienen mucho menos poder, pero que igualmente son peligrosos.",
+        "**(*) Quincho Barrilete:** Un mediano borracho, pendenciero, putero y además matón de los Boromar. Durante un delirio etílico, confesó que su ‘asociación’ está enfrentada con un grupo rival (¿Daask?) por la distribución del lirio de ensueño, un potente narcótico ilegal. Os comisteis unas brochetas de tríbex (¿un dinosaurio?) de un puesto callejero que os bajó la borrachera y terminó de forjar vuestra amistad.",
+        "**(*) Miss Teriossa:** Una atractiva puta Lazharina de sangre Khoravar, mirada fogosa, labios ardientes y amena conversación con la que compartiste una botella de vino Buenasbayas mientras Quincho dormía la mona. Asegura que uno de sus habituales es un ‘conseguidor’ de objetos mágicos."
+      ]
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [{ "label": "Mel Rospleis", "slug": "personajes/mel" }]
+    }
+  ]
+}

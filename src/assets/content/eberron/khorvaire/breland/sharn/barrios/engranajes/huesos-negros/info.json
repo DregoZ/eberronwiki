@@ -85,9 +85,14 @@
       "title": "Industrias Drummond",
       "content": [
         "Industrias quizás es un término demasiado ambicioso para designar este taller de piezas de maquinaria. Su plantilla está compuesta por poco más de una docena de forjados, quienes se encargan de todo el proceso de producción.",
-        "Su dueño, **Halas Drummond**, es un hombre atormentado por las deudas, en parte por su negligencia al frente de la empresa. Drummond tuvo un cambio de proceder al frente de la empresa gracias a los miembros del [[eberron/khorvaire/breland/sharn/barrios/barrios-altos/la-cumbre|Gremio La Cumbre]], quienes también lo defendieron de los mafiosos Daask.",
-        "Aquí trabajan **Stonks** - un forjado bastante implicado en los derechos de sus semejantes - y la artífice zil **Tresca Tani Matapicos**. Ambos ayudaron en la creación del [[Ídolo Ardiente]]."
+        "Su dueño, **Halas Drummond**, es un hombre atormentado por las deudas, en parte por su negligencia al frente de la empresa. Drummond tuvo un cambio de proceder al frente de la empresa gracias a los miembros del [[eberron/khorvaire/breland/sharn/barrios/barrios-altos/la-cumbre|Gremio La Cumbre]], quienes también lo defendieron de los mafiosos Daask."
       ]
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Aquí trabajan **Stonks** - un forjado bastante implicado en los derechos de sus semejantes - y la artífice zil **Tresca Tani Matapicos**. Ambos ayudaron en la creación del [[Ídolo Ardiente]]."
     },
     {
       "id": "g1",

@@ -20,6 +20,9 @@
       ]
     },
     {
+      "type": "separator"
+    },
+    {
       "id": "a1",
       "type": "text",
       "title": "Alijo del Dragón (Tienda)",
@@ -34,6 +37,9 @@
       "type": "info",
       "variant": "note",
       "content": "Como miembros del Gremio La Cumbre, tenéis un 5% de descuento en las compras en esta tienda."
+    },
+    {
+      "type": "separator"
     },
     {
       "id": "h1",

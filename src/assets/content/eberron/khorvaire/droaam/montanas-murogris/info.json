@@ -41,6 +41,14 @@
           "caption": "Más montañas",
           "align": "center",
           "size": "full"
+        },
+        {
+          "id": "h2",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/droaam/montanas-murogris/murogris3.png",
+          "caption": "Cavernas bajo las montañas",
+          "align": "center",
+          "size": "full"
         }
       ]
     }

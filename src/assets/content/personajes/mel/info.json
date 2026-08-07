@@ -10,8 +10,8 @@
       "id": "t1",
       "type": "text",
       "content": [
-        "Amanito Muscario es un humano que pocos definirían como atractivo. En parte debido a su aspecto rural y a sus costumbres 'incivilizadas', al menos desde la perspectiva del Breliano promedio. Suele vestir siempre una túnica desgastada, que le encanta decorar con motivos herbales. No se deja llevar por lo que dictan las urbes y las normas sociales, sino que prefiere vivir según sus costumbres. Algo que, por otro lado, no siempre le facilita las cosas.",
-        "Muscario creció en las doctrinas de los Hijos del Invierno, y desde joven comenzó a formarse como *cultivador*, el primer escalafón en la jerarquía de esta tradición. Nadie sabe cuales son los motivos que lo llevaron a abandonar Eldeen, ni cuales son sus intenciones.  ¿Será el conocimiento, la búsqueda de respuestas, el poder? Es posible que ni él mismo lo sepa, pero está dispuesto a averiguarlo."
+        "Mel nunca terminó de sentirse cómoda bajo un mismo rostro. Los pocos replicantes a los que podía llamar _familia_ parecían cambiar de identidad con la naturalidad con la que uno cambia de ropa, pero ella siempre tuvo la sensación de estar interpretando un papel que no acababa de pertenecerle. Su marca aberrante, aparecida siendo apenas una niña, no hizo más que alimentar esa distancia con el resto de sus semejantes. Nadie llegó a echarla, pero tampoco nadie intentó convencerla de quedarse cuando decidió emprender una vida errante.",
+        "El destino quiso que, el Día del Luto, Mel se bajase del rayocarril en un pequeño puesto fronterizo de Cyre. La niebla gris llegó a envolverla durante unos interminables instantes antes de retirarse tan inexplicablemente como había aparecido. Sobrevivió, aunque jamás volvió a ser la misma. Desde entonces, una magia caótica e impredecible brota de su interior sin previo aviso, como si aquel fragmento del Luto hubiese dejado una cicatriz invisible en su alma. Algunos lo considerarían un milagro; otros, una maldición. Ella todavía no ha decidido qué pensar."
       ]
     },
     {
@@ -45,13 +45,33 @@
       ]
     },
     {
+      "type": "separator"
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "I - Juergas, mentiras y copas de vino",
+      "content": [
+        "Las mañanas no son lo tuyo... Boca pastosa, escupitajos color remolacha, cierto vacío existencial y un molesto tamborileo que te recorre la cabeza mientras intentas ordenar los cinco días seguidos que llevas vagando de tugurio en tugurio, y en los que te has juntado con putas, traficantes, pervertidos e incluso varios borrachos tradicionales.",
+        "Cierras los ojos para recuperar del fondo de tu memoria la conversación a pie de barra con un Guachiman, que escupía sus penas en un vaso de cerveza Cannegro mientras te hablaba de la mafia Boromar. Obvio que entonces tenías que ganarte también a aquel degenerado mediano perteneciente a la banda, y con el que terminaste vomitando a dúo desde la ventana de un lupanar. Pero hey, al menos hiciste buenas migas con una furcia mestiza que, entre calada y calada de ensueño, relataba como tenía domado a un contrabandista (¿o era un ladrón?) de artefactos mágicos.",
+        "Con el ardor del whisky enano todavía en la garganta, no puedes evitar esbozar una sonrisa recordando lo sencillo que es engatusar a esa calaña con un par de buenas razones, una sonrisa pícara y el don de desaparecer cuando la cosa se pone demasiado picante. Lo más fantasioso es que tu cerebro conserve los recuerdos de todo esto. ¿Lo repetirías? Esta semana no. ¿Valió la pena? Por supuesto. Las mañanas no son lo tuyo… pero la noche sí lo es."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "note",
+      "content": "**Resultado**: Una fuerte jaqueca y 3 [[eberron/personajes/mel/contactos|contactos]] en los bajos fondos (-10 po)."
+    },
+    {
       "id": "r4",
       "type": "related",
       "items": [
-        { "label": "Amanito Muscario", "slug": "eberron/personajes/amanito" },
-        { "label": "Grock Lesnar", "slug": "eberron/personajes/grok" },
-        { "label": "Lunara Faldren", "slug": "eberron/personajes/lunara" },
-        { "label": "Mel Rospleis", "slug": "eberron/personajes/mel" }
+        { "label": "Amanito Muscario", "slug": "personajes/amanito" },
+        { "label": "Grock Lesnar", "slug": "personajes/grock" },
+        { "label": "Lunara Faldren", "slug": "personajes/lunara" },
+        { "label": "Mel Rospleis", "slug": "personajes/mel" },
+        { "label": "Contactos de Mel", "slug": "personajes/mel/contactos" }
       ]
     }
   ]
