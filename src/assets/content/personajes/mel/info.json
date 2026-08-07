@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/page.schema.json",
+  "slug": "eberron/personajes/mel",
+  "title": "Mel Rospleis",
+  "tags": ["Personajes", "Replicante", "Hechicera"],
+  "aliases": ["Mel", "Rospleis"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "Amanito Muscario es un humano que pocos definirían como atractivo. En parte debido a su aspecto rural y a sus costumbres 'incivilizadas', al menos desde la perspectiva del Breliano promedio. Suele vestir siempre una túnica desgastada, que le encanta decorar con motivos herbales. No se deja llevar por lo que dictan las urbes y las normas sociales, sino que prefiere vivir según sus costumbres. Algo que, por otro lado, no siempre le facilita las cosas.",
+        "Muscario creció en las doctrinas de los Hijos del Invierno, y desde joven comenzó a formarse como *cultivador*, el primer escalafón en la jerarquía de esta tradición. Nadie sabe cuales son los motivos que lo llevaron a abandonar Eldeen, ni cuales son sus intenciones.  ¿Será el conocimiento, la búsqueda de respuestas, el poder? Es posible que ni él mismo lo sepa, pero está dispuesto a averiguarlo."
+      ]
+    },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "src": "/assets/content/personajes/mel/mel1.jpg",
+          "caption": "¿Mel Rospleis?",
+          "title": "¿Mel Rospleis?",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i1",
+          "src": "/assets/content/personajes/mel/mel2.png",
+          "caption": "¿Mel Rospleis?",
+          "title": "¿Mel Rospleis?",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i1",
+          "src": "/assets/content/personajes/mel/mel3.png",
+          "caption": "¿Mel Rospleis?",
+          "title": "¿Mel Rospleis?",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [
+        { "label": "Amanito Muscario", "slug": "eberron/personajes/amanito" },
+        { "label": "Grock Lesnar", "slug": "eberron/personajes/grok" },
+        { "label": "Lunara Faldren", "slug": "eberron/personajes/lunara" },
+        { "label": "Mel Rospleis", "slug": "eberron/personajes/mel" }
+      ]
+    }
+  ]
+}

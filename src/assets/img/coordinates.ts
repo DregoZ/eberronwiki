@@ -1,6 +1,6 @@
 /*
 const img = document.querySelector(
-  'img[src="/assets/content/eberron/khorvaire/droaam/montanas-murogris/montanas-murogris.png"]',
+  'img[src="/assets/content/eberron/mas-alla/mapamundi.jpg"]',
 );
 img.addEventListener('click', (e) => {
   const rect = img.getBoundingClientRect();

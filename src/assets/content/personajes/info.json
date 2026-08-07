@@ -1,0 +1,37 @@
+{
+  "$schema": "../schemas/page.schema.json",
+  "slug": "eberron/personajes",
+  "title": "Personajes",
+  "tags": ["Personajes"],
+  "aliases": ["Personajes", "PJ"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "Los personajes de **El Manifiesto de Convergencia** son miembros del Gremio La Cumbre, y están en la senda de convertirse en héroes... o morir en el intento."
+      ]
+    },
+    {
+      "id": "b1",
+      "type": "bullet",
+      "items": [
+        "**Amanito Muscario**, un druida de [[eberron/khorvaire/confines-eldeen|Eldeen]], miembro de los [[eberron/religion/tradiciones-druidicas|Hijos del Invierno]]",
+        "**Grock Lesnar**, un orco de las Marcas, antiguo soldado reconvertido a matón callejero",
+        "**Lunara Faldren**, una estudiosa khoravar con alma aventurera y apasionada de la arqueología",
+        "**Mel Rospleis**, una replicante con poderes mágicos de origen dudoso"
+      ]
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [
+        { "label": "Amanito Muscario", "slug": "personajes/amanito" },
+        { "label": "Grock Lesnar", "slug": "personajes/grock" },
+        { "label": "Lunara Faldren", "slug": "personajes/lunara" },
+        { "label": "Mel Rospleis", "slug": "personajes/mel" }
+      ]
+    }
+  ]
+}

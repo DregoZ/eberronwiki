@@ -17,6 +17,12 @@
       "content": "Actualmente, Khorvaire atraviesa una tensa guerra fría. El Tratado de Tronofirme trajo una paz muy frágil, debido al temorr de que el cataclismo que destruyó Cyre (el Luto) se repitiese. El comercio fluye gracias al rayocarril, pero los espías llenan las tabernas, las [[eberron/khorvaire/cinco-naciones|naciones]] se rearman en secreto y los soldados veteranos intentan sobrevivir en unas calles que aún huelen a pólvora y magia bélica."
     },
     {
+      "id": "k3",
+      "type": "info",
+      "variant": "warning",
+      "content": "Precaución: Las [[eberron/khorvaire/tierras-enlutadas|Tierras Enlutadas]] están cubiertas por niebla mágica, impredecible y en constante movimiento."
+    },
+    {
       "id": "k2",
       "type": "map",
       "image": "/assets/content/eberron/khorvaire/Map-of-Khorvaire.jpg",
@@ -164,10 +170,10 @@
       ]
     },
     {
-      "id": "k3",
+      "id": "a0",
       "type": "info",
-      "variant": "warning",
-      "content": "Precaución: Las [[eberron/khorvaire/tierras-enlutadas|Tierras Enlutadas]] están cubiertas por niebla mágica, impredecible y en constante movimiento."
+      "variant": "note",
+      "content": "Navega por los diferentes continentes usando el apartado 'Contenido Relacionado' y los marcadores del mapa."
     },
     {
       "id": "k4",

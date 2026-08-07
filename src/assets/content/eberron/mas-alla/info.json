@@ -7,10 +7,12 @@
   "unlockCondition": null,
   "blocks": [
     {
-      "id": "a0",
-      "type": "info",
-      "variant": "note",
-      "content": "Navega por los diferentes continentes usando el apartado 'Contenido Relacionado'."
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "Eberron es un mundo vasto y diverso, formado por varios continentes separados por inmensos océanos. Khorvaire, el más conocido, es el corazón político y económico del escenario, donde se desarrollan la mayoría de las aventuras. Al norte se alza el helado continente de [[eberron/mas-alla/la-friage|La Friage]], mientras que al sur se extiende [[eberron/mas-alla/xen-drik|Xen'drik]], una tierra salvaje repleta de ruinas gigantescas y misterios ancestrales. Al este se encuentran [[eberron/mas-alla/aerenal|Aerenal]], hogar de los elfos inmortales, y [[eberron/mas-alla/argonnessen|Argonnessen]], el enigmático dominio de los dragones. Más allá de los mares también se hallan [[eberron/mas-alla/sarlona|Sarlona]], gobernada en gran parte por los inspirados de Riedra bajo la influencia de los [[eberron/entagonistas/oscuridad-onirica|quori]], y [[eberron/mas-alla/hielo-eterno|Hielo Eterno]], un continente polar prácticamente inexplorado.",
+        "Aunque la magia ha reducido las distancias mediante el [[eberron/vida-en-eberron/viajar|Rayocarril]] y los navíos voladores, grandes regiones de Eberron siguen siendo territorios remotos e inexplorados, donde antiguas civilizaciones, criaturas legendarias y secretos olvidados esperan ser descubiertos."
+      ]
     },
     {
       "id": "a1",
@@ -19,7 +21,64 @@
       "caption": "Mapamundi",
       "title": "Mapamundi",
       "align": "center",
-      "size": "medium"
+      "size": "medium",
+      "pins": [
+        {
+          "id": "a1",
+          "x": 46.7,
+          "y": 57.4,
+          "label": "Aerenal",
+          "linkSlug": "eberron/mas-alla/aerenal"
+        },
+        {
+          "id": "a2",
+          "x": 66.6,
+          "y": 72.1,
+          "label": "Argonnessen",
+          "linkSlug": "eberron/mas-alla/argonnessen"
+        },
+        {
+          "id": "a3",
+          "x": 29.3,
+          "y": 97.7,
+          "label": "Hielo Eterno",
+          "linkSlug": "eberron/mas-alla/hielo-eterno"
+        },
+        {
+          "id": "a4",
+          "x": 42.9,
+          "y": 36.3,
+          "label": "Khorvaire",
+          "linkSlug": "eberron/khorvaire"
+        },
+        {
+          "id": "a5",
+          "x": 50.7,
+          "y": 6.9,
+          "label": "La Friage",
+          "linkSlug": "eberron/mas-alla/la-friage"
+        },
+        {
+          "id": "a6",
+          "x": 85.3,
+          "y": 54.7,
+          "label": "Sarlona",
+          "linkSlug": "eberron/mas-alla/sarlona"
+        },
+        {
+          "id": "a7",
+          "x": 27.0,
+          "y": 71.4,
+          "label": "Xen'drik",
+          "linkSlug": "eberron/mas-alla/xen-drik"
+        }
+      ]
+    },
+    {
+      "id": "a0",
+      "type": "info",
+      "variant": "note",
+      "content": "Navega por los diferentes continentes usando el apartado 'Contenido Relacionado' y los marcadores del mapa."
     },
     {
       "id": "a3",

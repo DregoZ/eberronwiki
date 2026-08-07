@@ -88,15 +88,33 @@
   },
   {
     "id": "personajes",
-    "label": "[En obras] Personajes & Facciones",
-    "slug": "personajes/sharn",
-    "icon": "people",
+    "label": "Personajes",
+    "slug": "personajes",
+    "icon": "construction",
     "children": [
       {
-        "id": "sharn-facciones",
-        "label": "Facciones de Sharn",
-        "slug": "personajes/sharn",
-        "icon": "groups"
+        "id": "lista-personajes",
+        "label": "Amanito Muscario",
+        "slug": "personajes/amanito",
+        "icon": "cannabis"
+      },
+      {
+        "id": "lista-personajes",
+        "label": "Grock Lesnar",
+        "slug": "personajes/grock",
+        "icon": "swords"
+      },
+      {
+        "id": "lista-personajes",
+        "label": "Lunara Faldren",
+        "slug": "personajes/lunara",
+        "icon": "domino_mask"
+      },
+      {
+        "id": "lista-personajes",
+        "label": "Mel Rospleis",
+        "slug": "personajes/mel",
+        "icon": "wand_stars"
       }
     ]
   }

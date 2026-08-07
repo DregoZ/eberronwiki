@@ -26,18 +26,51 @@
       "type": "text",
       "title": "Navíos voladores",
       "content": [
-        "Los navíos voladores son embarcaciones impulsadas por elementales del aire que permiten recorrer grandes distancias sobrevolando montañas, bosques y mares. Aunque son más lentos que el rayocarril en algunas rutas, ofrecen una flexibilidad incomparable y representan el medio de transporte más prestigioso de Khorvaire."
+        "Los navíos voladores son embarcaciones impulsadas por elementales del aire operados principalmente por la [[eberron/casas|Casa Lyrandar]]. Permiten recorrer grandes distancias sobrevolando montañas, bosques y mares. Aunque son más lentos que el rayocarril en algunas rutas, ofrecen una flexibilidad incomparable y representan el medio de transporte más prestigioso de Khorvaire."
       ]
     },
     {
-      "id": "h3",
-      "type": "image",
-      "src": "/assets/content/eberron/vida-en-eberron/viajar/viajar.png",
-      "caption": "Navío volador",
-      "title": "Navío volador",
-      "align": "center",
-      "size": "full"
+      "id": "t1",
+      "type": "text",
+      "title": "Galeones elementales",
+      "content": [
+        "Los galeones elementales son grandes embarcaciones impulsadas por elementales de agua o fuego, lo que les permite navegar con mayor velocidad y fiabilidad que un barco convencional. Operados en su mayoría por la [[eberron/casas|Casa Lyrandar]], constituyen la columna vertebral del comercio marítimo de larga distancia entre los continentes de Eberron."
+      ]
     },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "h3",
+          "type": "image",
+          "src": "/assets/content/eberron/vida-en-eberron/viajar/viajar.png",
+          "caption": "Rayocarril",
+          "title": "Rayocarril",
+          "align": "center",
+          "size": "full"
+        },
+        {
+          "id": "h3",
+          "type": "image",
+          "src": "/assets/content/eberron/vida-en-eberron/viajar/viajar2.jpg",
+          "caption": "Navío volador",
+          "title": "Navío volador",
+          "align": "center",
+          "size": "full"
+        },
+        {
+          "id": "h3",
+          "type": "image",
+          "src": "/assets/content/eberron/vida-en-eberron/viajar/viajar3.jpg",
+          "caption": "Galeón elemental",
+          "title": "Galeón elemental",
+          "align": "center",
+          "size": "full"
+        }
+      ]
+    },
+
     {
       "id": "h4",
       "type": "related",
