@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/page.schema.json",
+  "slug": "manifiesto/ii",
+  "title": "Vive otro día",
+  "tags": ["manifiesto"],
+  "aliases": [""],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "El segundo encargo llevó al grupo hasta Vallebrillante, una zona de manifestación en las Montañas Murogris, en donde debían imbuir el Amuleto del Alba con la energía de Irian y trazar un mapa de la zona.",
+        "Tras descender por las escarpadas montañas y atravesar las cavernas que llevaban al valle, fueron recibidos por las arpías que allí moraban, y a quienes tuvieron que ayudar en la defensa de su hogar contra un ataque sorpresa llevado a cabo por las fuerzas afines a las Hijas de Sora Kell.",
+        "Tras repeler a las fuerzas invasoras, volvieron a Sharn con la satisfacción de haber cumplido su misión."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "image",
+      "src": "/assets/content/manifiesto/ii/ii.jpg",
+      "caption": "Vive otro día",
+      "title": "Vive otro día",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [
+        { "label": "Forjados y olvidados", "slug": "manifiesto/i" },
+        { "label": "Vive otro día", "slug": "manifiesto/ii" }
+      ]
+    }
+  ]
+}

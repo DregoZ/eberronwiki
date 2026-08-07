@@ -42,6 +42,7 @@ export interface ImageBlock extends BaseBlock {
 /** Gallery block containing a list of ImageBlock objects */
 export interface GalleryBlock extends BaseBlock {
   type: 'gallery';
+  title?: string;
   /** Array of images to display in the gallery */
   images: ImageBlock[];
 }

@@ -1,0 +1,172 @@
+{
+  "$schema": "../../schemas/page.schema.json",
+  "slug": "manifiesto/npc",
+  "title": "NPCS",
+  "tags": ["manifiesto", "npc"],
+  "aliases": ["npcs"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Intendente Lhiara",
+      "content": [
+        "Lhiara es una intendente el Gremio y vuestra supervisora. Es una cambiante de caracter reservado y profesional, y dedica sus esfuerzos a aumentar la reputación del gremio."
+      ]
+    },
+    {
+      "id": "g1",
+      "title": "Lhiara",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/manifiesto/npc/lhiara.png",
+          "caption": "Intendente Lhiara",
+          "title": "Intendente Lhiara",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Nigel Faurios",
+      "content": [
+        "El Preboste Nigel Faurios es el mecenas de vuestras expediciones, en las que os encarga recuperar artefactos imbuidos de energías planar. Es un hombre de perfil académico que no presta demasiada atención a otra cosa que no sea su trabajo."
+      ]
+    },
+    {
+      "id": "g1",
+      "title": "Nigel",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/manifiesto/npc/faurios.jpg",
+          "caption": "Nigel Faurios",
+          "title": "Nigel Faurios",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Stonks",
+      "content": [
+        "Un forjado implicado en la defensa de sus semejantes. Trabaja en la forja de Halas Drummond, tras haber participado en la defensa de su causa, os ayudó en la recuperación del Ídolo Ardiente."
+      ]
+    },
+    {
+      "id": "g1",
+      "title": "Stonks",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/manifiesto/npc/stonks.png",
+          "caption": "Stonks",
+          "title": "Stonks",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Tresca Tani Matapicos",
+      "content": [
+        "Esta zil siempre ensimismada es una artífice que trabaja en las forja Drummond en los Engranajes. Ella y Stonks se encargaron de imbuir el Ídolo Ardiente con la energía de Fernia."
+      ]
+    },
+    {
+      "id": "g1",
+      "title": "Tresca",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/manifiesto/npc/tresca.png",
+          "caption": "Stonks",
+          "title": "Stonks",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Darian d'Lyrandar",
+      "content": [
+        "[[eberron/casas/lyrandar|Darian d'Lyrandar]]es el capitán del *Celestial*, el navío volador en el que viajasteis a las Montañas Murogrís, en la frontera entre [[eberron/khorvaire/breland|Breland]] y [[eberron/khorvaire/droaam|Droaam]]."
+      ]
+    },
+    {
+      "id": "g1",
+      "title": "Darian d'Lyrandar",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/manifiesto/npc/Darian.jpg",
+          "caption": "Darian d'Lyrandar",
+          "title": "Darian d'Lyrandar",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/manifiesto/npc/celestial.jpg",
+          "caption": "El Celestial",
+          "title": "El Celestial",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Mieno",
+      "content": [
+        "La líder del vuelo de arpías Canto Mesmerizante, en [[eberron/khorvaire/droaam|Droaam]]. Por haber ayudado a defender su hogar de una invasión, os está eternamente agradecida."
+      ]
+    },
+    {
+      "id": "g1",
+      "title": "Mieno",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/manifiesto/npc/mieno.png",
+          "caption": "Mieno",
+          "title": "Mieno",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "type": "separator"
+    }
+  ]
+}

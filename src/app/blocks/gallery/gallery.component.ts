@@ -12,7 +12,11 @@ import { ImageBlockComponent } from '../image-block/image-block.component';
   standalone: true,
   imports: [CommonModule, ImageBlockComponent],
   template: `
-    <h3 class="gallery-title">Galería de imágenes</h3>
+    @if (block().title) {
+      <h3 class="gallery-title">{{ block().title }}</h3>
+    } @else {
+      <h3 class="gallery-title">Galería de imágenes</h3>
+    }
     <div class="gallery-grid">
       @for (img of block().images; track img.id) {
         <div class="gallery-item" (click)="open(img)">

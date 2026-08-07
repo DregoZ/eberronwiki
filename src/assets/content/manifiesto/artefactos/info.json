@@ -1,0 +1,68 @@
+{
+  "$schema": "../../schemas/page.schema.json",
+  "slug": "manifiesto/artefactos",
+  "title": "Artefactos Recuperados",
+  "tags": ["manifiesto", "artefactos"],
+  "aliases": ["artefactos"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Ídolo Ardiente",
+      "content": [
+        "El Ídolo Ardiente es una reliquia imbuida con la energía de [[eberron/planos/fernia|Fernia]], el plano del fuego. La reliquia fue imbuida por los aventureros en la forja de [[eberron/khorvaire/breland/sharn/barrios/engranajes|los Engranajes]], en la ciudad de [[eberron/khorvaire/breland/sharn/sharn|Sharn]]."
+      ]
+    },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/manifiesto/artefactos/idolo-ardiente.png",
+          "caption": "Ídolo Ardiente",
+          "title": "Ídolo Ardiente",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i2",
+          "type": "image",
+          "src": "/assets/content/manifiesto/artefactos/forja.png",
+          "caption": "La forja de los Engranajes",
+          "title": "La forja",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "title": "Amuleto del Alba",
+      "content": [
+        "El Amuleto del Alba es una reliquia imbuida con la energía de [[eberron/planos/irian|Irian]] tras pasar un día entero bajo el agua de un manantial en Vallebrillante"
+      ]
+    },
+    {
+      "id": "g2",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/manifiesto/artefactos/amuleto-alba.png",
+          "caption": "Amuleto del Alba",
+          "title": "Amuleto del Alba",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    }
+  ]
+}

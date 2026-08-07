@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/page.schema.json",
+  "slug": "manifiesto/i",
+  "title": "Forjados y olvidados",
+  "tags": ["manifiesto"],
+  "aliases": [""],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "Los aventureros, recién ingresados en el [[eberron/khorvaire/breland/sharn/barrios/barrios-altos/la-cumbre|Gremio La Cumbre]], recibieron el encargo de recuperar un extraño artefacto imbuido con energía de [[eberron/planos/fernia|Fernia]], destinado a formar parte del ambicioso estudio llevado a cabo por su mecenas Nigel Faurios: **El Manifiesto de Convergencia**. Sin embargo, al llegar a la forja en los [[eberron/khorvaire/breland/sharn/barrios/engranajes|Engranajes]], descubrieron que la producción se había detenido debido a un conflicto entre el propietario y los trabajadores forjados.",
+        "Tras mediar en la disputa y encontrar una solución que permitió reanudar la actividad de la fundición, el artefacto pudo completarse y fue entregado a Nigel. Lo que parecía un simple trabajo de recuperación resultó ser el primer paso de una investigación mucho mayor."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "image",
+      "src": "/assets/content/manifiesto/i/i.png",
+      "caption": "Forjados y olvidados",
+      "title": "Forjados y olvidados",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [
+        { "label": "Forjados y olvidados", "slug": "manifiesto/i" },
+        { "label": "Vive otro día", "slug": "manifiesto/ii" }
+      ]
+    }
+  ]
+}

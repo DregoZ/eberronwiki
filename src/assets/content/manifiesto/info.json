@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/page.schema.json",
+  "slug": "manifiesto",
+  "title": "El Manifiesto de Convergencia",
+  "tags": ["manifiesto", "campaña"],
+  "aliases": ["El Manifiesto de Convergencia", "Manifiesto"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "El Manifiesto de Convergencia sigue los pasos de un grupo de aventureros contratados para reunir una colección de reliquias planares destinadas a un ambicioso estudio sobre la influencia planar en Eberron.",
+        "A medida que la investigación avanza, los personajes descubrirán que tras el proyecto académico se ocultan secretos olvidados, teorías prohibidas y una conspiración capaz de alterar para siempre el delicado equilibrio entre los planos y el mundo material."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "image",
+      "src": "/assets/content/manifiesto/manifiesto.png",
+      "caption": "Esto se va a descontrolaaar",
+      "title": "Esto se va a descontrolaaar",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [
+        { "label": "Forjados y olvidados", "slug": "manifiesto/i" },
+        { "label": "Vive otro día", "slug": "manifiesto/ii" }
+      ]
+    }
+  ]
+}

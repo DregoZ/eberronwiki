@@ -22,7 +22,7 @@ const MOBILE_BREAKPOINT = '(max-width: 991px)';
     CommonModule,
     RouterOutlet,
     SidebarComponent,
-    SearchBarComponent,
+    //SearchBarComponent,
     BreadcrumbComponent,
     MatButtonModule,
     MatIconModule,

@@ -117,5 +117,37 @@
         "icon": "wand_stars"
       }
     ]
+  },
+  {
+    "id": "manifiesto",
+    "label": "Manifiesto de Convergencia",
+    "slug": "manifiesto",
+    "icon": "book_5",
+    "children": [
+      {
+        "id": "artefactos",
+        "label": "Artefactos Recuperados",
+        "slug": "manifiesto/artefactos",
+        "icon": "diamond_shine"
+      },
+      {
+        "id": "npc",
+        "label": "NPCs",
+        "slug": "manifiesto/npc",
+        "icon": "person_4"
+      },
+      {
+        "id": "capitulo-i",
+        "label": "I - Forjados y olvidados",
+        "slug": "manifiesto/i",
+        "icon": "counter_1"
+      },
+      {
+        "id": "capitulo-ii",
+        "label": "II - Vive otro día",
+        "slug": "manifiesto/ii",
+        "icon": "counter_2"
+      }
+    ]
   }
 ]
