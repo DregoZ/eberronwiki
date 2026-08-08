@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../../../schemas/page.schema.json",
+  "$schema": "../../../../../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/breland/sharn/barrios/engranajes/huesos-negros",
   "title": "Huesos Negros",
   "tags": ["Engranajes", "Huesos Negros"],
@@ -126,11 +126,20 @@
           "size": "medium"
         },
         {
-          "id": "s1",
-          "type": "related",
-          "items": [{ "label": "Forjados y olvidados", "slug": "eberron/TODO" }]
+          "id": "i4",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/engranajes/huesos-negros/forjados-loita.png",
+          "caption": "¡Forjados en Loita!",
+          "title": "¡Forjados en Loita!",
+          "align": "center",
+          "size": "medium"
         }
       ]
+    },
+    {
+      "id": "s1",
+      "type": "related",
+      "items": [{ "label": "Forjados y olvidados", "slug": "manifiesto/i" }]
     }
   ]
 }

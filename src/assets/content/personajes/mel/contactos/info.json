@@ -17,8 +17,30 @@
       "title": "Bajos Fondos",
       "items": [
         "**(*) Paquiño:** Un Guachiman de los Engranajes, bastante feo aunque genuinamente gracioso al que invitaste a un par de rondas para aflojarle la lengua. Resulta que los Boromar mantienen a raya a los Guachimanes a golpe de soborno. De los Daask solo sabe que tienen mucho menos poder, pero que igualmente son peligrosos.",
-        "**(*) Quincho Barrilete:** Un mediano borracho, pendenciero, putero y además matón de los Boromar. Durante un delirio etílico, confesó que su ‘asociación’ está enfrentada con un grupo rival (¿Daask?) por la distribución del lirio de ensueño, un potente narcótico ilegal. Os comisteis unas brochetas de tríbex (¿un dinosaurio?) de un puesto callejero que os bajó la borrachera y terminó de forjar vuestra amistad.",
-        "**(*) Miss Teriossa:** Una atractiva puta Lazharina de sangre Khoravar, mirada fogosa, labios ardientes y amena conversación con la que compartiste una botella de vino Buenasbayas mientras Quincho dormía la mona. Asegura que uno de sus habituales es un ‘conseguidor’ de objetos mágicos."
+        "**(*) Quincho Barrilete:** Un mediano borracho, pendenciero, putero y además matón de los Boromar. Durante un delirio etílico, confesó que su ‘asociación’ está enfrentada con un grupo rival (¿Daask?) por la distribución del lirio de ensueño, un potente narcótico ilegal. Os comisteis unas brochetas de tríbex (¿un dinosaurio?) de un puesto callejero que os bajó la borrachera y terminó de forjar vuestra amistad."
+      ]
+    },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "title": "Quincho",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/personajes/mel/contactos/quincho.jpg",
+          "caption": "Quincho Barrilete",
+          "title": "Quincho Barrilete",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "bullet",
+      "items": [
+        "**(*) Miss Teriossa:** Una atractiva puta Lazhaarina de sangre khoravar, mirada fogosa, labios ardientes y amena conversación con la que compartiste una botella de vino Buenasbayas mientras Quincho dormía la mona. Asegura que uno de sus habituales es un ‘conseguidor’ de objetos mágicos."
       ]
     },
     {
