@@ -45,7 +45,7 @@
     {
       "id": "t1",
       "type": "text",
-      "title": "Martillo Rojo",
+      "title": "Martillo Colorao",
       "content": [
         "Una de las posadas más peculiares de Sharn, pues está pensada para forjados. Los forjados no necesitan comer ni beber, pero sí necesitan compañía. El Martillo Rojo funciona como un club social y centro comunitario."
       ]
@@ -54,8 +54,8 @@
       "id": "i1",
       "type": "image",
       "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/engranajes/huesos-negros/martillo-rojo.jpeg",
-      "caption": "La taberna Martillo Rojo",
-      "title": "Martillo Rojo",
+      "caption": "La taberna Martillo Colorao",
+      "title": "Martillo Colorao",
       "align": "center",
       "size": "medium"
     },

@@ -1,0 +1,39 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "personajes/amanito/contactos",
+  "title": "Contactos de Amanito",
+  "tags": ["Contactos", "Amanito"],
+  "aliases": ["Contactos y rumores de Amanito"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "title": "Contactos en los bajos fondos",
+      "content": [
+        "***Las ratas***",
+        "Amanito se ha ganado cierta reputación entre *las ratas* de Poco Dura. No lo consideran un líder, ni mucho menos, pero algunos niños saben que el extraño druida de las setas puede enseñarles cosas muy útiles. A cambio, están dispuestos a compartir rumores, señalar un rostro conocido o avisarle cuando algo extraño ocurre en las calles."
+      ]
+    },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/personajes/amanito/contactos/ratas.jpg",
+          "caption": "Las ratas",
+          "title": "Las ratas",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [{ "label": "Amanito Muecario", "slug": "personajes/amanito" }]
+    }
+  ]
+}

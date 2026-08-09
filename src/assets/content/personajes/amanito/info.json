@@ -42,10 +42,26 @@
       ]
     },
     {
-      "id": "i1",
+      "type": "separator"
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "title": "II - ...y aparecerá un dragón de tres o cuatro cabezas",
+      "content": [
+        "En los barrios superiores, Amanito no era más que un vagabundo lunático, un paleto extranjero que no entiende la vida en la gran ciudad. No ayudaba tampoco la brutal honestidad de sus proclamas, ante las que muchos torcían la cara, obviamente incapaces de manejar la verdad. Y por si fuera poco, ya lo habían detenido dos veces por 'alterar el orden público'.",
+        "Algo más de suerte tuvo en [[eberron/khorvaire/breland/sharn/barrios/los-engranajes|Los Engranajes]], donde los mensajes apocalípticos calaron de algún modo entre los trabajadores, acostumbrados a respirar veneno y a vivir en la miseria, y que veían cierta justicia poética en la posibilidad de que el sistema se fuese al garete. Sin embargo, encontró en 'las ratas', niños de la calle, unos oyentes genuinamente interesados.",
+        "En las calles, la supervivencia de los aptos es ley, y si podía enseñar a los débiles y desfavorecidos a prepararse ante lo que viene, así lo haría.",
+        "Así que les enseñó a identificar líquenes comestibles, a predecir las lluvias entre las torres y a curar infecciones con hongos de los desagües. Les habló del invierno que siempre acaba llegando, de como la muerte es necesaria para la renovación y de que ningún muro, por alto que sea, puede escapar del ciclo.",
+        "Puede que ninguno de ellos entendiese todavía las doctrinas de los Hijos del Invierno. Puede que algunos solo volviesen al día siguiente porque el extraño predicador del banco del parque sabía dónde encontrar comida gratis. Pero escuchaban. Y, para Amanito, quizá aquello fuese suficiente.",
+        "Las semillas más resistentes no siempre crecen en buena tierra."
+      ]
+    },
+    {
+      "id": "i2",
       "type": "info",
       "variant": "note",
-      "content": "**Resultado**: 1 poción de sanación, 4 botiquines (-35po)"
+      "content": "**Resultado**: Varios [[personajes/amanito/contactos|chavalillos]] que viven en las calles de Poco Dura comienzan a ver a Amanito como una figura de confianza.\n\nLos Guachimanes te conocen, y saben que eres miembro del Gremio La Cumbre."
     },
     {
       "id": "r4",
@@ -54,7 +70,8 @@
         { "label": "Amanito Muscario", "slug": "personajes/amanito" },
         { "label": "Grock Lesnar", "slug": "personajes/grock" },
         { "label": "Lunara Faldren", "slug": "personajes/lunara" },
-        { "label": "Mel Rospleis", "slug": "personajes/mel" }
+        { "label": "Mel Rospleis", "slug": "personajes/mel" },
+        { "label": "Contactos y Rumores", "slug": "personajes/mel/contactos" }
       ]
     }
   ]
