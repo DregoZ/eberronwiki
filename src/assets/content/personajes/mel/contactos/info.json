@@ -7,6 +7,18 @@
   "unlockCondition": null,
   "blocks": [
     {
+      "id": "t1",
+      "type": "text",
+      "title": "Rumores",
+      "content": [
+        "***Los Daask***",
+        "Son el *brazo armado* de las [[eberron/khorvaire/droaam|Hijas de Sora Kell]] en Sharn. No solo son una banda de maleantes, si no que tienen intereses económicos y políticos. ",
+        "Mientras que los **Boromar** se consideran *una honrada familia criminal*, Quincho opina que los Daask no juegan según las reglas de la ciudad, lo que desemboca en un conflicto conceptual sobre el manejo del mundo del hampa. Bueno, conceptual y lo que no es conceptual.",
+        "Gracias a una mención *totalmente casual* sobre tu primo Benito, Quincho te cuenta entre risas que conoce a un cobrador de segunda línea también llamado Beni-To, el cual trabaja para un intermediario de poca monta conocido como **El Morsa**. El mundo es un pañuelo.",
+        "El Morsa es un prestamista que compra deudas consideradas difíciles de cobrar y posteriormente las vende al mejor postor. Entre sus clientes se encuentran tanto los Daask como los Boromar."
+      ]
+    },
+    {
       "id": "i1",
       "type": "quote",
       "text": "Nota del DM: Estos contactos son genuinos, has hecho buenas migas con ellos y se mostrarán dispuestos a realizar un favor que les pidas dentro de sus posibilidades. En caso de seguir tirando de alguno de estos contactos, deberás reforzar el vínculo (*) con ellos por medio de juergas posteriores."
@@ -14,7 +26,7 @@
     {
       "id": "b1",
       "type": "bullet",
-      "title": "Bajos Fondos",
+      "title": "Contactos en los bajos fondos",
       "items": [
         "**(*) Paquiño:** Un Guachiman de los Engranajes, bastante feo aunque genuinamente gracioso al que invitaste a un par de rondas para aflojarle la lengua. Resulta que los Boromar mantienen a raya a los Guachimanes a golpe de soborno. De los Daask solo sabe que tienen mucho menos poder, pero que igualmente son peligrosos.",
         "**(*) Quincho Barrilete:** Un mediano borracho, pendenciero, putero y además matón de los Boromar. Durante un delirio etílico, confesó que su ‘asociación’ está enfrentada con un grupo rival (¿Daask?) por la distribución del lirio de ensueño, un potente narcótico ilegal. Os comisteis unas brochetas de tríbex (¿un dinosaurio?) de un puesto callejero que os bajó la borrachera y terminó de forjar vuestra amistad."

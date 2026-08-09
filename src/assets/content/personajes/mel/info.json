@@ -64,6 +64,22 @@
       "content": "**Resultado**: Una fuerte jaqueca y 3 [[personajes/mel/contactos|contactos]] en los bajos fondos (-10 po)."
     },
     {
+      "id": "t2",
+      "type": "text",
+      "title": "II - Ases calientes",
+      "content": [
+        "Un par de rondas en la zona de bares de **Poco Dura** son suficientes para convencer a Quincho de apostar lo poco que lleváis en la cartera en una partida de cartas. Pronto acabáis en la trastienda de un garito de Callestan donde se organizan timbas de *did* (demos y dracos), un rápido juego por parejas en el que la picardía cuenta tanto como el azar.",
+        "A vuestra mesa se unen Bosco y Beltrán, miembros de los *Callestanos*, dice Quincho, una banda del barrio donde todos parecen tener nombres particularmente peculiares. Corren las rondas de juego y vuelan las de cerveza. Preguntas aparentemente inocentes se convierten en involuntarias indiscreciones y, con la suerte de vuestro lado, las lenguas se aflojan y brotan los secretos.",
+        "Repetís al día siguiente, por supuesto, esta vez contra Borja y Belinda. El oro es un buen catalizador en la forja de amistades, y lo invertís en más cerveza y rondas de juego. El premio: un buen puñado de monedas y un manojo de rumores. Entre ellos, un par de asuntos relacionados con los Boromar y los Daask que quizá convenga recordar."
+      ]
+    },
+    {
+      "id": "i2",
+      "type": "info",
+      "variant": "note",
+      "content": "**Resultado**: La actitud frívola de los *Callestanos* resultó desconcertante al principio, pero terminaron cayendo bajo tus faroles. Te repartes las ganancias con Quincho. Ganas 75po."
+    },
+    {
       "id": "r4",
       "type": "related",
       "items": [
@@ -71,7 +87,7 @@
         { "label": "Grock Lesnar", "slug": "personajes/grock" },
         { "label": "Lunara Faldren", "slug": "personajes/lunara" },
         { "label": "Mel Rospleis", "slug": "personajes/mel" },
-        { "label": "Contactos de Mel", "slug": "personajes/mel/contactos" }
+        { "label": "Contactos y Rumores", "slug": "personajes/mel/contactos" }
       ]
     }
   ]
