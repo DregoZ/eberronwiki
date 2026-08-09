@@ -48,6 +48,26 @@
       "content": "**Resultado**: un par de costillas fisuradas, un ojo hinchado y 125po"
     },
     {
+      "type": "separator"
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Ocho palizas y media",
+      "content": [
+        "Tras varios días en el foso ya sabes quiénes son algunos de los habituales entre el público del Tocha de Trol: Dandy, el forjado que conociste en el Martillo Colorao; el canoso Flick Rair, que siempre acompaña al promotor Stikk ir'Mahon; Beso Negro y varios más. Y quien va a conocerte ahora es un canijo talentino que se hace llamar Small Show. Lo estampas contra una pared después de agarrarlo por los pies y hacerlo girar un par de veces en el aire.",
+        "Ahora que empiezas a ser conocido, los apostadores comienzan a depositar sus esperanzas, y sus monedas, en ti. Eso significa más peleas. Vociferan tu nombre. Tres en una noche. Rugidos de euforia. Luego, otras tres. Escupes sangre. Dos más la noche siguiente. El público se vuelve loco.",
+        "El último día, tu rival es el propio Flick. Ya sabe cómo peleas, juega sucio y hace valer su veteranía, pero tú también. La pelea se alarga, y tú aún respiras por la nariz. Tras un ataque a la desesperada que evades por los pelos, lo haces besar el suelo de un cabezazo que dedicas a Beso Negro.",
+        "Entre felicitaciones y palmadas en la espalda, Stikk ir'Mahon te estrecha la mano mientras te tiende discretamente un pequeño sobre de color rojo. «Esto no es para aficionados», te dice antes de marcharse, agitando los hombros rítmicamente."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "**Resultado**: Has completado una racha de 9 victorias consecutivas y derrotado a Flick Rair. Ganas 200po.\nEl sobre contiene un papel que dice: LA FRAGUA -  Cenizanegra - [[eberron/vida-en-eberron/calendario|20 de Eyre]], Medianoche"
+    },
+    {
       "id": "r4",
       "type": "related",
       "items": [
