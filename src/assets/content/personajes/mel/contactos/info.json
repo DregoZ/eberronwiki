@@ -22,11 +22,6 @@
       "type": "separator"
     },
     {
-      "id": "i1",
-      "type": "quote",
-      "text": "Nota del DM: Estos contactos son genuinos, has hecho buenas migas con ellos y se mostrarán dispuestos a realizar un favor que les pidas dentro de sus posibilidades. En caso de seguir tirando de alguno de estos contactos, deberás reforzar el vínculo (*) con ellos por medio de juergas posteriores."
-    },
-    {
       "id": "b1",
       "type": "bullet",
       "title": "Contactos en los bajos fondos",
@@ -57,6 +52,11 @@
       "items": [
         "**(*) Miss Teriossa:** Una atractiva puta Lazhaarina de sangre khoravar, mirada fogosa, labios ardientes y amena conversación con la que compartiste una botella de vino Buenasbayas mientras Quincho dormía la mona. Asegura que uno de sus habituales es un ‘conseguidor’ de objetos mágicos."
       ]
+    },
+    {
+      "id": "i1",
+      "type": "quote",
+      "text": "Nota del DM: Estos contactos son genuinos, has hecho buenas migas con ellos y se mostrarán dispuestos a realizar un favor que les pidas dentro de sus posibilidades. En caso de seguir tirando de alguno de estos contactos, deberás reforzar el vínculo (*) con ellos por medio de juergas posteriores."
     },
     {
       "id": "r4",
