@@ -12,6 +12,12 @@
       "content": "La cosmología de Eberron, conocida como El Gran Mecanismo, es radicalmente distinta a la de otros mundos de D&D. No existe un Gran Rueda; en su lugar, 13 planos de existencia orbitan alrededor de la órbita de Eberron, el Plano Material."
     },
     {
+      "id": "i1",
+      "type": "info",
+      "variant": "note",
+      "content": "Eberron no tiene equivalencias directas para planos como el Abismo o los Nueve Infiernos: los demonios y los diablos no proceden de un plano infernal propio, sino que existen como parte de Eberron desde los albores de su historia.\n\nEn el caso de **Tierras Salvajes** o **Páramo Sombrío** sus funciones están repartidas entre varios planos propios, como [[eberron/planos/thelanis|Thelanis]] y [[eberron/planos/lamannia|Lamannia]] para lo feérico y natural, o Mabar y Dolurrh para la oscuridad y la muerte."
+    },
+    {
       "id": "p2",
       "type": "image",
       "src": "/assets/content/eberron/planos/planos_cool.png",

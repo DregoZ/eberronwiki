@@ -22,6 +22,12 @@
       ]
     },
     {
+      "id": "b3",
+      "type": "info",
+      "variant": "lore",
+      "content": "Según el mito de la creación, el firmamento está compuesto por los restos del dragón progenitor Siberys, que fue destrozado por sus hermanos. Los fragmentos se convirtieron en las doce lunas y el anillo que rodea el ecuador del planeta."
+    },
+    {
       "id": "b2",
       "type": "image",
       "src": "/assets/content/eberron/vida-en-eberron/firmamento/firmamento.png",
