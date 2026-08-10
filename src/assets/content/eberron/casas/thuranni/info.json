@@ -20,7 +20,7 @@
     {
       "id": "th3",
       "type": "image",
-      "src": "/assets/content/eberron/casas/thuranni/thuranni.webp",
+      "src": "/assets/content/eberron/casas/thuranni/thuranni.png",
       "caption": "Thuranni",
       "title": "Thuranni",
       "align": "center",
@@ -30,7 +30,7 @@
       "id": "th4",
       "type": "info",
       "variant": "warning",
-      "content": "La Masacre de Paelion, en la que los Thuranni eliminaron a toda una familia dentro de Phiarlan, es considerada uno de los crímenes más graves en la historia de las Casas. Thuranni existe en una posición políticamente frágil."
+      "content": "El Cisma de las Sombras fue la violenta ruptura interna de la Casa Phiarlan que dio origen a la Casa Thuranni. Ocurrió hacia el final de la Última Guerra y, pese al nombre, no fue una separación especialmente civilizada."
     },
     {
       "id": "th5",

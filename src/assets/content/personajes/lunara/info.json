@@ -31,7 +31,7 @@
     {
       "id": "t1",
       "type": "text",
-      "title": "Yo, yo misma y un mapa",
+      "title": "I - Yo, yo misma y un mapa",
       "content": [
         "Una semana de descanso no daba para una gran expedición, y desde luego tampoco para financiar una. Con una bolsa de monedas casi vacía, Lunara hizo lo que mejor sabía hacer: perderse entre estanterías. La biblioteca de Morgrave, varios anticuarios del distrito Universitario e incluso un par de libreros del Bazaar acabaron acostumbrándose a la presencia de aquella khoravar que hojeaba mapas polvorientos durante horas sin comprar apenas nada.",
         "No encontró ninguna ciudad perdida ni el mapa hacia un tesoro olvidado. En su lugar, descubrió pequeñas cosas: una referencia contradictoria sobre unas ruinas élficas en Xen'drik, la copia de un mapa fluvial con anotaciones en una lengua que apenas reconocía y la agradable certeza de que, a veces, la mejor forma de avanzar consiste simplemente en detenerse a estudiar. Puede que no ganase dinero aquella semana, pero tampoco sintió que hubiese perdido el tiempo. Al fin y al cabo, las grandes expediciones siempre empiezan con un mapa abierto sobre una mesa."
@@ -44,13 +44,38 @@
       "content": "**Resultado**: Una semana de descanso y muchas pistas que no llevan a ninguna parte"
     },
     {
+      "id": "sep1",
+      "type": "separator"
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "title": "II - Una dosis de conocimiento",
+      "content": [
+        "Tras una semana ciertamente agotadora, Lunara decidió que ya había tenido suficiente de valles ocultos y lugares inexplorados, al menos hasta la próxima expedición. Un poco de estudio era lo que le pedía el cuerpo: al fin y al cabo, mientras estudias no corres el riesgo de ser apuñalado por un goblin, las ruinas permanecen convenientemente donde están y, en teoría, las sustancias venenosas no hacen nada inesperado si una sigue las indicaciones.",
+        "Encontrar un instructor resultó ser algo más complicado. El oficio de envenenador no gozaba precisamente de buena reputación y la mayoría de quienes conocían sus secretos preferían mantenerlos así. Tras varios días de preguntas formuladas con la discreción suficiente para no acabar en una lista de sospechosos, Lunara dio con alguien dispuesto a enseñarle, un elfo con cierto porte aristocrático de nombre Velenor.",
+        "Los primeros días sirvieron a Lunara para aprender los fundamentos prácticos: distinguir un veneno de un perfume, qué sustancias no se deben tocar sin guantes y por qué conviene mirar la etiqueta antes de beber. La próxima semana tocarían temas más teóricos. ¿Las tribus drow elaboran venenos con plantas? ¿Se pueden contrarrestar los sueros de la verdad [[eberron/khorvaire/zilargo|zil]]? ¿Un veneno pasado de fecha es más o menos peligroso? Tener tantas dudas también resultaba agotador..."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "note",
+      "content": "**Resultado**: Has encontrado un [[personajes/lunara/contactos|profesor]] y comenzado tu instrucción en el manejo de sustancias tóxicas.\n\n **Utensilios de Envenenador**: ★☆☆☆☆"
+    },
+    {
+      "id": "sep2",
+      "type": "separator"
+    },
+    {
       "id": "r4",
       "type": "related",
       "items": [
-        { "label": "Amanito Muscario", "slug": "eberron/personajes/amanito" },
-        { "label": "Grock Lesnar", "slug": "eberron/personajes/grok" },
-        { "label": "Lunara Faldren", "slug": "eberron/personajes/lunara" },
-        { "label": "Mel Rospleis", "slug": "eberron/personajes/mel" }
+        { "label": "Amanito Muscario", "slug": "personajes/amanito" },
+        { "label": "Grock Lesnar", "slug": "personajes/grok" },
+        { "label": "Lunara Faldren", "slug": "personajes/lunara" },
+        { "label": "Mel Rospleis", "slug": "personajes/mel" },
+        { "label": "Contactos de Lunara", "slug": "personajes/lunara/contactos" }
       ]
     }
   ]
