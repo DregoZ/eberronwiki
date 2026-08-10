@@ -9,7 +9,7 @@
     {
       "id": "t1",
       "type": "text",
-      "title": "Velenor Ven'neri",
+      "title": "Velenor Vel'neri",
       "content": [
         "Un elfo perteneciente a una rama de los [[eberron/casas|Thuranni]] que no porta marcas. Decidió buscar su propia senda tras la brutal purga del **Cisma de las Sombras**. Más académico que hombre de acción, disfruta catalogando criaturas venenosas y examinando ponzoñas naturales, y conoce las características de decenas de toxinas. Aunque estas habilidades no suelen anunciarse en los escaparates, de algún modo las emplea para ganarse la vida."
       ]
@@ -18,8 +18,8 @@
       "id": "i1",
       "type": "image",
       "src": "/assets/content/personajes/lunara/contactos/velenor.jpg",
-      "caption": "Velenor Ven'neri",
-      "title": "Velenor Ven'neri",
+      "caption": "Velenor Vel'neri",
+      "title": "Velenor Vel'neri",
       "align": "center",
       "size": "medium"
     },
