@@ -287,6 +287,13 @@ export class MapBlockComponent implements AfterViewInit, OnDestroy {
       L.imageOverlay(mapData.image, bounds).addTo(this.map!);
       this.map!.fitBounds(bounds);
 
+      // Click on map to get coordinates as percentages of the image dimensions
+      this.map!.on('click', (e: L.LeafletMouseEvent) => {
+        const x = (e.latlng.lng / normW) * 100;
+        const y = ((normH - e.latlng.lat) / normH) * 100;
+        console.log('Map click coordinates (percent):', { x: x.toFixed(1), y: y.toFixed(1) });
+      });
+
       // Pins: x/y are percentages (0–100) of image width/height
       mapData.pins?.forEach((pin) => {
         const lat = normH - (pin.y / 100) * normH; // y=0 → top, y=100 → bottom
@@ -305,12 +312,6 @@ export class MapBlockComponent implements AfterViewInit, OnDestroy {
         if (pin.linkSlug) {
           marker.on('click', () => {
             this.router.navigateByUrl('/wiki/' + pin.linkSlug);
-          });
-          // Click on map to get coordinates as percentages of the image dimensions
-          this.map!.on('click', (e: L.LeafletMouseEvent) => {
-            const x = (e.latlng.lng / normW) * 100;
-            const y = ((normH - e.latlng.lat) / normH) * 100;
-            console.log('Map click coordinates (percent):', { x: x.toFixed(1), y: y.toFixed(1) });
           });
         }
       });

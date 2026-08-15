@@ -18,13 +18,22 @@
       "caption": "La Friage",
       "title": "La Friage",
       "align": "center",
-      "size": "medium"
+      "size": "medium",
+      "pins": [
+        {
+          "id": "pin-hieloblanco",
+          "x": 39.6,
+          "y": 84.4,
+          "label": "Hieloblanco",
+          "linkSlug": "eberron/mas-alla/la-friage/hieloblanco"
+        }
+      ]
     },
     {
       "id": "a3",
       "type": "related",
       "items": [
-        { "label": "Mapamundi", "slug": "eberron/" },
+        { "label": "Mapamundi", "slug": "eberron/mas-alla" },
         { "label": "Aerenal", "slug": "eberron/mas-alla/aerenal" },
         { "label": "Argonnessen", "slug": "eberron/mas-alla/argonnessen" },
         { "label": "Hielo Eterno", "slug": "eberron/mas-alla/hielo-eterno" },

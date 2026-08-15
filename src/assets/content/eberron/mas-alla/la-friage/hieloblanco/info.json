@@ -1,0 +1,75 @@
+{
+  "$schema": "../../../../schemas/page.schema.json",
+  "slug": "eberron/mas-alla/la-friage/hieloblanco",
+  "title": "Hieloblanco",
+  "tags": ["Mas alla", "La Friage", "Hieloblanco"],
+  "aliases": ["Hieloblanco"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "Una tierra de tundra helada, glaciares y montañas, aunque el extremo sur de Icewhite es algo menos inhóspito y permite una mayor presencia de vegetación. En ella residen algunas comunidades humanas conocidas *los helados*, dedicadas principalmente a la pesca y la caza de focas, además de grupos de bárbaros y tribus primitivas. En las islas cercanas también habitan los uldra, pequeños seres feéricos de piel azul."
+      ]
+    },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/eberron/mas-alla/la-friage/hieloblanco/tundra.jpg",
+          "caption": "La tundra de Hieloblanco",
+          "title": "La tundra de hieloblanco",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i2",
+          "type": "image",
+          "src": "/assets/content/eberron/mas-alla/la-friage/hieloblanco/neandertal.webp",
+          "caption": "Un humano primitivo ",
+          "title": "Un humano primitivo",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i3",
+          "type": "image",
+          "src": "/assets/content/eberron/mas-alla/la-friage/hieloblanco/uldra.webp",
+          "caption": "Una uldra",
+          "title": "Una uldra",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "title": "La Aguja de Hielo",
+      "content": [
+        "Una torre de hielo en la parta oriental de Hieloblanco, construída por [[eberron/vida-en-eberron/especies/enanos|enanos]]. Una ventisca potenciada por la cercanía de [[eberron/planos/risia|Risia]] permitió el florecimiento de la **Rosa de Escarcha**, el tercer artefacto requerido por [[manifiesto/npcs|Nigel Faurios]]"
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "image",
+      "src": "/assets/content/eberron/mas-alla/la-friage/hieloblanco/spire.jpg",
+      "caption": "La Aguja de Hielo",
+      "title": "La Aguja de Hielo",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [{ "label": "Rosa de Escarcha", "slug": "manifiesto/artefactos" }]
+    }
+  ]
+}

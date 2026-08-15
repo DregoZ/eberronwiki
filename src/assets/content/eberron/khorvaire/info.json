@@ -166,6 +166,13 @@
           "y": 26.9,
           "label": "Hogar de Tormentas",
           "linkSlug": "eberron/khorvaire/aundair/hogar-tormentas"
+        },
+        {
+          "id": "pin-hieloblanco",
+          "x": 7.4,
+          "y": 7.9,
+          "label": "Hieloblanco",
+          "linkSlug": "eberron/mas-alla/la-friage/hieloblanco"
         }
       ]
     },

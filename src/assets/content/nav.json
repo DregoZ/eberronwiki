@@ -93,25 +93,25 @@
     "icon": "construction",
     "children": [
       {
-        "id": "lista-personajes",
+        "id": "pj-amanito",
         "label": "Amanito Muscario",
         "slug": "personajes/amanito",
         "icon": "cannabis"
       },
       {
-        "id": "lista-personajes",
+        "id": "pj-grock",
         "label": "Grock Lesnar",
         "slug": "personajes/grock",
         "icon": "swords"
       },
       {
-        "id": "lista-personajes",
+        "id": "pj-lunara",
         "label": "Lunara Faldren",
         "slug": "personajes/lunara",
         "icon": "domino_mask"
       },
       {
-        "id": "lista-personajes",
+        "id": "pj-mel",
         "label": "Mel Rospleis",
         "slug": "personajes/mel",
         "icon": "wand_stars"

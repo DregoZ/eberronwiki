@@ -167,6 +167,57 @@
     },
     {
       "type": "separator"
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Aventureros del Gremio Puerta de la Muerte",
+      "content": [
+        "Miembros del gremio [[eberron/khorvaire/breland/sharn/barrios/barrios-medios/puerta-muerte|Puerta de la Muerte]] que fueron los rivales de los personajes en el juego 'No te Rajes', una prueba de iniciación que todos los aspirantes a aventurero deben superar para poder formar parte de un Gremio.",
+        "Durante la expedición a la [[eberron/mas-alla/la-friage/hieloblanco|Isla Hieloblanco]] quedaron atrapados por la ventisca, y probablemente hubiesen muerto de no ser por la ayuda de los personajes."
+      ]
+    },
+    {
+      "id": "b1",
+      "type": "bullet",
+      "items": [
+        "**Ferrín**: Un mediano talentino, áspero en el trato y parco en palabras, ademas de un experto rastreador.",
+        "**Gor'ashtraa**: Un orco de aspecto amenazador, aunque honorable, de carácter tranquilo y un gran conversador.",
+        "**Anna Thema**: Una bruja aereni con una calavera tatuada en el rostro en honor a sus ancestros. A pesar de su aspecto intimidante, es educada y de trato amable."
+      ]
+    },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/manifiesto/npc/ferrin.jpg",
+          "caption": "Ferrín",
+          "title": "Ferrín",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i2",
+          "type": "image",
+          "src": "/assets/content/manifiesto/npc/gorashtraa.jpg",
+          "caption": "Gor'ashtraa",
+          "title": "Gor'ashtraa",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i3",
+          "type": "image",
+          "src": "/assets/content/manifiesto/npc/anathema.png",
+          "caption": "Anna Thema",
+          "title": "Anna Thema",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
     }
   ]
 }
