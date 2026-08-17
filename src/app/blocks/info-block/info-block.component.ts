@@ -74,6 +74,12 @@ import { RouterLink } from '@angular/router';
         color: #0d47a1;
         .icon-container { color: #1976d2; }
       }
+      :host-context(.dark-theme) &.note {
+        background-color: rgba(144, 202, 249, 0.1);
+        border-color: rgba(144, 202, 249, 0.3);
+        color: #bbdefb;
+        .icon-container { color: #90caf9; }
+      }
 
       &.warning {
         background-color: rgba(255, 152, 0, 0.1);
@@ -81,12 +87,24 @@ import { RouterLink } from '@angular/router';
         color: #e65100;
         .icon-container { color: #f57c00; }
       }
+      :host-context(.dark-theme) &.warning {
+        background-color: rgba(255, 183, 77, 0.1);
+        border-color: rgba(255, 183, 77, 0.3);
+        color: #ffe0b2;
+        .icon-container { color: #ffb74d; }
+      }
 
       &.lore {
         background-color: rgba(156, 39, 176, 0.1);
         border-color: rgba(156, 39, 176, 0.3);
         color: #4a148c;
         .icon-container { color: #7b1fa2; }
+      }
+      :host-context(.dark-theme) &.lore {
+        background-color: rgba(186, 104, 200, 0.1);
+        border-color: rgba(186, 104, 200, 0.3);
+        color: #e1bee7;
+        .icon-container { color: #ba68c8; }
       }
     }
   `]

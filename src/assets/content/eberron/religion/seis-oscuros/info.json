@@ -40,11 +40,11 @@
       "type": "text",
       "title": "Cómo se perciben",
       "content": [
-        "no suelen ser venerados como modelos a seguir, sino como fuerzas peligrosas a las que conviene respetar o apaciguar:"
+        "No suelen ser venerados como modelos a seguir, sino como fuerzas peligrosas a las que conviene respetar o apaciguar:"
       ]
     },
     {
-      "id": "t2",
+      "id": "t3",
       "type": "bullet",
       "items": [
         "Un marinero dejará una moneda al **Devorador** antes de zarpar.",
@@ -60,7 +60,7 @@
       "type": "related",
       "items": [
         {
-          "label": "La Hueste soberana",
+          "label": "Hueste soberana",
           "slug": "eberron/religion/hueste-soberana"
         },
         {

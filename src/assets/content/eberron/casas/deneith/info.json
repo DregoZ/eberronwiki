@@ -15,12 +15,10 @@
     {
       "id": "d2",
       "type": "text",
-      "content": "Los [[humanos]] de Deneith, portadores de la Marca Dragontina del Centinela, controlan los principales servicios de seguridad y mercenariado de [[Eberron]]. Con sede en Karrnath, Deneith gestiona las mejores y más respetadas fuerzas de seguridad privada: la Legión de las Muescas (mercenarios) y el Gremio de Custodios (guardaespaldas). Son políticamente neutrales: sirven a quien paga."
-    },
-    {
-      "id": "d1",
-      "type": "text",
-      "content": "Si un gobernante necesita un ejército de alquiler o un noble teme por su vida, contrata a Deneith. Mantienen una estricta neutralidad, lo que significa que un soldado Deneith protegerá a su cliente incluso si el atacante es de su propia Casa."
+      "content": [
+        "Los [[eberron/vida-en-eberron/especies/humanos|humanos]] de Deneith, portadores de la **Marca Dragontina del Centinela**, controlan los principales servicios de seguridad y mercenariado de Eberron. Con sede en [[eberron/khorvaire/karrnath|Karrnath]], Deneith gestiona las mejores y más respetadas fuerzas de seguridad privada: la *  Legión de las Muescas* (mercenarios) y el *Gremio de Custodios* (guardaespaldas). Son políticamente neutrales: sirven a quien paga.",
+        "Si un gobernante necesita un ejército de alquiler o un noble teme por su vida, contrata a Deneith. Mantienen una estricta neutralidad, lo que significa que un soldado Deneith protegerá a su cliente incluso si el atacante es de su propia Casa."
+      ]
     },
     {
       "id": "d3",

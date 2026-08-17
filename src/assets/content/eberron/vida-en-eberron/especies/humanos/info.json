@@ -1,9 +1,9 @@
 {
   "$schema": "../../../../schemas/page.schema.json",
-  "slug": "eberron/vida-en-eberron/especies/cambiantes",
-  "title": "Cambiantes",
-  "tags": ["Khorvaire", "Especies", "Cambiantes"],
-  "aliases": ["Cambiantes", "Licántropos"],
+  "slug": "eberron/vida-en-eberron/especies/humanos",
+  "title": "Humanos",
+  "tags": ["Khorvaire", "Especies", "Humanos"],
+  "aliases": ["Humanos"],
   "unlockCondition": null,
   "blocks": [
     {

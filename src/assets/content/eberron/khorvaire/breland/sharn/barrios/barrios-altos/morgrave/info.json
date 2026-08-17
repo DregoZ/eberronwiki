@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../../../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-altos/morgrave",
+  "title": "Universidad de Morgrave",
+  "tags": ["Sharn", "Barrios Altos", "Universidad"],
+  "aliases": ["Morgrave", "Universidad de Morgrave"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "type": "text",
+      "content": [
+        "La Universidad de Morgrave es una de las instituciones educativas más importantes de Sharn. Fundada en el **738 YK** por **Lord Lareth ir'Morgrave**, es especialmente conocida por sus expediciones arqueológicas a [[eberron/mas-alla/xen-drik|Xen'drik]] y por las investigaciones sobre las civilizaciones que habitaron el continente.",
+        "Morgrave combina la investigación académica con un marcado pragmatismo. Frente a instituciones más prestigiosas y tradicionales, la universidad concede gran importancia a la recuperación de artefactos y al patrocinio de expediciones, incluso cuando los métodos empleados generan cierta controversia.",
+        "El campus ocupa varias estructuras verticales en [[eberron/khorvaire/breland/sharn/distritos/menthis|Menthis Alto]]. La *Torre Dalannan* constituye el núcleo de la universidad, mientras que las **Cinco Agujas** albergan aulas, residencias y dependencias del profesorado. La **Gran Biblioteca** custodia numerosos textos y mapas, y las **Bóvedas** almacenan parte de los artefactos recuperados durante las expediciones.",
+        "La universidad patrocina numerosas expediciones a [[eberron/mas-alla/xen-drik|Xen'drik]]. Proporciona financiación, equipo y suministros a grupos independientes a cambio de obtener derechos preferentes sobre los hallazgos. Sus investigadores muestran especial interés por las ruinas de los antiguos gigantes, el Imperio Dhakaani y los fragmentos relacionados con la [[eberron/vida-en-eberron/profecia|Profecía Dracónica]]."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Algunos académicos consideran que Morgrave no es más que una organización de saqueadores con títulos universitarios. Se dice que financia expediciones con el único propósito de hacerse con artefactos valiosos y que determinados hallazgos desaparecen antes de llegar a los archivos oficiales."
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "note",
+      "content": "[[personajes/lunara|Lunara]] estudió arqueología en la Universidad de Morgrave, donde desarrolló especial interés por la cartografía de ruinas y asentamientos élficos."
+    },
+    {
+      "id": "i1",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/barrios-altos/morgrave/morgrave_uni.webp",
+      "caption": "Universidad de Morgrave",
+      "title": "Universidad de Morgrave",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "s1",
+      "type": "related",
+      "items": [
+        { "label": "Xen'drik", "slug": "eberron/mas-alla/xen-drik" },
+        { "label": "Historia de Eberron", "slug": "eberron/historia" },
+        { "label": "Lunara", "slug": "personajes/lunara" }
+      ]
+    }
+  ]
+}

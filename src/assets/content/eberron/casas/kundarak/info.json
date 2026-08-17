@@ -15,17 +15,11 @@
     {
       "id": "k2",
       "type": "text",
-      "content": "Los Kundarak son una dinastía de enanos portadores de la Marca de la Protección y aliados íntimos de los enanos de los Baluartes de Mror. Gestionan las finanzas del mundo entero."
-    },
-    {
-      "id": "k21",
-      "type": "text",
-      "content": "Dominan la banca, el almacenamiento seguro y los sistemas de seguridad en [[Eberron]]. Sus cámaras acorazadas son legendarias, protegidas por trampas rúnicas, alarmas mágicas y portales dimensionales. Si guardas algo en un banco Kundarak, ni el mejor ladrón del mundo podrá tocarlo.  "
-    },
-    {
-      "id": "k22",
-      "type": "text",
-      "content": "Sus letras de crédito son la columna vertebral del sistema financiero del continente. Ningún banco rival puede competir con su combinación de magia de protección y fiabilidad milenaria.  "
+      "content": [
+        "Los Kundarak son una dinastía de enanos portadores de la **Marca de la Protección** y aliados íntimos de los enanos de los [[eberron/khorvaire/baluartes|Baluartes de Mror]]. Gestionan las finanzas del mundo entero.",
+        "Dominan la banca y los sistemas de seguridad en Eberron. Sus cámaras acorazadas son legendarias, protegidas por trampas rúnicas, alarmas mágicas y portales dimensionales. Si guardas algo en un banco Kundarak, ni el mejor ladrón del mundo podrá tocarlo.",
+        "Sus letras de crédito son la columna vertebral del sistema financiero del continente. Ningún banco rival puede competir con su combinación de magia de protección y fiabilidad milenaria.  "
+      ]
     },
     {
       "id": "k3",

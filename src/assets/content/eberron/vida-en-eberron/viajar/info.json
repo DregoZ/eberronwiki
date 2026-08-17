@@ -14,6 +14,9 @@
       ]
     },
     {
+      "type": "separator"
+    },
+    {
       "id": "h2",
       "type": "text",
       "title": "Rayocarril",

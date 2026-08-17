@@ -10,9 +10,7 @@
       "id": "h2",
       "type": "text",
       "content": [
-        "Existen señales, patrones y secretos ocultos en los planos, las lunas, en el mismo mundo que ocultan fragmentos de esta mítica profecía.",
-        "Los eruditos de la Profecía ansían desentrañar sus secretos y su significado final, aunque pocos son los que tienen tiempo o recursos para dedicarse a ello.",
-        "La profecía no describe el futuro, si no posibles futuros, junto con los pasos para convertirlos en realidad.",
+        "Existen señales, patrones y secretos ocultos en los planos, las lunas, en el mismo mundo que ocultan fragmentos de esta mítica profecía. Los eruditos de la Profecía ansían desentrañar sus secretos y su significado final, aunque pocos son los que tienen tiempo o recursos para dedicarse a ello. La profecía no describe el futuro, sino posibles futuros, junto con los pasos para convertirlos en realidad.",
         "La Profecía Dracónica no es una predicción lineal o un texto sagrado que puedas leer en un libro. Es la fuerza más importante de Eberron: un mapa vivo del destino, un registro en constante evolución de todos los futuros posibles del universo.",
         "La profecía describe eventos clave en el ciclo cósmico y la llegada del *Dragón de la Tormenta*, Khyber, quien despertará para traer una nueva era de tinieblas y caos."
       ]
@@ -46,7 +44,7 @@
     {
       "id": "h2",
       "type": "text",
-      "title": "No hay destino, si no de decisiones",
+      "title": "No hay destino, solo decisiones",
       "content": [
         "La Profecía nunca dice *Esto va a pasar*. En su lugar, funciona mediante condicionales matemáticos y narrativos extremos: *Si el heredero de la corona de Breland muere a manos de un forjado antes del eclipse de la luna de sangre, entonces el sello del demonio X se romperá; pero si el rey sobrevive, la nación de Droaam colapsará*.",
         "Es un tablero de ajedrez cósmico infinitamente complejo lleno de *Si pasa X, entonces ocurrirá Y o Z*."

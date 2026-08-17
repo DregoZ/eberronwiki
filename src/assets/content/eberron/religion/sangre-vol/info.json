@@ -11,7 +11,7 @@
       "type": "text",
       "content": [
         "Una fe incomprendida y a menudo tachada de 'malvada' por su uso de la nigromancia, muy popular en Karrnath. Los Buscadores creen que los dioses son crueles o inexistentes, y que la muerte es el olvido absoluto. Para ellos, la chispa divina reside en la propia sangre de los vivos. Utilizan a los muertos vivientes no como algo sagrado, sino como herramientas sin alma para proteger a la comunidad, mientras los vivos buscan el secreto de la inmortalidad.",
-        "Aquellos que sacrifican su vida para servir eternamente en la no muerte, no son venerados si no considerados mártires."
+        "Aquellos que sacrifican su vida para servir eternamente en la no muerte, no son venerados sino considerados mártires."
       ]
     },
     {
@@ -28,7 +28,7 @@
       "type": "related",
       "items": [
         {
-          "label": "La Hueste soberana",
+          "label": "Hueste soberana",
           "slug": "eberron/religion/hueste-soberana"
         },
         {
