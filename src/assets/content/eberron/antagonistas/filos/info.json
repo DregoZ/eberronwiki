@@ -9,12 +9,16 @@
     {
       "id": "f0",
       "type": "text",
-      "content": " Un líder carismático, mesiánico y despiadado de los Forjados que ha establecido su base en las ruinas de las Tierras Enlutadas y que defiende el supremacismo de los Forjados"
+      "content": [
+        "Un líder carismático, mesiánico, despiadado y supremacista que ha establecido su base en las ruinas de las [[eberron/khorvaire/tierras-enlutadas|Tierras Enlutadas]].",
+        "Considera que los [[eberron/vida-en-eberron/especies/forjados|forjados]] son seres superiores y que las razas de carne son débiles y opresoras. Reunie a fugitivos, veteranos desencantados y otros constructos para reparar los **talleres de creación** destruidos y formar un ejército con el que exterminar a la humanidad de Khorvaire."
+      ]
     },
     {
-      "id": "f1",
-      "type": "text",
-      "content": "Considera que los forjados son seres superiores y que las razas de carne son débiles y opresoras. Está reuniendo a forjados fugitivos, veteranos amargados y constructos para reparar los talleres de creación destruidos y formar un ejército con el que exterminar a la humanidad de Khorvaire."
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Algunos mercenarios aseguran que el Señor de los Filos ya no busca conquistar Cyre ni vengarse de nadie. Su verdadero objetivo sería reunir a los veteranos de la Última Guerra bajo una misma bandera, no para iniciar otra guerra, sino para estar preparados cuando alguien decida comenzar la siguiente."
     },
     {
       "id": "f2",

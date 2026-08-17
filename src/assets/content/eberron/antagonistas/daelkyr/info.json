@@ -9,12 +9,16 @@
     {
       "id": "a0",
       "type": "text",
-      "content": "Los señores de las aberraciones, entidades inmortales provenientes de [[eberron/planos/xoriat|Xoriat]] que fueron encerrados en el inframundo de Khyber hace milenios. Los daelkyr son los creadores de los contempladores, azotamentes y dolgarrs."
+      "content": [
+        "Los señores de las aberraciones, entidades inmortales provenientes de [[eberron/planos/xoriat|Xoriat]] que fueron encerrados en el inframundo de Khyber hace milenios. Los daelkyr son los creadores de los contempladores, azotamentes y dolgarrs.",
+        "No buscan conquistar el mundo, sino transformarlo en una obra de arte retorcida y demente. Influyen en los Cultos del Dragón Inferior, enloqueciendo a mortales para que abran los portales de sus prisiones. Su mera presencia altera la realidad y las leyes naturales."
+      ]
     },
     {
-      "id": "a1",
-      "type": "text",
-      "content": "No buscan conquistar el mundo, sino transformarlo en una obra de arte retorcida y demente. Influyen en los Cultos del Dragón Inferior, enloqueciendo a mortales para que abran los portales de sus prisiones. Su mera presencia altera la realidad y las leyes naturales."
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Algunos médicos de Khorvaire han comenzado a encontrar pacientes con la misma extraña alteración en los sueños: todos describen una ciudad que no existe, construida con carne y hueso. Lo inquietante es que varios de ellos aseguran haber recibido instrucciones para llegar hasta ella."
     },
     {
       "id": "a2",

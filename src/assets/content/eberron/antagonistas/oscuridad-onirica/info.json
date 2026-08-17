@@ -9,12 +9,16 @@
     {
       "id": "a0",
       "type": "text",
-      "content": "El brazo de espionaje psíquico e infiltración de los Quori (espíritus alienígenas de las pesadillas que gobiernan el continente de [[eberron/mas-alla/sarlona|Sarlona]])."
+      "content": [
+        "El brazo de espionaje psíquico e infiltración de los Quori (espíritus alienígenas de las pesadillas que gobiernan el continente de [[eberron/mas-alla/sarlona|Sarlona]]).",
+        "Buscan estabilizar su control mental sobre el plano material. Mientras que en [[eberron/mas-alla/sarlona|Sarlona]] gobiernan abiertamente, en [[eberron/khorvaire|Khorvaire]] actúan a través de agentes poseídos en secreto, psiónicos y asesinos de mentes. Buscan desestabilizar las naciones de Khorvaire mediante la paranoia, el sabotaje y las pesadillas para que, eventualmente, la población clame por el 'orden' que ofrece su Imperio."
+      ]
     },
     {
-      "id": "a1",
-      "type": "text",
-      "content": "Buscan estabilizar su control mental sobre el plano material. Mientras que en [[eberron/mas-alla/sarlona|Sarlona]] gobiernan abiertamente, en [[eberron/khorvaire|Khorvaire]] actúan a través de agentes poseídos en secreto, psiónicos y asesinos de mentes. Buscan desestabilizar las naciones de Khorvaire mediante la paranoia, el sabotaje y las pesadillas para que, eventualmente, la población clame por el 'orden' que ofrece su Imperio."
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Dicen que en Sharn hay gente que lleva años soñando con la misma mujer. No la conocen, pero después de cada sueño recuerdan una conversación que nunca tuvieron y sienten una inexplicable nostalgia por un lugar en el que jamás han estado. Algunos de ellos han empezado a buscarse entre sí."
     },
     {
       "id": "a2",

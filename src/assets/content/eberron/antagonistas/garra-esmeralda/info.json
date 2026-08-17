@@ -9,12 +9,16 @@
     {
       "id": "f0",
       "type": "text",
-      "content": "Una organización paramilitar y terrorista de fanáticos [[eberron/khorvaire/karrnath|karrnathienses]]. Antaño fueron caballeros de élite durante la [[eberron/historia|Última Guerra]], pero fueron ilegalizados cuando el rey de [[eberron/khorvaire/karrnath|Karrnath]] prohibió las artes oscuras."
+      "content": [
+        "Una organización paramilitar y terrorista de fanáticos [[eberron/khorvaire/karrnath|karrnathienses]]. Antaño fueron caballeros de élite durante la [[eberron/historia|Última Guerra]], pero fueron ilegalizados cuando el rey de [[eberron/khorvaire/karrnath|Karrnath]] prohibió las artes oscuras.",
+        "Operan como células terroristas en todo el continente, robando reliquias mágicas y sembrando el caos. En secreto, son los peones de **Erandis Vol**, una liche con aviesas motivaciones."
+      ]
     },
     {
-      "id": "f1",
-      "type": "text",
-      "content": "Operan como células terroristas en todo el continente, robando reliquias mágicas y sembrando el caos. En secreto, son los peones de **Erandis Vol**, una liche con aviesas motivaciones."
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Se dice que algunos miembros de la Garra Esmeralda ya no siguen las órdenes de ningún señor de la guerra. Al parecer, ciertos caballeros han empezado a recibir instrucciones directamente de una figura conocida como el **Caballero de la Calavera**, aunque nadie sabe si se trata de un nuevo líder, un título o algo mucho más antiguo."
     },
     {
       "id": "f2",

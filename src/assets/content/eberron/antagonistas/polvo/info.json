@@ -9,12 +9,16 @@
     {
       "id": "f0",
       "type": "text",
-      "content": "Una sociedad secreta de demonios y rakshasas inmortales que habitan en las sombras de Khorvaire. Son los sirvientes supervivientes de los **Señores Supremos**, dioses-demonio encadenados en las profundidades de la tierra desde la [[eberron/historia|Era de los Demonios]]."
+      "content": [
+        "Una sociedad secreta de demonios y rakshasas inmortales que habitan en las sombras de Khorvaire. Son los sirvientes supervivientes de los **Señores Supremos**, dioses-demonio encadenados en las profundidades de la tierra desde la [[eberron/historia|Era de los Demonios]].",
+        "Su objetivo principal es liberar a sus antiguos señores. Para lograrlo, manipulan la geopolítica de las [[eberron/khorvaire/cinco-naciones|Cinco Naciones]] y sabotean a las [[eberron/casas|Casas Dragontinas]]. Son maestros del disfraz y los hilos invisibles; su mayor arma es manipular la [[eberron/vida-en-eberron/profecia|Profecía Dracónica]] para que los propios héroes cometan los actos necesarios para romper los sellos de sus prisiones."
+      ]
     },
     {
-      "id": "f1",
-      "type": "text",
-      "content": "Su objetivo principal es liberar a sus antiguos señores. Para lograrlo, manipulan la geopolítica de las [[eberron/khorvaire/cinco-naciones|Cinco Naciones]] y sabotean a las [[eberron/casas|Casas Dragontinas]]. Son maestros del disfraz y los hilos invisibles; su mayor arma es manipular la Profecía de los Dragones para que los propios héroes cometan los actos necesarios para romper los sellos de sus prisiones."
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "Hay quienes aseguran que los Señores del Polvo no pretenden destruir el mundo, sino mantenerlo exactamente como está. Cualquier cambio importante en la realidad podría alterar la Profecía y permitir que algo todavía peor que los propios demonios regrese al mundo."
     },
     {
       "id": "f2",
