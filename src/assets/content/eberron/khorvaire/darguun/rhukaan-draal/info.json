@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/darguun/rhukaan-draal",
+  "title": "Rhukaan Draal",
+  "tags": ["Capital", "Darguun"],
+  "aliases": ["RhukaanDraal", "Rhukaan Draal"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Información de interés",
+      "content": [
+        "**Población:** alrededor de 30.000 habitantes, principalmente hobgoblins, osgos y goblins, aunque también viven en la ciudad humanos y miembros de otras especies.",
+        "**Gobierno:** sede del Gran Señor Lhesh Haruuc y del gobierno central de Darguun.",
+        "**Economía:** comercio de metales, armas, artesanía trasgoide y productos procedentes del interior de Darguun. La ciudad también sirve como punto de encuentro entre comerciantes de Khorvaire y los clanes trasgoides.",
+        "**Servicios:** cuenta con mercados, posadas, tabernas, herrerías, sanadores, comerciantes de armas y armaduras y diversos artesanos. También pueden encontrarse mercenarios y guías familiarizados con las regiones más peligrosas de Darguun.",
+        "**Seguridad:** la presencia de soldados y guerreros es habitual, pero la ley y el orden dependen en buena medida de las relaciones entre clanes. Los visitantes extranjeros harían bien en respetar las costumbres locales.",
+        "**Interés histórico:** la ciudad conserva restos y construcciones vinculadas al antiguo Imperio Dhakaani, por lo que es un destino de interés para historiadores y arqueólogos.",
+        "**Relaciones exteriores**: caravanas procedentes de Breland y otras regiones de Khorvaire llegan regularmente a Rhukaan Draal, aunque viajar por Darguun sigue siendo más peligroso que hacerlo por las naciones occidentales."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "image",
+      "src": "/assets/content/eberron/khorvaire/darguun/rhukaan-draal/rhukandraal.webp",
+      "caption": "Rhukaan Draal",
+      "title": "Rhukaan Draal",
+      "align": "center",
+      "size": "medium"
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "Rhukaan Draal es la capital y principal ciudad de [[eberron/khorvaire/darguun|Darguun]], levantada sobre las ruinas de una antigua fortaleza hobgoblin. Tras la creación de la nación al final de la [[eberron/historia/ultima-guerra|Última Guerra]], se convirtió en el centro político del nuevo reino y en la sede de su gobernante, el **Gran Señor Lhesh Haruuc**.",
+        "La ciudad conserva buena parte de su carácter militar. Sus calles, murallas y edificios recuerdan el pasado del antiguo [[eberron/historia|Imperio Dhakaani]], mientras que clanes de todo Darguun acuden a ella para comerciar, negociar y conspirar. Aunque en sus mercados se suelen encontrar miembros de otras razas, Rhukaan Draal sigue siendo, ante todo, una ciudad trasgoide.",
+        "Bajo la autoridad de Haruuc, Rhukaan Draal representa el intento de convertir los antiguos territorios trasgoides en una nación unificada. Sin embargo, las rivalidades entre clanes, la presencia de mercenarios y las facciones rebeldes hacen que la capital sea un lugar donde la política puede resultar tan afilada como una espada."
+      ]
+    },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/darguun/rhukaan-draal/city.jpg",
+          "caption": "La ciudad de Rhukaan Draal",
+          "title": "La ciudad de Rhukaan Draal",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i2",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/darguun/rhukaan-draal/market.jpg",
+          "caption": "Mercado en Rhukaan Draal",
+          "title": "Mercado en Rhukaan Draal",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [{ "label": "Darguun", "slug": "eberron/khorvaire/darguun" }]
+    }
+  ]
+}

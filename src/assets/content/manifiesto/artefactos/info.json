@@ -63,6 +63,32 @@
           "size": "medium"
         }
       ]
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "id": "t3",
+      "type": "text",
+      "title": "Rosa de Escarcha",
+      "content": [
+        "Rosa que floreció en la cima de la [[eberron/mas-alla/la-friage/hieloblanco|Aguja de Hielo]] durante una gélida ventisca producida por la cercanía de [[eberron/planos/risia|Risia]]."
+      ]
+    },
+    {
+      "id": "g3",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/manifiesto/artefactos/rosa_escarcha.jpg",
+          "caption": "Rosa de Escarcha",
+          "title": "Rosa de Escarcha",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
     }
   ]
 }

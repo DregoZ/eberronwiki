@@ -25,7 +25,15 @@
       "caption": "Darguun",
       "title": "Darguun",
       "align": "center",
-      "size": "full"
+      "size": "full",
+      "pins": [
+        {
+          "x": 34.22,
+          "y": 43.14,
+          "label": "Rhukaan Draal",
+          "linkSlug": "eberron/khorvaire/darguun/rhukaan-draal"
+        }
+      ]
     },
     {
       "id": "a4",
