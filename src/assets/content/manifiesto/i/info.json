@@ -28,7 +28,8 @@
       "type": "related",
       "items": [
         { "label": "Forjados y olvidados", "slug": "manifiesto/i" },
-        { "label": "Vive otro día", "slug": "manifiesto/ii" }
+        { "label": "Vive otro día", "slug": "manifiesto/ii" },
+        { "label": "Al mal tiempo, buena cara", "slug": "manifiesto/iii" }
       ]
     }
   ]

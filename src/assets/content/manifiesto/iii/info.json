@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/page.schema.json",
+  "slug": "manifiesto/iii",
+  "title": "Al mal tiempo, buena cara",
+  "tags": ["manifiesto"],
+  "aliases": [""],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "En este capítulo, los jugadores atravesaron [[eberron/khorvaire|Khorvaire]] por mar y aire, para llegar a [[eberron/mas-alla/la-friage/hieloblanco|Hieloblanco]] en busca de la [[manifiesto/artefactos|Rosa de Escarcha]], una rara flor que brota cuando la influencia de [[eberron/planos/risia|Risia]] es mayor.",
+        "Una larga y fuerte ventisca acompañó a los héroes durante la travesía hasta la Aguja de Hielo, y no se detuvieron a pesar de las inclemencias del tiempo. Su perseverancia salvó la vida de los aventureros del [[eberron/khorvaire/breland/sharn/barrios/barrios-medios/puerta-muerte|Gremio Puerta de la Muerte]].",
+        "Tras dejar atrás las interminables escaleras que los separaba de su objetivo, finalmente se hicieron con la Rosa de Escarcha y descendieron desde lo alto de la Aguja de Hielo deslizándose sobre una puerta."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "image",
+      "src": "/assets/content/manifiesto/iii/iii.jpg",
+      "caption": "Al mal tiempo, buena cara",
+      "title": "Al mal tiempo, buena cara",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [
+        { "label": "Forjados y olvidados", "slug": "manifiesto/i" },
+        { "label": "Vive otro día", "slug": "manifiesto/ii" },
+        { "label": "Al mal tiempo, buena cara", "slug": "manifiesto/iii" }
+      ]
+    }
+  ]
+}

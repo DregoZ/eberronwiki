@@ -147,6 +147,12 @@
         "label": "II - Vive otro día",
         "slug": "manifiesto/ii",
         "icon": "counter_2"
+      },
+      {
+        "id": "capitulo-iii",
+        "label": "III - Al mal tiempo, buena cara",
+        "slug": "manifiesto/iii",
+        "icon": "counter_3"
       }
     ]
   }
