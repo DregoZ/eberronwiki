@@ -9,16 +9,44 @@
     {
       "id": "t1",
       "type": "text",
-      "content": "El reino de la magia de los cuentos de hadas, gobernado por las poderosas e inmortales Archifatas. El tiempo aquí fluye de forma extraña y el plano se rige por las leyes de la narrativa: si actúas como el héroe o el villano de una historia, el propio plano te ayudará o te castigará."
+      "content": [
+        "Thelanis es el plano feérico, un reino de bosques encantados, palacios imposibles y paisajes donde las leyes de la realidad son tan flexibles como las propias criaturas feéricas. El tiempo, el espacio y la naturaleza pueden comportarse de formas extrañas, y las historias y emociones tienen un peso casi físico.",
+        "Thelanis está habitado por innumerables seres feéricos, desde pequeños espíritus y duendes hasta poderosos señores y damas de las cortes. Sus habitantes suelen estar ligados a arquetipos, leyendas y relatos, y muchos de ellos parecen desempeñar eternamente el papel que les corresponde en una historia.",
+        "Para los mortales, Thelanis es un lugar hermoso y peligroso. Sus habitantes respetan las promesas y los pactos, pero rara vez interpretan las palabras de la misma manera que un humano. En la Corte Feérica, una promesa puede ser tan vinculante como una cadena."
+      ]
     },
     {
-      "id": "t2",
-      "type": "image",
-      "src": "/assets/content/eberron/planos/thelanis/thelanis.png",
-      "caption": "Thelanis",
-      "title": "Thelanis",
-      "align": "center",
-      "size": "medium"
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/eberron/planos/thelanis/thelanis.png",
+          "caption": "Thelanis",
+          "title": "Thelanis",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/eberron/planos/thelanis/forest.jpg",
+          "caption": "Bosque feérico",
+          "title": "Bosque feérico",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/eberron/planos/thelanis/palace.jpg",
+          "caption": "Un palacio oculto",
+          "title": "Un palacio oculto",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
     },
     {
       "id": "t3",
