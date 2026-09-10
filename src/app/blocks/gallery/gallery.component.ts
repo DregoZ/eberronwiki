@@ -10,7 +10,7 @@ import { ImageBlockComponent } from '../image-block/image-block.component';
 @Component({
   selector: 'app-gallery',
   standalone: true,
-  imports: [CommonModule, ImageBlockComponent],
+  imports: [CommonModule],
   template: `
     @if (block().title) {
       <h3 class="gallery-title">{{ block().title }}</h3>
@@ -29,7 +29,16 @@ import { ImageBlockComponent } from '../image-block/image-block.component';
       <div class="overlay" (click)="close()">
         <div class="overlay-content" (click)="$event.stopPropagation()">
           <button class="close-btn" (click)="close()" aria-label="Close">✕</button>
-          <app-image-block [block]="selected()!"></app-image-block>
+          <img
+            class="overlay-image"
+            [src]="selected()!.src"
+            [alt]="selected()!.caption || selected()!.title || 'Wiki image'"
+          />
+          @if (selected()!.caption || selected()!.title) {
+            <div class="overlay-caption">
+              {{ selected()!.caption || selected()!.title }}
+            </div>
+          }
         </div>
       </div>
     }

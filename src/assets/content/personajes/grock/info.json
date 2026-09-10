@@ -2,8 +2,15 @@
   "$schema": "../../schemas/page.schema.json",
   "slug": "eberron/personajes/grock",
   "title": "Grock Lesnar",
-  "tags": ["Personajes", "Orco", "Guerrero"],
-  "aliases": ["Grock", "Lesnar"],
+  "tags": [
+    "Personajes",
+    "Orco",
+    "Guerrero"
+  ],
+  "aliases": [
+    "Grock",
+    "Lesnar"
+  ],
   "unlockCondition": null,
   "blocks": [
     {
@@ -29,7 +36,8 @@
       ]
     },
     {
-      "type": "separator"
+      "type": "separator",
+      "id": ""
     },
     {
       "id": "t1",
@@ -48,10 +56,11 @@
       "content": "**Resultado**: un par de costillas fisuradas, un ojo hinchado y 125po"
     },
     {
-      "type": "separator"
+      "type": "separator",
+      "id": ""
     },
     {
-      "id": "t1",
+      "id": "t2",
       "type": "text",
       "title": "II - Ocho palizas y media",
       "content": [
@@ -62,19 +71,74 @@
       ]
     },
     {
-      "id": "i1",
+      "id": "i2",
       "type": "info",
       "variant": "note",
       "content": "**Resultado**: Has completado una racha de 9 victorias consecutivas y derrotado a Flick Rair. Ganas 200po.\nEl sobre contiene un papel que dice: LA FRAGUA -  Cenizanegra - [[eberron/vida-en-eberron/calendario|20 de Eyre]], Medianoche"
     },
     {
+      "type": "separator"
+    },
+    {
+      "id": "3",
+      "type": "text",
+      "title": "III - El club de la tunda",
+      "content": [
+        "En el fondo, Grock esperaba un lugar con más encanto que una forja semiderruida en [[eberron/khorvaire/breland/sharn/barrios/engranajes|Cenizanegra]]. Aunque, pensándolo bien, un espectáculo consistente en saltarle los dientes al rival no terminaba de encajar en la definición de «encantador», ni siquiera en una ciudad como Sharn. Entre los contendientes pudo reconocer a André el Mediano, Small Show e Ikit Claus, entre otros.",
+        "El edificio, o lo que quedaba de él, estaba acondicionado para la celebración de un espectáculo llamado «Liada Parda», en el que varios contendientes lucharían simultáneamente hasta que solo quedase uno en pie. Un total de dieciséis peleadores se batirían a la vez en un ruedo de grava, tierra y restos metalúrgicos.",
+        "La contienda resultó ser caótica, sucia y bastante rápida. Las alianzas se creaban y rompían en segundos, mientras los golpes traperos y las jugadas sucias se sucedían vertiginosamente. Nada de esto fue suficiente para doblegar a Grock. En un reflejo de lo ocurrido semanas atrás, noqueó a Small Show tras lanzarlo por los aires contra André el Mediano, que también quedó descalificado al caer estrepitosamente fuera del ruedo.",
+        "Una victoria pírrica sigue siendo una victoria, y el público la celebró con una estruendosa ovación. Stikk ir’Mahon lo saludó con un gesto de aprobación y una invitación formal al Circuito Rojo. El Dandy, por su parte, le ofreció convertirse en su representante y ponerle un entrenador. Todavía aturdido, Grock se retiró a un lado para recuperar el aliento y trabajarse un sanguinolento escupitajo.",
+        "«Pues tampoco fue para tanto», pensó."
+      ]
+    },
+    {
+      "id": "i2",
+      "type": "info",
+      "variant": "note",
+      "content": "**Resultado**: Has ganado la Liada parda por la mínima. A partir de ahora podrás competir en el **Circuito Rojo**, una competición de más empaque. **Dandy** se encargará del ‘papeleo’ y **Beso Negro**, que en realidad se llama **Mecha**, se encargará de tu entrenamiento. \n\nMecha es un analista táctico excelente y conoce un par de trucos sucios.\nElige uno:  \n\n**Beso Negro**: Cuando uses el *Spear*, puedes gastar 1 DS adicional para lanzarte de cabeza y usar el *Beso Negro*. Puedes cambiarle el nombre, pero estaría feo. \n\n **Patada Nuclear**: Cuando uses el *RKO*, puedes gastar 1 DS adicional para usar la *Patada Nuclear*, un sacho boca arriba que golpea con los dos pies."
+    },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "src": "/assets/content/personajes/grock/3/dandy.webp",
+          "caption": "El Dandy del Engranaje",
+          "title": "El Dandy del Engranaje",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i1",
+          "src": "/assets/content/personajes/grock/3/mecha.jpg",
+          "caption": "Mecha",
+          "title": "Mecha",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
       "id": "r4",
       "type": "related",
       "items": [
-        { "label": "Amanito Muscario", "slug": "personajes/amanito" },
-        { "label": "Grock Lesnar", "slug": "personajes/grock" },
-        { "label": "Lunara Faldren", "slug": "personajes/lunara" },
-        { "label": "Mel Rospleis", "slug": "personajes/mel" }
+        {
+          "label": "Amanito Muscario",
+          "slug": "personajes/amanito"
+        },
+        {
+          "label": "Grock Lesnar",
+          "slug": "personajes/grock"
+        },
+        {
+          "label": "Lunara Faldren",
+          "slug": "personajes/lunara"
+        },
+        {
+          "label": "Mel Rospleis",
+          "slug": "personajes/mel"
+        }
       ]
     }
   ]
