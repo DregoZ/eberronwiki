@@ -74,7 +74,7 @@
       "id": "i2",
       "type": "info",
       "variant": "note",
-      "content": "**Resultado**: Has completado una racha de 9 victorias consecutivas y derrotado a Flick Rair. Ganas 200po.\nEl sobre contiene un papel que dice: LA FRAGUA -  Cenizanegra - [[eberron/vida-en-eberron/calendario|20 de Eyre]], Medianoche"
+      "content": "**Resultado**: Has completado una racha de 9 victorias consecutivas y derrotado a Flick Rair. Ganas 200po.\n\nEl sobre contiene un papel que dice: LA FRAGUA -  Cenizanegra - [[eberron/vida-en-eberron/calendario|20 de Eyre]], Medianoche"
     },
     {
       "type": "separator"
@@ -138,6 +138,10 @@
         {
           "label": "Mel Rospleis",
           "slug": "personajes/mel"
+        },
+        {
+          "label": "El Circuito Rojo",
+          "slug": "personajes/grock/rivales"
         }
       ]
     }

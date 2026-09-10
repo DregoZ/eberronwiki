@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/page.schema.json",
+  "slug": "eberron/personajes/amanito/herbalismo",
+  "title": "Amanito Muscario",
+  "tags": [
+    "Herbalismo"
+  ],
+  "aliases": [
+    "Muscario",
+    "Amanito"
+  ],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Herramientas de Herbalista",
+      "content": [
+        "El límite al coste de creación semanal aumenta: 50po -> 100po",
+        "Cuando dediques una semana a fabricar, se incluirá en ella el tiempo dedicado a la búsqueda, cultivo y compra de materiales específicos que te permitirán mejorar los objetos que vayas a crear. Las objetos que fabriques esta semana pueden mejorarse con esos hierbas y hongos especiales. Puedes elegir dos opciones de entre las siguientes."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "note",
+      "content": "*Infusionando varios sombreros de hongo en el líquido de la poción, puedes crear encurtidos curativos del tamaño de un bocado.* \n\n**Pociones de sanación (25po)**: 2d4+2 --> ***Encurtidos de cabesón***: la curación máxima (10) se aplica aunque te comas uno de estos ricos hongos como acción bonus."
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "note",
+      "content": "*Si se añade raíz de alcolito durante la fermentación, se pueden concentrar las dosis en el mismo frasco sin desequilibrar el ph.*\n\n**Antitoxina** (25po): durante 1h tienes ventaja para resistir la Intoxicación. --> ***Antitoxina Concentrada***: durante 1h eres inmune a la Intoxicación y resistes el daño de veneno.\","
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "note",
+      "content": "*Tu versión de las Sales Aromáticas de la Casa Jorasco. Estas cápsulas proporcionan un breve estallido de energía cuando se rompen bajo la nariz*\n\n**Botiquines** (5po, 10 usos): gastas un uso para estabilizar a una criatura con 0PG. --> ***Inhaladores de polvo feérico***: Cuando se usa el botiquín para estabilizar a una criatura, recupera 1PG. En lugar de fabricar botiquines nuevos, puedes aplicarlo a los botiquines que fabricaste anteriormente sin coste."
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "note",
+      "content": "*Convences a Florentino para que te deje usar su alambique más a menudo para aumentar la producción.*\n\n**Pociones de Sanación grandes (100po)**: 4d4+4 --> ***Usar el alambique grande***: durante esta semana, puedes doblar el límite al coste de creación y gastar hasta 200po en pociones."
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [{ "label": "Amanito Muscario", "slug": "personajes/amanito" }]
+    }
+  ]
+}
+
+
+
+

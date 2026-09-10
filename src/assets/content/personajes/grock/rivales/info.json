@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "eberron/personajes/grock/rivales",
+  "title": "Rivales de Grock",
+  "tags": ["Rivales"],
+  "aliases": ["Rivales de Grock"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "El Circuito Rojo",
+      "content": [
+        "**Blas F. Emo**: Un ágil khoravar de largo flequillo que convierte la lucha en un rítmico baile de melancólicas rimas. Es rival de MS Punki.",
+        "**MS Punki:** Un khoravar que usa tácticas sucias de lucha callejera. Incluso su estrafalario peinado sirve como herramienta de despiste. Es rival de Blas F. Emo.",
+        "**El Desenterrador**: Un orco alto de vestimenta fúnebre y cara de pocos amigos. Dicen que si lo enfadas te matará, para luego sacarte de la tumba y seguir pegándote.",
+        "**Princesa Incógnita**: Una talentina enmascarada que ha conseguido meterse en combates de este calibre. Nadie conoce su identidad ni su procedencia.",
+        "**Sargento Matansa**: Un rudo hobgoblin mercenario bastante bocón que al terminar la guerra se metió en el mundo de las peleas buscando dinero y diversión.",
+        "**Juani Cena**: Una amazona valenar experta en combate cerrado y enamorada de la música. Su fiereza luchando la ha convertido en una de las favoritas. Tiene su propio tema musical de entrada.",
+        "**Señor Sublime**: Un humano de rubia melena y proporciones divinas. Sus acompañantes llevan siempre un gran espejo, que colocan al borde del ruedo para su disfrute.",
+        "**Esteban Piedrafría**: Un goliat de la Friage, muy alto y musculoso. Antes de combatir le encanta beberse de golpe dos jarras de cerveza Cannegro."
+
+
+      ]
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [{ "label": "Grock Lesnar", "slug": "personajes/grock" }]
+    }
+  ]
+}
