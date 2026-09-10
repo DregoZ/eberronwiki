@@ -77,10 +77,11 @@
       ]
     },
     {
-
+      "id": "i3",
+      "type": "info",
+      "variant": "note",
+      "content": "**Resultado**: Mejoras tu pericia en el destilado de pociones y otros brebajes. Consulta el apartado de [[personajes/amanito/herbalismo|Herbalismo]]. \n\nLas Ratas llevan sus conocimientos a otras personas y tu nombre comienza a sonar en los barrios bajos de Sharn."
     },
-
-
     {
       "id": "r4",
       "type": "related",

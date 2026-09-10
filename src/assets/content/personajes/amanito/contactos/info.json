@@ -2,8 +2,13 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "personajes/amanito/contactos",
   "title": "Contactos de Amanito",
-  "tags": ["Contactos", "Amanito"],
-  "aliases": ["Contactos y rumores de Amanito"],
+  "tags": [
+    "Contactos",
+    "Amanito"
+  ],
+  "aliases": [
+    "Contactos y rumores de Amanito"
+  ],
   "unlockCondition": null,
   "blocks": [
     {
@@ -12,8 +17,15 @@
       "title": "Contactos en los bajos fondos",
       "content": [
         "***Las ratas***",
-        "Amanito se ha ganado cierta reputación entre *las ratas* de Poco Dura. No lo consideran un líder, ni mucho menos, pero algunos niños saben que el extraño druida de las setas puede enseñarles cosas muy útiles. A cambio, están dispuestos a compartir rumores, señalar un rostro conocido o avisarle cuando algo extraño ocurre en las calles."
+        "Amanito se ha ganado cierta reputación entre *las ratas* de Poco Dura. No lo consideran un líder, ni mucho menos, pero algunos niños saben que el extraño druida de las setas puede enseñarles cosas muy útiles. A cambio, están dispuestos a compartir rumores, señalar un rostro conocido o avisarle cuando algo extraño ocurre en las calles.",
+        "La red de Amanito empieza a crecer horizontalmente. Rumores sobre un *sanador de las setas* recorren por los Engranajes y los barrios más pobres de Poco Dura."
       ]
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "note",
+      "content": "**Rumor**: Un potente narcótico llamado *Ensueño* está siendo distribuído en los Engranajes y los barrios bajos. La banda de los Daask reparte comercia con esta sustancia... y la usa como medio para obtener poder sobre los consumidores."
     },
     {
       "id": "g1",
@@ -33,7 +45,12 @@
     {
       "id": "r4",
       "type": "related",
-      "items": [{ "label": "Amanito Muscario", "slug": "personajes/amanito" }]
+      "items": [
+        {
+          "label": "Amanito Muscario",
+          "slug": "personajes/amanito"
+        }
+      ]
     }
   ]
 }
