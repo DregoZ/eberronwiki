@@ -1,7 +1,6 @@
-import { Component, input } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { ImageBlock, GalleryBlock } from '../../core/models/block.model';
-import { ImageBlockComponent } from '../image-block/image-block.component';
+import {Component, input} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {GalleryBlock, ImageBlock} from '../../core/models/block.model';
 
 /**
  * Gallery component: shows a collection of ImageBlock objects in a responsive 2‑column grid.

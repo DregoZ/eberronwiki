@@ -25,7 +25,11 @@ import { RouterLink } from '@angular/router';
                 <td [attr.data-label]="block().headers[$index]">
                   @for (segment of (cell | parseInternalLinks); track $index) {
                     @if (segment.isLink) {
-                      <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
+                      @if (segment.isExternal) {
+                        <a [href]="segment.url" class="external-link" target="_blank" rel="noopener noreferrer">{{ segment.label }}</a>
+                      } @else {
+                        <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
+                      }
                     } @else {
                       <span [class.bold]="segment.isBold" [class.italic]="segment.isItalic">{{ segment.text }}</span>
                     }
@@ -51,6 +55,29 @@ import { RouterLink } from '@angular/router';
 
       .italic {
         font-style: italic;
+      }
+
+      .internal-link,
+      .external-link {
+        color: var(--primary-color, #8b1e0f);
+        font-weight: 600;
+        text-decoration: underline;
+        text-decoration-color: rgba(139, 30, 15, 0.4);
+
+        &:hover {
+          color: var(--primary-hover, #b22612);
+        }
+      }
+
+      .external-link {
+        text-decoration-style: dotted;
+
+        &::after {
+          content: '↗';
+          font-size: 0.75em;
+          vertical-align: super;
+          margin-left: 0.15em;
+        }
       }
 
       table {

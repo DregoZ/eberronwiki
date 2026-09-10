@@ -21,9 +21,15 @@ import { BulletBlock } from '../../core/models/block.model';
           <li>
             @for (segment of item | parseInternalLinks; track $index) {
               @if (segment.isLink) {
-                <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">
-                  {{ segment.label }}
-                </a>
+                @if (segment.isExternal) {
+                  <a [href]="segment.url" class="external-link" target="_blank" rel="noopener noreferrer">
+                    {{ segment.label }}
+                  </a>
+                } @else {
+                  <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">
+                    {{ segment.label }}
+                  </a>
+                }
               } @else {
                 <span [class.bold]="segment.isBold" [class.italic]="segment.isItalic">{{ segment.text }}</span>
               }
@@ -64,15 +70,28 @@ import { BulletBlock } from '../../core/models/block.model';
         font-style: italic;
       }
 
-      .internal-link {
+      .internal-link,
+      .external-link {
         color: var(--primary-color, #8b1e0f);
         font-weight: 600;
         text-decoration: underline;
         text-decoration-color: rgba(139, 30, 15, 0.4);
       }
 
-      .internal-link:hover {
+      .internal-link:hover,
+      .external-link:hover {
         color: var(--primary-hover, #b22612);
+      }
+
+      .external-link {
+        text-decoration-style: dotted;
+      }
+
+      .external-link::after {
+        content: '↗';
+        font-size: 0.75em;
+        vertical-align: super;
+        margin-left: 0.15em;
       }
     `,
   ],

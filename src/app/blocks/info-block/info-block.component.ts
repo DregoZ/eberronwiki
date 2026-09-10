@@ -19,7 +19,11 @@ import { RouterLink } from '@angular/router';
           <p class="info-paragraph">
             @for (segment of (paragraph | parseInternalLinks); track $index) {
               @if (segment.isLink) {
-                <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
+                @if (segment.isExternal) {
+                  <a [href]="segment.url" class="external-link" target="_blank" rel="noopener noreferrer">{{ segment.label }}</a>
+                } @else {
+                  <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
+                }
               } @else {
                 <span [class.bold]="segment.isBold" [class.italic]="segment.isItalic">{{ segment.text }}</span>
               }
@@ -63,9 +67,22 @@ import { RouterLink } from '@angular/router';
         font-style: italic;
       }
 
-      .internal-link {
+      .internal-link,
+      .external-link {
         font-weight: 600;
         text-decoration: underline;
+        color: inherit;
+      }
+
+      .external-link {
+        text-decoration-style: dotted;
+
+        &::after {
+          content: '↗';
+          font-size: 0.75em;
+          vertical-align: super;
+          margin-left: 0.15em;
+        }
       }
 
       &.note {
