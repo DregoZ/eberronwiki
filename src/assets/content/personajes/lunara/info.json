@@ -64,6 +64,22 @@
       "content": "**Resultado**: Has encontrado un [[personajes/lunara/contactos|profesor]] y comenzado tu instrucción en el manejo de sustancias tóxicas.\n\n **Utensilios de Envenenador**: ★☆☆☆☆"
     },
     {
+      "id": "t3",
+      "type": "text",
+      "title": "III - No confíes en ningún líquido transparente",
+      "content": [
+        "Día y noche trabajó Lunara durante una larga semana de conceptos teóricos y otra más de tareas prácticas. Velenor era un profesor metódico y meticuloso, cualidades que no cesaba de insistir a Lunara que debía adquirir. Siguiendo su consejo, se hizo con una amplia variedad de útiles de envenenamiento para así disponer de sus propias herramientas de trabajo.",
+        "El trabajo ‘artesanal’ aunque peligroso, no resultaba demasiado complicado, y los estudios avanzaron sin contratiempos. Aprendió así a espesar mezclas, a camuflar olores y a extraer ponzoñas. A intoxicar comidas y a infectar las ropas. A decir verdad, el negocio del veneno era realmente turbio, pero a esas alturas ya era tarde para disculparse.",
+        "Lunara observaba con orgullo los primeros frasquitos tóxicos que había creado. Pequeños, discretos y decía Velenor que perfectamente funcionales. Puede que aquello no fuera precisamente el oficio más honrado del mundo, pero después de dos semanas de estudio y práctica, al menos podía decir que sabía lo que hacía. Ahora solo faltaba encontrar una buena excusa para llevarlos encima."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "note",
+      "content": "**Resultado**: Durante las prácticas has creado: Veneno básico (2).\n\n **Utensilios de Envenenador**: ★★★☆☆"
+    },
+    {
       "id": "sep2",
       "type": "separator"
     },
