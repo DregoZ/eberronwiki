@@ -2,8 +2,13 @@
   "$schema": "../../schemas/page.schema.json",
   "slug": "manifiesto/npc",
   "title": "NPCS",
-  "tags": ["manifiesto", "npc"],
-  "aliases": ["npcs"],
+  "tags": [
+    "manifiesto",
+    "npc"
+  ],
+  "aliases": [
+    "npcs"
+  ],
   "unlockCondition": null,
   "blocks": [
     {
@@ -218,6 +223,33 @@
           "size": "medium"
         }
       ]
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Tantoli",
+      "content": [
+        "Un hobgoblin que sirve de contacto del Gremio La Cumbre en Darguun. Sirve como guía de los personajes durante la búsqueda de las cadenas de Mur'taal."
+      ]
+    },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/manifiesto/npc/tantoli.jpg",
+          "caption": "Tantoli",
+          "title": "Tantoli",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
     }
   ]
 }
+
