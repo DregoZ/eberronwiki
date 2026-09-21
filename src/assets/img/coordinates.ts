@@ -1,6 +1,6 @@
 /*
 const img = document.querySelector(
-  'img[src="/assets/content/eberron/khorvaire/darguun/darguun.png"]',
+  'img[src="/assets/content/eberron/khorvaire/breland/sharn/barrios/barrios-bajos/barrios-bajos.png"]'
 );
 img?.addEventListener('pointerdown', (e: PointerEvent) => {
   const target = e.target as HTMLImageElement;

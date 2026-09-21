@@ -58,6 +58,9 @@
       ]
     },
     {
+      "type": "separator"
+    },
+    {
       "id": "i1",
       "type": "info",
       "variant": "note",
@@ -79,6 +82,29 @@
       "variant": "note",
       "content": "**Resultado**: La actitud frívola de los *Callestanos* resultó desconcertante al principio, pero terminaron cayendo bajo tus faroles. Te repartes las ganancias con Quincho. Ganas 75po."
     },
+    {
+      "type": "separator"
+    },
+    {
+      "id": "t3",
+      "type": "text",
+      "title": "III - La gran estafa Callestana",
+      "content": [
+        "Entre timbas, cervezas y preguntas lanzadas con fingida inocencia, Mel consiguió reconstruir el rastro de la deuda de Halas Drummond, el desafortunado empresario cliente de **Beni-To**. Por su parte, Quincho confirmó lo que ya sospechaban: los Daask compraban deudas a intermediarios como **El Morsa** y después enviaban a sus propios cobradores a hacer el trabajo sucio. El dinero, obviamente, no era la única recompensa: algunas de aquellas deudas daban acceso a negocios y personas que podían resultar mucho más valiosos que la cantidad adeudada.",
+        "Miss Teriossa aportó el resto. Conocía a demasiada gente como para no conocer a alguien que hubiera tratado con El Morsa en alguna ocasión. Con preguntas camufladas entre puterío y narcóticos, pudo localizar varias deudas en Callestan esperando a ser cobradas. La oportunidad era demasiado buena para dejarla pasar. Quincho sabía cómo llegar hasta El Morsa, al que terminaron comprándole un paquete de deudas por una cantidad bastante inferior a la que los Daask estaban dispuestos a pagar. Así, El Morsa obtuvo un beneficio rápido y Mel se quedó con un problema que esperaba convertir en monedas.",
+        "La negociación con los deudores fue más sencilla de lo esperado. Tras explicarles que ahora *ellos* eran los cobradores y ofrecerles una salida bastante más económica que la que probablemente les habrían dado los Daask, aceptaron sin demasiadas preguntas. Al final de la semana, habían recuperado la inversión y sacado unas monedas de beneficio. El negocio de las deudas era algo turbio, pero también lucrativo.",
+        "Los Daask, por supuesto, no recibieron la noticia con el mismo entusiasmo. Demasiadas deudas de Callestan habían cambiado de manos en poco tiempo. Alguien estaba metiendo las narices en un negocio que, hasta entonces, parecía pertenecerles."
+
+      ]
+    },
+    {
+      "id": "i3",
+      "type": "info",
+      "variant": "note",
+      "content": "**Resultado**: Os hacéis con varias deudas deudas de Callestan a un precio reducido.\n\nLos Daask están molestos con vuestro intrusismo laboral, aunque desconocen vuestra identidad.\n\nQuincho está contento por haber jodido a los Daask.\n\nOs repartís los beneficios de la trama: ganas 125po."
+    },
+
+
     {
       "id": "r4",
       "type": "related",

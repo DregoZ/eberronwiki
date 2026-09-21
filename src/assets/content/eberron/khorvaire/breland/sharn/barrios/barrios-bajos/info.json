@@ -7,6 +7,14 @@
   "unlockCondition": null,
   "blocks": [
     {
+      "id": "b1",
+      "type": "bullet",
+      "title": "Puntos de Interés",
+      "items": [
+        "[[eberron/khorvaire/breland/sharn/barrios/barrios-bajos/callestan|Callestan]]: Antiguamente fue un importante centro comercial, se ha convertido en uno de los barrios más peligrosos y marginales de la Ciudad de las Torres, conocido por el crimen organizado, el contrabando y tugurios de mala reputación."
+      ]
+    },
+    {
       "id": "a1",
       "type": "image",
       "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/barrios-bajos/barrios-bajos.png",

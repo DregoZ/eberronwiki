@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../../../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-bajos/callestan",
+  "title": "Callestan",
+  "tags": [
+    "Sharn",
+    "Barrios Bajos",
+    "Callestan"
+  ],
+  "aliases": [
+    "Callestan"
+  ],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "type": "text",
+      "content": [
+        "Callestan es uno de los barrios más humildes de [[eberron/khorvaire/breland/sharn|Sharn]], situado en [[eberron/khorvaire/breland/sharn/barrios/barrios-bajos|Poco Dura]]. Sus calles estrechas y deteriorados edificios están llenos de tabernas, pensiones, pequeños comercios y negocios de dudosa reputación.",
+        "La pobreza y la escasa presencia de las autoridades han convertido Callestan en terreno fértil para bandas criminales como los Boromar y los Daask. Aun así, sus habitantes han aprendido a sobrevivir entre deudas, favores y pequeños trapicheos. En Callestan casi todo tiene un precio, aunque no siempre se pague con dinero."
+      ]
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "En los primeros tiempos de Sharn, Callestan era un próspero centro de comercio levantado sobre las ruinas de la antigua ciudad de Shaarat. Con el crecimiento de la metrópoli hacia niveles más altos y ricos, el distrito quedó relegado y cayó en el abandono."
+    },
+    {
+      "id": "i1",
+      "type": "info",
+      "variant": "lore",
+      "content": "*Los Callestanos* son una conocida banda del barrio, cuyos miembros se caracterizan por su cuidada forma de vestir, sus peculiares nombres y frondosas melenas."
+    },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/barrios-bajos/callestan/callestan2.jpg",
+          "caption": "Cllestan",
+          "title": "Callestan",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i1",
+          "src": "/assets/content/eberron/khorvaire/breland/sharn/barrios/barrios-bajos/callestan/callestan1.jpg",
+          "caption": "Callestan",
+          "title": "Callestan",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "type": "related",
+      "items": [
+        {
+          "label": "Barrios Bajos",
+          "slug": "eberron/khorvaire/breland/sharn/barrios/barrios-bajos"
+        },
+        {
+          "label": "Mel",
+          "slug": "personajes/mel"
+        }
+      ]
+    }
+  ]
+}
