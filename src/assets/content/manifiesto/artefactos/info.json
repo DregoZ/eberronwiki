@@ -80,11 +80,37 @@
       "type": "gallery",
       "images": [
         {
-          "id": "i1",
+          "id": "i3",
           "type": "image",
           "src": "/assets/content/manifiesto/artefactos/rosa_escarcha.jpg",
           "caption": "Rosa de Escarcha",
           "title": "Rosa de Escarcha",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "id": "t4",
+      "type": "text",
+      "title": "Cadenas de Mur'Taal",
+      "content": [
+        "El arma de un héroe de los [[eberron/khorvaire/darguun|dar]], a la que las leyendas otorgaron el poder de [[eberron/planos/thelanis|Thelanis]]. Fue el obsequio de **Mur'Taal** tras permitirle cumplir su *muut* librando una última batalla."
+      ]
+    },
+    {
+      "id": "g4",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i4",
+          "type": "image",
+          "src": "/assets/content/manifiesto/artefactos/cadenas.jpg",
+          "caption": "Cadenas de Mur'Taal",
+          "title": "Cadenas de Mur'Taal",
           "align": "center",
           "size": "medium"
         }

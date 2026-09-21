@@ -153,6 +153,12 @@
         "label": "III - Al mal tiempo, buena cara",
         "slug": "manifiesto/iii",
         "icon": "counter_3"
+      },
+      {
+        "id": "capitulo-iv",
+        "label": "IV - Leyenda Viviente",
+        "slug": "manifiesto/iv",
+        "icon": "counter_4"
       }
     ]
   }

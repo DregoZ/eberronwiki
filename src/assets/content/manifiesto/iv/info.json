@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/page.schema.json",
+  "slug": "manifiesto/iv",
+  "title": "Leyenda Viviente",
+  "tags": ["manifiesto"],
+  "aliases": [""],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "Los personajes viajan a [[eberron/khorvaire/darguun|Darguun]] en busca de las Cadenas de Mur'Taal, un artefacto perteneciente a un legendario héroe *dar*.",
+        "Guiados por [[manifiesto/npc|Tantoli]], su contacto en [[eberron/khorvaire/darguun/rhukaan-draal|Rhukaan Draal]], llegaron a la Vega de los Héroes, donde siguieorn la trama que Thelanis tenía preparada para ellos, recuperando así la Cadena tras librar un combate en el que tanto su *muut* como su *atcha* fueron puestos a prueba"
+]
+    },
+    {
+      "id": "i1",
+      "type": "image",
+      "src": "/assets/content/manifiesto/iv/IV.jpg",
+      "caption": "Leyenda Viviente",
+      "title": "Leyenda Viviente",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [
+        { "label": "Forjados y olvidados", "slug": "manifiesto/i" },
+        { "label": "Vive otro día", "slug": "manifiesto/ii" },
+        { "label": "Al mal tiempo, buena cara", "slug": "manifiesto/iii" },
+        { "label": "Leyenda viviente", "slug": "manifiesto/iv" }
+      ]
+    }
+  ]
+}

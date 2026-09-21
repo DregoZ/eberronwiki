@@ -29,7 +29,8 @@
       "items": [
         { "label": "Forjados y olvidados", "slug": "manifiesto/i" },
         { "label": "Vive otro día", "slug": "manifiesto/ii" },
-        { "label": "Al mal tiempo, buena cara", "slug": "manifiesto/iii" }
+        { "label": "Al mal tiempo, buena cara", "slug": "manifiesto/iii" },
+        { "label": "Leyenda viviente", "slug": "manifiesto/iv" }
       ]
     }
   ]

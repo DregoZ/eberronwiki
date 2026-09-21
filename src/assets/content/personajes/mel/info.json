@@ -58,13 +58,13 @@
       ]
     },
     {
-      "type": "separator"
-    },
-    {
       "id": "i1",
       "type": "info",
       "variant": "note",
       "content": "**Resultado**: Una fuerte jaqueca y 3 [[personajes/mel/contactos|contactos]] en los bajos fondos (-10 po)."
+    },
+    {
+      "type": "separator"
     },
     {
       "id": "t2",
