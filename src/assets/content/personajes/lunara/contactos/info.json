@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schemas/page.schema.json",
-  "slug": "eberron/personajes/lunara/contactos",
+  "slug": "personajes/lunara/contactos",
   "title": "Contactos de Lunara",
   "tags": ["Personajes", "Contactos"],
   "aliases": ["Contactos de Lunara"],

@@ -86,18 +86,18 @@
     {
       "id": "t3",
       "type": "text",
-      "title": "III - No confíes en ningún líquido transparente",
+      "title": "IV - Lo que no te mata, te infecta",
       "content": [
-        "Día y noche trabajó Lunara durante una larga semana de conceptos teóricos y otra más de tareas prácticas. Velenor era un profesor metódico y meticuloso, cualidades que no cesaba de insistir a Lunara que debía adquirir. Siguiendo su consejo, se hizo con una amplia variedad de útiles de envenenamiento para así disponer de sus propias herramientas de trabajo.",
-        "El trabajo ‘artesanal’ aunque peligroso, no resultaba demasiado complicado, y los estudios avanzaron sin contratiempos. Aprendió así a espesar mezclas, a camuflar olores y a extraer ponzoñas. A intoxicar comidas y a infectar las ropas. A decir verdad, el negocio del veneno era realmente turbio, pero a esas alturas ya era tarde para disculparse.",
-        "Lunara observaba con orgullo los primeros frasquitos tóxicos que había creado. Pequeños, discretos y decía Velenor que perfectamente funcionales. Puede que aquello no fuera precisamente el oficio más honrado del mundo, pero después de dos semanas de estudio y práctica, al menos podía decir que sabía lo que hacía. Ahora solo faltaba encontrar una buena excusa para llevarlos encima."
+        "Y otra semana entre morteros, frascos y polvitos de colores. Velenor insistía en que un buen envenenador debía ser paciente, meticuloso y, sobre todo, saber exactamente qué estaba manipulando. Afortunadamente, Lunara había adquirido tales cualidades navegando entre estanterías de biblioteca y estudiando antigüedades. Tantas horas de estudio y práctica estaban dando sus frutos, y ya podía preparar toxinas con precisión, clasificarlas según sus efectos y almacenarlas en un lugar fresco y seco, fuera del alcance de los niños.",
+        "Velenor, aunque muy satisfecho con su progreso, puso especial hincapié en los protocolos de seguridad y en las contramedidas necesarias para evitar terminar el día en una cama de una clínica Jorasco. Las mezclas que preparaban ya no parecían experimentos de laboratorio, sino productos que uno preferiría no encontrar en la cena.",
+        "Lunara ya podía considerarse una envenenadora competente. Había aprendido a preparar y manipular distintas toxinas y, además, disponía de sus propias herramientas. Con un apretón de manos, Velenor se despidió de ella con un último consejo: si alguna vez experimentaba con una sustancia especialmente peligrosa, cuanto más lejos de casa, mejor."
       ]
     },
     {
       "id": "i1",
       "type": "info",
       "variant": "note",
-      "content": "**Resultado**: Durante las prácticas has creado: Veneno básico (2).\n\n **Utensilios de Envenenador**: ★★★☆☆"
+      "content": "**Resultado**: **Utensilios de Envenenador**: ★★★★★\n\nSabes [[personajes/lunara/venenomicon|fabricar]] Venenos básicos, Antitoxinas y Pulverizado de orquídea de Mabar.\n\nObtienes Bombas Pulverizadoras (2)."
     },
     {
       "id": "sep2",
@@ -111,7 +111,8 @@
         { "label": "Grock Lesnar", "slug": "personajes/grok" },
         { "label": "Lunara Faldren", "slug": "personajes/lunara" },
         { "label": "Mel Rospleis", "slug": "personajes/mel" },
-        { "label": "Contactos de Lunara", "slug": "personajes/lunara/contactos" }
+        { "label": "Contactos de Lunara", "slug": "personajes/lunara/contactos" },
+        { "label": "Venenomicón", "slug":  "personajes/lunara/venenomicon"}
       ]
     }
   ]

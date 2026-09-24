@@ -1,0 +1,72 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "personajes/lunara/venenomicon",
+  "title": "Venenomicón",
+  "tags": [
+    "Lunara",
+    "Venenos"
+  ],
+  "aliases": [
+    "Veneno"
+  ],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Veneno básico",
+      "content": [
+        "*Una mezcla sencilla de diferentes reactivos que forman una sustancia viscosa y ocre. Aunque es bastante volátil, se puede aplicar fácilmente sobre el filo de un arma.*",
+        "Herida. 50po",
+        "Unta un arma cortante o perforante como Acción Bonus. Una criatura que reciba daño causado por esa arma sufre 1d4 veneno",
+        "El veneno dura 1 minuto o hasta que sea aplicado."
+      ]
+    },
+    {
+      "id": "sep1",
+      "type": "separator"
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "title": "Antitoxina",
+      "content": [
+        "*Por si acaso.*",
+        "25po",
+        "Como acción bonus puedes beberte este antídoto, que durante 1 hora proporciona Ventaja en las TS para terminar o resistir la condición **Intoxicado**."
+      ]
+    },
+    {
+      "id": "sep1",
+      "type": "separator"
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "title": "Pulverizado de Orquídea de Mabar",
+      "content": [
+        "*Este polvo fino es la forma más básica de procesado de la planta, a partir del cual se pueden crear diversas sustancias.*",
+        "Contacto. 50po",
+        "El polvillo se pega a las mucosas y provoca una sensación de fatiga similar a la de la gripe. Una criatura expuesta debe superar una TS Constitución DC (8 + INT + competencia) o quedará Intoxicada durante 1 hora."
+      ]
+    },
+    {
+      "id": "t3",
+      "type": "info",
+      "variant": "note",
+      "content":
+        "**Bombas Pulverizadoras**\n\n*Una ampolla de fino cristal que revienta al ser lanzada contra una superficie dura, esparciendo en una nube el polvillo del interior.* \n\nUsa la acción [Utilizar] para arrojar una ampolla hasta a 15' de distancia. El polvo forma una nube de 5' que permanece hasta el comienzo de tu siguiente turno o sea disipada por un efecto apropiado, como por ejemplo una ráfaga de viento.\n\nUna criatura que entre o comience su turno en la nube deberá superar una TS de Constitución (8 + INT + competencia) o quedará Intoxicada.\n\nUna criatura intoxicada por este veneno repite la TS al comienzo de su turno, y debe superar 2 para terminar el efecto."
+
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [
+        {
+          "label": "Lunara Faldren",
+          "slug": "personajes/lunara"
+        }
+      ]
+    }
+  ]
+}
