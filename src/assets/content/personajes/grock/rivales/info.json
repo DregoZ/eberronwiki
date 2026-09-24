@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/personajes/grock/rivales",
-  "title": "Rivales de Grock",
+  "title": "El Circuito Rojo",
   "tags": ["Rivales"],
   "aliases": ["Rivales de Grock"],
   "unlockCondition": null,
@@ -17,9 +17,9 @@
         "**Princesa Incógnita**: Una talentina enmascarada que ha conseguido meterse en combates de este calibre. Nadie conoce su identidad ni su procedencia.",
         "**Sargento Matansa**: Un rudo hobgoblin mercenario bastante bocón que al terminar la guerra se metió en el mundo de las peleas buscando dinero y diversión.",
         "**Juani Cena**: Una amazona valenar experta en combate cerrado y enamorada de la música. Su fiereza luchando la ha convertido en una de las favoritas. Tiene su propio tema musical de entrada.",
-        "**Señor Sublime**: Un humano de rubia melena y proporciones divinas. Sus acompañantes llevan siempre un gran espejo, que colocan al borde del ruedo para su disfrute.",
-        "**Esteban Piedrafría**: Un goliat de la Friage, muy alto y musculoso. Antes de combatir le encanta beberse de golpe dos jarras de cerveza Cannegro."
-
+        "**Señor Sublime**: Un humano de rubia melena y proporciones divinas. Sus acompañantes llevan siempre un gran espejo, que colocan al borde del ruedo para su disfrute. Es rival de Grock Lesnar.",
+        "**Esteban Piedrafría**: Un goliat de la Friage, muy alto y musculoso. Antes de combatir le encanta beberse de golpe dos jarras de cerveza Cannegro.",
+        "**Grock Lesnar**: Un ex soldado orco que pelea por diversión y gloria. Es nuevo en el circuito pero apunta maneras. Es rival de Señor Sublime."
 
       ]
     },

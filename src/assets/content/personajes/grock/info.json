@@ -98,6 +98,26 @@
       "content": "**Resultado**: Has ganado la Liada Parda por la mínima. A partir de ahora podrás competir en el **Circuito Rojo**, una competición de más empaque. **Dandy** se encargará del ‘papeleo’ y **Beso Negro**, que en realidad se llama **Mecha**, se encargará de tu entrenamiento. \n\nMecha es un analista táctico excelente y conoce un par de trucos sucios.\nElige uno (vídeo demostrativo en el título):  \n\n**[Beso Negro](https://www.youtube.com/watch?v=LCYvEGDATWw)**: Cuando uses el *Spear*, puedes gastar 1 DS adicional para lanzarte de cabeza y usar el *Beso Negro*. Puedes cambiarle el nombre, pero estaría feo. \n\n **[Patada Nuclear](https://www.youtube.com/watch?v=SuBPkJq-5Ms)**: Cuando uses el *RKO*, puedes gastar 1 DS adicional para usar en su lugar la *Patada Nuclear*, un sacho boca arriba que golpea con los dos pies."
     },
     {
+      "type": "separator"
+    },
+    {
+      "id": "iv",
+      "type": "text",
+      "title": "IV - Contacto sangriento",
+      "content": [
+        "Si Grock quería saber qué se sentía al pelear en el Circuito Rojo, no podía haber elegido una entrada más contundente. Dandy organizó su debut, en el que su primer rival sería el Señor Sublime, un apuesto humano de melena rubia y apolíneas proporciones, o eso parecía pensar él. Sus acompañantes llevaban siempre un enorme espejo hasta el borde del ruedo para que pudiera contemplar su propia magnificencia entre golpe y golpe. Grock, por su parte, solo llevaba los puños.",
+        "Los recintos habituales del Circuito Rojo no se parecían ni por asomo a los tugurios donde Grock había empezado a pelear. Había más público, más apuestas y, sobre todo, más gente que sabía lo que estaba haciendo. El Señor Sublime dominó buena parte del encuentro con una mezcla de técnica, fuerza y una preocupante confianza en su propia belleza. Grock encajó golpe tras golpe, pero siguió levantándose. Cada vez que parecía a punto de caer, volvía a ponerse en pie. Cada vez que el público daba por terminado el combate, encontraba fuerzas para continuar.",
+        "Pero encontró en el Señor Sublime la horma de su zapato, y Grock terminó mordiendo la lona entre los rugidos del público, mientras su rival se detenía unos instantes frente al espejo para comprobar que seguía tan guapo como antes. Había perdido, pero el combate había sido el espectáculo de la noche. Cuando Grock abandonó el ruedo, tenía claro que quería volver a enfrentarse a aquel imbécil.",
+        "Después de aquello, Mecha dejó de tomarse sus entrenamientos a broma. El forjado empezó a someterlo a sesiones mucho más intensas, trabajando resistencia, técnica y mente. Si el Circuito Rojo iba a ser realmente aquello, Grock tendría que estar preparado. La próxima vez que el Señor Sublime se mirase en aquel espejo, sería con los dientes rotos."
+      ]
+    },
+    {
+      "id": "i2",
+      "type": "info",
+      "variant": "note",
+      "content": "**Resultado**: Has caído dando un buen espectáculo. Ganas 100po. **El Señor Sublime** se convierte en tu rival. \n\nContinúas entrenando con mecha y mejoras en la **Lucha sin Armas**: Mientras tengas a una criatura Agarrada y al menos una mano libre, puedes usar tu Acción Bonus para intentar Derribar o Empujar a esa misma criatura.\n\nElige uno:  \n\n **[Patada Nuclear](https://www.youtube.com/watch?v=SuBPkJq-5Ms)**: Cuando uses el *RKO*, puedes gastar 1 DS adicional para usar en su lugar la *Patada Nuclear*, un sacho boca arriba que golpea con los dos pies. \n\n **Guardia Cerrada**: Al usar *Juego de Pies*, puedes defenderte con *Guardia Cerrada* y lanzar 2 DS para elegir el más alto.\n\n **Puño Dragón**: Al impactar con un ataque desarmado, gasta hasta 2 DS para añadirlos al daño. Los impactos críticos tiran 1 dado adicional."
+    },
+    {
       "id": "g1",
       "type": "gallery",
       "images": [
