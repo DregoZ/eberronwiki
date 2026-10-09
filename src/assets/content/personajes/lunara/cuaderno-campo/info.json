@@ -1,0 +1,350 @@
+{
+  "$schema": "../../../schemas/page.schema.json",
+  "slug": "personajes/lunara/cuaderno-campo",
+  "title": "Lugares, Ruinas y Artefactos de Interés en Khorvaire y Más Allá",
+  "tags": ["Lunara", "Cuaderno de campo", "Exploración", "Ruinas", "Artefactos"],
+  "aliases": ["Cuaderno de campo", "Cuaderno de Campo", "Ruinas y Artefactos", "Lugares de Interés", "Artefactos de Interés"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t-shatoral",
+      "type": "text",
+      "title": "La Ciudad Hundida de Sha'toral",
+      "content": [
+        "**Ubicación**: [[eberron/mas-alla/aerenal|Aerenal]]",
+        "Antigua ciudad élfica parcialmente abandonada."
+      ]
+    },
+    {
+      "id": "b-shatoral",
+      "type": "bullet",
+      "items": [
+        "Arquitectura imposible de reproducir con técnicas modernas (¿aliens?).",
+        "Algunas estructuras parecen haber sido cultivadas en lugar de construidas.",
+        "Los elfos locales evitan ciertas zonas sin explicar por qué."
+      ]
+    },
+    {
+      "id": "i-shatoral",
+      "type": "info",
+      "variant": "note",
+      "content": [
+        "**Hipótesis**",
+        "Los constructores dominaban técnicas de biomancia desconocidas.",
+        "*Nota: biomancia suena a nombre inventado*"
+      ]
+    },
+    {
+      "id": "sep-1",
+      "type": "separator"
+    },
+    {
+      "id": "t-metrol",
+      "type": "text",
+      "title": "Las Ruinas de Metrol",
+      "content": [
+        "**Ubicación**: [[eberron/khorvaire/tierras-enlutadas|Tierras Enlutadas]]",
+        "Antigua capital de [[eberron/khorvaire/cyre|Cyre]]."
+      ]
+    },
+    {
+      "id": "b-metrol",
+      "type": "bullet",
+      "items": [
+        "La mayor concentración de reliquias pre-Luto de todo [[eberron/khorvaire|Khorvaire]].",
+        "Incontables expediciones desaparecidas.",
+        "Se rumorea que algunas calles permanecen exactamente igual que el día del desastre."
+      ]
+    },
+    {
+      "id": "i-metrol",
+      "type": "info",
+      "variant": "note",
+      "content": [
+        "**Observación personal**",
+        "Si algún día quiero investigar el [[eberron/historia/luto|Luto]], probablemente empiece aquí."
+      ]
+    },
+    {
+      "id": "sep-2",
+      "type": "separator"
+    },
+    {
+      "id": "t-arcanix",
+      "type": "text",
+      "title": "El Observatorio de Arcanix",
+      "content": [
+        "**Ubicación**: [[eberron/khorvaire/aundair|Aundair]]",
+        "En su biblioteca se conservan registros astronómicos muy antiguos."
+      ]
+    },
+    {
+      "id": "b-arcanix",
+      "type": "bullet",
+      "items": [
+        "Algunos documentos datan de antes de [[eberron/historia|Galifar]].",
+        "Varias referencias a alineamientos planares excepcionales."
+      ]
+    },
+    {
+      "id": "sep-3",
+      "type": "separator"
+    },
+    {
+      "id": "t-karhashan",
+      "type": "text",
+      "title": "Ka'rhashan",
+      "content": [
+        "**Ubicación**: [[eberron/khorvaire/darguun|Darguun]]",
+        "Fortaleza dhakaani parcialmente excavada."
+      ]
+    },
+    {
+      "id": "b-karhashan",
+      "type": "bullet",
+      "items": [
+        "Los goblins modernos parecen comprender sólo una pequeña parte de su tecnología.",
+        "Extraños conductos acústicos recorren toda la estructura."
+      ]
+    },
+    {
+      "id": "i-karhashan",
+      "type": "info",
+      "variant": "note",
+      "content": [
+        "**Hipótesis**",
+        "No era una fortaleza. Podría haber sido un centro ceremonial."
+      ]
+    },
+    {
+      "id": "sep-4",
+      "type": "separator"
+    },
+    {
+      "id": "t-cristalroto",
+      "type": "text",
+      "title": "La Espira de Cristalroto",
+      "content": [
+        "**Ubicación**: [[eberron/mas-alla/xen-drik|Xen'drik]]",
+        "Torre gigantesca derrumbada."
+      ]
+    },
+    {
+      "id": "b-cristalroto",
+      "type": "bullet",
+      "items": [
+        "Construcción claramente gigante.",
+        "Ninguna entrada visible.",
+        "El cristal reacciona a la magia de adivinación."
+      ]
+    },
+    {
+      "id": "i-cristalroto",
+      "type": "info",
+      "variant": "warning",
+      "content": [
+        "**Advertencia**",
+        "Dos expediciones desaparecidas y una tercera masacrada por goblins."
+      ]
+    },
+    {
+      "id": "sep-5",
+      "type": "separator"
+    },
+    {
+      "id": "t-culsir",
+      "type": "text",
+      "title": "El Laberinto Dorado de Cul'sir",
+      "content": [
+        "**Ubicación**: [[eberron/mas-alla/xen-drik|Xen'drik]]",
+        "Complejo gigante enterrado."
+      ]
+    },
+    {
+      "id": "b-culsir",
+      "type": "bullet",
+      "items": [
+        "Los mapas cambian entre expediciones.",
+        "Algunos pasillos no mantienen la misma longitud."
+      ]
+    },
+    {
+      "id": "i-culsir",
+      "type": "info",
+      "variant": "note",
+      "content": [
+        "**Hipótesis**",
+        "La magia dracónica utilizada por los gigantes sigue activa."
+      ]
+    },
+    {
+      "id": "sep-6",
+      "type": "separator"
+    },
+    {
+      "id": "t-cancerberos",
+      "type": "text",
+      "title": "Menhires de los Cancerberos",
+      "content": [
+        "**Ubicación**: [[eberron/khorvaire/confines-eldeen|Confines de Eldeen]]",
+        "Círculos de piedra vinculados a antiguas guerras contra los [[eberron/antagonistas/daelkyr|daelkyr]]."
+      ]
+    },
+    {
+      "id": "b-cancerberos",
+      "type": "bullet",
+      "items": [
+        "Los símbolos no pertenecen a ninguna lengua conocida.",
+        "Algunos emiten pulsos mágicos periódicos."
+      ]
+    },
+    {
+      "id": "i-cancerberos",
+      "type": "info",
+      "variant": "note",
+      "content": [
+        "**Observación**",
+        "Parece más una red que una colección de monumentos aislados."
+      ]
+    },
+    {
+      "id": "sep-7",
+      "type": "separator"
+    },
+    {
+      "id": "t-ohrkaluun",
+      "type": "text",
+      "title": "Ruinas Sumergidas de Ohr Kaluun",
+      "content": [
+        "**Ubicación**: [[eberron/mas-alla/sarlona|Sarlona]]",
+        "Información escasa."
+      ]
+    },
+    {
+      "id": "b-ohrkaluun",
+      "type": "bullet",
+      "items": [
+        "Escasas fuentes fiables.",
+        "Referencias a prácticas mágicas hoy prohibidas."
+      ]
+    },
+    {
+      "id": "i-ohrkaluun",
+      "type": "info",
+      "variant": "note",
+      "content": [
+        "**Interés**",
+        "Posible origen de varias tradiciones esotéricas modernas."
+      ]
+    },
+    {
+      "id": "sep-8",
+      "type": "separator"
+    },
+    {
+      "id": "t-sec-artefactos",
+      "type": "text",
+      "title": "Artefactos de Interés",
+      "content": [
+        "Reliquias y objetos singulares vinculados a eventos históricos, fuerzas druídicas o alineamientos planares."
+      ]
+    },
+    {
+      "id": "t-vvaraak",
+      "type": "text",
+      "title": "El Sextante de Vvaraak",
+      "content": [
+        "Artefacto druídico legendario. El dragón negro Vvaraak, padre de las tradiciones druídicas, lo usó hace 16000 años para descubrir los planes de invasión [[eberron/antagonistas/daelkyr|daelkyr]].",
+        "**Propiedades atribuidas**:"
+      ]
+    },
+    {
+      "id": "b-vvaraak",
+      "type": "bullet",
+      "items": [
+        "Detecta anomalías planares.",
+        "Reacciona ante sellos daelkyr."
+      ]
+    },
+    {
+      "id": "i-vvaraak",
+      "type": "info",
+      "variant": "warning",
+      "content": [
+        "**Estado**: Desaparecido."
+      ]
+    },
+    {
+      "id": "sep-9",
+      "type": "separator"
+    },
+    {
+      "id": "t-corona-galifar",
+      "type": "text",
+      "title": "La Corona de Galifar",
+      "content": [
+        "Reliquia histórica que perteneció al primer rey de las [[eberron/khorvaire/cinco-naciones|Cinco Naciones]]."
+      ]
+    },
+    {
+      "id": "b-corona-galifar",
+      "type": "bullet",
+      "items": [
+        "Múltiples falsificaciones conocidas.",
+        "Su ubicación actual es objeto de disputa."
+      ]
+    },
+    {
+      "id": "sep-10",
+      "type": "separator"
+    },
+    {
+      "id": "t-lente-nymm",
+      "type": "text",
+      "title": "La Lente de Nymm",
+      "content": [
+        "Artefacto de observación planar. [[eberron/vida-en-eberron/firmamento|Nymm]] es la séptima luna. Algunos estudiosos afirman que tiene influencia directa sobre los gnomos y su nación."
+      ]
+    },
+    {
+      "id": "i-lente-nymm",
+      "type": "info",
+      "variant": "note",
+      "content": [
+        "**Leyenda**",
+        "Permite contemplar simultáneamente dos planos.",
+        "*Credibilidad dudosa.*"
+      ]
+    },
+    {
+      "id": "sep-11",
+      "type": "separator"
+    },
+    {
+      "id": "t-fragmento-rhaan",
+      "type": "text",
+      "title": "El Fragmento de Rhaan",
+      "content": [
+        "Objeto mencionado en textos gigantes. [[eberron/vida-en-eberron/firmamento|Rhaan]] es la novena luna, y se asocia habitualmente a [[eberron/planos/fernia|Fernia]]."
+      ]
+    },
+    {
+      "id": "i-fragmento-rhaan",
+      "type": "info",
+      "variant": "warning",
+      "content": [
+        "**Problema**",
+        "Nunca ha sido hallado ni está muy clara su función. Algunos investigadores creen que nunca existió."
+      ]
+    },
+    {
+      "id": "r-rel",
+      "type": "related",
+      "items": [
+        { "label": "Lunara Faldren", "slug": "personajes/lunara" },
+        { "label": "Venenomicón", "slug": "personajes/lunara/venenomicon" },
+        { "label": "Contactos de Lunara", "slug": "personajes/lunara/contactos" }
+      ]
+    }
+  ]
+}
