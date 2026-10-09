@@ -112,7 +112,8 @@
         { "label": "Lunara Faldren", "slug": "personajes/lunara" },
         { "label": "Mel Rospleis", "slug": "personajes/mel" },
         { "label": "Contactos de Lunara", "slug": "personajes/lunara/contactos" },
-        { "label": "Venenomicón", "slug":  "personajes/lunara/venenomicon"}
+        { "label": "Venenomicón", "slug":  "personajes/lunara/venenomicon"},
+        { "label": "Cuaderno de campo", "slug": "personajes/lunara/cuaderno-campo" }
       ]
     }
   ]
