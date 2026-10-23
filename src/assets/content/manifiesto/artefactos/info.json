@@ -115,6 +115,29 @@
           "size": "medium"
         }
       ]
+    },
+    {
+      "id": "t5",
+      "type": "text",
+      "title": "Motor Arquetipo",
+      "content": [
+        "El Motor Arquetipo es parte fundamental de un dispositivo que parametriza y rastrea los movimientos [[eberron/planos|planares]]. Los personajes tuvieron que causar una 'imperfección' en el artefacto, para que así fuese enviado a la Zona de Deconstrucción, para poder así recuperarlo antes de que fuese desclasificado y destruído."
+      ]
+    },
+    {
+      "id": "g4",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i4",
+          "type": "image",
+          "src": "/assets/content/manifiesto/artefactos/motor-arquetipo.png",
+          "caption": "Motor Arquetipo",
+          "title": "Motor Arquetipo",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
     }
   ]
 }
