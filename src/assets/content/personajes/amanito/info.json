@@ -83,6 +83,25 @@
       "content": "**Resultado**: Mejoras tu pericia en el destilado de pociones y otros brebajes. Consulta el apartado de [[personajes/amanito/herbalismo|Herbalismo]]. \n\nLas Ratas llevan sus conocimientos a otras personas y tu nombre comienza a sonar en los barrios bajos de Sharn."
     },
     {
+        "type": "separator"
+    },
+    {
+      "id": "t4",
+      "type": "text",
+      "title": "IV - Mi vecino Amanito",
+      "content": [
+        "Amanito se tomó su tiempo observando el Bosque del Rey desde las afueras de Primera Torre. El contraste con los Confines de Eldeen era evidente: Sharn mantenía un verano artificial gracias a la magia gravitatoria y la vegetación de los alrededores crecía sin descanso, agotando el suelo a su paso. Los lugareños, más preocupados por los asuntos cotidianos, apenas prestaban atención a estos cambios. ",
+        "Amanito recogió y estudió diferentes muestras hasta que sus pasos le llevaron a las marismas del río Daga. Allí descubrió que varios recolectores de basura habían enfermado de una extraña aflicción y que los cadáveres que devolvían al agua se cubrían de una costra gris, endurecida y estéril, que marchitaba la flora circundante e impedía la renovación del entorno. Intrigado, siguió las pistas hasta unas cuevas de cultivo de hongos vinculadas a la Casa Jorasco. Los sanadores se enfrentaban a una plaga que estaba mutando los hongos descomponedores, volviéndolos agresivos e incapaces de cumplir su ciclo de vida. Tras compartir con ellos sus observaciones, descubrió también alteraciones similares en muestras procedentes de las zonas industriales de Sharn.",
+        "Dos semanas después, Amanito había aprendido bastante sobre la flora de Breland y establecido contactos entre los recolectores de las marismas y algunos cultivadores de Jorasco. No todos compartían sus enseñanzas, pero si apreciaban sus conocimientos. Regresó entonces a Sharn con nuevas muestras herbales y una inquietud persistente. La muerte formaba parte del ciclo natural; aquella corrupción, en cambio, parecía empeñada en impedir que continuase. Para comprender qué estaba ocurriendo, tendría que seguir el rastro hasta las entrañas de la ciudad."
+      ]
+    },
+    {
+      "id": "i4",
+      "type": "info",
+      "variant": "note",
+      "content": "**Resultado**: La implicación de Amanito en los asuntos locales hace que comience a ser una figura conocida en Sharn y sus alrededores, donde muchos lo conocen simplemente como 'el druida'. Vuelves a casa con un zurrón lleno de plantas y material de herboristería. Puedes crear pociones con un límite de 50po. \n\nDescubres una aflicción mágica que probablemente tenga su origen en los Engranajes de Sharn. Seguir investigando esta dolencia puede desembocar en una aventura especial."
+    },
+    {
       "id": "r4",
       "type": "related",
       "items": [
