@@ -103,8 +103,26 @@
       "variant": "note",
       "content": "**Resultado**: Os hacéis con varias deudas deudas de Callestan a un precio reducido.\n\nLos Daask están molestos con vuestro intrusismo laboral, aunque desconocen vuestra identidad.\n\nQuincho está contento por haber jodido a los Daask.\n\nOs repartís los beneficios de la trama: ganas 125po."
     },
-
-
+    {
+      "type": "separator"
+    },
+    {
+      "id": "t4",
+      "type": "text",
+      "title": "IV - La gran estafa Callestana",
+      "content": [
+        "Había llegado el momento de subir la apuesta. Los beneficios de la compra de deudas merecían una celebración, así que con Quincho a un lado y Miss Teriossa al otro, Mel se sumergió en noches repletas de copas, timbas y conversaciones a media voz. Quincho explicaba que algunas deudas valían mucho más de lo que decía el papel mientras se bebía una jarra en dos tragos. Mientras tanto, Miss embaucaba a un beodo prestamista dispuesto a deshacerse de una nueva cartera de deudas. Era la oportunidad perfecta para golpear a los Daask donde más les dolía. Nada de monedas: esta vez le arrebatarían un negocio.",
+        "Mel invirtió buena parte de las ganancias previas en comprar varias deudas, convencida de que podría adelantarse a los Daask y obligarlos a negociar. Pero algunas ya estaban comprometidas con los matones de Callestan, otras resultaron mucho menos rentables de lo que prometían los documentos y varios deudores, al enterarse de que sus acreedores habían cambiado, sencillamente desaparecieron.",
+        "Cuando Mel intentó cobrar, descubrió que había comprado problemas por los que nadie estaba dispuesto a pagar. Para colmo, los Daask no tardaron en enterarse de la operación, y un viejo conocido, Beni-To, se presentó para dejar claro que aquellas deudas eran suyas y que no iban a tolerar que un desconocido se entrometiera en sus asuntos. Mel no tuvo más remedio que renunciar a parte de la cartera para evitar que el enfrentamiento fuera a más.",
+        "Dos semanas más tarde, el balance era bastante peor de lo esperado. Mel había perdido buena parte de las ganancias de su primer golpe, había conseguido enemistarse con los Daask y apenas había obtenido información nueva a cambio. Quincho le reprochó haberse precipitado y le advirtió de que los Boromar no iban a arriesgar el pellejo por alguien que todavía no sabía distinguir una oportunidad de una trampa. Miss Teriossa, más comprensiva, le recordó que en Callestan las noticias corrían rápido y que ahora habría gente preguntándose quién era aquella mujer (¿o era un hombre?) que había intentado jugar a los negocios con los Daask."
+      ]
+    },
+    {
+      "id": "i4",
+      "type": "info",
+      "variant": "note",
+      "content": "**Resultado**: El negocio no ha salido bien y pierdes 50po. Ahora, los Daask saben quien eres y con quien te juntas.\n\nLa relación con Miss mejora."
+    },
     {
       "id": "r4",
       "type": "related",

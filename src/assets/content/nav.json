@@ -138,27 +138,33 @@
       },
       {
         "id": "capitulo-i",
-        "label": "I - Forjados y olvidados",
+        "label": "Forjados y olvidados",
         "slug": "manifiesto/i",
         "icon": "counter_1"
       },
       {
         "id": "capitulo-ii",
-        "label": "II - Vive otro día",
+        "label": "Vive otro día",
         "slug": "manifiesto/ii",
         "icon": "counter_2"
       },
       {
         "id": "capitulo-iii",
-        "label": "III - Al mal tiempo, buena cara",
+        "label": "Al mal tiempo, buena cara",
         "slug": "manifiesto/iii",
         "icon": "counter_3"
       },
       {
         "id": "capitulo-iv",
-        "label": "IV - Leyenda Viviente",
+        "label": "Leyenda Viviente",
         "slug": "manifiesto/iv",
         "icon": "counter_4"
+      },
+      {
+        "id": "capitulo-v",
+        "label": "Ritmo Perfecto",
+        "slug": "manifiesto/v",
+        "icon": "counter_5"
       }
     ]
   }

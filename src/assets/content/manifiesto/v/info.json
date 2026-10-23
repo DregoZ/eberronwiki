@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/page.schema.json",
+  "slug": "manifiesto/iv",
+  "title": "Leyenda Viviente",
+  "tags": ["manifiesto"],
+  "aliases": [""],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "Durante un turbulento viaje en Rayocarril, los personajes tuvieron que recuperar varios cristales de acceso, robados a su contacto por miembros de la Garra Esmeralda. Con ellos en su poder, pudieron acceder a Daanvi, el Orden Perfecto.",
+        "En este lugar, la entropía es inexistente e impera el orden, de modo que tuvieron que seguir las peculiares reglas allí impuestas para poder superar a sus rivales en la búsqueda del Motor Arquetipo. Estos fanáticos, a pesar de haber sido diezmados en número, siguieron adelante movidos por sus crueles motivaciones."
+]
+    },
+    {
+      "id": "i1",
+      "type": "image",
+      "src": "/assets/content/manifiesto/v/v.jpg",
+      "caption": "Ritmo Perfecto",
+      "title": "Ritmo Perfecto",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [
+        { "label": "Forjados y olvidados", "slug": "manifiesto/i" },
+        { "label": "Vive otro día", "slug": "manifiesto/ii" },
+        { "label": "Al mal tiempo, buena cara", "slug": "manifiesto/iii" },
+        { "label": "Leyenda viviente", "slug": "manifiesto/iv" },
+        { "label": "Ritmo perfecto", "slug": "manifiesto/v" }
+      ]
+    }
+  ]
+}

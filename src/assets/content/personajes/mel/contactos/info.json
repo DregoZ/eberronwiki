@@ -51,7 +51,23 @@
       "id": "b2",
       "type": "bullet",
       "items": [
-        "**(★) Miss Teriossa:** Una atractiva puta Lazhaarina de sangre khoravar, mirada fogosa, labios ardientes y amena conversación con la que compartiste una botella de vino Buenasbayas mientras Quincho dormía la mona. Asegura que uno de sus habituales es un ‘conseguidor’ de objetos mágicos."
+        "**(★★) Miss Teriossa:** Una atractiva puta Lazhaarina de sangre khoravar, mirada fogosa, labios ardientes y amena conversación con la que compartiste una botella de vino Buenasbayas mientras Quincho dormía la mona. Asegura que uno de sus habituales es un ‘conseguidor’ de objetos mágicos."
+      ]
+    },
+    {
+      "id": "g2",
+      "type": "gallery",
+      "title": "Miss",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/personajes/mel/contactos/miss.png",
+          "caption": "Miss Teriossa",
+          "title": "Miss Teriossa",
+          "align": "center",
+          "size": "medium"
+        }
       ]
     },
     {
