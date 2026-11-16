@@ -1,0 +1,58 @@
+{
+  "$schema": "../../../../schemas/page.schema.json",
+  "slug": "eberron/khorvaire/darguun/rhukaan-draal",
+  "title": "Fuerte Óseo",
+  "tags": ["Karrnath", "Fuerte"],
+  "aliases": ["Fuerte Óseo"],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "Fuerte Óseo se alza sobre las escarpadas montañas de [[eberron/khorvaire/karrnath|Karrnath]], una fortaleza sombría cuyas murallas blancas destacan contra la roca negra de las laderas. A primera vista, sus altos muros parecen estar construidos con piedra pálida, pero al acercarse se revela que su superficie está recubierta de restos óseos: cráneos, costillas y fragmentos de esqueletos incrustados en la mampostería, como si la propia fortaleza hubiese sido levantada con los cuerpos de los muertos.",
+        "Torres cuadradas y almenas dentadas se elevan sobre las murallas, flanqueando una robusta puerta de entrada protegida por rastrillos y puestos de vigilancia. El estandarte de [[eberron/khorvaire/karrnath|Karrnath]] ondea junto a enseñas oscuras que muestran símbolos de la [[eberron/religion/sangre-vol|Sangre de Vol]]. Tras las murallas se distinguen varios edificios de piedra, barracones y patios interiores, todos ellos dominados por una construcción central de aspecto austero.",
+        "El lugar no está en silencio. Desde las almenas llegan voces de soldados, órdenes militares y el entrechocar del acero. Entre los defensores se mueven figuras que, incluso desde la distancia resultan inquietantes: soldados esqueléticos que patrullan con armaduras y armas perfectamente mantenidas, sin mostrar cansancio ni vacilación. Algunos permanecen inmóviles junto a las puertas, con sus cuencas vacías orientadas hacia el camino.",
+        "Un viento frío desciende de las montañas y se cuela entre las torres, arrastrando consigo un tenue olor a tierra húmeda y huesos antiguos. Fuerte Óseo no parece una fortaleza abandonada ni un mausoleo. Es una instalación militar en pleno funcionamiento, disciplinada y bien defendida. Lo verdaderamente perturbador es que buena parte de sus soldados llevan mucho tiempo muertos."
+      ]
+    },
+   {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/karrnath/fuerte-oseo/fortbones.png",
+          "caption": "Fuerte Óseo",
+          "title": "Fuerte Óseo",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i2",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/karrnath/fuerte-oseo/patio.png",
+          "caption": "Patio del Fuerte Óseo",
+          "title": "Patio del Fuerte Óseo",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i2",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/karrnath/fuerte-oseo/pasillos.jpg",
+          "caption": "Pasillos del Fuerte Óseo",
+          "title": "Pasillos del Fuerte Óseo",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [{ "label": "Darguun", "slug": "eberron/khorvaire/darguun" }]
+    }
+  ]
+}

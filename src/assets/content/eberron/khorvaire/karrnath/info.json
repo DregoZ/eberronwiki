@@ -2,8 +2,14 @@
   "$schema": "../../../schemas/page.schema.json",
   "slug": "eberron/khorvaire/karrnath",
   "title": "Karrnath",
-  "tags": ["Khorvaire", "Karrnath", "Nigromancia"],
-  "aliases": ["Karrnath"],
+  "tags": [
+    "Khorvaire",
+    "Karrnath",
+    "Nigromancia"
+  ],
+  "aliases": [
+    "Karrnath"
+  ],
   "unlockCondition": null,
   "blocks": [
     {
@@ -25,7 +31,16 @@
       "caption": "Karrnath",
       "title": "Karrnath",
       "align": "center",
-      "size": "full"
+      "size": "full",
+      "pins": [
+        {
+          "id": "pin-fuerte-oseo",
+          "x": 45.4,
+          "y": 79.25,
+          "label": "Fuerte Óseo",
+          "linkSlug": "eberron/khorvaire/karrnath/fuerte-oseo"
+        }
+      ]
     },
     {
       "id": "a4",
@@ -102,4 +117,4 @@
       ]
     }
   ]
-}
+    }
