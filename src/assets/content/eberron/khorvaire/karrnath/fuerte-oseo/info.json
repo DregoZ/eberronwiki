@@ -39,11 +39,20 @@
           "size": "medium"
         },
         {
-          "id": "i2",
+          "id": "i23",
           "type": "image",
           "src": "/assets/content/eberron/khorvaire/karrnath/fuerte-oseo/pasillos.jpg",
           "caption": "Pasillos del Fuerte Óseo",
           "title": "Pasillos del Fuerte Óseo",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i4",
+          "type": "image",
+          "src": "/assets/content/eberron/khorvaire/karrnath/fuerte-oseo/zarpi.png",
+          "caption": "El Coleccionista Acechando",
+          "title": "El Coleccionista Acechando",
           "align": "center",
           "size": "medium"
         }
