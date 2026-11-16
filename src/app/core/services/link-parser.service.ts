@@ -5,6 +5,7 @@ export interface TextSegmentInternalLink {
   isExternal?: false;
   label: string;
   slug: string;
+  fragment?: string;
 }
 
 export interface TextSegmentExternalLink {
@@ -57,13 +58,25 @@ export class LinkParserService {
 
       if (internalContent !== undefined) {
         const parts = internalContent.split('|');
-        const target = parts[0].trim();
-        const label = parts.length > 1 ? parts[1].trim() : target;
+        const rawTarget = parts[0].trim();
+        const label = parts.length > 1 ? parts[1].trim() : rawTarget;
+
+        let target = rawTarget;
+        let fragment: string | undefined = undefined;
+
+        const hashIndex = target.indexOf('#');
+        if (hashIndex !== -1) {
+          fragment = target.slice(hashIndex + 1).trim() || undefined;
+          target = target.slice(0, hashIndex).trim();
+        }
+
+        const slug = this.toSlug(target);
 
         segment = {
           isLink: true,
-          label,
-          slug: this.toSlug(target),
+          label: parts.length > 1 ? label : (rawTarget.startsWith('#') && fragment ? fragment : label),
+          slug,
+          ...(fragment ? { fragment } : {}),
         };
       } else if (externalUrl !== undefined) {
         segment = {
@@ -128,7 +141,7 @@ export class LinkParserService {
       .replace(/[\u0300-\u036f]/g, '')
       .replace(/[^a-z0-9\/]/g, '-')
       .replace(/-+/g, '-')
-      .replace(/^-|-$/g, '');
+      .replace(/^[\/-]+|[\/-]+$/g, '');
   }
 
   private parseFormatting(text: string): TextSegmentString[] {

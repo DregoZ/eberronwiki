@@ -10,7 +10,7 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [CommonModule, MatIconModule, ParseInternalLinksPipe, RouterLink],
   template: `
-    <div class="info-block" [ngClass]="block().variant">
+    <div class="info-block" [id]="block().id || null" [ngClass]="block().variant">
       <div class="icon-container">
         <mat-icon>{{ getIcon(block().variant) }}</mat-icon>
       </div>
@@ -22,7 +22,11 @@ import { RouterLink } from '@angular/router';
                 @if (segment.isExternal) {
                   <a [href]="segment.url" class="external-link" target="_blank" rel="noopener noreferrer">{{ segment.label }}</a>
                 } @else {
-                  <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
+                  <a
+                    [routerLink]="segment.slug ? '/wiki/' + segment.slug : []"
+                    [fragment]="segment.fragment"
+                    class="internal-link"
+                  >{{ segment.label }}</a>
                 }
               } @else {
                 <span [class.bold]="segment.isBold" [class.italic]="segment.isItalic">{{ segment.text }}</span>
@@ -59,24 +63,13 @@ import { RouterLink } from '@angular/router';
         }
       }
 
-      .bold {
-        font-weight: 700;
-      }
-
-      .italic {
-        font-style: italic;
-      }
-
-      .internal-link,
-      .external-link {
+      .internal-link, .external-link {
         font-weight: 600;
         text-decoration: underline;
-        color: inherit;
       }
 
       .external-link {
         text-decoration-style: dotted;
-
         &::after {
           content: '↗';
           font-size: 0.75em;
@@ -85,43 +78,37 @@ import { RouterLink } from '@angular/router';
         }
       }
 
-      &.note {
-        background-color: rgba(33, 150, 243, 0.1);
-        border-color: rgba(33, 150, 243, 0.3);
-        color: #0d47a1;
-        .icon-container { color: #1976d2; }
+      .bold {
+        font-weight: 700;
       }
-      :host-context(.dark-theme) &.note {
-        background-color: rgba(144, 202, 249, 0.1);
-        border-color: rgba(144, 202, 249, 0.3);
-        color: #bbdefb;
-        .icon-container { color: #90caf9; }
+
+      .italic {
+        font-style: italic;
+      }
+
+      /* Variantes */
+      &.lore {
+        background-color: var(--bg-card, rgba(0, 0, 0, 0.03));
+        border-color: var(--border-color, #e0e0e0);
+        .icon-container mat-icon { color: var(--primary-color, #8b1e0f); }
       }
 
       &.warning {
-        background-color: rgba(255, 152, 0, 0.1);
-        border-color: rgba(255, 152, 0, 0.3);
-        color: #e65100;
-        .icon-container { color: #f57c00; }
-      }
-      :host-context(.dark-theme) &.warning {
-        background-color: rgba(255, 183, 77, 0.1);
-        border-color: rgba(255, 183, 77, 0.3);
-        color: #ffe0b2;
-        .icon-container { color: #ffb74d; }
+        background-color: rgba(230, 81, 0, 0.08);
+        border-color: rgba(230, 81, 0, 0.3);
+        .icon-container mat-icon { color: #e65100; }
       }
 
-      &.lore {
-        background-color: rgba(156, 39, 176, 0.1);
-        border-color: rgba(156, 39, 176, 0.3);
-        color: #4a148c;
-        .icon-container { color: #7b1fa2; }
+      &.mechanics {
+        background-color: rgba(21, 101, 192, 0.08);
+        border-color: rgba(21, 101, 192, 0.3);
+        .icon-container mat-icon { color: #1565c0; }
       }
-      :host-context(.dark-theme) &.lore {
-        background-color: rgba(186, 104, 200, 0.1);
-        border-color: rgba(186, 104, 200, 0.3);
-        color: #e1bee7;
-        .icon-container { color: #ba68c8; }
+
+      &.secret {
+        background-color: rgba(106, 27, 154, 0.08);
+        border-color: rgba(106, 27, 154, 0.3);
+        .icon-container mat-icon { color: #6a1b9a; }
       }
     }
   `]
@@ -139,10 +126,15 @@ export class InfoBlockComponent {
 
   getIcon(variant: string): string {
     switch (variant) {
-      case 'warning': return 'warning';
-      case 'lore': return 'auto_stories';
-      case 'note':
-      default: return 'info';
+      case 'warning':
+        return 'warning';
+      case 'mechanics':
+        return 'settings';
+      case 'secret':
+        return 'visibility_off';
+      case 'lore':
+      default:
+        return 'auto_stories';
     }
   }
 }

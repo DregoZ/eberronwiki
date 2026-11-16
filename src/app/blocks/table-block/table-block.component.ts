@@ -9,7 +9,7 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [CommonModule, ParseInternalLinksPipe, RouterLink],
   template: `
-    <div class="table-container">
+    <div class="table-container" [id]="block().id || null">
       <table>
         <thead>
           <tr>
@@ -28,7 +28,11 @@ import { RouterLink } from '@angular/router';
                       @if (segment.isExternal) {
                         <a [href]="segment.url" class="external-link" target="_blank" rel="noopener noreferrer">{{ segment.label }}</a>
                       } @else {
-                        <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
+                        <a
+                          [routerLink]="segment.slug ? '/wiki/' + segment.slug : []"
+                          [fragment]="segment.fragment"
+                          class="internal-link"
+                        >{{ segment.label }}</a>
                       }
                     } @else {
                       <span [class.bold]="segment.isBold" [class.italic]="segment.isItalic">{{ segment.text }}</span>
@@ -63,105 +67,95 @@ import { RouterLink } from '@angular/router';
         font-weight: 600;
         text-decoration: underline;
         text-decoration-color: rgba(139, 30, 15, 0.4);
+      }
 
-        &:hover {
-          color: var(--primary-hover, #b22612);
-        }
+      .internal-link:hover,
+      .external-link:hover {
+        color: var(--primary-hover, #b22612);
       }
 
       .external-link {
         text-decoration-style: dotted;
-
-        &::after {
-          content: '↗';
-          font-size: 0.75em;
-          vertical-align: super;
-          margin-left: 0.15em;
-        }
       }
 
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        text-align: left;
-
-        th, td {
-          padding: 0.85rem 1rem;
-          border-bottom: 1px solid var(--border-color, #e0e0e0);
-        }
-
-        th {
-          background-color: var(--table-header-bg, #f5f5f5);
-          font-weight: 700;
-          color: var(--primary-color, #8b1e0f);
-        }
-
-        tr:last-child td {
-          border-bottom: none;
-        }
-
-        tr:nth-child(even) {
-          background-color: var(--table-zebra-bg, rgba(0, 0, 0, 0.02));
-        }
+      .external-link::after {
+        content: '↗';
+        font-size: 0.75em;
+        vertical-align: super;
+        margin-left: 0.15em;
       }
     }
 
-    @media (max-width: 991px) {
-      .table-container {
-        overflow-x: visible;
-        border: none;
-        background: transparent;
-      }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.95rem;
+    }
 
-      table,
-      thead,
-      tbody,
-      th,
-      td,
-      tr {
+    th, td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border-color, #e0e0e0);
+    }
+
+    th {
+      background-color: var(--bg-card, rgba(0, 0, 0, 0.02));
+      font-weight: 600;
+      color: var(--heading-color, var(--text-color, #2c2c2c));
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:hover {
+      background-color: var(--bg-card-hover, rgba(0, 0, 0, 0.01));
+    }
+
+    @media (max-width: 768px) {
+      table, thead, tbody, th, td, tr {
         display: block;
       }
 
-      thead {
-        display: none;
+      thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
       }
 
-      tbody tr {
-        margin-bottom: 1rem;
-        border: 1px solid var(--border-color, #e0e0e0);
-        border-radius: 8px;
-        overflow: hidden;
-        background: var(--bg-card, #fff);
+      tr {
+        border-bottom: 2px solid var(--border-color, #e0e0e0);
+        margin-bottom: 0.5rem;
       }
 
-      tbody tr:last-child {
+      tr:last-child {
+        border-bottom: none;
         margin-bottom: 0;
       }
 
       td {
-        display: grid;
-        grid-template-columns: minmax(0, 38%) 1fr;
-        gap: 0.75rem;
-        align-items: start;
-        padding: 0.75rem 1rem;
-        border-bottom: 1px solid var(--border-color, #e0e0e0);
+        border: none;
+        position: relative;
+        padding-left: 50%;
+        text-align: right;
+        min-height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      td:before {
+        position: absolute;
+        top: 50%;
+        left: 1rem;
+        transform: translateY(-50%);
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
         text-align: left;
-      }
-
-      td::before {
+        font-weight: 600;
         content: attr(data-label);
-        font-weight: 700;
-        color: var(--primary-color, #8b1e0f);
-        font-size: 0.85rem;
-        line-height: 1.4;
-      }
-
-      td:last-child {
-        border-bottom: none;
-      }
-
-      tr:nth-child(even) td {
-        background-color: transparent;
+        color: var(--text-muted, #666);
       }
     }
   `]

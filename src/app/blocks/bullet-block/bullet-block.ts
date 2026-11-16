@@ -9,7 +9,7 @@ import { BulletBlock } from '../../core/models/block.model';
   standalone: true,
   imports: [CommonModule, RouterLink, ParseInternalLinksPipe],
   template: `
-    <div class="bullet-block">
+    <div class="bullet-block" [id]="!block().title && block().id ? block().id : null">
       @if (block().title) {
         <h3 class="bullet-title" [id]="block().id || ('heading-' + block().title)">
           {{ block().title }}
@@ -26,7 +26,11 @@ import { BulletBlock } from '../../core/models/block.model';
                     {{ segment.label }}
                   </a>
                 } @else {
-                  <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">
+                  <a
+                    [routerLink]="segment.slug ? '/wiki/' + segment.slug : []"
+                    [fragment]="segment.fragment"
+                    class="internal-link"
+                  >
                     {{ segment.label }}
                   </a>
                 }

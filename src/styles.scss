@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--primary-color);
 }
 
+[id] {
+  scroll-margin-top: 5rem;
+}
+
 a {
   color: var(--primary-color);
   text-decoration: none;

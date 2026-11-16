@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/page.schema.json",
+  "slug": "manifiesto/vi",
+  "title": "Gámbito Nocturno",
+  "tags": ["manifiesto"],
+  "aliases": [""],
+  "unlockCondition": null,
+  "blocks": [
+    {
+      "id": "t1",
+      "type": "text",
+      "content": [
+        "Todavía en Karrnath, los aventureros de La Cumbre se infiltraron en un tenebroso fuerte militar buscando la [[manifiesto/artefactos#t6|Dama de la Noche]], una pieza del juego Conquistador sintonizada con la energía oscura del plano de [[eberron/planos/mabar|Mabar]].",
+        "Pronto se desató el caos. En las criptas, la abominable criatura a la que llamaban 'El coleccionista' emergió de una de las muchas tumbas buscando recuperar la Dama de la Noche. En las murallas, la mascarada de Grock y Mel quedaba al descubierto viéndose obligados a huir, no sin antes añadir fuego y explosiones al alboroto.",
+        "Con la suerte de su lado, consiguieron volver por el canal de desagüe y evitar a la enfadada Capitana Ósea, regresando triunfantes una vez más."
+        ]
+    },
+    {
+      "id": "i1",
+      "type": "image",
+      "src": "/assets/content/manifiesto/vi/vi.jpg",
+      "caption": "Gámbito Nocturno",
+      "title": "Gámbito Nocturno",
+      "align": "center",
+      "size": "full"
+    },
+    {
+      "id": "r4",
+      "type": "related",
+      "items": [
+        { "label": "Forjados y olvidados", "slug": "manifiesto/i" },
+        { "label": "Vive otro día", "slug": "manifiesto/ii" },
+        { "label": "Al mal tiempo, buena cara", "slug": "manifiesto/iii" },
+        { "label": "Leyenda viviente", "slug": "manifiesto/iv" },
+        { "label": "Ritmo perfecto", "slug": "manifiesto/v" }
+        ]
+    }
+  ]
+}

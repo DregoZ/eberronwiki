@@ -249,6 +249,58 @@
           "size": "medium"
         }
       ]
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Monchorr Kalkoran",
+      "content": [
+        "Vuestro contacto en Karrnath. Es un enano bonachón y algo descuidado al que le encanta contar batallitas y beber whisky de Mror en jarra."
+      ]
+    },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/manifiesto/npc/monchorr.jpg",
+          "caption": "Monchorr Kalkoran",
+          "title": "Monchorr Kalkoran",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "title": "Vadim ir'Tyrol",
+      "content": [
+        "Un noble Karrnatiano que reniega de las viejas tradiciones de su tierra. A pesar de sus supuestas buenas intenciones, no está muy claro cuanto interés personal hay en su discurso."
+      ]
+    },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "type": "image",
+          "src": "/assets/content/manifiesto/npc/vadim.png",
+          "caption": "Vadim ir'Tyrol",
+          "title": "Vadim ir'Tyrol",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
     }
   ]
 }

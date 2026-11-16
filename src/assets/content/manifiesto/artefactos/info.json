@@ -117,6 +117,9 @@
       ]
     },
     {
+      "type": "separator"
+    },
+    {
       "id": "t5",
       "type": "text",
       "title": "Motor Arquetipo",
@@ -134,6 +137,59 @@
           "src": "/assets/content/manifiesto/artefactos/motor-arquetipo.png",
           "caption": "Motor Arquetipo",
           "title": "Motor Arquetipo",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "id": "t6",
+      "type": "text",
+      "title": "Dama de la Noche",
+      "content": [
+        "La **Dama de la Noche** es una pieza de Conquistador que se apodera de las almas de quienes pierden una partida mientras se encuentra en el tablero. La pieza estaba en poder de la Capitana Ósea, y hubo que infiltrarse en su fuerte para birlársela."
+      ]
+    },
+    {
+      "id": "g6",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i4",
+          "type": "image",
+          "src": "/assets/content/manifiesto/artefactos/damanoche.jpg",
+          "caption": "Dama de la Noche",
+          "title": "Dama de la Noche",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i4",
+          "type": "image",
+          "src": "/assets/content/manifiesto/artefactos/fortbones.png",
+          "caption": "Fuerte Óseo",
+          "title": "Fuerte Óseo",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i4",
+          "type": "image",
+          "src": "/assets/content/manifiesto/artefactos/capitana.png",
+          "caption": "Messi, Capitana Ósea",
+          "title": "Messi, Capitana Ósea",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i4",
+          "type": "image",
+          "src": "/assets/content/manifiesto/artefactos/elbicho.png",
+          "caption": "El Bicho",
+          "title": "El Bicho",
           "align": "center",
           "size": "medium"
         }

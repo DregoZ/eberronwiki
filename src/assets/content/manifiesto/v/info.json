@@ -1,7 +1,7 @@
 {
   "$schema": "../../schemas/page.schema.json",
-  "slug": "manifiesto/iv",
-  "title": "Leyenda Viviente",
+  "slug": "manifiesto/v",
+  "title": "Ritmo Perfecto",
   "tags": ["manifiesto"],
   "aliases": [""],
   "unlockCondition": null,

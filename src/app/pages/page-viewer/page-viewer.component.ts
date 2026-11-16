@@ -1,4 +1,4 @@
-import { Component, inject, computed } from '@angular/core';
+import { Component, inject, computed, effect } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
@@ -42,7 +42,6 @@ import {
     BulletBlockComponent,
     ImageBlockComponent,
     GalleryComponent,
-  
     QuoteBlockComponent,
     InfoBlockComponent,
     TableBlockComponent,
@@ -371,6 +370,25 @@ export class PageViewerComponent {
     ),
     { initialValue: '' },
   );
+
+  readonly currentFragment = toSignal(this.route.fragment, { initialValue: null });
+
+  constructor() {
+    effect(() => {
+      const fragment = this.currentFragment();
+      const loading = this.isLoading();
+      const page = this.pageData();
+
+      if (!loading && page && fragment) {
+        setTimeout(() => {
+          const el = document.getElementById(fragment);
+          if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }, 100);
+      }
+    });
+  }
 
   readonly resource = computed(() => {
     const slug = this.currentSlug() || 'eberron';

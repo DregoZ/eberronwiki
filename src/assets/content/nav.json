@@ -165,6 +165,12 @@
         "label": "Ritmo Perfecto",
         "slug": "manifiesto/v",
         "icon": "counter_5"
+      },
+      {
+        "id": "capitulo-vi",
+        "label": "Gámbito Nocturno",
+        "slug": "manifiesto/vi",
+        "icon": "counter_6"
       }
     ]
   }

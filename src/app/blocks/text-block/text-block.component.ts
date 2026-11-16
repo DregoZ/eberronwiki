@@ -9,7 +9,7 @@ import { ParseInternalLinksPipe } from '../../shared/pipes/parse-internal-links.
   standalone: true,
   imports: [CommonModule, RouterLink, ParseInternalLinksPipe],
   template: `
-    <div class="text-block">
+    <div class="text-block" [id]="!block().title && block().id ? block().id : null">
       @if (block().title) {
         <h3 class="text-block-title" [id]="block().id || ('heading-' + block().title)">{{ block().title }}</h3>
       }
@@ -23,7 +23,11 @@ import { ParseInternalLinksPipe } from '../../shared/pipes/parse-internal-links.
                   segment.label
                 }}</a>
               } @else {
-                <a [routerLink]="'/wiki/' + segment.slug" class="internal-link">{{ segment.label }}</a>
+                <a
+                  [routerLink]="segment.slug ? '/wiki/' + segment.slug : []"
+                  [fragment]="segment.fragment"
+                  class="internal-link"
+                >{{ segment.label }}</a>
               }
             } @else {
               <span [class.bold]="segment.isBold" [class.italic]="segment.isItalic">{{ segment.text }}</span>
