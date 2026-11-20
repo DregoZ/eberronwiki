@@ -87,6 +87,12 @@ import { RouterLink } from '@angular/router';
       }
 
       /* Variantes */
+      &.note {
+        background-color: rgba(21, 101, 192, 0.08);
+        border-color: rgba(21, 101, 192, 0.3);
+        .icon-container mat-icon { color: #1565c0; }
+      }
+
       &.lore {
         background-color: var(--bg-card, rgba(0, 0, 0, 0.03));
         border-color: var(--border-color, #e0e0e0);
@@ -126,6 +132,8 @@ export class InfoBlockComponent {
 
   getIcon(variant: string): string {
     switch (variant) {
+      case 'note':
+        return 'info';
       case 'warning':
         return 'warning';
       case 'mechanics':

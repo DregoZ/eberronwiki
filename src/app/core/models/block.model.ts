@@ -69,7 +69,7 @@ export interface QuoteBlock extends BaseBlock {
 
 export interface InfoBlock extends BaseBlock {
   type: 'info';
-  variant: 'note' | 'warning' | 'lore';
+  variant: 'note' | 'warning' | 'lore' | 'mechanics' | 'secret';
   content: string | string[];
 }
 
