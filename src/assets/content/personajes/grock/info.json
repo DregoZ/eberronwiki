@@ -139,6 +139,48 @@
       "variant": "note",
       "content": "**Resultado**: Has caído dando un buen espectáculo. Ganas 100po. **El Señor Sublime** se convierte en tu rival. \n\nContinúas entrenando con mecha y mejoras en la **Lucha sin Armas**: Mientras tengas a una criatura Agarrada y al menos una mano libre, puedes usar tu Acción Bonus para intentar Derribar o Empujar a esa misma criatura.\n\nElige uno:  \n\n **[Patada Nuclear](https://www.youtube.com/watch?v=SuBPkJq-5Ms)**: Cuando uses el *RKO*, puedes gastar 1 DS adicional para usar en su lugar la *Patada Nuclear*, un sacho boca arriba que golpea con los dos pies. \n\n **Guardia Cerrada**: Al usar *Juego de Pies*, puedes defenderte con *Guardia Cerrada* y lanzar 2 DS para elegir el más alto.\n\n **Trastazo**: Como reacción, gasta hasta 1 DS y súmale el modificador de Constitución pare reducir el daño recibido. A continuación, contraataca en función del daño mitigado."
     },
+    {
+      "type": "separator"
+    },
+    {
+      "id": "v",
+      "type": "text",
+      "title": "V - The Wrestler",
+      "content": [
+        "Como el orco de gustos sencillos que es, Grock vuelve al Circuito Rojo dispuesto a partir algunos dientes. Dandy, entusiasmado, decide darle un lavado de imagen: una armadura ligera de cuero y metal lacado, decorada con franjas de colores chillones que a Grock le recuerdan a algún tipo de pájaro. Por supuesto, todo luchador que se precie debe tener un apodo, y a Dandy se le ocurre Grock el Percutidor: «Lo venzas o no, te dejará peor».",
+        "Y así empieza a formarse un pequeño séquito a su alrededor: Piquetín, un goblin y apostador compulsivo que se convierte en portavoz improvisado, difundiendo historias sobre sus hazañas, casi todas inventadas. También está Casilda, una enana de mal genio, creadora tanto del atuendo de Grock como del Beso Negro, y encargada de mantenerlos en condiciones. Grock, metiéndose cada vez más en el papel, ruge al entrar en el ruedo, presume de músculos y se mofa de sus rivales.",
+        "En el Circuito siempre hay movimiento si estás dispuesto a pelear, y Grock viene calentito: primero cierra la boca a Esteban Piedrafría, un abusón que no pierde ocasión de recordarle su derrota contra Señor Sublime. Después participa en un combate por parejas junto a la Princesa Incógnita, una luchadora rápida y escurridiza que hace buen uso de las tretas más sucias para derrotar al Sargento Matansa y Juani Cena.",
+        "Atrás quedaron las noches de vencer a tres rivales consecutivos, pero ya empieza a ser habitual escuchar al público corear su nombre. Incluso Señor Sublime se deja ver por las gradas y no pierde oportunidad de burlarse de Grock y de su nueva indumentaria. En un alarde de soberbia, termina lanzándole un desafío: una revancha en la que se pondrá en juego un preciado trofeo, los Nudillos de Campeón."
+      ]
+    },
+    {
+      "id": "i2",
+      "type": "info",
+      "variant": "note",
+      "content": "**Resultado**: Has vuelto al ruedo por todo lo alto. Asentado ya como miembro del Circuito Rojo, el público te reconoce y has resultado victorioso en varios combates. Tu entrenamiento continúa y comienzas a hacerte un nombre. \n\nGanas 300po y una nueva indumentaria de combate. \n\n¡El Señor Sublime te ha concedido la revancha! \n\nEntrenas con Mecha duramente: Cuando gastes un Dado de Superioridad, puedes repetir aquellos en los que obtengas un 1. "
+    },
+    {
+      "id": "g1",
+      "type": "gallery",
+      "images": [
+        {
+          "id": "i1",
+          "src": "/assets/content/personajes/grock/5/piquetin.webp",
+          "caption": "Piquetín",
+          "title": "Piquetín",
+          "align": "center",
+          "size": "medium"
+        },
+        {
+          "id": "i1",
+          "src": "/assets/content/personajes/grock/5/casilda.jpg",
+          "caption": "Casilda",
+          "title": "Casilda",
+          "align": "center",
+          "size": "medium"
+        }
+      ]
+    },
 
     {
       "id": "r4",
